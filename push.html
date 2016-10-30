@@ -29,47 +29,42 @@
     <script>
       $(function() {
         var content = $('#lumeer-messages');
-        var ws = new WebSocket('ws://localhost:8080/lumeer-engine/push/chat');
-        ws.onopen = function(evt) {
-          content.append($('<p>', { text: 'Connectee-ed!' }));
-        };
 
-        ws.onmessage = function(evt) {
-          content.append($('<p>', { text: 'Message: ' + evt.data }));
-        };
+        function httpGetAsync(theUrl, callback)
+        {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.onreadystatechange = function() {
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText);
+            }
+            xmlHttp.open("GET", theUrl, true); // true for asynchronous
+            xmlHttp.send(null);
+        }
 
-        ws.onclose = function(evt) {
-          content.append($('<p>', { text: 'Closed.' }));
-        };
+        httpGetAsync("http://localhost:8080/lumeer-engine/rest/push-auth/", function(sessionId) {
+          var ws = new WebSocket('ws://localhost:8080/lumeer-engine/push/chat');
 
-        ws.onerror = function(evt) {
-          content.append($('<p>', { text: 'Sorry, '
-          + 'but there s some problem with your '
-          + 'socket or the server is down' }));
+          ws.onopen = function(evt) {
+            content.append($('<p>', { text: 'Connectee-ed! Session ID: ' + sessionId }));
+            ws.send("auth " + sessionId);
+          };
 
-        };
+          ws.onmessage = function(evt) {
+            content.append($('<p>', { text: 'Message: ' + evt.data }));
+          };
 
+          ws.onclose = function(evt) {
+            content.append($('<p>', { text: 'Closed.' }));
+          };
 
-/*        var socket = io.connect('ws://localhost:8080/', { path : '/lumeer-engine/push' });
-        socket.on('*', function(msg) {
-          content.append($('<p>', { text: msg }));
+          ws.onerror = function(evt) {
+            content.append($('<p>', { text: 'Sorry, '
+            + 'but there s some problem with your '
+            + 'socket or the server is down' }));
+
+          };
         });
 
-        socket.on('connect', function () {
-          content.append($('<p>', { text: 'Connectee-ed!' }));
-        });
-
-        socket.on('disconnect', function () {
-          content.append($('<p>', { text: 'Sorry, '
-          + 'but there s some problem with your '
-          + 'socket or the server is down' }));
-        });
-
-        socket.on('error', function (e) {
-          content.append($('<p>', { text: 'Sorry, '
-          + 'but there s some problem with your '
-          + 'socket or the server is down' }));
-        });*/
       });
     </script>
   </head>
