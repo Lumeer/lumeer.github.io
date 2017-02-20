@@ -49,11 +49,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="135.02087"
-     inkscape:cy="94.381883"
+     inkscape:zoom="15.839192"
+     inkscape:cx="37.970857"
+     inkscape:cy="153.64227"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4499"
      showgrid="false"
      inkscape:snap-grids="true"
      inkscape:snap-page="false"
@@ -240,20 +240,36 @@
              id="path4557"
              inkscape:connector-curvature="0" />
         </g>
-        <flowRoot
-           xml:space="preserve"
-           id="flowRoot4559"
+        <g
+           transform="translate(166.51111,144)"
            style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           transform="translate(166.51111,144)"><flowRegion
-             id="flowRegion4561"><rect
-               id="rect4563"
-               width="381.42856"
-               height="125"
-               x="193.57143"
-               y="97.362206"
-               style="stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" /></flowRegion><flowPara
-             id="flowPara4565"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none">LUMEER</flowPara></flowRoot>        <g
+           id="flowRoot4559">
+          <path
+             d="m 304.9502,128.94445 0,-28.00781 5.41015,0 0,22.8125 13.51563,0 0,5.19531 -18.92578,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8021" />
+          <path
+             d="m 339.16895,129.43273 q -1.42579,0 -2.83204,-0.25391 -1.38671,-0.23437 -2.63671,-0.78125 -1.25,-0.54687 -2.32422,-1.40625 -1.05469,-0.8789 -1.83594,-2.1289 -0.78125,-1.25 -1.23047,-2.89063 -0.42969,-1.64062 -0.42969,-3.75 l 0,-17.28515 5.41016,0 0,17.28515 q 0,1.73828 0.39062,2.91016 0.41016,1.15234 1.17188,1.83594 0.76172,0.68359 1.85547,0.97656 1.09375,0.27344 2.46094,0.27344 1.34765,0 2.42187,-0.27344 1.09375,-0.29297 1.85547,-0.97656 0.78125,-0.6836 1.19141,-1.83594 0.41015,-1.17188 0.41015,-2.91016 l 0,-17.28515 5.39063,0 0,17.28515 q 0,3.125 -0.9375,5.27344 -0.9375,2.12891 -2.51953,3.45703 -1.5625,1.3086 -3.59375,1.89453 -2.03125,0.58594 -4.21875,0.58594 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8023" />
+          <path
+             d="m 378.0166,128.94445 0,-14.39453 q 0,-0.23438 0,-0.54688 0.0195,-0.3125 0.0195,-0.625 0.0195,-0.33203 0.0195,-0.60547 0.0195,-0.27343 0.0391,-0.42968 -0.21485,0.66406 -0.42969,1.1914 -0.19531,0.52735 -0.41016,1.01563 l -6.79687,14.88281 -6.83594,-14.88281 q -0.21484,-0.48828 -0.42969,-1.01563 -0.19531,-0.52734 -0.41015,-1.1914 0.0195,0.15625 0.0195,0.42968 0.0195,0.27344 0.0195,0.60547 0.0195,0.3125 0.0195,0.625 0.0195,0.3125 0.0195,0.54688 l 0,14.39453 -5.41015,0 0,-28.00781 5.48828,0 6.875,15.44922 q 0.21484,0.50781 0.39062,0.97656 0.17578,0.44922 0.33203,0.9375 0.15625,-0.48828 0.33203,-0.9375 0.17579,-0.46875 0.39063,-0.97656 l 6.99219,-15.44922 5.15625,0 0,28.00781 -5.39063,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8025" />
+          <path
+             d="m 390.65332,128.94445 0,-28.00781 19.12109,0 0,5.13672 -13.71093,0 0,5.8789 8.0664,0 0,5.11719 -8.0664,0 0,6.75781 14.55078,0 0,5.11719 -19.96094,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8027" />
+          <path
+             d="m 416.43457,128.94445 0,-28.00781 19.12109,0 0,5.13672 -13.71093,0 0,5.8789 8.0664,0 0,5.11719 -8.0664,0 0,6.75781 14.55078,0 0,5.11719 -19.96094,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8029" />
+          <path
+             d="m 442.21582,128.94445 0,-28.00781 13.00781,0 q 2.65625,0 4.4336,0.74218 1.79687,0.72266 2.89062,1.9336 1.09375,1.21094 1.5625,2.79297 0.46875,1.58203 0.46875,3.30078 0,1.1914 -0.35156,2.42187 -0.33203,1.21094 -1.01563,2.30469 -0.68359,1.09375 -1.69921,1.99219 -1.01563,0.8789 -2.36329,1.36719 l 5.42969,11.15234 -6.07422,0 -5.23437,-10.44922 -5.64453,0 0,10.44922 -5.41016,0 z m 13.08594,-15.56641 q 1.03515,0 1.73828,-0.29297 0.70312,-0.3125 1.13281,-0.82031 0.42969,-0.50781 0.60547,-1.17187 0.19531,-0.66407 0.19531,-1.38672 0,-0.66406 -0.17578,-1.3086 -0.15625,-0.66406 -0.5664,-1.17187 -0.41016,-0.52734 -1.13282,-0.83984 -0.70312,-0.3125 -1.79687,-0.3125 l -7.67578,0 0,7.30468 7.67578,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Overpass;-inkscape-font-specification:'Overpass Bold';text-align:center;text-anchor:middle;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             id="path8031" />
+        </g>
+        <g
            transform="translate(-108.59252,-182)"
            id="g4567">
           <path
