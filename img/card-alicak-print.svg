@@ -16,9 +16,9 @@
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="card-alicak-print.svg"
-   inkscape:export-filename="/Users/mvecera/kubedo8.png"
-   inkscape:export-xdpi="300.18179"
-   inkscape:export-ydpi="300.18179">
+   inkscape:export-filename="/home/mvecera/card-alicak.png"
+   inkscape:export-xdpi="600.01605"
+   inkscape:export-ydpi="600.01605">
   <defs
      id="defs4">
     <path
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="63.852607"
+     inkscape:cx="-22.767973"
      inkscape:cy="78.634443"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -77,7 +77,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
