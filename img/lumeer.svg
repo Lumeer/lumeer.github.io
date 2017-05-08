@@ -55,9 +55,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="1190.4763"
-     inkscape:cy="-303.35002"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="198.9273"
+     inkscape:cy="88.574339"
      inkscape:document-units="px"
      inkscape:current-layer="g4942"
      showgrid="false"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1531,655 +1531,283 @@
          inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
          inkscape:export-xdpi="150"
          inkscape:export-ydpi="150" />
-      <circle
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         style="fill:#ffffff;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="circle5016"
-         cx="952.04724"
-         cy="1294.3262"
-         r="153.03812" />
       <g
-         style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1"
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         id="g5018"
-         transform="translate(667.90439,835.42857)">
-        <ellipse
-           ry="10.714286"
-           rx="8.5714283"
-           cy="452.36221"
-           cx="257.14285"
-           id="ellipse5020"
-           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <ellipse
-           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse5022"
-           cx="311.14285"
-           cy="452.36221"
-           rx="8.5714283"
-           ry="10.714286" />
+         id="g4544"
+         inkscape:export-xdpi="16.039753"
+         inkscape:export-ydpi="16.039753">
+        <circle
+           r="153.03812"
+           cy="1294.3262"
+           cx="952.04724"
+           id="circle5016"
+           style="fill:#ffffff;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150" />
+        <g
+           transform="translate(667.90439,835.42857)"
+           id="g5018"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1">
+          <ellipse
+             style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="ellipse5020"
+             cx="257.14285"
+             cy="452.36221"
+             rx="8.5714283"
+             ry="10.714286" />
+          <ellipse
+             ry="10.714286"
+             rx="8.5714283"
+             cy="452.36221"
+             cx="311.14285"
+             id="ellipse5022"
+             style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           id="g5072"
+           transform="translate(291.40748,949.42857)"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1">
+          <path
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 670.0884,411.65834 100.15284,0 c 0,0 -72.71177,-47.42772 -100.07477,-26.41431 -6.98322,5.36276 -0.0781,26.41431 -0.0781,26.41431 z"
+             id="path5074"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccsc" />
+          <path
+             sodipodi:nodetypes="ccsc"
+             inkscape:connector-curvature="0"
+             id="path5076"
+             d="m 651.19112,411.65834 -100.15283,0 c 0,0 72.71177,-47.42772 100.07476,-26.41431 6.98322,5.36276 0.0781,26.41431 0.0781,26.41431 z"
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           transform="translate(0,420)"
+           id="g5078"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           inkscape:export-xdpi="150"
+           inkscape:export-ydpi="150"
+           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1">
+          <path
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 939.44187,721.03217 c 0,0 -71.72083,16.16244 -105.05587,54.54824 -33.33503,38.38579 -68.69037,34.34518 -68.69037,34.34518 0,0 62.85416,14.60976 105.42352,3.8673 45.4061,-11.45831 76.40394,-33.16172 68.32272,-92.76072 z"
+             id="path5080"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cscsc" />
+          <path
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 914.18806,737.19461 c 0,0 28.28427,-6.06092 39.39595,-29.29442 11.11167,-23.23351 9.09137,-34.34519 9.09137,-34.34519 0,0 32.32488,43.43656 5.05076,65.65991 -27.27412,22.22336 -53.53808,-2.0203 -53.53808,-2.0203 z"
+             id="path5082"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 958.63477,731.13369 c 0,0 10.10152,-11.11167 39.39595,-15.15228 29.29438,-4.04061 73.74118,14.14213 73.74118,14.14213 0,0 -37.3756,12.12184 -67.6802,26.26397 -30.30465,14.14214 -45.45693,-25.25382 -45.45693,-25.25382 z"
+             id="path5084"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cscsc" />
+          <path
+             style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 943.48248,729.11339 c 0,0 38.3858,11.11168 91.92392,16.16244 53.538,5.05076 69.7005,4.04061 69.7005,4.04061 0,0 -26.264,38.87601 -84.8528,47.96738 -58.58887,9.09137 -105.05589,-33.82524 -105.05589,-33.82524 z"
+             id="path5086"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cscscc" />
+        </g>
       </g>
       <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         id="g5024"
-         transform="translate(776.94456,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
-        <path
-           inkscape:connector-curvature="0"
-           id="path5026"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path5028"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5030"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         id="g4582"
+         transform="translate(-432,0)"
+         inkscape:export-xdpi="599.987"
+         inkscape:export-ydpi="599.987">
+        <circle
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle4584"
+           cx="952.04724"
+           cy="1294.3262"
+           r="153.03812" />
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           id="g4586"
+           transform="translate(667.90439,835.42857)">
+          <ellipse
+             ry="10.714286"
+             rx="8.5714283"
+             cy="452.36221"
+             cx="257.14285"
+             id="ellipse4588"
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <ellipse
+             style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="ellipse4590"
+             cx="311.14285"
+             cy="452.36221"
+             rx="8.5714283"
+             ry="10.714286" />
+        </g>
+        <g
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           id="g4608"
+           transform="translate(840.94456,1039)"
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           transform="translate(291.40748,949.42857)"
+           id="g4640">
+          <path
+             sodipodi:nodetypes="ccsc"
+             inkscape:connector-curvature="0"
+             id="path4642"
+             d="m 670.0884,411.65834 100.15284,0 c 0,0 -72.71177,-47.42772 -100.07477,-26.41431 -6.98322,5.36276 -0.0781,26.41431 -0.0781,26.41431 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 651.19112,411.65834 -100.15283,0 c 0,0 72.71177,-47.42772 100.07476,-26.41431 6.98322,5.36276 0.0781,26.41431 0.0781,26.41431 z"
+             id="path4644"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccsc" />
+        </g>
+        <g
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           id="g4646"
+           transform="translate(0,420)">
+          <path
+             sodipodi:nodetypes="cscsc"
+             inkscape:connector-curvature="0"
+             id="path4648"
+             d="m 939.44187,721.03217 c 0,0 -71.72083,16.16244 -105.05587,54.54824 -33.33503,38.38579 -68.69037,34.34518 -68.69037,34.34518 0,0 62.85416,14.60976 105.42352,3.8673 45.4061,-11.45831 76.40394,-33.16172 68.32272,-92.76072 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4650"
+             d="m 914.18806,737.19461 c 0,0 28.28427,-6.06092 39.39595,-29.29442 11.11167,-23.23351 9.09137,-34.34519 9.09137,-34.34519 0,0 32.32488,43.43656 5.05076,65.65991 -27.27412,22.22336 -53.53808,-2.0203 -53.53808,-2.0203 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cscsc"
+             inkscape:connector-curvature="0"
+             id="path4652"
+             d="m 958.63477,731.13369 c 0,0 10.10152,-11.11167 39.39595,-15.15228 29.29438,-4.04061 73.74118,14.14213 73.74118,14.14213 0,0 -37.3756,12.12184 -67.6802,26.26397 -30.30465,14.14214 -45.45693,-25.25382 -45.45693,-25.25382 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cscscc"
+             inkscape:connector-curvature="0"
+             id="path4654"
+             d="m 943.48248,729.11339 c 0,0 38.3858,11.11168 91.92392,16.16244 53.538,5.05076 69.7005,4.04061 69.7005,4.04061 0,0 -26.264,38.87601 -84.8528,47.96738 -58.58887,9.09137 -105.05589,-33.82524 -105.05589,-33.82524 z"
+             style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
       </g>
+      <rect
+         style="opacity:1;fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:4.15208864;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect4656"
+         width="438.19318"
+         height="454.35565"
+         x="611.24878"
+         y="1598.9612" />
       <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="translate(824.94456,1039)"
-         id="g5032">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path5034"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5036"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path5038"
-           inkscape:connector-curvature="0" />
+         id="g4661"
+         transform="translate(-117.1777,537.40115)"
+         inkscape:export-xdpi="16.039749"
+         inkscape:export-ydpi="16.039749">
+        <circle
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           style="fill:#2c3e50;fill-opacity:1;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="circle4663"
+           cx="952.04724"
+           cy="1294.3262"
+           r="153.03812" />
+        <g
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           id="g4665"
+           transform="translate(667.90439,835.42857)">
+          <ellipse
+             ry="10.714286"
+             rx="8.5714283"
+             cy="452.36221"
+             cx="257.14285"
+             id="ellipse4667"
+             style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <ellipse
+             style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="ellipse4669"
+             cx="311.14285"
+             cy="452.36221"
+             rx="8.5714283"
+             ry="10.714286" />
+        </g>
+        <g
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           transform="translate(291.40748,949.42857)"
+           id="g4719">
+          <path
+             sodipodi:nodetypes="ccsc"
+             inkscape:connector-curvature="0"
+             id="path4721"
+             d="m 670.0884,411.65834 100.15284,0 c 0,0 -72.71177,-47.42772 -100.07477,-26.41431 -6.98322,5.36276 -0.0781,26.41431 -0.0781,26.41431 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 651.19112,411.65834 -100.15283,0 c 0,0 72.71177,-47.42772 100.07476,-26.41431 6.98322,5.36276 0.0781,26.41431 0.0781,26.41431 z"
+             id="path4723"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccsc" />
+        </g>
+        <g
+           style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+           inkscape:export-ydpi="150"
+           inkscape:export-xdpi="150"
+           inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
+           id="g4725"
+           transform="translate(0,420)">
+          <path
+             sodipodi:nodetypes="cscsc"
+             inkscape:connector-curvature="0"
+             id="path4727"
+             d="m 939.44187,721.03217 c 0,0 -71.72083,16.16244 -105.05587,54.54824 -33.33503,38.38579 -68.69037,34.34518 -68.69037,34.34518 0,0 62.85416,14.60976 105.42352,3.8673 45.4061,-11.45831 76.40394,-33.16172 68.32272,-92.76072 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4729"
+             d="m 914.18806,737.19461 c 0,0 28.28427,-6.06092 39.39595,-29.29442 11.11167,-23.23351 9.09137,-34.34519 9.09137,-34.34519 0,0 32.32488,43.43656 5.05076,65.65991 -27.27412,22.22336 -53.53808,-2.0203 -53.53808,-2.0203 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cscsc"
+             inkscape:connector-curvature="0"
+             id="path4731"
+             d="m 958.63477,731.13369 c 0,0 10.10152,-11.11167 39.39595,-15.15228 29.29438,-4.04061 73.74118,14.14213 73.74118,14.14213 0,0 -37.3756,12.12184 -67.6802,26.26397 -30.30465,14.14214 -45.45693,-25.25382 -45.45693,-25.25382 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="cscscc"
+             inkscape:connector-curvature="0"
+             id="path4733"
+             d="m 943.48248,729.11339 c 0,0 38.3858,11.11168 91.92392,16.16244 53.538,5.05076 69.7005,4.04061 69.7005,4.04061 0,0 -26.264,38.87601 -84.8528,47.96738 -58.58887,9.09137 -105.05589,-33.82524 -105.05589,-33.82524 z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
       </g>
-      <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         id="g5040"
-         transform="translate(840.94456,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
-        <path
-           inkscape:connector-curvature="0"
-           id="path5042"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path5044"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5046"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="matrix(-1,0,0,1,1129.516,1039)"
-         id="g5048">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path5050"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5052"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path5054"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         id="g5056"
-         transform="matrix(-1,0,0,1,1081.516,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1">
-        <path
-           inkscape:connector-curvature="0"
-           id="path5058"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path5060"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5062"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="matrix(-1,0,0,1,1065.516,1039)"
-         id="g5064">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path5066"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5068"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path5070"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1"
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         transform="translate(291.40748,949.42857)"
-         id="g5072">
-        <path
-           sodipodi:nodetypes="ccsc"
-           inkscape:connector-curvature="0"
-           id="path5074"
-           d="m 670.0884,411.65834 100.15284,0 c 0,0 -72.71177,-47.42772 -100.07477,-26.41431 -6.98322,5.36276 -0.0781,26.41431 -0.0781,26.41431 z"
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:5.41782808;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 651.19112,411.65834 -100.15283,0 c 0,0 72.71177,-47.42772 100.07476,-26.41431 6.98322,5.36276 0.0781,26.41431 0.0781,26.41431 z"
-           id="path5076"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccsc" />
-      </g>
-      <g
-         style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1"
-         inkscape:export-ydpi="150"
-         inkscape:export-xdpi="150"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         id="g5078"
-         transform="translate(0,420)">
-        <path
-           sodipodi:nodetypes="cscsc"
-           inkscape:connector-curvature="0"
-           id="path5080"
-           d="m 939.44187,721.03217 c 0,0 -71.72083,16.16244 -105.05587,54.54824 -33.33503,38.38579 -68.69037,34.34518 -68.69037,34.34518 0,0 62.85416,14.60976 105.42352,3.8673 45.4061,-11.45831 76.40394,-33.16172 68.32272,-92.76072 z"
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path5082"
-           d="m 914.18806,737.19461 c 0,0 28.28427,-6.06092 39.39595,-29.29442 11.11167,-23.23351 9.09137,-34.34519 9.09137,-34.34519 0,0 32.32488,43.43656 5.05076,65.65991 -27.27412,22.22336 -53.53808,-2.0203 -53.53808,-2.0203 z"
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           sodipodi:nodetypes="cscsc"
-           inkscape:connector-curvature="0"
-           id="path5084"
-           d="m 958.63477,731.13369 c 0,0 10.10152,-11.11167 39.39595,-15.15228 29.29438,-4.04061 73.74118,14.14213 73.74118,14.14213 0,0 -37.3756,12.12184 -67.6802,26.26397 -30.30465,14.14214 -45.45693,-25.25382 -45.45693,-25.25382 z"
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-        <path
-           sodipodi:nodetypes="cscscc"
-           inkscape:connector-curvature="0"
-           id="path5086"
-           d="m 943.48248,729.11339 c 0,0 38.3858,11.11168 91.92392,16.16244 53.538,5.05076 69.7005,4.04061 69.7005,4.04061 0,0 -26.264,38.87601 -84.8528,47.96738 -58.58887,9.09137 -105.05589,-33.82524 -105.05589,-33.82524 z"
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      </g>
-      <circle
-         r="153.03812"
-         cy="1294.3262"
-         cx="1372.0471"
-         id="circle6747"
-         style="fill:#ffffff;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150" />
-      <g
-         transform="translate(1087.9044,835.42857)"
-         id="g6749"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150"
-         style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1">
-        <ellipse
-           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="ellipse6751"
-           cx="257.14285"
-           cy="452.36221"
-           rx="8.5714283"
-           ry="10.714286" />
-        <ellipse
-           ry="10.714286"
-           rx="8.5714283"
-           cy="452.36221"
-           cx="311.14285"
-           id="ellipse6753"
-           style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="translate(1196.9446,1039)"
-         id="g6755"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path6757"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6759"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path6761"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g6763"
-         transform="translate(1244.9446,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           inkscape:connector-curvature="0"
-           id="path6765"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path6767"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6769"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="translate(1260.9446,1039)"
-         id="g6771"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path6773"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6775"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path6777"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g6779"
-         transform="matrix(-1,0,0,1,1549.516,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           inkscape:connector-curvature="0"
-           id="path6781"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path6783"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6785"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         transform="matrix(-1,0,0,1,1501.516,1039)"
-         id="g6787"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 39.285714,224.50506 10,-26.42857"
-           id="path6789"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6791"
-           d="m 55.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 71.285714,224.50506 10,-26.42857"
-           id="path6793"
-           inkscape:connector-curvature="0" />
-      </g>
-      <g
-         id="g6795"
-         transform="matrix(-1,0,0,1,1485.516,1039)"
-         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150">
-        <path
-           inkscape:connector-curvature="0"
-           id="path6797"
-           d="m 39.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <path
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 55.285714,224.50506 10,-26.42857"
-           id="path6799"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path6801"
-           d="m 71.285714,224.50506 10,-26.42857"
-           style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      </g>
-      <g
-         transform="translate(420,420)"
-         id="g6809"
-         inkscape:export-filename="/Users/mvecera/lumeer-intos.png"
-         inkscape:export-xdpi="150"
-         inkscape:export-ydpi="150"
-         style="fill:#2c3e50;fill-opacity:1;stroke:#2c3e50;stroke-opacity:1">
-        <path
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 939.44187,721.03217 c 0,0 -71.72083,16.16244 -105.05587,54.54824 -33.33503,38.38579 -68.69037,34.34518 -68.69037,34.34518 0,0 62.85416,14.60976 105.42352,3.8673 45.4061,-11.45831 76.40394,-33.16172 68.32272,-92.76072 z"
-           id="path6811"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cscsc" />
-        <path
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 914.18806,737.19461 c 0,0 28.28427,-6.06092 39.39595,-29.29442 11.11167,-23.23351 9.09137,-34.34519 9.09137,-34.34519 0,0 32.32488,43.43656 5.05076,65.65991 -27.27412,22.22336 -53.53808,-2.0203 -53.53808,-2.0203 z"
-           id="path6813"
-           inkscape:connector-curvature="0" />
-        <path
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 958.63477,731.13369 c 0,0 10.10152,-11.11167 39.39595,-15.15228 29.29438,-4.04061 73.74118,14.14213 73.74118,14.14213 0,0 -37.3756,12.12184 -67.6802,26.26397 -30.30465,14.14214 -45.45693,-25.25382 -45.45693,-25.25382 z"
-           id="path6815"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cscsc" />
-        <path
-           style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           d="m 943.48248,729.11339 c 0,0 38.3858,11.11168 91.92392,16.16244 53.538,5.05076 69.7005,4.04061 69.7005,4.04061 0,0 -26.264,38.87601 -84.8528,47.96738 -58.58887,9.09137 -105.05589,-33.82524 -105.05589,-33.82524 z"
-           id="path6817"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cscscc" />
-      </g>
-      <path
-         style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 1374.2857,1618.0765 c 0,0 -5.7143,37.1429 -45.7143,42.8572 -40,5.7142 -37.1428,-11.4286 -57.1428,-14.2858 -20,-2.8571 -51.4286,18.5714 -51.4286,18.5714 0,0 32.8571,-45.7142 61.4286,-44.2856 28.5714,1.4285 47.1428,40 92.8571,-2.8572 z"
-         id="path6819"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="csscsc" />
-      <path
-         sodipodi:nodetypes="csscsc"
-         inkscape:connector-curvature="0"
-         id="path6821"
-         d="m 1372.3084,1618.0765 c 0,0 5.7142,37.1429 45.7142,42.8572 40,5.7142 37.1429,-11.4286 57.1429,-14.2858 20,-2.8571 51.4286,18.5714 51.4286,18.5714 0,0 -32.8572,-45.7142 -61.4286,-44.2856 -28.5714,1.4285 -47.1429,40 -92.8571,-2.8572 z"
-         style="fill:#2c3e50;fill-opacity:1;fill-rule:evenodd;stroke:#2c3e50;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <image
-         y="1327.04"
-         x="1259.7719"
-         id="image6887"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAABTCAYAAACWGtCKAAAABHNCSVQICAgIfAhkiAAAIABJREFU
-eJztnXl8FFW2x39VXdV7ErIACdnDpqDgCCigkAwmAiI+0SFKcGiQR5j3Bn3jMmb8OOQ9dRwRBEed
-GUWNCI6MgwiO7HYEE0BEgiB7ZAkhOySYkK2TTvd5f+C9VHcaCEmAJN7v51MfQq+361adc+9ZAYFA
-IBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAg
-EAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQNB6pOs9AIHgUuTm5p6VJCnw3LlzcDgc
-CA0NRZ8+fa75dVtQUEBlZWWQZRn+/v5ITEzsffLkyRPXehwCQXsiFIDgulNSUkJ5eXkoKyvD119/
-jbKyMhw/fhx5eXkoLy9HY2MjdDodVFVFUFAQDAYDhg8fjqlTp2LOnDlXRRBv3bqVMjMz8eWXX+Lw
-4cOoqamBy+VCU1MTFEWBxWJBSEgIYmJicOONN2LAgAEIDw/HgAED8OGHH77ywgsv/KG9xyQQCASd
-nmPHjtEHH3xAs2bNottvv5169uxJqqoSAJJlmQDwQ6fTkaIopNPpSJIkAkAGg4E/P2bMGFq1ahW1
-19g2bdpEU6dOJb1eTwDIYrGQXq8nnU5HRqORAJAkSSTLMh8POyRJIqvVSrGxsTR+/Hj64x//SGvX
-rqWCgoJ2G59AIBB0KvLy8uj999+n//zP/6QePXpQQEAAGQwG0ul0XLBLkkR6vZ5MJhN/TpZlfjBh
-a7FYuLD19/cnPz8/io6Opscff5x27NhBMTExca0Z48GDB2nhwoVc8EuSRBaLhaxWK1dK3mOSZZkU
-RSGDwUAWi4X8/Pz467RKqlevXpSUlESPPfYYbd++nU6cOCEUgkAg6Lrs3LmT5s6dS8OGDSOr1cpX
-zQaDwWPlrCgKF7CyLHMhq30NUxBM6KqqygU1AAoKCqJhw4bRgw8+SEeOHKH09PR5VzreV199lX+X
-qqoeOw78JNShWe1DsxPQ7lrY2PV6Pamq6vEZbAcRGRlJkydPpvfee4+OHj0qlIFAIOjcFBQU0Pbt
-2yklJYUGDBjABaZWoHubTFpzaAWx9u+QkBAaNGgQ/eY3v7ligbp8+XLS6XTcDNWWg/3Oix0APBSY
-wWCg22+/nebPn085OTlCGQgEgo5JRkbGCu/H1q9fT7Nnz6bY2FgCQMHBwaQoChdu2pV6ewhYrdBX
-VZWvviVJIrPZTLfeeusV+wQSEhJ82vRbc7REAeh0Oo8dgiRJZDQaqVu3bjRo0CB6+eWX6YcffhDK
-QCAQdDw2b95MM2fOpMjISA9TjlbYK4pCRqORKwO0kwJgQlSSJO5D0D6vKAo99NBDLRaeO3bsIACk
-1+ubOaBbO75LHd7ngDm5vX0cACg+Pp6WLFlCRUVFQhkIBILrx5YtW+j555+niIgIslqtHkJda+tm
-Qt+XoG6vFbb3ap2Zb5iyCQ0NJV+7FV/8+c9/bqa82jq+Sx2+nNvMaWyxWMhsNhMACg8Pp8mTJ1NC
-QgKZTCa64447aNmyZWS323NaOYUCgUDQnPj4+ERfjxcWFtK7775LY8aMIb1e7yF0VVUlq9XKHZuy
-LFNgYGAzgcgiZXw5UVtz+FIAWvMKUwIHDx5s0arZZrNRYGCgx06lreO7nAnoYkqR7UC8dwnMRCTL
-MoWFhdHs2bMpKytL7AoEAkH7Y7fbafr06RQWFtbMVGEymTxs79rVLHAhiobtArQRPO0pZC+1q1BV
-lfbs2dMiAfnkk096KKr2GNulDu3uiB3acFLt77JardwkxPIQ2E5FURS6+eabadGiRXTs2DGhDAQC
-QevZu3cvvfnmmxQXF0cmk4kLJ61JR2sjZ8KSPW42m8nf3587fn0lSWlj49t6eNvOdTodH/ctt9xC
-hYWFLRKKK1asaLYCb8vR0h0AE/gGg6GZ4vF1nrSJcmazmYKDg/nvtVgslJycTMuXL6eL7eYEAoGg
-GRs3bqQHHniA/P39uYBh9mjvBCjtSt7bTKF9rdYcw3YMaINQhZdw1ApSb1+Aoij0yCOPtHhFfOTI
-EYqKimqm4Fp7XE4BXMwPwiKDtI5iWZZJr9c381Fod1UGg4GPW1EUiomJobS0tBabwAQCn7QmmUZw
-bdBmu7Ym8zU3N5defvllGjhwIBc+FoulXVforT2Yv0CrSPR6PbeBa1f8+Gn1y5zQiqJQjx49aN++
-fT6Fn81mS9X+v7i4mABg0aJF/LPgtdr2ZY9vD2f2pX6/dmfDBD9zDl9OuTCfjNlspkmTJtHnn38u
-dgWCiyKKwf1MsNvtOQEBAUPmzp2LI0eOID8/HwCgqiqcTicAQK/Xo7Gx8XoOEwAgyzL0ej3cbjcf
-jyzLICIoigK9Xo/a2lqP8VqtVtTX1+PTTz/F/fff73Fdx8fHJ2ZlZWVe7Ptyc3PPfvLJJ4FLly5F
-VFQUSktLYbVaIcsy6uvrYTQa4Xa7odfr4XA4AABEnjpGktrnVpJlGU6nE3q9HrIso6amBvv372/x
-50uSBJPJBJfLxcfar18/zJgxA1OnTkVUVJS45wWci14MX331FSUkJHTpiyUmJiauq5f0LSgooM8+
-+wzLly/Hjh07oCgK3G43AECn00GWZTQ1NcHtdkOWZbhcrus6XpPJhIaGBj5GSZIgyzIUReFKwOFw
-QFEUEBFUVYXD4UB4eDjS0tLw+OOPS8D51f7SpUvfaen3pqenz4uMjExbt24dYmNjUVZWBr1eD4vF
-gtraWgBAY2MjTCaTz/e3lwLQ6XSoqamByWSCJEkoKSnBxo0b0dTUBKPRiIaGhku+X6uYDAYDdDod
-VwSqquKhhx7C5MmTMXHixE5/b/8c7t9LkZGRsaJ///6T77zzzlbPpc83rlixgubPn4+cnJxOf5Fc
-iq58AX355Zf07rvvYtOmTaisrISiKHA6ndDpdDAajZAkCQ6HA01NTQDOrzwBcMF7vZAkCUQESZKg
-0+kgSRJcLpfHuJgSM5vNqKmpQZ8+ffDaa681E2qtmd/333+f/v3vf6OxsRF6vR7V1dV8Rd2jRw+c
-OXPG5+qfKQDv564Ug8HABbbT6cS5c+ewZ88eEBFcLtdlFQ07b0TEzxkbE1PwqqrilltuwUMPPYRJ
-kyahd+/enfI+78r3b0vIzMykF198EVlZWe07f5MmTSKdTkc/ZUmitLS0SzuUWltB8npis9lSS0pK
-POYlIyNjxZIlS2jixIncnm8ymbiTUFvZEhonY3vF6LfXYTAYyGQyNSv7wOzbWl/Fo48+SqdOnbro
-9an1ZdlstlRm9y8pKeHJYtrXxMfHJ65cuZL69u1LAMjf358XqWPnTJvExZyxzG/hXS30Sg/2Haqq
-ksFg4BVGWcTP5XwA3uNidYf0ej13GJvNZv5dUVFR9D//8z+UnZ1NQOe8FzrTmNtzrNOnTydJkmjT
-pk2tls/NNEd+fj4NHjwYlZWVmDhxItasWdMpVwc/J7Zv304bNmzAhx9+iPz8fL6aB86vCBVF8TAd
-GI1GyLLM7edsRe10Otu8gm0rsizzVT8A3gjG5XLB6XTCz88P1dXVGDBgABYuXIjx48e3+fr09hGw
-leWHH35Iq1evhsPhgCRJHqtzIvI4V+1lAjIYDHzH09TUhNLSUuzbt49/V0t2AOwcMt+O9j2qqvJ5
-t1gsqK+vh9vtRvfu3TFw4ECkpaVh8ODB6NWrl+Tr3Ag6Bvn5+dS7d29IkoSHH34YH374YasuwGZv
-WrNmDd1///0wGo2or6+H3W7HXXfdJZRAB2T//v300Ucf4dVXX+W2fK2j0mQyoampiQsCZsLQ6/Ug
-Ig8HK9BcqF0PFEVBU1MTF7gA+O8xm83o2bMn5s6di0cfffSaXJN2uz0nLy9vyIEDB3Du3DkYjUZ+
-nq7G+SIiOJ1ObqY7deoUvvzyS7hcLlitVpw7d+6y7wcumNL0ej33HbBFgKIokCQJbre7mZlIkiRE
-RkZiypQpmDlzJvr16yfu/Q7Is88+S/PmzUNAQAB69uyJ3NzcVs2T7P3AgQMHeOs7t9uNd999t+2j
-7aB01roq69ato+eee47++te/4vDhw2hqaoKqqnC73XA4HJBlGbIsw+FwwOl0QlVVAMDp06dhNBrR
-2NjIHZpWqxXAeds/e931hAkktoplv2fcuHF46623kJeXJ7VU+LdHEbWkpKShqamp0u9//3tMnjyZ
-n1tm9/dekXsrhys9ZFnmzvmGhga+E3K5XKiqqrrseJkyZzuBxsZGnDt3Dg0NDfxz2f3tcrm4n4X9
-JlVVcerUKbz66qsYPHgw/uM//oPWrVvXIU3AnfX+bSsHDx6kBQsWwGAwoLKyEidPnrxoOZfLoXg/
-UFJSAp1Ox6MxVqxYgU2bNtHYsWO73Epg69atHW5re7Et99dff02ZmZnYuXMnPv/8c37zshu+trYW
-six7rOoYbAcAAPX19T7/Bs5HuVzOxKBd8TKhAZwX3Fpno9vt9hCQTPCwyB0WncIie5hpggkhZu6Z
-OnUqHn30UYwcOVLauHHj5U+ghsWLF79yRW+4BJGRkfzEZGZm0vbt23HmzBk4nU44nU5utjly5Ah3
-YgPgzlgmZNlvY+Y2JvDZ63v06IHo6Giu1LWhri0xM7G59+XM9xXhxYIAGOy72LX173//G2vXrsXo
-0aNp/PjxePbZZzuMHOiI9++14LnnngMAvqPT6XRYtGiRfciQIVc8N80UAIuvPnfuHL+RFy1a1NYx
-C7zIzc09279//yDtY+np6fO0zcTz8/Np7dq1yMjIwB133AFZljF8+HAEBwfzLb5WuF8LtDZqX0KG
-jQuAz3+ZDd/lcsFkMvFVDGv87na7cc899yAlJQWjRo1CRESE9N577127H9gCEhMTJeB8q8tdu3bh
-wIEDOHHiBEpKSvDdd99xBcAUJLPnM9hzvhTo4MGD4efnB51Ox0NddTodgGtjojOZTHyHyK4tl8uF
-7Oxs7Nq1C0ajkaZPn45Zs2ahNQJH0HJ8hTJ/9NFH9Mc//hFNTU082quurq7ZYq6lNDMBsYQa5jwE
-gC+++IK1zBO0EbZV8xb+AMCE//79+yk9PZ3uvvtu/Pa3v8WhQ4fg5+fHt+6yLMNgMPDVM+Na2O+d
-Tic3DwKecfoseUmn03HnLbM3s7FVV1cDOL9qaWpqQmVlJWRZxsSJE/Huu+/iyJEjP65Zs0aaMmWK
-FBERIQEda6tfWlrKM2tjY2Ol5ORk6YUXXpDmzp2LGTNmoGfPnggICIBOp4PT6URjYyPfAQDnHfCq
-qnInLRO2TU1NICIYjUZYrVb4+fnx86lVElcb5hQGwMfj7+/PfYIGgwFvv/02hg4ditGjR9M//vEP
-j0xj72xrQevxlcfyzjvvIC8vj+/Q2OLAz8+vVd/RbAcQGhrKMzFdLhf0ej2cTideeeUV5OTk0NCh
-Q6Wfe/xtW/j444/tYWFhzVZONpst9Yknnlj83HPPYezYsSguLoaiKDAajXA4HHA4HDCZTDxhS6fT
-eWzptUL2asL8BMy0oT20YwGa26PZGIkIISEhGD58OJKTkxEfH49evXpJa9as4Z+hvcaSkpKGXvUf
-1kJCQ0N9rnr79+/PH8/OzqaNGzdi8+bNOHLkCKqrq/k50EZjaYU7Oy8Oh4Ob95qamrhy0CbCXU3Y
-zoNFhbFrT6/Xw2w2o6qqCiaTCbIsY9u2bcjOzkZsbKz9mWeeQXJyMoYOHSp2BVeJ//u//6N5885H
-LBsMBtTX14OIYDAYkJOT80lrPrOZAoiIiIDZbOYfziJGzpw5g/T0dADAyZMnT1xppqXgPG+99ZaH
-Xdpms6UOGTJk8eLFi3HLLbcAOD+5/v7+/AZUVRWqqnLHXWNjIxcEWiXATHZXE22pCK3Nn632WcJZ
-fX09NyGoqopu3brBYrFg4sSJiI+PR1VV1SczZ85MXr16tc/v6egLDG9znZbRo0dzIfj9999TVlYW
-Nm7ciN27d+PHH3+Ey+XyCHOVJInvAIDm2c+Ap4/laiJJEldS2pBcrSJyOBy8LIfJZEJhYSEWLFiA
-119/HRMmTKBp06bhoYceEoqgHVm3bh098MADaGho4GZYdq8FBgZi5syZya353GYKYMiQIR7RB8x2
-aTKZsH79ejz11FO0cOFCSQj/1sGExrfffkuvv/46li5dirVr1yIwMBDh4eHQ6/U8dJM5Qo1GI5qa
-mnDu3DkEBwfzC4BlfQLwcDxeTZhNWpul63K50NDQ4KGYjEYjwsPDMWjQIIwePRqJiYm4+eabpTff
-fBNvvvnmVR/n1eZiwt9bMQwePJhPSnFxMW3fvh1Hjx5FTk4ODh48yDOLDQYD9Ho9/Pz8eEgvAA8T
-2rWaY/Yder2eh+Uy0yP7VxtJpPV5bN68GevWrUPfvn0pJSUF06dPR2xsrFAGbaCgoIAefPBBNDQ0
-8BpZTDZIkoQBAwagtLS0VZ/dTAEMGDBA6tu3L+Xl5fH0c2aGkGUZr7/+OpYtW0bTpk0Tk3oZvE1l
-GRkZK+rr6ycvW7YMt912GxRFQUBAABITE2E2m7lG10aHMEHL/q6srITFYkF1dTW3s18r8w9wYcXK
-VqRMEen1eqiqiuTkZPTr1w/Dhg0DEe1OSkoaerFVfmfHlyn0YooBAE+uYthsttSnn3568Q8//ICD
-Bw+isLCQx/uXl5dzM5s27NQ7aqe90ZabaGho4DkY7PvdbrdH9BkzVbGABLfbDYvFguLiYjz//PNY
-uHAhJk6cSKmpqZg4caJUWFhIzLcj8I02ErC0tJSefPJJ5OTkwGg08ogzAPy8JyUlYfPmza36rmYK
-AADGjRuHd955h1dDdDqdfMJlWcbjjz+Obdu2UVuKEP0cYMLh5MmT9MUXX2Djxo1YuXIliAgBAQFw
-Op2oqqryiO5gDl7gvLmloaHBwwnITEHMLgt4mmKutgmIXXyyLCMkJAQDBw5EQkICxowZg1//+te9
-lyxZ0qFNN+2JLzPVlZhGly5d+o73a7Ozs6myshI5OTkoLy9HXV0dgAs78Wu1A2AKngl+IvKoG8Ui
-wdhChe0SDAYDL55nMBjgdDqxYcMGbNmyBVFRUbRu3Trk5uaS1mci8EQbBv7mm2/i448/5nWvgAvV
-cplyjo+Pb/V3+ZyEL774gsaOHQtFUfiEBgQEoLKyEn5+fqipqUHfvn2xatUq3HTTTZ12In2FYgLn
-V+pXalPz3vofP36c7HY7ysrKcPr0aTQ2NiIvLw+ZmZkwmUw8bEun02Hs2LGIjIzk9n7gfDQG2+JJ
-koSqqipYLBa4XC4PE0FxcTG2bNniYVdmsJh6FnFyKeWgKAo3JzGnLlMszBmt1+uRmJiIgQMHYtSo
-UViyZMnsjmwKvJSdvjNgs9lSU1JSFq9fvx47duzAvn37eAQWm0s2byzUlO0eATQzG2kFundkERPk
-2sWeL79DWxWQJEnw8/PD+PHjkZqaijFjxrT6A33dv10pQGX+/Pn0hz+cv3yZKY7tsFiwwC9/+Uts
-2bKlfauBAsDo0aNp27Zt3NnjdDo9klkcDgciIiKwa9cu+Ipq6QxcTAG0hQ0bNtA//vEPbNiwAbGx
-sRg0aBBUVUVdXR1qa2vx2Wef8fPJIq3GjBmDqKgouN1uuFwuWCwWHh4oyzL8/PxQUVGBkJAQHkbJ
-hPLJkyexdu1aAOAlhJnDToskSTCbzTwskZmPWPYwExzsObPZjNDQUAwYMAB33nkn4uPjcdttt0md
-qTZMZ1cAvvj000/pyJEj2L59O/bs2YOysjIPM5F3aQdvtElnALgNn8EijdhjzPTIPrOtJigi4rkG
-LpcL/fv3x4wZM5CcnIy4uLgrkiOdMRDF1zXp63e89tpr9Kc//QkVFRW8LEh9fT2P0FIUBY2NjViy
-ZAlmzJjR/vJ35cqVvIKktkMSAAoJCeFdh+Li4ujo0aOdspJgbm7u2St5vffvi4mJibPZbKnHjx+n
-V155heLi4vg5CgwMpOTkZJoxYwbNmjWLUlJS6L777iOdTsebqrOuT6zSJWsKrtfrPSo26vV6UlWV
-pkyZQo899hg9+uijNGXKFLLZbDR+/Hif1TxZu0CTycQ7TLHWgux7JU1nq+7du9OgQYMoLS2NMjIy
-6Pvvv+/0eR8drasdi5dPT0+fl56ePq+kpITS09Pn2Wy21NZW3M3JyaG//OUvdO+991JkZKRHD2d2
-LRkMBn7NaauFQtPljF0b7HWA70qtl6tGermDVTcFQN26dSOr1UoAqGfPnnTXXXfRxo0bqaCgoEXn
-oqNVKY6Pj0+02WypGRkZK9i/MTExcfHx8YlXMtaFCxfyyq2sI5wkSR5tQXU6HQ0ZMoS8KwK3C0ww
-JiQk8AuF9Yxlg5F/6g0bEhJCoaGhF23D15G5EgWgTXZJT0+fV1xcTJ9//jlNmDCBK0jWnhAAhYaG
-0pQpUyg1NZX+67/+i2bNmkX33Xefx/kDwEsc46d2gOxxX0L9mWeeoYcffphSU1Npzpw59Nvf/pYm
-TJjA+8ayz9M2GdfezJIkkdlsJr1eTyEhITRmzBh68cUXafPmzcTKJHclOpoCuBTt1bbxu+++ow8+
-+ICmT59OAwcO5AKWHaqq8raT7G9fAl+rFPR6PZlMJrJarW1WAOyzmUDTXudssdmnTx+aM2cO7dy5
-85LXJCvn3dnR/o4///nP5Ofnx9t7MmXOhD+bCwC0dOnSq3vPbt261aM+u1ZwaWuksxVGZmZmpxIi
-vhTA5S6qvXv30mOPPUYxMTFktVr5OdD2sI2Li6OUlBT63e9+R6mpqZSSkkKzZs2ipKQkjwbr2vey
-Q1VV0ul0fJJVVeU3cUpKCs2ZM4dmzpxJU6ZMoalTp9Jdd93VrFE7ew/7DL1eTwMGDKAHHniA5s+f
-3+nmqbV0JgVwtcb6U0c4euqpp+iee+4hq9Xq0Uie3dPs0CoI7cICaJ8dgE6n87Aq4CfBr+3xYDab
-SVEUMhqNNGLECPr73/9OeXl5BHjen51JAbTEOjJt2jQu6FkfD51Ox/tBA6CAgAACQKNHj6b2sLj4
-jAJijBo1Svr9739PCxYs4I+xyBOWrcjqtBsMBowdOxZ/+ctfaOLEiZ22y1B2dnYz+/apU6do+fLl
-WL58OW677Tae4MTspCaTCaqqor6+HiNGjEBERAS6d++O8vJyKIoCf39/WK1W/nptGQX2Lwv5Y45c
-5nNhYV8GgwFms5k7+4xGI4KDgz3q8rDEIb1ej/DwcIwYMQJjx47F7bffjri4OOnQoUNYtWrV1T+J
-givmUr6Ktjg2tUXsGLt27aKsrCxs3boVBw4cQGlpKY/cYf4p4EJCGvubOSLbgiRJPJpFr9dDkiTU
-1dVx30BDQwOPfNLpdNixYwd27NiB6Oho3HvvvXTrrbeiuLiYvENqOzq+5o/5II8cOUL//d//jY8+
-+ghut9uj9afVauXni2ViBwUF4aWXXsKoUaPa7Oy+pAIAgAULFkgjRoyg77//HnV1dXxg7OLw8/Pj
-ESZutxtPPvkk9u/fj2+++YaGDx/eoScpICAg0PuxRx55hDtkPv74Y3rnnXcwYMAA3qdWVVUuyFn9
-jerqatTX1yM0NBSxsbGQZRnnzp1DQEAAJEnC2bNnUVlZ6VHKQRudwRqeMKXKziWLFtJeFKxfrKIo
-OHPmDIqKihAQEICRI0fitttuw8iRI9GvXz/ExsZKubm5+OCDD67V6ezytNUBnp6ePi8/P/8EEwb/
-+te/7GlpabOzsrIy586dO+9ikWftHdUybNgwj/ty165dtG/fPuTn52PZsmWorq5GTU0NT/QCwLN+
-WRBCa2FBJbIsezQg0ubAsOAIlnWuqioKCwtRWFiItWvX4sYbb8TTTz9NwcHBbRqLN+05v/n5+Sc2
-bdqUk5qampyfn3/im2++Oe5dRqR///5BW7ZsoeHDh/NyIaqqcoe+TqfDuXPneOmUs2fPwmKxYM6c
-ORg1alS7yNYWfciJEyfopptuapakxEIZTSYTHA4H/P39UVdXB6fTidDQUKSlpeGJJ57osEqgpKSE
-vCOY1q9fT8uWLcOmTZvw448/AgCCg4MREREBg8EAt9uNxsZGFBQU8OfZCt5gMGDMmDHo3bs3amtr
-edREYGAgampqcPr0aaxfv55f7GazGQ0NDTwMlDVCURQFdXV1MBgMvFRydXU13wGEh4fzssH9+vWD
-0WhEVFRUhz3P14uuGAV0LTh+/Djt3r0bO3fuxLfffotDhw6hoqICQNvDQFnOgLZkOFMKLAmNRSGx
-MjQsvJWVRKmrq4Msy/D398f06dORlJSE0tLST1pbDuF6YLfbc3744Ychn3zyCXbt2uWRcMdKgTN5
-oI35nzJlCv75z3+2271+2R0AAMTFxUmffvoppaam8lK+2rZybMvGzEFWqxUVFRV44oknMGzYMEpL
-S8OvfvWrDieg2LgPHTpEBw8exFdffYXZs2ejoKDAIwHGbDZj6NDz9cjYhagoClcArFJiQ0MDdu/e
-jZiYGK4oFUXhipJVV2XN2dmqn1VZZCF5zOTDLoTg4GAMHToUYWFh+Ne//jX7+eef71Shbx2Jtq7y
-OlMYbGvxNt/m5uaePXr0aOB3332HLVu24NixYygoKAAAD7OQyWTyuIaZqdM7v4SVudZmsLvd7ma9
-D5gZVJuFzIS/LMuoqqpCZWUlVq9eDavVOvnZZ5+loKAgjB07FoMGDbqsvGmPfJ/WsHr1avrss89Q
-XV0Nf39/j50Wy7JmdZecTicaGhoQEhKC3r17t6vwB1qoAADgjTfeSHrrrbfsycnJvC0eSxJjdUxq
-amo8MtZUVcWuXbuQkpKCsWPHUnJyMmbOnNkhFMG2bdvo7bffRlpaGj3//PMICgriAvpSsAv+1ltv
-RXl5OU6fPo36+nq+C6qursaxY8fQu3dv/h7WmUuSJG7KYcWczGYzX9k3NjbCaDSiZ8+e6Nu3L/r0
-6YPIyEifdlxB62ir8O7qwt8XvvpW3HPPPWlbt25FZmYm9uzZg4qKCjQedUrMAAAN3UlEQVQ0NPCV
-KxP0gGfTGebrAjwrjzY1NXlkvbPXanMUtAlt2qOpqYlXLFiyZAn+9Kc/YdiwYZScnIxJkyYhKyvL
-5+7A12NXmhvUUoVw+PBhKi4uxooVK7B27Vq+sKysrAQAnpOj9SvW1dUhNDQUp0+fRmRkJMaOHfvK
-zp07Wzq0FnHFguXTTz+lWbNm4ezZs3zVyrSXNsFD29uVbfVUVUVcXBwmTZqEhx9+2KNQ1tXm+PHj
-lJubi+XLl+O7777DoUOHAAA2mw0WiwWyLKO8vBzbt2/nOwDg/MUWGRmJu+++GwD472VJWHa7vdl3
-xcbGIiEhAY2NjTAYDPw8lZSUYM2aNR4rHYPBgAcffBDjxo1D7969cccddwhh305cDxPQz2GH4Au7
-3U5ff/017HY7CgoKUFxc7NGsiFUVcDgcHoqByQ69Xs93EMySwHYT2rpYWlMJAEyfPt0j+/nLL79E
-UVER3z0HBARg4MCBeOyxx3DHHXc0S1otKiqi8PDwFt1z8fHxif/85z/tV+KA3rNnD+3duxcHDx5E
-aWkprFYrl4uyLOPEiRMeMoQ9znyFbrcbCQkJePvtt39s76RV4Ap2AIwHH3xQWr16Nc2ePRsVFRW8
-s5PD4fCoIqrdumlt50eOHMHLL7+Mv/71rxg6dCiNGzcOEyZMwJQpU3q3p7Pr8OHDlJOTg507d2Lv
-3r0YMWIETp8+DYPBwFcqVquVO1rZavxyBAYG8sqcERER6NGjB++5CpzPpCwrK0NhYSH69u0LvV6P
-hoYGNDU18UiLfv36YfDgwbjzzjsxePBgjBw5Ulq+fHl7/XTBdeTnqgCSkpK4UMzNzT1bXFwcuG3b
-NmzevBl79uxBZWWlh3mIOTmZNYHVxfLORAYuRM15+wiYv0z7OqYgWOvNs2fPory8HJmZmVixYgWe
-fvppCg8PR9++fXlwh91uz2lJz4msrKxMb+HvHZFkt9tz/Pz8huzbtw9Hjx7F3/72N55dzxaarNS+
-v78/TCYTj4Zi42b+P4fDgenTp+ODDz6Q+vfv38qZuTRtqcNBs2bNQnZ2NoDz4UoNDQ3cfqW1abG/
-Q0JC8OOPP3rUpGHaOzw8HJGRkRg+fDjCwsJYJAtCQkKwYcOGT+68885Eq9UamJKSkjRt2rTUcePG
-Ta6trUVFRQWKiopw6tQpVFRUYO/evcjLy8PJkyf5akPrSNLaLCVJwrRp03i9nIaGBmzZsuWyOwDW
-bJtdcKtWreKfyxRM9+7dMXHiRF7WecSIEejTpw8URcHNN9/crDKkoP0RTuCOQXFxMWVnZ2Pnzp3Y
-tGkTKisrUV5eznfB2iKGLEKIPeZd48q7EdKsWbM8ymCsWrUK5eXlMBgMkCQJDocDkZGRmDBhAi+T
-woIq9Ho9KisrkZeXh1tvvRXBwcEYMmQIACAsLAwxMTFIT0/3qHeVn59PiqKgpqYG5eXlyMvLg6qq
-qKioQGlpKaqqquBwODwimFjxPKfTCaPRCOCC3Dt58iQ2bNjAf4/WL7Jo0SI8+eSTV1VOXPEOgNG/
-f38pIyNjxU033TR5yZIlqKmp4cWkWB1xrT2rvr4e5eXl/AcajUZuMqqtrUVBQQHOnj2LHTt2APCs
-cGkymSabzWbmc7A/9dRT+N3vfufRkBu4sH1iKwUWWcDCK81mM4+mURSFh3a6XC6oqgqTyXTZ393U
-1MRX/SxKx2KxoLa2lpfNDgoKQnBwMEaMGIERI0bgpptukj7++OOf7epQ8PPGe7Fz4MABysrKQmZm
-Jnbv3o2ioiIAF6qHeje2Z/cyE/5aW7m2KikRoWfPnqisrPTovEZEvFeFy+WC2WzmhRYVRcGBAwew
-f/9+D9N1SEgIBg0ahBtuuGFxWlra4traWlRVVeGGG27wKH2tKAp++ctfolevXrxej8lkgtlsBhHx
-ktosP+fHH39EYGAgd+6yUPqGhgYeGWgymfDee+/h/vvvv+qLxFYrAADIz88/8fe//1365JNPKC0t
-DSdOnOBFioAL27DGxkZuA2RamLWaY44gl8uF2tpanjClbThRW1vLzSfMrARccAbpdDruiAbAI5VY
-CBUzTTHnNNuCAeCROi1ttsHGX1dXx7dro0aNQm5uLnr37o1JkyZh9OjR0Ov1zWx2WVlZmZ0xiUUg
-aE+0FYTj4+MTFy9ebP/888/xzTff4OjRo1wYAheiYlgTFBZRpDUFsXuZiLj9nykLJnhZA3XWbIm9
-r2fPnhg+fDhycs63nWZKp7y8HMeOHUNgYCDfMZSVlXnkQWlN3CxkNTw8HLW1taipqYEkSVwZMIFv
-Mpm4SVyWZTgcDtTU1ICIEBwcjJEjRyIoKGj2/ffff00i/Zo1hb8SXnjhhT+kp6fPmzx5svTII4+8
-8uKLL/Iqk0yba7dzTPAzhzCbJGaeYVmCtbW1cDgc3FTDHEDM0eONy+VCXV0dqqqqUFVVdf6H/WSm
-8W5wz2BKw2w2e2TcXg4/Pz+cPXsWPXr0gMlkwt13341XXnkFK1euRGZmpvTtt9/Ovvnmm6X+/fsH
-nThxolnJBSb8c3Nzz8bExMR1pnIFXZXW1uHxlYrv/Vh71fjpqmRlZWWOHz9eeuutt6Q9e/ZIWVlZ
-eOONN3Dvvfeie/fu3HTCZIa2HwWTCcwEJMsygoKCPF7HWliyBZufnx9fmTNz9MCBA7mdnlknAKC0
-tBSlpaXclMxkBfNfsJ0F64Xgcrm4kmDBH06nE3V1dTxwhC2QWWg4U0YjRozAO++8gzVr1lzTbovt
-vhI9deoUvfTSS1i6dCkaGhpgsVhQX1/v0WCerbS9G4lfrIQtm1xm5/P1XnZozUGAZ1lc72bqbrcb
-s2fP5lsxVVVRXFzc7D1s8n9KuMINN9yAwYMHQzS16Ni0Js5b0HHIz8+n7OxsrF+/Hl9//TXy8/P5
-fc3kwW9+8xvU1tZy+XLmzBm+qAQulE1nK2+22GNJZcyMXF9fj6qqKm7GZln/VqsVZrOZC/zCwkJY
-rVa+6NTr9ejWrRuMRqOHiYopCSaTtHlBLNmLLYYTExPxv//7v+0aBNNSrpoAO378OP3tb3/DsmXL
-uFOGbcmYDU+7dWN/s1IL7GhthyutUtCijSRQFAWPPPIIgPMXFKu7DYBraVVV0bt3b4wcORJfffXV
-K8Kp2HkQPpeuw9GjR6mkpATvv/8+du/ejf379wMAUlNTYTAYePg5i6f37nPAYMEeOp2O99dl5hj2
-vDbxTCu8WYALa9qk3ZX4cmhrG+uwBSZLZuvXrx8mTJiAX/ziF9d1EXnVv7y4uJg2b96MZcuWwW63
-e+QFsLBLZpNnGbV8cJqVPzu02YEMrcK41E4COJ+5zPwSAQEBmDRpEiwWC2pqavjKICwsDAMHDsSg
-QYOuaa6CQCBoGYcPHyYWUcSa4rDVtnYVzpzH2vBTbbCIts0le7/WvMQUBHuP1rQMXCiOCYC3ctXK
-IzYe5gNNSEhATEwMbr/9di5XfJWk6XLY7facgoICmj9/Pt13330UGBjo0eiAlac1mUzN6oRrD1Y2
-WdvcQvu8qqr8UBSFv541WWHfwb4vJiaG7rrrLnrmmWdo5cqV9NNKg2sQZqdntl2bzZZqs9lSvW29
-MTExcXa7Paet58mXXZmhtSdf6nWC9uFqnGMxv1eO9lzYbLZU9re2wU52djYtXLiQpk2bRvfccw8N
-GjSIQkNDKSgoiEJDQyk6OppiY2MpODiYoqOjKTo6mnr16kUREREUExNDUVFR1KtXL4qKiqKwsDAK
-DQ3lz0VHR1NERAT16tWLwsLCKDIykqKjo6lv37504403UlxcHIWHh1NkZCTFxsZSWFgYde/enaKj
-oykhIYGeeeYZWr9+PRUWFpJ2jjMyMlZoS9J3OX+RdrK8sdvtORs2bKBnn32WEhMTKTo6mjdU8W5Q
-oSgKGQwGMhqNzYQ+qzGu1+t5cxVJ07eA/d9kMlFgYCAlJCRQamoqvfHGG7R9+3ZiY7TZbKl2uz2n
-NU7ZmJ+6/rC/r9bNq/3cLnexdBLE/HZsSktL6eTJk5STk0MrV66kl156iR5++GHq378/lyPaLltm
-s5n3JjAYDLxBDuuxwRairMMeNItMePVJMJvN9Itf/IImT55Mr732Gm3fvr1ZoyXWDe5KuxFeLTrU
-tiMvL4927NiBqqoqlJSUoKioCEVFRSgrK0NFRQVqa2s9fARsq6aqKg/1Cg8PR0BAAEJDQxEREYGo
-qCjExsYiJibGZ/KVzWZLPXny5AlvW7HNZkuNjo6O09r8hVOx8xHThZqECy5ORkbGivz8/BOX8tHF
-x8cnLliwwF5aWorCwkI4nU44HA788MMPOH36NEJCQrjN3+l0orKyEoWFhSgrK+P5A0lJSejWrRs3
-BQUHB6Nfv37o27cvevbs2eKqvMI/1UrYajs+Pj6xvVdivlZd7fkdYlvftRHz23nQ3uvx8fGJRUVF
-F3UcFhUVXbT37qWsHIIuhojZ73xciVAWArxzcaXCt61mtYu9Pz09fZ4w2XVCLjdpbUnqEcLk+iPm
-t2sj5lfQJq70AhJ0LsT8dm2u5fx21WulTaUgOjuXm1ThPOzciPnt2lzL+RXXioDbHOPj4xMvZ3/U
-5g4IOgdifrs2VzK/wrkruGoIh1HXRsxv10bMr+CqI1YgXRsxv10bMb+dlIyMjBW+tvY2my01IyNj
-hXYb6et1GRkZK3y991IXBMttEBfN1UfMb9fmaszv5bK/xfwKBAKBQCAQCAQCgUAgEAgEAoFAIBAI
-BAKBoEPw/2q6sldiC6VGAAAAAElFTkSuQmCC
-"
-         style="image-rendering:optimizeSpeed"
-         preserveAspectRatio="none"
-         height="50.672489"
-         width="234.43657" />
     </g>
     <g
        id="g4820"
