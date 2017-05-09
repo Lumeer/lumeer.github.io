@@ -8,10 +8,11 @@
     <title>Lumeer: Modern Data Definition and Processing Platform</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/custom.min.css" rel="stylesheet"/>
+    <link href="css/flags.min.css" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +26,33 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#ecf0f1",
+            "text": "#2c3e50"
+          },
+          "button": {
+            "background": "#18bc9c",
+            "text": "#ffffff"
+          }
+        },
+        "theme": "edgeless",
+        "content": {
+          "message": "We use cookies to deliver the best experience to you.",
+          "dismiss": "Got it!",
+          "link": "Learn more"
+        },
+        "cookie": {
+          "name": "lumeer-cookie-consent",
+          "domain": "lumeer.io"
+        }
+      })});
+    </script>
   </head>
   <body>
    <nav class="navbar navbar-default navbar-fixed-top">
@@ -36,30 +64,30 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-left"><img style="height: 48px; padding-top: 6px;" src="img/lumeer-small.png">&nbsp;&nbsp;</a>
-          <a class="navbar-brand" href="#">Lumeer</a>
+          <a href="#" class="navbar-left"><img style="height: 48px; padding-top: 6px;" src="img/lumeer-black-50.png">&nbsp;&nbsp;</a>
+          <a class="navbar-brand" href="http://www.lumeer.io/"><strong>LUMEER</strong></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
+          <form class="navbar-form navbar-right">
+            <a href="https://demo.lumeer.io/" class="btn btn-small btn-success" target="_blank"><i class="fa fa-plane" aria-hidden="true"></i> Free Trial</a>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="https://demo.lumeer.io/" target="_blank">Demo</a>
+              <a href="whitepaper.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Explore</a>
             </li>
             <li>
-              <a href="https://lumeer.blogspot.com/" target="_blank">Blog</a>
+              <a href="plans.html"><i class="fa fa-barcode" aria-hidden="true"></i> Plans</a>
             </li>
             <li>
-              <a href="https://lumeer.blogspot.com/2016/10/idea-behind-lumeer.html" target="_blank">About</a>
+              <a href="http://blog.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+            </li>
+            <li>
+              <a href="index_cz.html"><img src="img/blank.gif" class="flag flag-cz" alt="Czech Republic" /></a>
             </li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
-          </form>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -67,79 +95,76 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-        <div class="col-lg-2">
-          <img src="img/anim/lumeer-norm.gif" />
-        </div>
-        <div class="col-lg-10">
-        <h2>Your go-to guy for anything related to your data</h2>
-        <p>Lumeer changes the way we work
-          with our business data by leveraging state of the art technologies.</p>
+        <div class="col-md-12 text-center">
+          <img src="img/anim-new/lumeer-new.gif" />
+          <h1>Hello, I'm Lumeer!</h1>
+          <h3>I will help you with your daily data processing duties</h3>
         </div>
       </div>
       </div>
     </div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
-          <div class="bs-component">
-            <div class="well">
-              <h3>Attention Please: Lumeer seeks for your advice!</h3>
-              <p>
-              Lumeer aims to help you drive your daily tasks with the right answers right at hand.
-              Being still very young, Lumeer looks around for an advice<sup>*)</sup> on what to learn first to solve
-              your most critical problems.
-              Please use the button below when you want Lumeer to solve your particular business case...</p>
-              <p><a class="btn btn-primary btn-lg" href="contact.html" role="button">I want to give you advice &raquo;</a></p>
-              <p><small>*) See what <a href="https://lumeer.blogspot.cz/search/label/solution" target="_blank">problem
-              solution ideas</a> we currently work on.</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Data Treasure</h2>
-          <p>Lumeer can extract, record, and process your data. He allows you to manage your data easily and
-          provides the right answers to your questions. He is sort of a Google on your own data. Through various
-          active views and editors of the data, you can always find the best way to manipulate the information.
-          It is also possible to put data into any realtions, track audit log and all changes made in the past.</p>
-          <p><a class="btn btn-default" href="https://lumeer.blogspot.cz/2016/10/idea-behind-lumeer.html" target="_blank" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Crunching</h2>
-          <p>Lumeer understands your data. He can display them to you in most suitable way. He even allows you
-          to edit your query results and data matrices. Lumeer thinks about the value of your data while you
-          are asleep and searches them for hidden values to provide you a fresh morning executive summary.
-          Lumeer gives you suggestions and advices on how to best organize the data so they can be used
-          efficiently.</p>
-          <p><a class="btn btn-default" href="https://lumeer.blogspot.cz/2016/10/idea-behind-lumeer.html" target="_blank" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Business Intelligence</h2>
-          <p>Lumeer tries to point out the most unusual aspects of your data in charts and reports through which
-          you can (in most cases) directly manipulate the data. You can even start entering your data in a form of a report. Lumeer can accept emails and extract data
-          from their content like you would do. Lumeer can also drive business process based on your data.
-          Data mining and machine learning are just his top notch tools.</p>
-          <p><a class="btn btn-default" href="https://lumeer.blogspot.cz/2016/10/idea-behind-lumeer.html" target="_blank" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr/>
-
-      <div class="row">
-        <h2>News</h2>
-        <div class="col-md-6">
-          <h3>Solution: Data structure and searching</h3>
-          <p>
-            In traditional information systems, when searching for some document, you need to be very specific about where and how to look for it. We believe that this is terribly wrong. When you use Google to search for a term you can specify which site to search but I guess you rarely do so. Instead you simply search on the Internet. And this is exactly what Lumeer does. He simply searches in your data...
+        <div class="col-md-8 col-md-offset-2">
+            <h2 id="subscribe" class="text-center">What is Lumeer?</h2>
+            <p>
+              Lumeer can help you in situations where
+              <ul>
+                <li>you look for another specialized application to hanlde your daily routines,</li>
+                <li>you have a bunch of records that you need to process,</li>
+                <li>you are about to create yet another Excel or Google Sheets document.</li>
+              </ul>
             </p>
-            <p><a class="btn btn-primary" href="https://lumeer.blogspot.cz/2016/12/solution-data-structure-and-searching.html" target="_blank" role="button">Continue Reading &raquo;</a></p>
+            <p>
+              How many hours do you spend weekly dealing with some data records, putting information
+              in the right fields or cells, copying and moving values, creating reports?
+              Don't you feel like this is the same task all again and again? We noticed recurring patterns
+              when working with business data or records even accros various industry fields. We believe we can
+              make your job much easier and save you precious time that you can possibly spend with your family.
+            </p>
+            <blockquote>
+              <p>Lumeer is like a friend who can help you with your tasks so your kids can enjoy you more.</p>
+            </blockquote>
+            <p>
+              We simply allow you to input your data in the form you want to see them, make sure we understand their meaning,
+              allow you to specify your own processes that need to be followed, and in the end we offer you wide variety of views of the same data.
+              These views can be directly used to input your data and serve as reports as well.
+            </p>
+            <p class="text-center">
+              Want to know more? Hit <i class="fa fa-hand-o-down" aria-hidden="true"></i> and subscribe below!
+            </p>
+            <p class="text-center">
+              <a href="whitepaper.html" class="btn btn-primary btn-lg"><i class="fa fa-map-signs" aria-hidden="true"></i> Explore</a>
+            </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="page-header text-center">
+            <h2 id="subscribe">Subscribe to Lumeer Early Access Program</h2>
+            <p>
+              We can put you in our priority list of Early Access users and inform you about our
+              progress in releasing Lumeer to public. Just leave us your email below. Many thanks!
+            </p>
+          </div>
+          <div id="mc_embed_signup">
+            <form class="form-horizontal" action="http://lumeer.us15.list-manage.com/subscribe/post?u=d5932dbbaf63e807320264b4c&amp;id=6182bacbd6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <fieldset>
+                <div class="form-group">
+                  <label for="mce-EMAIL" class="col-lg-2 control-label">Your e-mail</label>
+                  <div class="col-lg-8">
+                    <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="email address" required>
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d5932dbbaf63e807320264b4c_6182bacbd6" tabindex="-1" value=""></div>
+                  </div>
+                  <div class="col-lg-2">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
         </div>
       </div>
 
@@ -154,12 +179,30 @@
               <li><i class="fa fa-rss"> <a href="http://lumeer.blogspot.com/feeds/posts/default">Atom</a></i></li>
               <li><i class="fa fa-twitter"> <a href="https://twitter.com/lumeerio">Twitter</a></i></li>
               <li><i class="fa fa-github"> <a href="https://github.com/Lumeer/">GitHub</a></i></li>
-              <li><i class="fa fa-info"> <a href="not-available.html">API</a></i></li>
               <li><i class="fa fa-ambulance"> <a href="contact.html">Support</a></i></li>
             </ul>
-            <p>Made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>.</p>
-            <p>Code released under the <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE">Apache 2.0 License</a>.</p>
-            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Copyrights</h3>
+            <p>&copy; Lumeer. All rights reserved.</p>
+            <p>Code released under <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE">Apache 2.0 License</a>.</p>
+            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>.<br/>
+              Design by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>.<br/>
+              Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>.<br/>
+              Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Legal</h3>
+            <p>
+              <a href="terms_service.html">Terms of Service</a><br/>
+              <a href="privacy.html">Privacy Statement</a><br/>
+              <a href="terms_use.html">Terms of Use</a><br/>
+              <a href="use_policy.html">Acceptable Use Policy</a><br/>
+              <a href="shield.html">Privacy Shield</a><br/>
+              <a href="sla.html">Service Level Agreement</a><br/>
+            </p>
           </div>
         </div>
       </footer>
