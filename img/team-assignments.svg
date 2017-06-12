@@ -19,6 +19,94 @@
   <defs
      id="defs2">
     <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker15467"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path15465"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker14264"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path14262" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker12408"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path12406"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker10520"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path10518" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9920"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path9918"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9798"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path9796" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
        refY="0.0"
@@ -81,11 +169,12 @@
        refX="0.0"
        id="Arrow1Lstart"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path7401"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#2c3e50;stroke-width:1pt;stroke-opacity:1;fill:#2c3e50;fill-opacity:1"
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
          transform="scale(0.8) translate(12.5,0)" />
     </marker>
     <marker
@@ -146,19 +235,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="117.30046"
-     inkscape:cy="936.34397"
+     inkscape:cx="302.24329"
+     inkscape:cy="852.23715"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1030"
      inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:snap-grids="true"
+     inkscape:snap-grids="false"
      inkscape:snap-others="false"
-     inkscape:snap-nodes="true"
+     inkscape:snap-nodes="false"
      inkscape:snap-bbox="false"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:bbox-nodes="false"
@@ -184,7 +273,8 @@
   <g
      inkscape:label="Vrstva 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#d6dee8;fill-opacity:1;stroke:none;stroke-width:0.46499994;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect9755"
@@ -223,7 +313,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Lato;-inkscape-font-specification:Lato;fill:#2c3e50;fill-opacity:1;stroke-width:0.26458332px">Tým</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="60.484501"
        y="45.407475"
        id="text4523"
@@ -234,7 +324,7 @@
          id="tspan4521"
          x="60.484501"
          y="45.407475"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.26458332px;fill:#2c3e50;fill-opacity:1;">A</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:#2c3e50;fill-opacity:1;stroke-width:0.26458332px">A</tspan></text>
     <rect
        ry="0.20466386"
        y="49.685093"
@@ -250,12 +340,12 @@
        id="text4529"
        y="67.369606"
        x="60.484501"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="/home/mvecera/agregace.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.26458332px;fill:#2c3e50;fill-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:#2c3e50;fill-opacity:1;stroke-width:0.26458332px"
          y="67.369606"
          x="60.484501"
          id="tspan4527"
@@ -273,7 +363,7 @@
        inkscape:export-ydpi="300" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#2c3e50;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="60.484501"
        y="86.179543"
        id="text4535"
@@ -284,7 +374,7 @@
          id="tspan4533"
          x="60.484501"
          y="86.179543"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;stroke-width:0.26458332px;fill:#2c3e50;fill-opacity:1;">C</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Lato;-inkscape-font-specification:Lato;fill:#2c3e50;fill-opacity:1;stroke-width:0.26458332px">C</tspan></text>
     <rect
        ry="0.025006812"
        y="33.554123"
@@ -1680,5 +1770,276 @@
          x="102.84141"
          id="tspan9749"
          sodipodi:role="line">72/50</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Vrstva 2">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#Arrow1Lstart)"
+       d="M 72.38244,34.495536 81.453867,13.517857"
+       id="path9770"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="72.949409"
+       y="12.383928"
+       id="text9786"><tspan
+         sodipodi:role="line"
+         id="tspan9784"
+         x="72.949409"
+         y="12.383928"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px">volná kapacita týmu</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker9798)"
+       d="M 125.67708,20.13244 134.37053,9.5491066"
+       id="path9788"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text9904"
+       y="-5.3809528"
+       x="116.22766"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="-5.3809528"
+         x="116.22766"
+         id="tspan9902"
+         sodipodi:role="line">možnost posouvat se v čase</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="1.2336303"
+         x="116.22766"
+         sodipodi:role="line"
+         id="tspan9906">a přepínat délku zobrazeného úseku</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="7.8482132"
+         x="116.22766"
+         sodipodi:role="line"
+         id="tspan9908">(den/týden/měsíc/rok)</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path9916"
+       d="M 12.284223,45.456845 -1.7008987,65.489582"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker9920)"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker10520)"
+       d="M 12.851187,84.388393 -1.8898868,65.678571"
+       id="path10516"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       id="text12366"
+       y="21.833334"
+       x="-41.955353"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="21.833334"
+         x="-41.955353"
+         id="tspan12364"
+         sodipodi:role="line">tatáž osoba pracuje</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="28.447916"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12368">ve dvou týmech,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="35.062504"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12370">v každém částí svého</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="41.677082"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12372">úvazku; dohromady</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="48.291668"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12374">skládají dostupnou </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="54.906254"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12376">kapacitu týmu;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="61.520832"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12378">člověka je možné myší </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="68.135414"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12380">přetahnout k jinému</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="74.75"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12382">týmu, nebo mu změnit</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="81.364578"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12384">velikost alokace </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="87.979164"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12386">přetažením vodorovné</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="94.59375"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12388">čáry mezi osobami;</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="101.20833"
+         x="-41.955353"
+         sodipodi:role="line"
+         id="tspan12390">to stejné platí u výkonů</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path12404"
+       d="m 112.63691,102.34226 7.55951,-5.480657"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker12408)"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="122.08631"
+       y="48.291668"
+       id="text14140"><tspan
+         id="tspan14138"
+         sodipodi:role="line"
+         x="122.08631"
+         y="48.291668"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px">tým B má v týdnu 20 </tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="54.90625"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14232">překročenou kapacitu;</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="61.520836"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14234">je možné zobrazit libovolné</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="68.135414"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14236">úseky (den/týden...);</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="74.75"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14238">je možné zobrazit libovolný</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="81.364586"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14240">počet týdnů a posouvat</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="87.979164"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14242">se doleva doprava, nebo je</tspan><tspan
+         sodipodi:role="line"
+         x="122.08631"
+         y="94.59375"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan14248">zalomit na více řádků</tspan></text>
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker14264)"
+       d="M 56.507446,88.546129 50.081837,115.19345"
+       id="path14260"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text15410"
+       y="118.78423"
+       x="1.5119057"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan15408"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="118.78423"
+         x="1.5119057"
+         sodipodi:role="line">kliknutím na tuto hranu si přepnu </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="125.39881"
+         x="1.5119057"
+         sodipodi:role="line"
+         id="tspan15451">spodní zobrazení na tabulku</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="132.0134"
+         x="1.5119057"
+         sodipodi:role="line"
+         id="tspan15447">s osobami a zobrazením celkového </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="138.62798"
+         x="1.5119057"
+         sodipodi:role="line"
+         id="tspan15453">úvazku osoby a kolik jejího</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="145.24257"
+         x="1.5119057"
+         sodipodi:role="line"
+         id="tspan15449">času je v daném týdnu (měsící/roce) </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         y="151.85715"
+         x="1.5119057"
+         sodipodi:role="line"
+         id="tspan15455">alokování na práci v týmech</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path15463"
+       d="M 63.311017,88.735117 92.037194,114.4375"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker15467)"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:6.61458302px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="75.595238"
+       y="118.78423"
+       id="text16243"><tspan
+         id="tspan16241"
+         sodipodi:role="line"
+         x="75.595238"
+         y="118.78423"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px">kliknutím na sloupec s týmy se</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="125.39882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16265">přepnu na kontingenční (pivot)</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="132.0134"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16267">tabulku, která mi zobrazí alokaci</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="138.62798"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16269">osob na jednotlivé výkony</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="145.24257"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16271">(např. Ervín Drahoš pracuje v týmu</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="151.85715"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16273">A i C na Výkonu I a uvidím kolik celkově</tspan><tspan
+         sodipodi:role="line"
+         x="75.595238"
+         y="158.47173"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1px;font-family:Lato;-inkscape-font-specification:Lato;fill:#ff0000;fill-opacity:1;stroke-width:0.26458332px"
+         id="tspan16275">věnuje svého času na Výkon I)</tspan></text>
   </g>
 </svg>
