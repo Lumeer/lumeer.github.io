@@ -13,6 +13,7 @@
     <link href="css/flags.min.css" rel="stylesheet"/>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
           integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
+    <link href="css/titatoggle-dist.css" rel="stylesheet"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -96,26 +97,42 @@
       <div class="row">
         <div class="col-md-12">
           <div class="page-header">
+            <div class="pull-right">
+              <div class="checkbox checkbox-slider--b-flat">
+                <label>
+      	          <input id="price-toggle" type="checkbox" checked="true"><span id="billed-label">Billed Annually</span>
+                </label>
+                <script>
+                  $(function() {
+                    $('#price-toggle').change(function() {
+                      if ($(this).prop('checked')) {
+                        $('#price-basic').html('$19 user/month');
+                        $('#price-business').html('$24 user/month');
+                        $('#price-pro').html('$99 user/month');
+
+                        var s = "Billed Annually"
+                        $('#billed-basic').html(s);
+                        $('#billed-business').html(s);
+                        $('#billed-pro').html(s);
+                        $('#billed-label').html(s);
+                      } else {
+                        $('#price-basic').html('$23 user/month');
+                        $('#price-business').html('$29 user/month');
+                        $('#price-pro').html('$119 user/month');
+
+                        var s = "Billed Monthly";
+                        $('#billed-basic').html(s);
+                        $('#billed-business').html(s);
+                        $('#billed-pro').html(s);
+                        $('#billed-label').html(s);
+                      }
+                    })
+                  })
+                </script>
+              </div>
+            </div>
             <h2><i class="fa fa-barcode" aria-hidden="true"></i> Plans</h2>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-            <h2>Open Business</h2>
-            <p>
-              Not only we are open-source but we are supporters of
-              <a href="https://en.wikipedia.org/wiki/Open_business" target="_top">Open Business</a>
-              in general. This is why we decided to share early ideas on our pricing with you.
-            </p>
-            <p>
-              Should you have any ideas on what the plan prices should be, <a href="contact.html">send us a message please</a>.
-            </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-            <h2>Pricing</h2>
         </div>
       </div>
       <div class="row">
@@ -123,19 +140,21 @@
           <div class="panel panel-default">
             <div class="panel-heading"><h4>All Inclusive</h4></div>
             <div class="panel-body">
+              <h4>Want to give it a try?</h4>
+              <ul>
+                <li>All features included</li>
+                <li>Regular updates and new features</li>
+                <li>E-mail best effort support</li>
+                <li>Data backup</li>
+                <li>Shared resources (1 vCPU, 2GB RAM)</li>
+                <li>Limited data (10GB sotrage, 100GB data transfer/month)</li>
+              </ul>
               <p>
                 All our plans include all the features available for you to immediately know
-                what Lumeer can do for you. Features, once developed, does not introduce any
-                additional operation costs. This plan just limits the number of vCPU, memory,
-                drive space, and network resources.
+                what Lumeer can do for you. This plan is for those who want to give Lumeer a try.
               </p>
-              <p>
-                Still, we want to support students, individuals, non-profits and startups by this plan.
-                So that you can start with Lumeer for real cheap. In this plan, we do not guarantee
-                any support. Although, you can always send us an email because we are curious hearing
-                how to improve our service.
-              </p>
-              <h2 class="text-center"><span class="label label-default">$ ?</span></h2>
+              <h2 class="text-center"><span id="price-basic" class="label label-default">$19 user/month</span></h2>
+              <p id="billed-basic" class="text-center small">Billed Annually</p>
             </div>
           </div>
         </div>
@@ -143,18 +162,21 @@
           <div class="panel panel-primary">
             <div class="panel-heading"><h4>Business</h4></div>
             <div class="panel-body">
+              <h4>Are you serious about your data?</h4>
+              <ul>
+                <li>All features included</li>
+                <li>Regular updates and new features</li>
+                <li>Next business day e-mail support</li>
+                <li>Data backup and next business day recovery</li>
+                <li>More resources (2 vCPU, 4GB RAM)</li>
+                <li>Limited data (50GB sotrage, 500GB data transfer/month)</li>
+              </ul>
               <p>
                 A small or medium sized business who want to use Lumeer with full confidence,
                 reasonable recoures, and basic level of support will want to go with this plan.
               </p>
-              <p>
-                When Lumeer starts delivering real value to you and your business, we understand that
-                you need some more guarantees about performance, data integrity, security etc. For the price
-                of the program, we are able to cover more resources and provide email support to you.
-                We constantly develop new features and fix bugs and we believe you will appreciate this as you
-                can see Lumeer grow while using it.
-              </p>
-              <h2 class="text-center"><span class="label label-default">$ ??</span></h2>
+              <h2 class="text-center"><span id="price-business" class="label label-default">$24 user/month</span></h2>
+              <p id="billed-business" class="text-center small">Billed Annually</p>
             </div>
           </div>
         </div>
@@ -162,14 +184,21 @@
           <div class="panel panel-success">
             <div class="panel-heading"><h4>Professional</h4></div>
             <div class="panel-body">
+              <h4>Mission critical!</h4>
+              <ul>
+                <li>All features included</li>
+                <li>Regular updates and new features</li>
+                <li>E-mail and phone support 16/5</li>
+                <li>Redundant data backup and next business day recovery</li>
+                <li>Dedicated resources (2 vCPU, 4GB RAM)</li>
+                <li>Unlimited data</li>
+              </ul>
               <p>
                 This plan offers the best value we can provide for your business. Top notch performance,
                 redundant data back-ups, phone support.
               </p>
-              <p>
-                Simply, when you need something more, when you want to walk an extra mile.
-              </p>
-              <h2 class="text-center"><span class="label label-default">$ ??</span></h2>
+              <h2 class="text-center"><span id="price-pro" class="label label-default">$99 user/month</span></h2>
+              <p id="billed-pro" class="text-center small">Billed Annually</p>
             </div>
           </div>
         </div>
