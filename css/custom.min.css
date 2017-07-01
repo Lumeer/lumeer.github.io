@@ -2,6 +2,7 @@ body{padding-top:50px}body>.navbar{-webkit-transition:background-color .3s ease-
 .cc-btn{border-radius:5px 5px 5px 5px;}
 
 .big {
+  padding-top: 0.7em;
   font-size: 120%;
 }
 
