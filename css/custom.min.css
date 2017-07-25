@@ -50,3 +50,19 @@ blockquote {
 .spacer-5 {
   height: 5em;
 }
+
+.rollout {
+  color: #2c3e50;
+  text-decoration: none;
+  border: dotted 1px #28bb9c;
+}
+
+.rollout:hover {
+  color: #2c3e50;
+  text-decoration: none;
+  border: solid 1px #28bb9c;
+}
+
+.rollout:active {
+  color: #28bb9c;
+}
