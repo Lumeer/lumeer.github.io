@@ -67,3 +67,42 @@ blockquote {
   /* Standard */
   transition: all 400ms ease;
 }
+
+a, .btn {
+  /* Firefox */
+  -moz-transition: all 250ms ease;
+  /* WebKit */
+  -webkit-transition: all 250ms ease;
+  /* Opera */
+  -o-transition: all 250ms ease;
+  /* Standard */
+  transition: all 250ms ease;
+}
+
+.container-fluid a:not(.btn):hover , footer a:hover, .row a:not(.btn):hover {
+  color: rgb(62, 226, 194) ! important;
+  text-decoration: none ! important;
+}
+
+.btn.btn-primary:hover {
+  border-color: #4c6a8a;
+  background-color: #4c6a8a;
+}
+
+.btn.btn-default:hover {
+  border-color: #b7cbcc;
+  background-color: #b7cbcc;
+}
+
+.btn-success:hover {
+  border-color: rgb(62, 226, 194) ! important;
+  background-color: rgb(62, 226, 194) ! important;
+  /* Firefox */
+  -moz-transition: all 250ms ease;
+  /* WebKit */
+  -webkit-transition: all 250ms ease;
+  /* Opera */
+  -o-transition: all 250ms ease;
+  /* Standard */
+  transition: all 250ms ease;
+}
