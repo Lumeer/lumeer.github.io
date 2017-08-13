@@ -57,12 +57,13 @@ blockquote {
   border: dotted 1px #28bb9c;
 }
 
-.rollout:hover {
-  color: #2c3e50;
-  text-decoration: none;
-  border: solid 1px #28bb9c;
-}
-
-.rollout:active {
-  color: #28bb9c;
+.lumeer-slow {
+  /* Firefox */
+  -moz-transition: all 400ms ease;
+  /* WebKit */
+  -webkit-transition: all 400ms ease;
+  /* Opera */
+  -o-transition: all 400ms ease;
+  /* Standard */
+  transition: all 400ms ease;
 }
