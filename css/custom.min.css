@@ -68,7 +68,7 @@ blockquote {
   transition: all 400ms ease;
 }
 
-a, .btn {
+a, .btn, img.flag {
   /* Firefox */
   -moz-transition: all 250ms ease;
   /* WebKit */
@@ -77,6 +77,17 @@ a, .btn {
   -o-transition: all 250ms ease;
   /* Standard */
   transition: all 250ms ease;
+}
+
+img.flag {
+  opacity: 1;
+}
+
+a.lumeer-pop:hover img.flag {
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .container-fluid a:not(.btn):hover , footer a:hover, .row a:not(.btn):hover {
