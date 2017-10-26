@@ -11,6 +11,11 @@ body{padding-top:50px}body>.navbar{-webkit-transition:background-color .3s ease-
   color: #fff;
 }
 
+.lumeer-green-bg a {
+  color: white;
+  font-weight: bolder;
+}
+
 blockquote {
   font-style: italic;
   font-size: 150%;
@@ -116,4 +121,13 @@ a.lumeer-pop:hover img.flag {
   -o-transition: all 250ms ease;
   /* Standard */
   transition: all 250ms ease;
+}
+
+.full-page {
+  height: 90vh;
+  min-height: 45em;
+}
+
+.text-large {
+  font-size: 125%;
 }
