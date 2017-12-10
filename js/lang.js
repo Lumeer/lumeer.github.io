@@ -1,7 +1,5 @@
 function selectLanguage(languageSelect, otherPage, translated) {
   var browserLanguage = window.navigator.userLanguage || window.navigator.language;
-  //var languageSelect = 'cz'; //document.getElementById('LanguageSelect');
-  //var otherPage = 'en';
   var selectedLanguage = readCookie('language');
 
   if (browserLanguage != null) {
@@ -14,24 +12,19 @@ function selectLanguage(languageSelect, otherPage, translated) {
     if (browserLanguage != null && browserLanguage != languageSelect) {
       window.location.replace(translated + '.html');
     }
-  } else { // use has decided, are we on the right page?
+  } else { // user has decided, are we on the right page?
     if (selectedLanguage != languageSelect) {
       window.location.replace(translated + '.html');
     }
   }
 
-  console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
-
-  if ((selectedLanguage == 'en') || (selectedLanguage == 'cz')) {
-    // $(".language select").val(selectedLanguage);
-  }
+  //console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
 }
 
 function onLanguageChange(value) {
   setCookie('language', value, 365);
+  return true; // to make sure links with onclick using this method work
 }
-
-//$(".language select").bind('change', onLanguageChange('en'));
 
 function saveLanguage(cookieValue) {
   setCookie('language', cookieValue, 365);

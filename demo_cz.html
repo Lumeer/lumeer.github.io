@@ -29,6 +29,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
+    <!-- Language switch -->
+    <script src="js/lang.js"></script>
+    <script>
+    $(function() {
+      selectLanguage('cz', 'en', 'demo');
+    });
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -71,7 +78,7 @@
               <a href="contact_cz.html"><i class="fa fa-phone" aria-hidden="true"></i> Kontakt</a>
             </li>
             <li>
-              <a href="demo.html" class="lumeer-pop"><img src="img/blank.gif" class="flag flag-us" alt="Czech Republic" /></a>
+              <a href="demo.html" onclick="onLanguageChange('en');" class="lumeer-pop"><img src="img/blank.gif" class="flag flag-us" alt="Czech Republic" /></a>
             </li>
           </ul>
         </div><!--/.navbar-collapse -->
