@@ -1,4 +1,4 @@
-function selectLanguage(languageSelect, otherPage, translated) {
+function selectLanguage(languageSelect, otherLang, translated) {
   var browserLanguage = window.navigator.userLanguage || window.navigator.language;
   var selectedLanguage = readCookie('language');
 
@@ -9,16 +9,16 @@ function selectLanguage(languageSelect, otherPage, translated) {
   // only when the user did not switch the lang themselve
   // in this case we need to decide according to browser settings
   if (selectedLanguage == null) {
-    if (browserLanguage != null && browserLanguage != languageSelect) {
+    if (browserLanguage != null && browserLanguage != languageSelect && browserLanguage == otherLang) {
       window.location.replace(translated + '.html');
     }
   } else { // user has decided, are we on the right page?
-    if (selectedLanguage != languageSelect) {
+    if (selectedLanguage != languageSelect && selectedLanguage == otherLang) {
       window.location.replace(translated + '.html');
     }
   }
 
-  //console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
+  console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
 }
 
 function onLanguageChange(value) {
