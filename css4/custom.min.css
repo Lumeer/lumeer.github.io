@@ -153,3 +153,7 @@ a.lumeer-pop:hover img, img.lumeer-pop:hover {
 .text-large {
   font-size: 125%;
 }
+
+.text-xl {
+  font-size: 150%;
+}
