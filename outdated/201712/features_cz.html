@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Lumeer: Modern Data Definition and Processing Platform</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/custom.min.css" rel="stylesheet"/>
+    <link href="css/flags.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
+
+    <link rel="alternate" hreflang="en" href="features.html" />
+    <link rel="alternate" hreflang="cs" href="features_cz.html" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+    <!-- Language switch -->
+    <script src="js/lang.js"></script>
+    <script>
+    $(function() {
+      selectLanguage('cs', 'en', 'features');
+    });
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBXWDKQ');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBXWDKQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Přepnout nabídku</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-left"><img style="height: 48px; padding-top: 6px;" src="img/lumeer-black-50.png">&nbsp;&nbsp;</a>
+          <a class="navbar-brand" href="http://www.lumeer.io/index_cz.html"><strong>LUMEER</strong></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <a href="demo_cz.html" class="btn btn-small btn-success" target="_blank"><i class="fa fa-plane" aria-hidden="true"></i> Ukázka zdarma</a>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="features_cz.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Vlastnosti</a>
+            </li>
+            <li>
+              <a href="cena.html"><i class="fa fa-barcode" aria-hidden="true"></i> Cena</a>
+            </li>
+            <li>
+              <a href="http://blogcz.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
+            </li>
+            <li>
+              <a href="contact_cz.html"><i class="fa fa-phone" aria-hidden="true"></i> Kontakt</a>
+            </li>
+            <li>
+              <a href="features.html" onclick="onLanguageChange('en');" class="lumeer-pop"><img src="img/blank.gif" class="flag flag-us" alt="English" /></a>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="container-fluid lumeer-grey-bg">
+      <div class="spacer-2"></div>
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+          <div class="page-header">
+            <h2><i class="fa fa-map-signs" aria-hidden="true"></i> Prozkoumat funkcionalitu</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+            <p>
+              <i class="fa fa-ship"></i> Lumeer je momentálně v&nbsp;<strong>aktivním vývoji</strong>
+              s&nbsp;plánem na uvolnění veřejně
+              dostupné verze ke konci roku <strong>2017</strong>.
+            </p>
+            <p>
+              <i class="fa fa-pencil-square-o"></i> <a href="index.html#subscribe">Přihlaste se na náš seznam</a> uživatelů,
+              kteří dostanou možnost vyzkoušet Lumeera mezi prvními. Budeme vás informovat o&nbsp;novinkách
+              a&nbsp;můžete také poskytnout náměty na nové funkce a&nbsp;vylepšení.
+            </p>
+            <p>
+              <i class="fa fa-volume-up"></i> Pokud máte nějaké přání, co by pro vás mohl Lumeer
+              udělat, nebo nám jednoduše chcete něco říct,
+              <a href="contact.html">napiště nám</a>!
+            </p>
+        </div>
+      </div>
+      <div class="spacer-2"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            <a href="demo_cz.html" class="btn btn-primary btn-lg"><i class="fa fa-map-signs" aria-hidden="true"></i> Vyzkoušet zdarma</a>
+            <a href="assets/whitepaper.pdf"  onclick="ga('send', 'event', 'Downloads', 'White paper', 'CZ', '0');" class="btn btn-primary btn-lg"><i class="fa fa-map-signs" aria-hidden="true"></i> Stáhnout produktovou brožuru</a>
+          </p>
+        </div>
+      </div>
+      <div class="spacer-3"></div>
+    </div>
+    <div class="container">
+      <div class="spacer-2"></div>
+      <div class="row">
+        <div class="col-md-12">
+            <h2>Funkcionalita</h2>
+            <p>Rádi bychom vám ve stručnosti představili některé ze základních funkcionalit Lumeera.
+              Uvedené seznamy nejsou vyčerpávající a&nbsp;pokud
+              se domníváte, že zrovna funkce, kterou potřebujete, zde chybí,
+              <a href="contact.html">neváhejte si o&nbsp;ni říct</a>!</p>
+            <p>Po kliknutí na malé otazníčky se zobrazí více podrobností o&nbsp;dané funkci.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Pohledy</h3>
+          <p>Pohledy vám nabízí interaktivní zobrazení dat různou optikou podle vaší aktuální potřeby.
+            Lumeer nabízí širokou paletu možností a&nbsp;stále přidáváme další.</p>
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse001" aria-expanded="false" aria-controls="collapse001" onclick="$(this).prev().toggleClass('fa-rotate-90');">Výsledky hledání</a>
+              <div class="collapse" id="collapse001">
+                <div class="well">
+                  Můžete vyhledat libovolné údaje v&nbsp;univerzálním vyhledávacím poli jako v&nbsp;běžném
+                  internetovém vyhledávači. Nalezené záznamy se zobrazí v&nbsp;záložkách podle typu
+                  - Vše, Dokumenty, Vazby, Pohledy - na základě vašeho dotazu.
+                  Navíc vám Lumeer vždy poradí se zadáváním vašeho dotazu.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse002" aria-expanded="false" aria-controls="collapse002">Chytrá tabulka</a>
+              <div class="collapse" id="collapse002">
+                <div class="well">
+                  Podobně jako spreadsheet s&nbsp;možností určit význam jednotlivých sloupců a&nbsp;buňek, nastavit
+                  omezení hodnot, propojit záznamy z&nbsp;více kolekcí, zobrazit podtabulky se souvisejícími
+                  záznamy, přidat záhlaví a&nbsp;zápatí s&nbsp;agregačními funkcemi (suma, průměr apod.), přidat
+                  vypočítané sloupce, určit podmíněné formátování řádků a&nbsp;sloupců a&nbsp;mnohem více.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse003" aria-expanded="false" aria-controls="collapse003" onclick="$(this).prev().toggleClass('fa-rotate-90');">Detail </a>
+              <div class="collapse" id="collapse003">
+                <div class="well">
+                  Zobrazí veškeré detaily o&nbsp;příslušném záznamu včetně přístupových práv, historii úprav,
+                  navázaných dokumentů, omezení hodnot a&nbsp;jejich formátu atd.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse004" aria-expanded="false" aria-controls="collapse004" onclick="$(this).prev().toggleClass('fa-rotate-90');">Půzkumník vazeb</a>
+              <div class="collapse" id="collapse004">
+                <div class="well">
+                  Umožňuje vám procházet provázané dokumenty jako kdybyste procházeli soubory v&nbsp;průzkumníku.
+                  Navíc můžete snadno vyhledávat související záznamy a&nbsp;vytvářet nové vazby ať už po jedné
+                  nebo hromadně ve velkých skupinách.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse005" aria-expanded="false" aria-controls="collapse005" onclick="$(this).prev().toggleClass('fa-rotate-90');">Kontingenční (pivot) tabulka</a>
+              <div class="collapse" id="collapse005">
+                <div class="well">
+                  Často je potřeba dát dva různé typy údajů do souvislostí. Jednoduše vypozorovat vztah
+                  mezi různými hodnotami nebo ukazateli. To nejlépe uděláme pomocí kontingenční tabulky
+                  (někdy též nazývané pivot table). Můžete definovat agregační funkce a&nbsp;upravovat zdrojové
+                  údaje přímo v&nbsp;tabulce.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse006" aria-expanded="false" aria-controls="collapse006" onclick="$(this).prev().toggleClass('fa-rotate-90');">Kalendář</a>
+              <div class="collapse" id="collapse006">
+                <div class="well">
+                  Mají vaše údaje časový rozměr? Objekty reálného světa mají nejen své umístění, ale
+                  i&nbsp;existenci v&nbsp;čase. Pokud to je váš případ, můžete vaše záznamy přirozeně zobrazit
+                  v&nbsp;kalendáři s&nbsp;možností jejich úpravy pohým přetahováním myši. Zobrazte více různých
+                  typů záznamů v&nbsp;jednou kalendáři, abyste tyto typy daly do souvislosti.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse007" aria-expanded="false" aria-controls="collapse007" onclick="$(this).prev().toggleClass('fa-rotate-90');">Mapa</a>
+              <div class="collapse" id="collapse007">
+                <div class="well">
+                  Různé záznamy mívají stalé časteji určenou polohu v&nbsp;prostoru pomocí GPS souřadnic nebo
+                  i&nbsp;jiným způsobem. Můžete toho využít a&nbsp;zobrazit je snadno v&nbsp;mapě světa, nebo na vašem
+                  vlastním plánu budovy. Přidejte několik různých typů záznamů a&nbsp;nastavte vizuální atributy
+                  pro získaní lepšího přehledu. Přetahujte objekty myší a&nbsp;upravujte tak přímo jejich polohu.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse008" aria-expanded="false" aria-controls="collapse008" onclick="$(this).prev().toggleClass('fa-rotate-90');">Ganttův diagram</a>
+              <div class="collapse" id="collapse008">
+                <div class="well">
+                  Použijte informace o&nbsp;využití a&nbsp;dostupnosti zdrojů a&nbsp;zobrazte je v&nbsp;Ganttově
+                  diagramu. Přetahujte záznamy myší abyste je přímo upravovali.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse009" aria-expanded="false" aria-controls="collapse009" onclick="$(this).prev().toggleClass('fa-rotate-90');">Wiki</a>
+              <div class="collapse" id="collapse009">
+                <div class="well">
+                  Občas údaje potřebují vysvětlit. A&nbsp;nebo jen chcete obohatit váš příběh o&nbsp;fakta.
+                  Ať tak či onak, můžete vytvořit dokument ve formátu podobném Wikipedii a&nbsp;promíchat odstavce
+                  s&nbsp;výpisy údajů. Tento styl je ideální pro vytváření formálních dokumentů jako
+                  projektových plánů atd.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse010" aria-expanded="false" aria-controls="collapse010" onclick="$(this).prev().toggleClass('fa-rotate-90');">Agilní nástěnka</a>
+              <div class="collapse" id="collapse010">
+                <div class="well">
+                  Chcete roztřídit vaše záznamy do sloupců podle hodnoty nějakého z&nbsp;atributů? Přesně na
+                  tento účel slouží Agilní nástěnka. Přidejte více atributů a&nbsp;vytvořte oddělené
+                  řádky (plavecké dráhy, swim lanes). Přidejte časovou dimenzi a&nbsp;sledujte vývoj nástěnky
+                  v&nbsp;čase. Přetahujte záznamy v&nbsp;nástěnce, abyste je přímo upravovali.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse011" aria-expanded="false" aria-controls="collapse011" onclick="$(this).prev().toggleClass('fa-rotate-90');">Grafy</a>
+              <div class="collapse" id="collapse011">
+                <div class="well">
+                  Obrázek vydá za tisíc slov. Vyneste vaše údaje do čárového, sloupcového, bodového nebo
+                  koláčového grafu. Použijte více rozměrů. Nastavte si vizuální atributy.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse012" aria-expanded="false" aria-controls="collapse012" onclick="$(this).prev().toggleClass('fa-rotate-90');">Myšlenková mapa a síť</a>
+              <div class="collapse" id="collapse012">
+                <div class="well">
+                  Pracujte s&nbsp;vašimi záznamy jako s&nbsp;útržky papíru na stole. Nakreslete si mezi nimi různé
+                  typy čar a&nbsp;šipek podle souvislostí. Zvětšujte a&nbsp;změnšujte si plochu, přepínejte se mezi
+                  různými typy a&nbsp;významy vazeb. Jedná se o&nbsp;jeden z&nbsp;nejsvobodnějších
+                  a&nbsp;nejsnadnějších způsobů manipulace se souvislostmi mezi záznamy.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse013" aria-expanded="false" aria-controls="collapse013" onclick="$(this).prev().toggleClass('fa-rotate-90');">Datový experimentátor</a>
+              <div class="collapse" id="collapse013">
+                <div class="well">
+                  Stane se, že potřebujete s&nbsp;vašimi údaji trochu experimentovat. Najít odpověď na coby kdyby,
+                  zjistit, co se stane, když změníte vstupní parametry. Vytvořte sérii navazujících výpočtů.
+                  Už nikdy neztraťte hodnoty v&nbsp;zapomenutých buňkách a&nbsp;dejte vašemu experimentu přirozený
+                  tok a&nbsp;pořádek.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Spolupráce</h3>
+          <p>S&nbsp;pomocí kolegů, známých a&nbsp;přátel jde vše mnohem snáz. Lumeer přímo podporuje různé možnosti
+            spolupráce ve svých funkcích.</p>
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse014" aria-expanded="false" aria-controls="collapse014" onclick="$(this).prev().toggleClass('fa-rotate-90');">Projekty a&nbsp;správa uživatelů</a>
+              <div class="collapse" id="collapse014">
+                <div class="well">
+                  V&nbsp;rámci vaší organizace si můžete vytvářet projekty, pozývat uživatele, nastavovat jim
+                  přístupová práva, nebo vytvářet experimentální projekty.
+                  Projekty od sebe mohou oddělovat jednotlivé logické celky. Naopak mezi projekty můžete sdílet data.
+                  Mezi projekty se můžete snadno přepínat a&nbsp;můžete pracovat s&nbsp;více projekty
+                  v&nbsp;různých záložkách vašeho prohlížeče.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse015" aria-expanded="false" aria-controls="collapse015" onclick="$(this).prev().toggleClass('fa-rotate-90');">Verzování dat a&nbsp;evidence historie úprav</a>
+              <div class="collapse" id="collapse015">
+                <div class="well">
+                  Vytvořte si obraz nebo verzi stavu vašich údajů v&nbsp;určitém časovém okamžiku.
+                  Sledujte kdo a&nbsp;kdy provedl jakou změnu.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse016" aria-expanded="false" aria-controls="collapse016" onclick="$(this).prev().toggleClass('fa-rotate-90');">Podrobné řízení přístupu</a>
+              <div class="collapse" id="collapse016">
+                <div class="well">
+                  Nastavte si tak podrobné úrovně přístupu, jak jen potřebujete. Můžete řídit oprávnění
+                  ke čtení, zápisu a&nbsp;změnám nastavení na jednotlivých zdrojích v&nbsp;systému.
+                  Můžete tento přístup nastavit pro jednotlivé uživatele, skupinu, kohokoliv, nebo
+                  část údajů zpřístupnit veřejně.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse017" aria-expanded="false" aria-controls="collapse017" onclick="$(this).prev().toggleClass('fa-rotate-90');">Komentáře a&nbsp;diskuze ke každému záznamu</a>
+              <div class="collapse" id="collapse017">
+                <div class="well">
+                  Diskutujte o&nbsp;jednotlivých kolekcích nebo záznamech v&nbsp;nich přímo v&nbsp;Lumeerovi.
+                  Namísto posílání emailů s&nbsp;popisem, jak daný záznam otevřít, jednoduše zahájíte konverzaci.
+                  Nakonec si můžete nechat konverzaci zaslat na email.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse018" aria-expanded="false" aria-controls="collapse018" onclick="$(this).prev().toggleClass('fa-rotate-90');">Sdílení pohledů</a>
+              <div class="collapse" id="collapse018">
+                <div class="well">
+                  Spolupráce nám umožňuje vytvářet projekty, které bychom jako jednotlivci nikdy nebyli
+                  schopni realizovat. Sdílejte údaje a&nbsp;pohledy, ptejte se kolegů na jejich názory
+                  a&nbsp;doporučení k&nbsp;úpravám.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Firemní procesy</h3>
+          <p>Počítače jsou velmi dobré ve zpracování velkého množství informací a&nbsp;v&nbsp;automatizaci.
+            Lumeer toho využívá tak, že nabízí jednoduché a&nbsp;srozumitelné rozhraní k&nbsp;definici
+            a&nbsp;používání firemních procesů. Můžete začít pouhým vytvořením seznamu kroků, které je potřeba
+            vykonat k&nbsp;dokončení složité úlohy. Pak přidáte nějaké automatické kroky pro Lumeera a&nbsp;později
+            můžete proces sdílet se svými kolegy.</p>
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse019" aria-expanded="false" aria-controls="collapse019" onclick="$(this).prev().toggleClass('fa-rotate-90');">Spouštění procesů</a>
+              <div class="collapse" id="collapse019">
+                <div class="well">
+                  Lumeer vám může pomoci automatizovat vaši práci. Jen mu řekněte kdy a&nbsp;za jakých
+                  okolností spustit danou úlohu. Mělo by to být na základě nového záznamu nebo jeho
+                  úpravy? Nebo při přijetí emailu?
+                  Nebo se snad má úloha spouštět v&nbsp;pravidelných intervalech?
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse020" aria-expanded="false" aria-controls="collapse020" onclick="$(this).prev().toggleClass('fa-rotate-90');">Verzování procesů</a>
+              <div class="collapse" id="collapse020">
+                <div class="well">
+                  Když upravujete automatický proces, můžete určit, co se stane s&nbsp;již běžícími procesy
+                  v&nbsp;původní podobě. Mohou se dokončit podle předchozí verze, nebo mají být
+                  spuštěny znovu podle nové verze?
+                  Také se mohou starší verze úplně ukončit.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse021" aria-expanded="false" aria-controls="collapse021" onclick="$(this).prev().toggleClass('fa-rotate-90');">Datové události</a>
+              <div class="collapse" id="collapse021">
+                <div class="well">
+                  Lumeer umí sledovat změny v&nbsp;záznamech a&nbsp;na základě toho spustit proces
+                  nebo poslat upozornění.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse022" aria-expanded="false" aria-controls="collapse022" onclick="$(this).prev().toggleClass('fa-rotate-90');">E-mailové události</a>
+              <div class="collapse" id="collapse022">
+                <div class="well">
+                  Lumeera můžete naučit rozumět některým emailům a&nbsp;můžete ho pak posláním zprávy požádat
+                  o&nbsp;nějakou pomoc. Může vám i&nbsp;poslat odpověď nebo vás upozornit, když
+                  dokončil zadanou úlohu.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse023" aria-expanded="false" aria-controls="collapse023" onclick="$(this).prev().toggleClass('fa-rotate-90');">Obchodní pravidla</a>
+              <div class="collapse" id="collapse023">
+                <div class="well">
+                  Určete pravidla podle kterých se mohou určit některé hodnoty v&nbsp;záznamech. Tyto hodnoty pak
+                  může Lumeer automaticky nastavit.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse024" aria-expanded="false" aria-controls="collapse024" onclick="$(this).prev().toggleClass('fa-rotate-90');">Úlohy pro práci s&nbsp;daty</a>
+              <div class="collapse" id="collapse024">
+                <div class="well">
+                  Lumeer umí v&nbsp;běžícím procesu přečíst údaje ze systému, něco nad nimi spočítat nebo je změnit
+                  a&nbsp;výsledek opět uložit.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse025" aria-expanded="false" aria-controls="collapse025" onclick="$(this).prev().toggleClass('fa-rotate-90');">Úkoly pro lidi</a>
+              <div class="collapse" id="collapse025">
+                <div class="well">
+                  I&nbsp;v&nbsp;automatizovaném procesu může nastat chvíle, která si vyžaduje lidský zásah.
+                  Lumeer vás na to umí upozornit a&nbsp;přiřadit vám úkol k&nbsp;vyřešení
+                  včetně všech potřebných informací.
+                  Nebo si můžete sami pro sebe vytvořit seznamy kroků pro složitější úlohy či procesy.
+                  Takový seznam kroků pak můžete sdílet s&nbsp;kolegy. A&nbsp;kdo ví, třeba se bude těšit takové
+                  oblibě, že jste právě definovali nový firemní proces.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Údaje, informace, data, záznamy</h3>
+          <p>Je jedno, jak znalosti, se kterými pracujeme nazveme - údaje, informace, data, nebo záznamy.
+            Zvláštností je, že informace uměly po staletí sbírat a&nbsp;ukládat jen lidé. Dnes to umí
+            i&nbsp;počítače a&nbsp;Lumeer k&nbsp;tomu nabízí následující základní vlastnosti.</p>
+          <ul class="fa-ul">
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse026" aria-expanded="false" aria-controls="collapse026" onclick="$(this).prev().toggleClass('fa-rotate-90');">Dokumenty, kolekce, vazby</a>
+              <div class="collapse" id="collapse026">
+                <div class="well">
+                  Základními kameny Lumeera jsou kolekce (obdoba tabulek v Excelu), které obsahují
+                  dokumenty (záznamy, jako řádky v tabulce). Jednotlivé dokumenty obsahují atributy (sloupce),
+                  které nabývají různých hodnot pro každý dokument. Ačkoliv není vynucován žádný striktní formát
+                  dokumentů v&nbsp;jedné kolekci, bývá dobrým zvykem mít v&nbsp;jedné kolekci dokumenty
+                  s&nbsp;velmi podobnými atributy.
+                  Dokumenty mohou být provázány pomocí vazeb. I&nbsp;vazby samotné mohou mít atributy a&nbsp;hodnoty.
+                  Vazbu si můžete představit jako čáru nebo šipku mezi dvěma dokumenty. Tato šipka má na sobě popis
+                  odpovídající významu této vazby. Například do dokumentu s&nbsp;receptem na koblihy vede šipka
+                  z&nbsp;kolekce surovin, z&nbsp;dokumentu pro mouku. To samotné nestačí pro to, abyste usmažili ty
+                  nejjemnější koblížky. Potřebujete vědět, kolik mouky do těsta přidat. Nad šipkou je proto
+                  napsané množství mouky potřebné v&nbsp;receptu. Jedná se tedy o&nbsp;vazbu
+                  s&nbsp;atributem <em>množství</em>
+                  a&nbsp;hodnotou 500g. A mimochodem, Lumeer rozumí jednotkám a&nbsp;může vám spočítat, že se jedná
+                  o&nbsp;3,5 hrnku nebo 17,14 uncí.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse027" aria-expanded="false" aria-controls="collapse027" onclick="$(this).prev().toggleClass('fa-rotate-90');">Chytrá nápověda pro lepší organizaci údajů</a>
+              <div class="collapse" id="collapse027">
+                <div class="well">
+                  Lumeer je tu od toho, aby vám pomohl s&nbsp;organizací vašich údajů. Sleduje proto co děláte
+                  a&nbsp;dává vám rady a&nbsp;tipy, jak nejlépe strukturovat vaše záznamy. Může se vás také ptát na
+                  různé otázky, aby vašim datům lépe porozuměl.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse028" aria-expanded="false" aria-controls="collapse028" onclick="$(this).prev().toggleClass('fa-rotate-90');">Formát záznamů</a>
+              <div class="collapse" id="collapse028">
+                <div class="well">
+                  Lumeer vám dovoluje zadat údaje v&nbsp;jakémkoliv formátu. Nicméně může nastat situace, kdy si budete přát
+                  vstupní hodnoty nějak omezit. Ať již rozsahem hodnot, nebo nějakou šablonou. Jednoduše řeknete své
+                  přání Lumeerovi a&nbsp;on už dohlédne na to, aby zadávané hodnoty splňovaly daná kritéria.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse029" aria-expanded="false" aria-controls="collapse029" onclick="$(this).prev().toggleClass('fa-rotate-90');">Hromadné operace</a>
+              <div class="collapse" id="collapse029">
+                <div class="well">
+                  Potřebujete spojit nebo naopak rozdělit data ve sloupcích? Potřebujete přepočítat nějaké hodnoty? Nebo potřebujete vypočít
+                  novou kolekci na základě existujících dokumentů? Lumeer vám umí s&nbsp;dávkovým zpracováním dokumentů pomoci!
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse030" aria-expanded="false" aria-controls="collapse030" onclick="$(this).prev().toggleClass('fa-rotate-90');">Import údajů</a>
+              <div class="collapse" id="collapse030">
+                <div class="well">
+                  Přechod na nový nástroj je vždy bolestivý. Lumeer to dobře ví a&nbsp;proto se vám snaží tento krok
+                  co nejvíce zjednodušit. Můžete importovat data v&nbsp;různých formátech jako jsou vaše existující
+                  tabulky z&nbsp;Excelu či Googlu, textové soubory (CSV, XML, JSON) a&nbsp;relační databáze.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse031" aria-expanded="false" aria-controls="collapse031" onclick="$(this).prev().toggleClass('fa-rotate-90');">Externí kolekce</a>
+              <div class="collapse" id="collapse031">
+                <div class="well">
+                  Lumeer má rád
+                  <a href="https://cs.wikipedia.org/wiki/Otevřená_data" target="_blank">otevřená data</a>.
+                  Může automaticky zrcadlit váš oblíbený informační zdroj do nějaké kolekce ve vašem projektu.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse032" aria-expanded="false" aria-controls="collapse032" onclick="$(this).prev().toggleClass('fa-rotate-90');">Jednoduché kopírování a&nbsp;vkládání</a>
+              <div class="collapse" id="collapse032">
+                <div class="well">
+                  Ve většině aplikací zcela jistě používáte funkce pro kopírování a&nbsp;vkládání textu či hodnot.
+                  Není důvod, aby vám to samé neumožnil i&nbsp;Lumeer. Jednoduše vyberte část dat, zkopírujte
+                  a&nbsp;vložte je jinam.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse033" aria-expanded="false" aria-controls="collapse033" onclick="$(this).prev().toggleClass('fa-rotate-90');">Speciální typy - značky, kategorie, souřadnice</a>
+              <div class="collapse" id="collapse033">
+                <div class="well">
+                  Víme, jaké záznamy uživatelé vytvářejí a&nbsp;jaké typy informací je potřeba uchovávat.
+                  Jdeme o&nbsp;krok dále než jiné aplikace a&nbsp;snažíme se tyto netriviální, ale běžné formáty
+                  uživatelům snadno zpřístupnit. Lumeer rozumím typům jako jsou štítky, kategorie a&nbsp;souřednice.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse034" aria-expanded="false" aria-controls="collapse034" onclick="$(this).prev().toggleClass('fa-rotate-90');">Migrace údajů</a>
+              <div class="collapse" id="collapse034">
+                <div class="well">
+                  Údaje můžete vždy přesouvat mezi kolekcemi, projekty a&nbsp;organizacemi. Tak snadné to je.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse035" aria-expanded="false" aria-controls="collapse035" onclick="$(this).prev().toggleClass('fa-rotate-90');">Projektové hřiště</a>
+              <div class="collapse" id="collapse035">
+                <div class="well">
+                  Nejste si jistí, jak vyřešit nějaký problém a&nbsp;máte obavu, že rozbijete důležitý projekt?
+                  Využijte projektové hřiště, celý nebo část projektu si okopírujte a&nbsp;vyzkoušejte si,
+                  co potřebujete. Až naleznete správné řešení můžete ho vložit zpět do původního projektu.
+                  A&nbsp;aby vám projektové hřiště zbytečně nezabíralo prostor, samo se po čase smaže.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse036" aria-expanded="false" aria-controls="collapse036" onclick="$(this).prev().toggleClass('fa-rotate-90');">Archív kolekcí</a>
+              <div class="collapse" id="collapse036">
+                <div class="well">
+                  Nejste si jistí, jestli můžete opravdu smazat nějaké záznamy?
+                  Uložte si je do archívu, který je vynecháván z&nbsp;výsledků vyhledání a&nbsp;dalších
+                  běžných operací a&nbsp;zkuste žít bez nich. Později uvidíte, jestli je opravdu
+                  bezpečné tyto záznamy trvale odstranit.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse037" aria-expanded="false" aria-controls="collapse037" onclick="$(this).prev().toggleClass('fa-rotate-90');">Uložené výsledky hledání</a>
+              <div class="collapse" id="collapse037">
+                <div class="well">
+                  Uložte si výsledky hledání platné v&nbsp;aktuálním čase. Je to podobné jako si je vytisknout
+                  nebo vyfotit. Později si můžete porovnat aktuální data s&nbsp;jejich předchozí podobou.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse038" aria-expanded="false" aria-controls="collapse038" onclick="$(this).prev().toggleClass('fa-rotate-90');">Výrazy z&nbsp;vyhledávání</a>
+              <div class="collapse" id="collapse038">
+                <div class="well">
+                  Můžete použít vyhledávací dotaz přímo jako hodnotu jinde v&nbsp;systému.
+                  Váš pohled se tak bude vždy přizpůsobovat aktuálním údajům.
+                </div>
+              </div>
+            </li>
+            <li><i class="fa-li fa fa-chevron-right lumeer-slow"></i><a role="button" data-toggle="collapse" href="#collapse039" aria-expanded="false" aria-controls="collapse039" onclick="$(this).prev().toggleClass('fa-rotate-90');">REST API</a>
+              <div class="collapse" id="collapse039">
+                <div class="well">
+                  Můžete si naprogramovat vlastní automatizované nástroje pro práci s&nbsp;daty
+                  v&nbsp;Lumeerovi pomocí jeho veřejného REST API.
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr/>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Zpět nahoru</a></li>
+              <li><i class="fa fa-quote-left"> <a href="http://blogcz.lumeer.io">Blog</a></i></li>
+              <li><i class="fa fa-rss"> <a href="http://blogcz.lumeer.io/feeds/posts/default">Atom</a></i></li>
+              <li><i class="fa fa-twitter"> <a href="https://twitter.com/lumeerio">Twitter</a></i></li>
+              <li><i class="fa fa-github"> <a href="https://github.com/Lumeer/">GitHub</a></i></li>
+              <li><i class="fa fa-ambulance"> <a href="contact_cz.html">Podpora</a></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Autorská práva</h3>
+            <p>&copy; Lumeer. Všechna práva vyhrazena.</p>
+            <p>Zdrojové kody po licencí <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE">Apache 2.0</a>.</p>
+            <p>Založeno na <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>.<br/>
+              Design <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>.<br/>
+              Ikony z <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>.<br/>
+              Web fonty z <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
+          </div>
+          <div class="col-md-6">
+            <h3>Podmínky</h3>
+            <p>
+              <a href="terms_service.html">Terms of Service</a><br/>
+              <a href="privacy.html">Privacy Statement</a><br/>
+              <a href="terms_use.html">Terms of Use</a><br/>
+              <a href="use_policy.html">Acceptable Use Policy</a><br/>
+              <a href="dmcap.html">Digital Millennium Copyright Act Policy</a><br/>
+              <a href="shield.html">Privacy Shield</a><br/>
+              <a href="sla.html">Service Level Agreement</a><br/>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
