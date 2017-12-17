@@ -148,7 +148,7 @@
       </div>
       <div class="row d-flex justify-content-center">
         <div class="col-md-3 text-justify">
-          <img src="img/ui-relations.gif" class="img-fluid mx-auto d-block" />
+          <img src="img/ui-relations.gif" class="img-fluid mx-auto d-block" style="cursor: pointer;" data-toggle="modal" data-target="#relationsModal" />
           <h4 class="pt-4 pb-2 text-center">Všechny tabulky na jednom místě</h4>
           <p>
             Tabulka knihy jízd u&nbsp;účetní, tabulka se mzdami u&nbsp;asistentky, tabulka s&nbsp;provizemi u&nbsp;obchodního ředitele.
@@ -157,7 +157,7 @@
           </p>
         </div>
         <div class="col-md-3 text-justify">
-          <img src="img/ui-flavours.gif" class="img-fluid mx-auto d-block" />
+          <img src="img/ui-flavours.gif" class="img-fluid mx-auto d-block" style="cursor: pointer;" data-toggle="modal" data-target="#flavoursModal" />
           <h4 class="pt-4 pb-2 text-center">Úpravy výstupů na pár kliknutí</h4>
           <p>
             Když chcete v&nbsp;Excelu upravit graf nebo kalendář, musíte najít jeho zdrojová data
@@ -166,7 +166,7 @@
           </p>
         </div>
         <div class="col-md-3 text-justify">
-          <img src="img/ui-smart-doc-cz.gif" class="img-fluid mx-auto d-block" />
+          <img src="img/ui-smart-doc-cz.gif" class="img-fluid mx-auto d-block" style="cursor: pointer;" data-toggle="modal" data-target="#smartDocModal" />
           <h4 class="pt-4 pb-2 text-center">Prostředí, ve kterém se vyznáte</h4>
           <p>
             Ovládání Lumeera je stejně intuitivní, jako práce s&nbsp;tužkou a&nbsp;papírem &ndash; dostanete
@@ -183,6 +183,61 @@
       </div>
     </div>
 
+    <!-- Modals -->
+    <div class="modal fade" id="relationsModal" tabindex="-1" role="dialog" aria-labelledby="relationsModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="relationsModalTitle">Všechny tabulky na jednom místě</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Zavřít">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/ui-relations.gif" class="img-fluid mx-auto d-block"/>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavřít</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="flavoursModal" tabindex="-1" role="dialog" aria-labelledby="flavoursModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="flavoursModalTitle">Úpravy výstupů na pár kliknutí</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Zavřít">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/ui-flavours.gif" class="img-fluid mx-auto d-block"/>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavřít</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="smartDocModal" tabindex="-1" role="dialog" aria-labelledby="smartDocModalTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="smartDocModalTitle">Prostředí, ve kterém se vyznáte</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Zavřít">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="img/ui-smart-doc-cz.gif" class="img-fluid mx-auto d-block"/>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Zavřít</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container py-5">
       <div class="row align-items-center pt-5">
