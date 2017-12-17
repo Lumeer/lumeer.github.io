@@ -18,7 +18,7 @@ function selectLanguage(languageSelect, otherLang, translated) {
     }
   }
 
-  console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
+  //console.log(browserLanguage + ' - ' + languageSelect + ' - ' + selectedLanguage);
 }
 
 function onLanguageChange(value) {
