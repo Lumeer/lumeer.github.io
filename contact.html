@@ -74,55 +74,56 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
-          <div class="page-header">
-            <h1 id="forms"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</h1>
-          </div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center py-5">
-        <div class="col-10">
-          <div class="card bg-light">
-            <div class="card-body">
-              <form method="post" action="https://formspree.io/support@lumeer.io">
-                <fieldset>
-                  <div class="form-group row">
-                    <label for="inputName" class="col-2 col-form-label">Your Name</label>
-                    <div class="col-10">
-                      <input type="text" class="form-control" required="true" name="name" id="inputName" placeholder="Your Name" />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="inputEmail" class="col-2 col-form-label">Your Email</label>
-                    <div class="col-10">
-                      <input type="text" class="form-control" required="true" name="_replyto" id="inputEmail" placeholder="Your Email" />
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="textArea" class="col-2 col-form-label">Message</label>
-                    <div class="col-10">
-                      <textarea class="form-control" name="message" rows="4" id="textArea">Hello, I would like for Lumeer to solve my particular problem described below. [TODO: Problem description] Thanks!</textarea>
-                      <span class="form-text text-muted">Tell us how we could help you.</span>
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <div class="offset-2 col-10">
-                      <input type="text" name="_gotcha" style="display:none" />
-                      <input type="submit" class="btn btn-primary" value="Send the message" />
-                    </div>
-                  </div>
-                </fieldset>
-              </form>
+    <div class="container-fluid lumeer-white-bg">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12">
+            <div class="page-header">
+              <h1 id="forms"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</h1>
             </div>
           </div>
         </div>
+
+        <div class="row justify-content-center py-5">
+          <div class="col-10">
+            <div class="card bg-light">
+              <div class="card-body">
+                <form method="post" action="https://formspree.io/support@lumeer.io">
+                  <fieldset>
+                    <div class="form-group row">
+                      <label for="inputName" class="col-2 col-form-label">Your Name</label>
+                      <div class="col-10">
+                        <input type="text" class="form-control" required="true" name="name" id="inputName" placeholder="Your Name" />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="inputEmail" class="col-2 col-form-label">Your Email</label>
+                      <div class="col-10">
+                        <input type="text" class="form-control" required="true" name="_replyto" id="inputEmail" placeholder="Your Email" />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="textArea" class="col-2 col-form-label">Message</label>
+                      <div class="col-10">
+                        <textarea class="form-control" name="message" rows="4" id="textArea">Hello, I would like for Lumeer to solve my particular problem described below. [TODO: Problem description] Thanks!</textarea>
+                        <span class="form-text text-muted">Tell us how we could help you.</span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="offset-2 col-10">
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="submit" class="btn btn-primary" value="Send the message" />
+                      </div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
-
-
-      <hr/>
     </div>
 
     <footer id="footer">

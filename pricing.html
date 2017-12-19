@@ -75,107 +75,108 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
-          <div class="page-header">
-            <div class="float-right">
-              <div class="checkbox checkbox-slider--b-flat">
-                <label>
-                  <input id="price-toggle" type="checkbox" checked checked="true">&nbsp;<span id="billed-label">Billed Annually</span>
-                </label>
-                <script>
-                    $(function() {
-                        $('#price-toggle').change(function() {
-                            if ($(this).prop('checked')) {
-                                $('#price-business').html('$83 monthly');
+    <div class="container-fluid lumeer-white-bg">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12">
+            <div class="page-header">
+              <div class="float-right">
+                <div class="checkbox checkbox-slider--b-flat">
+                  <label>
+                    <input id="price-toggle" type="checkbox" checked checked="true">&nbsp;<span id="billed-label">Billed Annually</span>
+                  </label>
+                  <script>
+                      $(function() {
+                          $('#price-toggle').change(function() {
+                              if ($(this).prop('checked')) {
+                                  $('#price-business').html('$83 monthly');
 
-                                var s = "Billed Anually"
-                                $('#billed-business').html(s);
-                                $('#billed-label').html(s);
-                            } else {
-                                $('#price-business').html('$99 monthly');
+                                  var s = "Billed Anually"
+                                  $('#billed-business').html(s);
+                                  $('#billed-label').html(s);
+                              } else {
+                                  $('#price-business').html('$99 monthly');
 
-                                var s = "Billed Monthly";
-                                $('#billed-business').html(s);
-                                $('#billed-label').html(s);
-                            }
-                        })
-                    })
-                </script>
+                                  var s = "Billed Monthly";
+                                  $('#billed-business').html(s);
+                                  $('#billed-label').html(s);
+                              }
+                          })
+                      })
+                  </script>
+                </div>
+              </div>
+              <h1><i class="fa fa-tag" aria-hidden="true"></i> Pricing</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header"><h4>All inclusive</h4></div>
+              <img src="img/620V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Want to give it a try?</h4>
+                <ul>
+                  <li>All features included</li>
+                  <li>Regular updates and new features</li>
+                  <li>E-mail best effort support</li>
+                  <li>Data backup</li>
+                  <li>Shared server resources</li>
+                  <li>Limited data (1 project, 3 users, 5 tables, 200 records in total)</li>
+                </ul>
+                <h2 class="text-center"><span id="price-basic" class="badge badge-secondary">Free</span></h2>
               </div>
             </div>
-            <h1><i class="fa fa-tag" aria-hidden="true"></i> Pricing</h1>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header"><h4>All inclusive</h4></div>
-            <img src="img/620V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Want to give it a try?</h4>
-              <ul>
-                <li>All features included</li>
-                <li>Regular updates and new features</li>
-                <li>E-mail best effort support</li>
-                <li>Data backup</li>
-                <li>Shared server resources</li>
-                <li>Limited data (1 project, 3 users, 5 tables, 200 records in total)</li>
-              </ul>
-              <h2 class="text-center"><span id="price-basic" class="badge badge-secondary">Free</span></h2>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header bg-primary text-light"><h4>Business</h4></div>
+              <img src="img/795V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Small or medium sized business</h4>
+                <ul>
+                  <li>All features included</li>
+                  <li><em>Verified</em> updates and new features</li>
+                  <li><em>Next business day</em> e-mail support</li>
+                  <li>Data backup and <em>next business day recovery</em></li>
+                  <li><em>Powerful</em> shared server resources</li>
+                  <li><em>Unlimited</em> projects, users and tables</li>
+                  <li>Limited data (1,000,000 records in total)</li>
+                </ul>
+                <h2 class="text-center"><span id="price-business" class="badge badge-secondary">$83 monthly</span></h2>
+                <p id="billed-business" class="text-center small">Billed Annually</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header bg-success text-light"><h4>Professional</h4></div>
+              <img src="img/587V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Maximální výkon</h4>
+                <ul>
+                  <li>All features included</li>
+                  <li><em>Verified</em> updates and new features</li>
+                  <li>E-mail and <em>24/7 phone</em> support</li>
+                  <li><em>Redundant</em>  data backup and next business day recovery</li>
+                  <li>Dedicated server resources</li>
+                  <li>Unlimited projects, users and tables</li>
+                  <li>Almost unlimited data<sup><a href="#footnote-1">1</a></sup></li>
+                </ul>
+                <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact.html">Upon Request</a></span></h2>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header bg-primary text-light"><h4>Business</h4></div>
-            <img src="img/795V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Small or medium sized business</h4>
-              <ul>
-                <li>All features included</li>
-                <li><em>Verified</em> updates and new features</li>
-                <li><em>Next business day</em> e-mail support</li>
-                <li>Data backup and <em>next business day recovery</em></li>
-                <li><em>Powerful</em> shared server resources</li>
-                <li><em>Unlimited</em> projects, users and tables</li>
-                <li>Limited data (1,000,000 records in total)</li>
-              </ul>
-              <h2 class="text-center"><span id="price-business" class="badge badge-secondary">$83 monthly</span></h2>
-              <p id="billed-business" class="text-center small">Billed Annually</p>
-            </div>
+        <div class="row pt-5">
+          <div class="col-12">
+            <p class="small"><sup><a name="footnote-1">1</a></sup> In the default price range we offer 1TB data storage and 3TB data transfers per organisation and month.
+              More data <a href="contact_cz.html">upon request</a>.
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header bg-success text-light"><h4>Professional</h4></div>
-            <img src="img/587V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Maximální výkon</h4>
-              <ul>
-                <li>All features included</li>
-                <li><em>Verified</em> updates and new features</li>
-                <li>E-mail and <em>24/7 phone</em> support</li>
-                <li><em>Redundant</em>  data backup and next business day recovery</li>
-                <li>Dedicated server resources</li>
-                <li>Unlimited projects, users and tables</li>
-                <li>Almost unlimited data<sup><a href="#footnote-1">1</a></sup></li>
-              </ul>
-              <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact.html">Upon Request</a></span></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-5">
-        <div class="col-12">
-          <p class="small"><sup><a name="footnote-1">1</a></sup> In the default price range we offer 1TB data storage and 3TB data transfers per organisation and month.
-            More data <a href="contact_cz.html">upon request</a>.
-        </div>
-      </div>
 
-      <hr/>
+      </div>
     </div>
 
     <footer id="footer">

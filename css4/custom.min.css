@@ -28,6 +28,14 @@ body>.navbar {
   color: #fff;
 }
 
+.lumeer-ghostwhite-bg {
+  background: ghostwhite url('../img/overlay.png');
+}
+
+.lumeer-white-bg {
+  background: white url('../img/overlay.png');
+}
+
 .lumeer-green-bg a {
   color: white;
   font-weight: bolder;
@@ -54,7 +62,7 @@ body>.navbar {
 }
 
 .lumeer-grey-bg {
-  background-color: #ecf0f1;
+  background: #ecf0f0 url('../img/overlay.png');
 }
 
 .spacer-2 {

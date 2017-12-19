@@ -75,107 +75,108 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
-          <div class="page-header">
-            <div class="float-right">
-              <div class="checkbox checkbox-slider--b-flat">
-                <label>
-                  <input id="price-toggle" type="checkbox" checked checked="true">&nbsp;<span id="billed-label">Roční vyúčtování</span>
-                </label>
-                <script>
-                    $(function() {
-                        $('#price-toggle').change(function() {
-                            if ($(this).prop('checked')) {
-                                $('#price-business').html('€70 měsíčně');
+    <div class="container-fluid lumeer-white-bg">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12">
+            <div class="page-header">
+              <div class="float-right">
+                <div class="checkbox checkbox-slider--b-flat">
+                  <label>
+                    <input id="price-toggle" type="checkbox" checked checked="true">&nbsp;<span id="billed-label">Roční vyúčtování</span>
+                  </label>
+                  <script>
+                      $(function() {
+                          $('#price-toggle').change(function() {
+                              if ($(this).prop('checked')) {
+                                  $('#price-business').html('€70 měsíčně');
 
-                                var s = "Roční vyúčtování"
-                                $('#billed-business').html(s);
-                                $('#billed-label').html(s);
-                            } else {
-                                $('#price-business').html('€84 měsíčně');
+                                  var s = "Roční vyúčtování"
+                                  $('#billed-business').html(s);
+                                  $('#billed-label').html(s);
+                              } else {
+                                  $('#price-business').html('€84 měsíčně');
 
-                                var s = "Měsíční vyúčtování";
-                                $('#billed-business').html(s);
-                                $('#billed-label').html(s);
-                            }
-                        })
-                    })
-                </script>
+                                  var s = "Měsíční vyúčtování";
+                                  $('#billed-business').html(s);
+                                  $('#billed-label').html(s);
+                              }
+                          })
+                      })
+                  </script>
+                </div>
+              </div>
+              <h1><i class="fa fa-tag" aria-hidden="true"></i> Cena</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header"><h4>Vše v&nbsp;jednom</h4></div>
+              <img src="img/620V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Chcete to zkusit?</h4>
+                <ul>
+                  <li>Všechny funkce</li>
+                  <li>Pravidelné aktualizace a novinky</li>
+                  <li>Podpora e-mailem bez záruky</li>
+                  <li>Zálohovaná data</li>
+                  <li>Sdílený server</li>
+                  <li>Omezená data (1 projekt, 3 uživatelé, 5 tabulek, 200 záznamů celkem)</li>
+                </ul>
+                <h2 class="text-center"><span id="price-basic" class="badge badge-secondary">Zdarma</span></h2>
               </div>
             </div>
-            <h1><i class="fa fa-tag" aria-hidden="true"></i> Cena</h1>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header"><h4>Vše v&nbsp;jednom</h4></div>
-            <img src="img/620V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Chcete to zkusit?</h4>
-              <ul>
-                <li>Všechny funkce</li>
-                <li>Pravidelné aktualizace a novinky</li>
-                <li>Podpora e-mailem bez záruky</li>
-                <li>Zálohovaná data</li>
-                <li>Sdílený server</li>
-                <li>Omezená data (1 projekt, 3 uživatelé, 5 tabulek, 200 záznamů celkem)</li>
-              </ul>
-              <h2 class="text-center"><span id="price-basic" class="badge badge-secondary">Zdarma</span></h2>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header bg-primary text-light"><h4>Pro firmy</h4></div>
+              <img src="img/795V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Malé a střední firmy</h4>
+                <ul>
+                  <li>Všechny funkce</li>
+                  <li><em>Ověřené</em> aktualizace a novinky</li>
+                  <li>Podpora e-mailem do <em>dalšího pracovního dne</em></li>
+                  <li>Zálohovaná data a obnova do <em>dalšího pracovního dne</em></li>
+                  <li><em>Výkonný</em> sdílený server</li>
+                  <li><em>Neomezené</em> projekty, uživatelé a tabulky</li>
+                  <li>Omezená data (1'000'000 záznamů celkem)</li>
+                </ul>
+                <h2 class="text-center"><span id="price-business" class="badge badge-secondary">€70 měsíčně</span></h2>
+                <p id="billed-business" class="text-center small">Roční vyúčtování</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header bg-success text-light"><h4>Profesionální</h4></div>
+              <img src="img/587V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Maximální výkon</h4>
+                <ul>
+                  <li>Všechny funkce</li>
+                  <li>Ověřené aktualizace a novinky</li>
+                  <li>Podpora e-mailem a <em>telefonem 24/7</em></li>
+                  <li><em>Redundantní</em> zálohy dat a obnova do dalšího pracovního dne</li>
+                  <li>Dedikovaný server</li>
+                  <li>Neomezené projekty, uživatelé a tabulky</li>
+                  <li>Téměř neomezená data<sup><a href="#footnote-1">1</a></sup></li>
+                </ul>
+                <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact_cz.html">Na dotaz</a></span></h2>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header bg-primary text-light"><h4>Pro firmy</h4></div>
-            <img src="img/795V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Malé a střední firmy</h4>
-              <ul>
-                <li>Všechny funkce</li>
-                <li><em>Ověřené</em> aktualizace a novinky</li>
-                <li>Podpora e-mailem do <em>dalšího pracovního dne</em></li>
-                <li>Zálohovaná data a obnova do <em>dalšího pracovního dne</em></li>
-                <li><em>Výkonný</em> sdílený server</li>
-                <li><em>Neomezené</em> projekty, uživatelé a tabulky</li>
-                <li>Omezená data (1'000'000 záznamů celkem)</li>
-              </ul>
-              <h2 class="text-center"><span id="price-business" class="badge badge-secondary">€70 měsíčně</span></h2>
-              <p id="billed-business" class="text-center small">Roční vyúčtování</p>
-            </div>
+        <div class="row pt-5">
+          <div class="col-12">
+            <p class="small"><sup><a name="footnote-1">1</a></sup> Standardně poskytujeme 1TB úložného prostoru a 3TB datového přenosu pro organizaci a měsíc. Větší limity <a href="contact_cz.html">dohodou</a>.
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-header bg-success text-light"><h4>Profesionální</h4></div>
-            <img src="img/587V.jpg" class="img-fluid" />
-            <div class="card-body">
-              <h4>Maximální výkon</h4>
-              <ul>
-                <li>Všechny funkce</li>
-                <li>Ověřené aktualizace a novinky</li>
-                <li>Podpora e-mailem a <em>telefonem 24/7</em></li>
-                <li><em>Redundantní</em> zálohy dat a obnova do dalšího pracovního dne</li>
-                <li>Dedikovaný server</li>
-                <li>Neomezené projekty, uživatelé a tabulky</li>
-                <li>Téměř neomezená data<sup><a href="#footnote-1">1</a></sup></li>
-              </ul>
-              <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact_cz.html">Na dotaz</a></span></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row pt-5">
-        <div class="col-12">
-          <p class="small"><sup><a name="footnote-1">1</a></sup> Standardně poskytujeme 1TB úložného prostoru a 3TB datového přenosu pro organizaci a měsíc. Větší limity <a href="contact_cz.html">dohodou</a>.
-        </div>
-      </div>
 
 
-      <hr/>
+      </div>
     </div>
 
     <footer id="footer">
