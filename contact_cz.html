@@ -106,7 +106,7 @@
                       <label for="textArea" class="col-2 col-form-label">Zpráva</label>
                       <div class="col-10">
                         <textarea class="form-control" name="message" rows="4" id="textArea">Dobrý den, chtěl bych, aby Lumeer uměl vyřešit tento můj problém: [Doplňte popis problému] Děkuji!</textarea>
-                        <span class="form-text text-muted">Řekněte nám, jak vám můžeme pomoci.</span>
+                        <span class="form-text text-muted" id="help-block">Řekněte nám, jak vám můžeme pomoci.</span>
                       </div>
                     </div>
                     <div class="form-group row">
@@ -121,6 +121,29 @@
             </div>
           </div>
         </div>
+
+        <script type="text/javascript">
+            function getUrlParameter(name) {
+              name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+              var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+              var results = regex.exec(location.search);
+              return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+            };
+
+            var inputName = document.getElementById("inputName");
+            inputName.value = getUrlParameter("name");
+            var inputEmail = document.getElementById("inputEmail");
+            inputEmail.value = getUrlParameter("email");
+            var inputText = document.getElementById("textArea");
+            var textParameter = getUrlParameter("text");
+            if(textParameter == "feedback") {
+              inputText.value = "Dobrý den, \nrád bych vám dal spatnú vazbu na váš newsletter. Myslím, že [doplňte váš názor].";
+              document.getElementById("help-block").remove();
+            } else if(textParameter == "opinion") {
+              // do nothing
+            }
+        
+        </script>
 
       </div>
     </div>

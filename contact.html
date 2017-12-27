@@ -106,7 +106,7 @@
                       <label for="textArea" class="col-2 col-form-label">Message</label>
                       <div class="col-10">
                         <textarea class="form-control" name="message" rows="4" id="textArea">Hello, I would like for Lumeer to solve my particular problem described below. [TODO: Problem description] Thanks!</textarea>
-                        <span class="form-text text-muted">Tell us how we could help you.</span>
+                        <span class="form-text text-muted" id="help-block">Tell us how we could help you.</span>
                       </div>
                     </div>
                     <div class="form-group row">
@@ -122,6 +122,27 @@
           </div>
         </div>
 
+    <script type="text/javascript">
+        function getUrlParameter(name) {
+          name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+          var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+          var results = regex.exec(location.search);
+          return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+
+        var inputName = document.getElementById("inputName");
+        inputName.value = getUrlParameter("name");
+        var inputEmail = document.getElementById("inputEmail");
+        inputEmail.value = getUrlParameter("email");
+        var inputText = document.getElementById("textArea");
+        var textParameter = getUrlParameter("text");
+        if(textParameter == "feedback") {
+          inputText.value = "Hello, \nI would like to give you feedback on your newsletter. I think that [add your feedback here].";
+          document.getElementById("help-block").remove();
+        } else if(textParameter == "opinion") {
+          // do nothing
+        }    
+    </script>
 
       </div>
     </div>
