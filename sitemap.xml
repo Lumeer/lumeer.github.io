@@ -1,99 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-  <url>
-    <loc>http://www.lumeer.io/</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/features.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/pricing.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/contact.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/index_cz.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/demo.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/terms_service.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/privacy.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/terms_use.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/use_policy.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/dmcap.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/shield.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/sla.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/features_cz.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/cena.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/contact_cz.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/index.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>http://www.lumeer.io/demo_cz.html</loc>
-    <lastmod>2017-12-16T23:47:06+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
+
+<url>
+  <loc>http://www.lumeer.io/</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/index.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/features.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/pricing.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/contact.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/index_cz.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/demo.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/terms_service.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/privacy.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/terms_use.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/use_policy.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/dmcap.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/shield.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/sla.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/features_cz.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/cena.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/contact_cz.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.lumeer.io/demo_cz.html</loc>
+  <lastmod>2018-01-07T23:40:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
