@@ -153,6 +153,11 @@ a.lumeer-pop:hover img, img.lumeer-pop:hover {
   transition: all 250ms ease;
 }
 
+.btn-xl {
+  font-size: 150%;
+  padding: 20px;
+}
+
 .full-page {
   height: 90vh;
   min-height: 45em;
