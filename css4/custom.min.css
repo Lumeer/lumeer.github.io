@@ -23,6 +23,21 @@ body>.navbar {
   font-size: 120%;
 }
 
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.happy-worker {
+  background-image: url("../img/happy-worker-30.jpg");
+}
+
+.pastry {
+  background-image: url("../img/pastry-30.jpg");
+}
+
 .lumeer-green-bg {
   background: #28bb9c url('../img/overlay.png');
   color: #fff;
@@ -38,7 +53,6 @@ body>.navbar {
 
 .lumeer-green-bg a {
   color: white;
-  font-weight: bolder;
 }
 
 .lumeer-green-bg h1 {
