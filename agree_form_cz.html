@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lumeer: První aplikace, která splní vaše očekávání</title>
 
-    <link rel="alternate" hreflang="en" href="contact.html" />
-    <link rel="alternate" hreflang="cs" href="contact_cz.html" />
+    <!-- EDIT THIS -->
+    <link rel="alternate" hreflang="en" href="template.html" />
+    <link rel="alternate" hreflang="cs" href="template_cz.html" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css4/bootstrap.min.css"/>
@@ -23,7 +24,7 @@
     <script src="js/lang.js"></script>
     <script>
       $(function() {
-        selectLanguage('cs', 'en', 'contact');
+        selectLanguage('cs', 'en', 'index');
       });
     </script>
 
@@ -60,11 +61,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="http://blogcz.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="contact_cz.html"><i class="fa fa-phone" aria-hidden="true"></i> Kontakt</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="contact.html" onclick="onLanguageChange('en');"><img src="img/blank.gif" class="flag flag-us" alt="English" /></a>
+                <a class="nav-link ml-2 lumeer-pop" href="index.html" onclick="onLanguageChange('en');"><img src="img/blank.gif" class="flag flag-us" alt="English" /></a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -74,87 +75,6 @@
       </div>
     </nav>
 
-    <div class="container-fluid lumeer-white-bg">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-12">
-            <div class="page-header">
-              <h1 id="forms"><i class="fa fa-phone" aria-hidden="true"></i> Napište nám</h1>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center py-5">
-          <div class="col-10">
-            <div class="card bg-light">
-              <div class="card-body">
-                <form method="post" action="https://formspree.io/support@lumeer.io">
-                  <fieldset>
-                    <div class="form-group row">
-                      <label for="inputName" class="col-2 col-form-label">Vaše jméno</label>
-                      <div class="col-10">
-                        <input type="text" class="form-control" required="true" name="name" id="inputName" placeholder="Vaše jméno a příjmení" />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="inputEmail" class="col-2 col-form-label">Váš email</label>
-                      <div class="col-10">
-                        <input type="text" class="form-control" required="true" name="_replyto" id="inputEmail" placeholder="Váš email" />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="textArea" class="col-2 col-form-label">Zpráva</label>
-                      <div class="col-10">
-                        <textarea class="form-control" name="message" rows="4" id="textArea">Dobrý den, chtěl bych, aby Lumeer uměl vyřešit tento můj problém: [Doplňte popis problému] Děkuji!</textarea>
-                        <span class="form-text text-muted" id="help-block">Řekněte nám, jak vám můžeme pomoci.</span>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="agreement" class="col-2 col-form-label">Souhlasím</label>
-                      <div class="col-10">
-                        <input type="checkbox" id="agreement" onchange="document.getElementById('contactSubmit').disabled = !this.checked;" />&nbsp;V případě, že hodláte udělit <a href="agree_form_cz.html">souhlas se zpracováním osobních údajů</a>, zaškrtněte pole <em>souhlasím</em> a odešlete.
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <div class="offset-2 col-10">
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <input id="contactSubmit" type="submit" disabled class="btn btn-primary" value="Odeslat zprávu" />
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <script type="text/javascript">
-            function getUrlParameter(name) {
-              name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-              var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-              var results = regex.exec(location.search);
-              return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-            };
-
-            var inputName = document.getElementById("inputName");
-            inputName.value = getUrlParameter("name");
-            var inputEmail = document.getElementById("inputEmail");
-            inputEmail.value = getUrlParameter("email");
-            var inputText = document.getElementById("textArea");
-            var textParameter = getUrlParameter("text");
-            if(textParameter == "feedback") {
-              inputText.value = "Dobrý den, \nrád bych vám dal spatnú vazbu na váš newsletter. Myslím, že [doplňte váš názor].";
-              document.getElementById("help-block").remove();
-            } else if(textParameter == "opinion") {
-              // do nothing
-            } else if(textParameter == "smart") {
-              // do nothing
-            }
-
-        </script>
-
-      </div>
-    </div>
 
     <footer id="footer">
       <div class="container py-5">

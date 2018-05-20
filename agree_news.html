@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lumeer: First productivity app with a muscle</title>
 
-    <link rel="alternate" hreflang="en" href="contact.html" />
-    <link rel="alternate" hreflang="cs" href="contact_cz.html" />
+    <!-- EDIT THIS -->
+    <link rel="alternate" hreflang="en" href="template.html" />
+    <link rel="alternate" hreflang="cs" href="template_cz.html" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css4/bootstrap.min.css"/>
@@ -23,7 +24,7 @@
     <script src="js/lang.js"></script>
     <script>
       $(function() {
-        selectLanguage('en', 'cs', 'contact_cz');
+        selectLanguage('en', 'cs', 'index_cz');
       });
     </script>
 
@@ -60,11 +61,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="http://blog.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="contact_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
+                <a class="nav-link ml-2 lumeer-pop" href="index_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -74,86 +75,6 @@
       </div>
     </nav>
 
-    <div class="container-fluid lumeer-white-bg">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-12">
-            <div class="page-header">
-              <h1 id="forms"><i class="fa fa-phone" aria-hidden="true"></i> Contact Us</h1>
-            </div>
-          </div>
-        </div>
-
-        <div class="row justify-content-center py-5">
-          <div class="col-10">
-            <div class="card bg-light">
-              <div class="card-body">
-                <form method="post" action="https://formspree.io/support@lumeer.io">
-                  <fieldset>
-                    <div class="form-group row">
-                      <label for="inputName" class="col-2 col-form-label">Your Name</label>
-                      <div class="col-10">
-                        <input type="text" class="form-control" required="true" name="name" id="inputName" placeholder="Your Name" />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="inputEmail" class="col-2 col-form-label">Your Email</label>
-                      <div class="col-10">
-                        <input type="text" class="form-control" required="true" name="_replyto" id="inputEmail" placeholder="Your Email" />
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="textArea" class="col-2 col-form-label">Message</label>
-                      <div class="col-10">
-                        <textarea class="form-control" name="message" rows="4" id="textArea">Hello, I would like for Lumeer to solve my particular problem described below. [TODO: Problem description] Thanks!</textarea>
-                        <span class="form-text text-muted" id="help-block">Tell us how we could help you.</span>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label for="agreement" class="col-2 col-form-label">Agreement</label>
-                      <div class="col-10">
-                        <input type="checkbox" id="agreement" onchange="document.getElementById('contactSubmit').disabled = !this.checked;" />&nbsp;In case you want to grant us <a href="agree_form.html">the right to process your personal information</a>, check the field <em>agreement</em> and send the form.
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <div class="offset-2 col-10">
-                        <input type="text" name="_gotcha" style="display:none" />
-                        <input id="contactSubmit" type="submit" disabled class="btn btn-primary" value="Send the message" />
-                      </div>
-                    </div>
-                  </fieldset>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
-    <script type="text/javascript">
-        function getUrlParameter(name) {
-          name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-          var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-          var results = regex.exec(location.search);
-          return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-        };
-
-        var inputName = document.getElementById("inputName");
-        inputName.value = getUrlParameter("name");
-        var inputEmail = document.getElementById("inputEmail");
-        inputEmail.value = getUrlParameter("email");
-        var inputText = document.getElementById("textArea");
-        var textParameter = getUrlParameter("text");
-        if(textParameter == "feedback") {
-          inputText.value = "Hello, \nI would like to give you feedback on your newsletter. I think that [add your feedback here].";
-          document.getElementById("help-block").remove();
-        } else if(textParameter == "opinion") {
-          // do nothing
-        } else if(textParameter == "smart") {
-          // do nothing
-        }
-    </script>
-
-      </div>
-    </div>
 
     <footer id="footer">
       <div class="container py-5">
