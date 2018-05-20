@@ -7,8 +7,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lumeer: First productivity app with a muscle</title>
 
-    <link rel="alternate" hreflang="en" href="index.html" />
-    <link rel="alternate" hreflang="cs" href="index_cz.html" />
+    <!-- EDIT THIS -->
+    <link rel="alternate" hreflang="en" href="information.html" />
+    <link rel="alternate" hreflang="cs" href="information_cz.html" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css4/bootstrap.min.css"/>
@@ -21,6 +22,11 @@
 
     <!-- Language switch -->
     <script src="js/lang.js"></script>
+    <script>
+      $(function() {
+        selectLanguage('en', 'cs', 'information_cz');
+      });
+    </script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -49,9 +55,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="features.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Features</a>
               </li>
-              <!--li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link" href="pricing.html"><i class="fa fa-tag" aria-hidden="true"></i> Pricing</a>
-              </li-->
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="http://blog.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
               </li>
@@ -59,7 +65,7 @@
                 <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="index_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
+                <a class="nav-link ml-2 lumeer-pop" href="information_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -69,61 +75,74 @@
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
 
+    <h1>Seznam zpracovatelů</h1>
+    <p><em>Naposledy aktualizováno 20. května 2018</em></p>
 
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Zpracovatel</th>
+          <th>Účel</th>
+          <th>Země</th>
+          <th>Dokumentace</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>UOL a.s., IČ: 24753157, se sídlem Roztylská 1860/1, Chodov, 148&nbsp;00 Praha 4, zapsána v obchodním rejstříku vedeném Městským soudem v Praze, oddíl B, vložka 16585</td>
+          <td>Vedení účetnictví</td>
+          <td>Česká republika</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Google LLC.</td>
+          <td>Cloudové uložiště e-mailový server</td>
+          <td>Spojené Státy Americké</td>
+          <td><a href="https://policies.google.com/privacy?hl=cs&gl=cz">policies.google.com/privacy</a>,
+          <a href="https://www.privacyshield.gov/">www.privacyshield.gov/</a></td>
+        </tr>
+        <tr>
+          <td>HubSpot, Inc.</td>
+          <td>CRM</td>
+          <td>Spojené Státy Americké</td>
+          <td><a href="https://legal.hubspot.com/privacy-policy?_ga=2.120285002.356593815.1525893875-259009873.1525699696">legal.hubspot.com/privacy-policy</a>, <a href="https://www.privacyshield.gov/">www.privacyshield.gov/</a></td>
+        </tr>
+        <tr>
+          <td>GitHub Inc.</td>
+          <td>Hosting</td>
+          <td>Spojené Státy Americké</td>
+          <td><a href="https://help.github.com/articles/github-privacy-statement/">help.github.com/articles/github-privacy-statement/</a>, <a href="https://www.privacyshield.gov/">www.privacyshield.gov/</a></td>
+        </tr>
+        <tr>
+          <td>The Rocket Science Group LLC d/b/a MailChimp</td>
+          <td>Marketing: zasílání newsletterů</td>
+          <td>Spojené Státy Americké</td>
+          <td><a href="https://mailchimp.com/legal/privacy/">mailchimp.com/legal/privacy/</a>, <a href="https://www.privacyshield.gov/">www.privacyshield.gov/</a></td>
+        </tr>
+        <tr>
+          <td>GOPAY s. r. o., se sídlem Planá 67, 370&nbsp;01 České Budějovice, IČ: 26046768, zapsaná v obchodním rejstříku vedeném Krajským soudem v Českých Budějovicích, oddíl C, vložka 11030</td>
+          <td>Platební brána</td>
+          <td>Česká republika</td>
+          <td><a href="https://gopay.com/cs/">gopay.com/cs/</a></td>
+        </tr>
+        <tr>
+          <td>DigitalOcean LLC.</td>
+          <td>Cloud pro uložení dat zákazníků</td>
+          <td>Spojené Státy Americké</td>
+          <td><a href="https://www.digitalocean.com/legal/privacy/">www.digitalocean.com/legal/privacy/</a>, <a href="https://www.privacyshield.gov/">www.privacyshield.gov/</a></td>
+        </tr>
+        <tr>
+          <td>Smartsupp.com, s.r.o., IČ: 03668681, se sídlem Milady Horákové 1957/13, Černá Pole, 602&nbsp;00 Brno, zapsána v obchodním rejstříku vedeném Krajským soudem v Brně, oddíl C, vložka 86206</td>
+          <td>Prodkutová analytika</td>
+          <td>Česká republika</td>
+          <td><a href="https://www.smartlook.com/cs/privacy">www.smartlook.com/cs/privacy</a></td>
+        </tr>
+      </tbody>
+    </table>
 
+    <p>V případě jakýchkoliv otázek a problémů nás prosím kontaktujte na <a href="contact.html">www.lumeer.io/contact.html</a>.</p>
 
-
-
-          <h1>SLA (Service Level Agreement)</h1>
-          <p><em>Last modified May 9th, 2017.</em></p>
-
-          <p>Certain Lumeer plans, including all enterprise plans, that explicitly list Service Level Agreement ("SLA") in the support details at <a href="pricing.html">http://www.lumeer.io/pricing.html</a> are subject to the terms and conditions of this SLA.</p>
-
-          <strong>1. DEFINITIONS</strong><p>Any terms not otherwise defined herein shall have the meaning ascribed to them in the Lumeer Terms of Service ("Agreement") located at <a href="terms_service.html">http://www.lumeer.io/terms_service.html</a>.</p>
-
-          <strong>2. UPTIME GUARANTEE</strong><p>We provide a 99.9% uptime guarantee. This means that for any given month, while unlikely, it is possible that Lumeer may experience an average downtime of up to 2678 seconds excluding scheduled maintenance. If an outage exceeds a cumulative of 2678 seconds in a month, we will credit 5% of the Your base monthly recurring fee for the affected account, per hour of downtime.</p>
-
-          <p>THE TOTAL CREDIT ALLOWANCE PER MONTH IS CAPPED AT 100% of THAT MONTH'S MONTHLY RECURRING FEE FOR THE AFFECTED ACCOUNT.</p>
-
-          <p>This guarantee covers Lumeer's internal infrastructure including application and database servers, routers, switches, the cables connecting them, and connectivity to our backbone providers. This guarantee does not cover email delivery.</p>
-
-          <strong>3. SCHEDULED MAINTENANCE</strong><p>Scheduled Maintenance means any maintenance on the equipment and services that affect the uptime of Lumeer, for which You are notified at least 24 hours in advance.</p>
-
-          <p>Notice of Scheduled Maintenance will be provided to your account administrator by a method elected by Lumeer (email or telephone). Nothing in this agreement shall prevent Lumeer from conducting emergency maintenance on an as-needed basis. In the event that scheduled maintenance may unduly affect Your operations, it shall be Your responsibility to so notify Lumeer Technical Support via <a href="contact.html">http://www.lumeer.io/contact.html</a> to discuss any necessary arrangements.</p>
-
-          <strong>4. CREDIT PROCEDURES AND EXCEPTIONS</strong><p>You must notify us via opening a support ticket at <a href="contact.html">http://www.lumeer.io/contact.html</a> indicating that you wish to pursue your rights as guaranteed by this SLA within 10 days of the incident to be eligible for credit. Lumeer is not required to provide SLA-guaranteed services or credits to customers who are in default of their contractual obligations. Upon opening a support ticket, we will verify the claim and if the problem is verified and meets the requirements of this SLA, we will measure downtime.</p>
-
-          <p>Credits shall not be allowed for conditions (i) caused by You or others authorized by You; (ii) due to the failure of power, facilities, equipment, systems or connections not provided by Lumeer; (iii) the result of scheduled maintenance or upgrades where You have been notified in advance; (vi) attacks (i.e. hacks, denial of service attacks, viruses) by third parties, and other acts not caused by Lumeer and (vii) events of force majeure, including acts of war, god, earthquake, flood, embargo, riot, sabotage, labor dispute (outside of Lumeer's own employees), government act, or failure of the Internet, and actions or inactions of Your personnel, affiliates and vendors.</p>
-
-          <p>Credits are accumulated monthly with Monthly Cumulative Downtime being reset at the beginning of each calendar month. Any two consecutive months in which Monthly Cumulative Downtime is in excess of 270 minutes would be considered a breach of contract by Lumeer and You would have the option to terminate with cause.</p>
-
-          <p>Credits are applied to future invoices or returned to the credit card if credit occurs in final service month.</p>
-
-          <p>Lumeer monitoring systems and records shall be the information source of record for the accumulation of Monthly Cumulative incidents.</p>
-
-          <strong>5. OTHER LIMITATIONS</strong><p>The remedies set forth in this Service Level Agreement shall be Your sole and exclusive remedies for any Service Interruption, outage, unavailability, delay, or other degradation, or any Lumeer failure to meet the service objectives.</p>
-
-          <strong>6. FOR MORE INFORMATION</strong><p>If you have any questions or comments about this Agreement, contact us at <a href="contact.html">http://www.lumeer.io/contact.html</a>.</p>
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-
-      <hr/>
-    </div>
 
     <footer id="footer">
       <div class="container py-5">
@@ -156,11 +175,8 @@
            <ul class="list-unstyled">
              <li><a href="terms_service.html">Terms of Service</a></li>
              <li><a href="privacy.html">Privacy Statement</a></li>
-             <li><a href="terms_use.html">Terms of Use</a></li>
-             <li><a href="use_policy.html">Acceptable Use Policy</a></li>
-             <li><a href="dmcap.html">Digital Millennium Copyright Act Policy</a></li>
-             <li><a href="shield.html">Privacy Shield</a></li>
-             <li><a href="sla.html">Service Level Agreement</a></li>
+             <li><a href="information.html">List of information processing entities</a></li>
+             <li><a href="cookies.html">Cookies Usage</a></li>
            </ul>
          </div>
        </div>

@@ -89,13 +89,15 @@
                       $(function() {
                           $('#price-toggle').change(function() {
                               if ($(this).prop('checked')) {
-                                  $('#price-business').html('$83 monthly');
+                                  $('#price-business-old').html('$8.30');
+                                  $('#price-business').html('$4.15');
 
                                   var s = "Billed&nbsp;Anually"
                                   $('#billed-business').html(s);
                                   $('#billed-label').html(s);
                               } else {
-                                  $('#price-business').html('$99 monthly');
+                                  $('#price-business-old').html('$9.90');
+                                  $('#price-business').html('$4.95');
 
                                   var s = "Billed&nbsp;Monthly";
                                   $('#billed-business').html(s);
@@ -106,29 +108,11 @@
                   </script>
                 </div>
               </div>
-              <h1><i class="fa fa-tag" aria-hidden="true"></i> Pricing</h1>
+              <h1><i class="fa fa-tag" aria-hidden="true"></i> Pricing <span class="badge badge-pill badge-danger">Beta Version</span></h1>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header"><h4>All inclusive</h4></div>
-              <img src="img/620V.jpg" class="img-fluid" />
-              <div class="card-body">
-                <h4>Want to give it a try?</h4>
-                <ul>
-                  <li>All features included</li>
-                  <li>Regular updates and new features</li>
-                  <li>E-mail best effort support</li>
-                  <li>Data backup</li>
-                  <li>Shared server resources</li>
-                  <li>Limited data (1 project, 3 users, 5 tables, 200 records in total)</li>
-                </ul>
-                <h2 class="text-center"><span id="price-basic" class="badge badge-secondary">Free</span></h2>
-              </div>
-            </div>
-          </div>
+        <div class="row mt-4">
           <div class="col-md-4">
             <div class="card">
               <div class="card-header bg-primary text-light"><h4>Business</h4></div>
@@ -144,7 +128,11 @@
                   <li><em>Unlimited</em> projects, users and tables</li>
                   <li>Limited data (1,000,000 records in total)</li>
                 </ul>
-                <h2 class="text-center"><span id="price-business" class="badge badge-secondary">$83 monthly</span></h2>
+                <p class="text-center text-large">
+                  <span class="badge badge-pill badge-danger">Beta Version</span><br/>
+                  <del id="price-business-old">$9.90</del>
+                </p>
+                <h2 class="text-center"><a href="demo.html"><span class="badge badge-secondary"><span id="price-business">$4.15</span><br/><span class="xsmall">per user and month</span></span></a></h2>
                 <p id="billed-business" class="text-center small">Billed Annually</p>
               </div>
             </div>
@@ -165,6 +153,24 @@
                   <li>Almost unlimited data<sup><a href="#footnote-1">1</a></sup></li>
                 </ul>
                 <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact.html">Upon Request</a></span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header"><h4>All inclusive</h4></div>
+              <img src="img/620V.jpg" class="img-fluid" />
+              <div class="card-body">
+                <h4>Want to give it a try?</h4>
+                <ul>
+                  <li>All features included</li>
+                  <li>Regular updates and new features</li>
+                  <li>E-mail best effort support</li>
+                  <li>Data backup</li>
+                  <li>Shared server resources</li>
+                  <li>Limited data (1 project, 3 users, 5 tables, 2000 records in total)</li>
+                </ul>
+                <h2 class="text-center"><a href="demo.html"><span id="price-basic" class="badge badge-secondary">Free Forever</span></a></h2>
               </div>
             </div>
           </div>
@@ -210,11 +216,8 @@
            <ul class="list-unstyled">
              <li><a href="terms_service.html">Terms of Service</a></li>
              <li><a href="privacy.html">Privacy Statement</a></li>
-             <li><a href="terms_use.html">Terms of Use</a></li>
-             <li><a href="use_policy.html">Acceptable Use Policy</a></li>
-             <li><a href="dmcap.html">Digital Millennium Copyright Act Policy</a></li>
-             <li><a href="shield.html">Privacy Shield</a></li>
-             <li><a href="sla.html">Service Level Agreement</a></li>
+             <li><a href="information.html">List of information processing entities</a></li>
+             <li><a href="cookies.html">Cookies Usage</a></li>
            </ul>
          </div>
        </div>
