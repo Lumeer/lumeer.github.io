@@ -7,24 +7,24 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Lumeer: First productivity app with a muscle</title>
 
-    <link rel="alternate" hreflang="en" href="pricing.html" />
-    <link rel="alternate" hreflang="cs" href="cena.html" />
+    <!-- EDIT THIS -->
+    <link rel="alternate" hreflang="en" href="gdpr.html" />
+    <link rel="alternate" hreflang="cs" href="gdpr_cz.html" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css4/bootstrap.min.css"/>
     <link rel="stylesheet" href="css4/fontawesome-all.min.css"/>
     <link rel="stylesheet" href="css/flags.min.css"/>
     <link rel="stylesheet" href="css4/custom.min.css"/>
-    <link rel="stylesheet" href="css/titatoggle-dist.css"/>
 
-    <!-- Keep it here for the toggle to work -->
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <!-- Language switch -->
     <script src="js/lang.js"></script>
     <script>
       $(function() {
-        selectLanguage('en', 'cs', 'cena');
+        selectLanguage('en', 'cs', 'gdpr_cz');
       });
     </script>
 
@@ -55,7 +55,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="features.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Features</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="pricing.html"><i class="fa fa-tag" aria-hidden="true"></i> Pricing</a>
               </li>
               <li class="nav-item">
@@ -65,7 +65,7 @@
                 <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="cena.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
+                <a class="nav-link ml-2 lumeer-pop" href="gdpr_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -75,114 +75,61 @@
       </div>
     </nav>
 
-    <div class="container-fluid lumeer-white-bg">
-      <div class="container">
-        <div class="row pt-5">
-          <div class="col-12">
-            <div class="page-header">
-              <div class="float-right">
-                <div class="checkbox checkbox-slider--b-flat">
-                  <label>
-                    <input id="price-toggle" type="checkbox" checked checked="true">&nbsp;<span id="billed-label">Billed&nbsp;Annually</span>
-                  </label>
-                  <script>
-                      $(function() {
-                          $('#price-toggle').change(function() {
-                              if ($(this).prop('checked')) {
-                                  $('#price-business-old').html('$8.30');
-                                  $('#price-business').html('$4.15');
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12">
 
-                                  var s = "Billed&nbsp;Anually"
-                                  $('#billed-business').html(s);
-                                  $('#billed-label').html(s);
-                              } else {
-                                  $('#price-business-old').html('$9.90');
-                                  $('#price-business').html('$4.95');
 
-                                  var s = "Billed&nbsp;Monthly";
-                                  $('#billed-business').html(s);
-                                  $('#billed-label').html(s);
-                              }
-                          })
-                      })
-                  </script>
-                </div>
-              </div>
-              <h1><i class="fa fa-tag" aria-hidden="true"></i> Pricing <span class="badge badge-pill badge-danger">Beta Version</span></h1>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-4">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header bg-primary text-light"><h4>Business</h4></div>
-              <img src="img/795V.jpg" class="img-fluid" />
-              <div class="card-body">
-                <h4>Small or medium sized business</h4>
-                <ul>
-                  <li>All features included</li>
-                  <li><em>Verified</em> updates and new features</li>
-                  <li><em>Next business day</em> e-mail support</li>
-                  <li>Data backup and <em>next business day recovery</em></li>
-                  <li><em>Powerful</em> shared server resources</li>
-                  <li><em>Unlimited</em> projects, users and tables</li>
-                  <li>Limited data (1,000,000 records in total)</li>
-                </ul>
-                <p class="text-center text-large">
-                  <span class="badge badge-pill badge-danger">Beta Version</span><br/>
-                  <del id="price-business-old">$9.90</del>
-                </p>
-                <h2 class="text-center"><a href="https://get.lumeer.io/"><span class="badge badge-secondary"><span id="price-business">$4.15</span><br/><span class="xsmall">per user and month</span></span></a></h2>
-                <p id="billed-business" class="text-center small">Billed Annually</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header bg-success text-light"><h4>Professional</h4></div>
-              <img src="img/587V.jpg" class="img-fluid" />
-              <div class="card-body">
-                <h4>Maximal Performance</h4>
-                <ul>
-                  <li>All features included</li>
-                  <li><em>Verified</em> updates and new features</li>
-                  <li>E-mail and <em>24/7 phone</em> support</li>
-                  <li><em>Redundant</em>  data backup and next business day recovery</li>
-                  <li>Dedicated server resources</li>
-                  <li>Unlimited projects, users and tables</li>
-                  <li>Almost unlimited data<sup><a href="#footnote-1">1</a></sup></li>
-                </ul>
-                <h2 class="text-center"><span id="price-pro" class="badge badge-light"><a href="contact.html">Upon Request</a></span></h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="card-header"><h4>All inclusive</h4></div>
-              <img src="img/620V.jpg" class="img-fluid" />
-              <div class="card-body">
-                <h4>Want to give it a try?</h4>
-                <ul>
-                  <li>All features included</li>
-                  <li>Regular updates and new features</li>
-                  <li>E-mail best effort support</li>
-                  <li>Data backup</li>
-                  <li>Shared server resources</li>
-                  <li>Limited data (1 project, 3 users, 5 tables, 2000 records in total)</li>
-                </ul>
-                <h2 class="text-center"><a href="https://get.lumeer.io/"><span id="price-basic" class="badge badge-secondary">Free Forever</span></a></h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row pt-5">
-          <div class="col-12">
-            <p class="small"><sup><a name="footnote-1">1</a></sup> In the default price range we offer 1TB data storage and 3TB data transfers per organisation and month.
-              More data <a href="contact_cz.html">upon request</a>.
-          </div>
-        </div>
+          <h1><i class="fa fa-gavel"></i> GDPR at Lumeer</h1>
 
+          <p>
+            Privay and security are the foundation of Lumeer's approach to users' data, product development and business. We continuously evaluate all our practices in an effort to safeguard your information as effectively as possible. In that vein, with the arrival of privacy rights regulations - The General Data Protection Regulation ("GDPR") - we have prepared our <a href="terms_service.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a> to properly address the new requirements.
+          </p>
+
+          <h2>What is GDPR</h2>
+          <p>
+            On May 25, 2018, the General Data Protection Regulation (GDPR) will officially take effect. For European individuals, GDPR expands their data privacy rights and gives them more power to control their data. For companies that process the personal data of these European individuals, GDPR requires compliance with a new set of regulations.
+          </p><p>
+            GDPR outlines specific requirements that these companies must satisfy, as well as specific rights that European individuals can exercise with these companies. Further information on GDPR is available on the European Union’s official website: <a href="https://ec.europa.eu/info/law/law-topic/data-protection_en">ec.europa.eu/info/law/law-topic/data-protection_en</a>.
+          </p>
+
+          <h2>Data Processing Agreement</h2>
+          <p>
+            We believe that the Data Processing Agreement (DPA) is already covered by our <a href="privacy.html">Privacy Policy</a>. See the following table for details. To request a user tailored DPA, please email us at <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.
+
+
+            Airtable can help you meet your data portability requirements for GDPR. You can easily export data from your bases and permanently delete data.
+          </p>
+
+          <h2>How Lumeer meets GDPR</h2>
+
+          <dl>
+            <dt><i class="text-success fa fa-check"></i> Coverege of GDPR in our terms and policies</dt>
+            <dd>Lumeer's <a href="terms_service.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a> properly address the GDPR requirements.</dd>
+            <dt><i class="text-success fa fa-check"></i> Contracts with data processing entities</dt>
+            <dd>We have checked contracts with all data processing entities we work with and they are now obliged to our data processing officer to keep all personal data secret. We have provided a complete list of <a href="information.html">data processing entities</a> that we work with.</dd>
+            <dt><i class="text-success fa fa-check"></i> Duration and type of personal information we keep</dt>
+            <dd>In our <a href="privacy.html">Privacy Policy</a> we define how long we keep various types of personal information and for what purpose.</dd>
+            <dt><i class="text-success fa fa-check"></i> Restrict of personal information access</dt>
+            <dd>In addition, you can object to the processing of your personal information, ask us to restrict the processing of your personal information, or request portability of your personal information. You can exercise these rights by emailing <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.</dd>
+            <dt><i class="text-success fa fa-check"></i> You have complete control of your data</dt>
+            <dd>If you wish to access, correct, update, or request deletion of your personal information, you can do so at any time by emailing <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.</dd>
+            <dt><i class="text-success fa fa-check"></i> Obligation to sign NDAs</dt>
+            <dd>We have signed Non-disclosure Agreements with all our team members and they are now obliged to maintain confidentiality.</dd>
+            <dt><i class="text-success fa fa-check"></i> Technical measures</dt>
+            <dd>All customer data in Lumeer are encrypted by several layers of well-proven encryption algorithms like <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard" target="_blank">AES</a>.</dd>
+            <dt><i class="text-success fa fa-check"></i> Security breach</dt>
+            <dd>Although we do everything we are reasonably able to do to prevent any security breaches, there still may be such situations. Should there be any security breach we will inform you as soon as possible and will follow the steps necessary to minimize damage and return to normal operation.</dd>
+            <dt><i class="text-success fa fa-check"></i> User account security</dt>
+            <dd>All user account data are stored encrypted and we do not keep your passwords in plain text. This means that nobody including us can read your password. At the moment we have only one phase authentication. Therefore we recommend you to create strong passwords for your account.</dd>
+          </dl>
+
+
+          <p>In case of any querstions or problems, please contact us at <a href="contact.html">www.lumeer.io/contact.html</a>.</p>
+
+        </div>
       </div>
+      <hr/>
     </div>
 
     <footer id="footer">
@@ -226,7 +173,6 @@
      </footer>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
