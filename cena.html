@@ -89,15 +89,13 @@
                       $(function() {
                           $('#price-toggle').change(function() {
                               if ($(this).prop('checked')) {
-                                  $('#price-business-old').html('€7');
-                                  $('#price-business').html('€3.50');
+                                  $('#price-business').html('€7');
 
                                   var s = "Roční&nbsp;vyúčtování"
                                   $('#billed-business').html(s);
                                   $('#billed-label').html(s);
                               } else {
-                                  $('#price-business-old').html('€8.40');
-                                  $('#price-business').html('€4.20');
+                                  $('#price-business').html('€8.40');
 
                                   var s = "Měsíční&nbsp;vyúčtování";
                                   $('#billed-business').html(s);
@@ -108,7 +106,7 @@
                   </script>
                 </div>
               </div>
-              <h1><i class="fa fa-tag" aria-hidden="true"></i> Cena <span class="badge badge-pill badge-danger">Zkušební provoz</span></h1>
+              <h1><i class="fa fa-tag" aria-hidden="true"></i> Cena</h1>
             </div>
           </div>
         </div>
@@ -128,11 +126,7 @@
                   <li><em>Neomezené</em> projekty, uživatelé a tabulky</li>
                   <li>Omezená data (1'000'000 záznamů celkem)</li>
                 </ul>
-                <p class="text-center text-large">
-                  <span class="badge badge-pill badge-danger">Zkušební provoz</span><br/>
-                  <del id="price-business-old">€7</del>
-                </p>
-                <h2 class="text-center"><a href="https://get.lumeer.io/"><span class="badge badge-secondary"><span id="price-business">€3.50</span><br/><span class="xsmall">uživatel za měsíc</span></span></a></h2>
+                <h2 class="text-center"><a href="https://get.lumeer.io/"><span class="badge badge-secondary"><span id="price-business">€7</span><br/><span class="xsmall">uživatel za měsíc</span></span></a></h2>
                 <p id="billed-business" class="text-center small">Roční vyúčtování</p>
               </div>
             </div>
