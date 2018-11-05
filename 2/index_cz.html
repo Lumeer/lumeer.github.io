@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <meta name="keywords" content="Lumeer">
+    <meta name="description" content="Lumeer">
+    <title>Lumeer: Pracujte chytřeji díky informacím, které už máte</title>
+    <link rel="alternate" hreflang="en" href="index.html" />
+    <link rel="alternate" hreflang="cs" href="index_cz.html" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="css/lib/glide.core.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/footer.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/features.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.min.css">
+
+    <script>window.noZensmooth = true</script>
+    <script src="js/lib/zenscroll-min.js"></script>
+    <script src="js/lib/glide.min.js"></script>
+
+    <script src="js/components/main.min.js"></script>
+    <script src="js/components/features.min.js"></script>
+
+    <script src="js/index.min.js"></script>
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="css/index.noscript.min.css">
+    </noscript>
+
+    <!-- Language switch -->
+    <script src="js/lang.min.js"></script>
+    <script>
+      window.onload = function() {
+        selectLanguage('cs', 'en', 'index');
+      };
+    </script>
+
+    <script src="js/custom.min.js"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBXWDKQ');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBXWDKQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <section class="header">
+      <header>
+        <nav>
+          <div class="content">
+            <a class="header-logo" href="index_cz.html" title="Lumeer Logo"><img alt="Lumeer Logo" src="img/logo-big.svg"></a>
+            <div class="item-container nav-item-container">
+
+              <a class="item column" href="vlastnosti.html">Vlastnosti</a>
+              <a class="item column" href="cena.html">Cena</a>
+              <a class="item column" href="https://blogcz.lumeer.io/" target="_blank">Blog</a>
+              <a class="item column" href="kontakt.html">Kontakt</a>
+              <!--a class="item column active" href="kontakt.html">Kontakt</a-->
+              <div class="column">
+                  <button class="filled-button green-button item small-button header-nav-try-demo" onclick="openLumeer('cs');">Zkusit demo</button>
+              </div>
+            </div>
+            <div class="header-nav-language-search">
+              <a class="item column header-nav-language" href="index.html"  onclick="onLanguageChange('en');">eng</a>
+              <!--button class="item column header-nav-search"></button-->
+            </div>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="header-nav-icon" viewBox="0 0 20 20" onclick="">
+            <rect class="rect-1" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-2" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-3" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+          </svg>
+        </nav>
+        <!--div class="content header-under-nav">
+            <h1>Vlastnosti</h1>
+            <p class="h-desc">vlastnosti popis</p>
+        </div-->
+      </header>
+    </section>
+
+    <section class="background home">
+        <div class="content">
+            <div class="upper-content content">
+                <div class="text">
+                    <p>Řídíte firmu nebo organizaci?</p>
+                    <p>Pracujte chytřeji díky informacím, které už máte!</p>
+                    <button class="filled-button green-button small-button" onclick="openLumeer('cs');">Zkusit zdarma</button>
+                </div>
+            </div>
+            <noscript>
+                <a class="noscript-mouse" href="/#lorem">
+            </noscript>
+            <noscript>
+                </a>
+            </noscript>
+            <noscript>
+                <div id="lorem"></div>
+            </noscript>
+            <div class="lower-content content item-container">
+                <div class="vertical-align-ghost"></div>
+                <div class="bottom-text">
+                    <p>S Lumeerem se konečně osvobodíte.</p>
+                    <p>Lumeer je flexibilní nástroj na kompletní řízení firmy, který pokryje všechny vaše potřeby. Dokáže nahradit nástroje pro ERP, CRM, HR, projektový management, správu inventáře a další.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" class="mouse" onclick="" viewBox="0 0 24 35">
+        <rect fill="none" height="33" stroke="#ffffff" stroke-miterlimit="10" stroke-width="1.42" rx="10.78" ry="10.78" x="1.42" y="0.71" width="21.56"></rect>
+        <circle cx="12.21" cy="12.21" fill="#ffffff" r="2.5"></circle>
+    </svg>
+    <section class="first-benefits">
+        <div class="content">
+            <div class="main-column-container">
+                <div class="main-column column column-3" onclick="">
+                    <div class="column-content">
+                        <div class="non-text">
+                            <img alt="" src="img/first-benefits-1.svg">
+                            <h3>Všechny tabulky na jednom místě</h3>
+                            <svg class="arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            	 onclick="" viewBox="0 0 51 51">
+                            <style type="text/css">
+                            	.st0{fill:#FFFFFF;}
+                            	.st1{fill:none;stroke:#6ABD9F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <title>first-benefits-arrow</title>
+                            <g>
+                            	<g id="Layer_2">
+                            		<g id="Layer_1-2">
+                            			<circle class="st0" cx="25.5" cy="25.5" r="25.5"/>
+                            			<polyline class="st1" points="32,22.3 25.5,28.8 19,22.3 			"/>
+                            		</g>
+                            	</g>
+                            </g>
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <p class="description-text">Tabulka knihy jízd u účetní, tabulka se mzdami u asistentky, tabulka s provizemi u obchodního ředitele – každý dnes tvoří tabulky. A každý v jiném formátu. V Lumeerovi je všechny dostanete na jedno místo, provážete a uděláte v nich pořádek.</p>
+                            <button class="filled-button green-button small-button" onclick="location.href='vlastnosti.html'">Zjistit více</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-column column column-3" onclick="">
+                    <div class="column-content">
+                        <div class="non-text">
+                            <img alt="" src="img/first-benefits-2.svg">
+                            <h3>Úpravy výstupů na pár kliknutí</h3>
+                            <svg class="arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            	 onclick="" viewBox="0 0 51 51">
+                            <style type="text/css">
+                            	.st0{fill:#FFFFFF;}
+                            	.st1{fill:none;stroke:#6ABD9F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <title>first-benefits-arrow</title>
+                            <g>
+                            	<g id="Layer_2">
+                            		<g id="Layer_1-2">
+                            			<circle class="st0" cx="25.5" cy="25.5" r="25.5"/>
+                            			<polyline class="st1" points="32,22.3 25.5,28.8 19,22.3 			"/>
+                            		</g>
+                            	</g>
+                            </g>
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <p class="description-text">Když chcete v Excelu upravit graf nebo kalendář, musíte najít jeho zdrojová data a přepsat je. Když chcete to stejné udělat v Lumeerovi, rovnou upravíte graf nebo kalendář. A zdrojová data se přepíší automaticky.</p>
+                            <button class="filled-button green-button small-button" onclick="location.href='vlastnosti.html'">Zjistit více</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-column column column-3" onclick="">
+                    <div class="column-content">
+                        <div class="non-text">
+                            <img alt="" src="img/first-benefits-3.svg">
+                            <h3>Aplikace, ve které se vyznáte</h3>
+                            <svg class="arrow" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            	 onclick="" viewBox="0 0 51 51">
+                            <style type="text/css">
+                            	.st0{fill:#FFFFFF;}
+                            	.st1{fill:none;stroke:#6ABD9F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <title>first-benefits-arrow</title>
+                            <g>
+                            	<g id="Layer_2">
+                            		<g id="Layer_1-2">
+                            			<circle class="st0" cx="25.5" cy="25.5" r="25.5"/>
+                            			<polyline class="st1" points="32,22.3 25.5,28.8 19,22.3 			"/>
+                            		</g>
+                            	</g>
+                            </g>
+                            </svg>
+                        </div>
+                        <div class="text">
+                            <p class="description-text">Ovládání Lumeera je stejně intuitivní, jako práce s tužkou a papírem – dostanete ho do ruky za pár minut. Vytvořili jsme prostředí, ve kterém i laik rychle a snadno připraví přesně takový výstup, jaký potřebuje. A vůbec k tomu nepotřebuje analytické myšlení.</p>
+                            <button class="filled-button green-button small-button" onclick="location.href='vlastnosti.html'">Zjistit více</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore">
+            <img alt="Logo - hlavička" src="img/logo-small.svg" title="Lumeer">
+            <p>Co všechno<br><span>LUMEER</span><br>umí?</p>
+            <button class="filled-button green-button" onclick="openLumeer('cs');">Prozkoumat</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="glide feature-glide feature-container">
+            <div class="glide__arrows arrow-container" data-glide-el="controls">
+                <div class="arrow arrow-left" data-glide-dir="<" onclick="">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st0{fill:#FFFFFF;}
+                  	.st1{fill:none;stroke:#6ABD9F;stroke-width:1.33;stroke-linecap:round;stroke-linejoin:round;}
+                  </style>
+                  <title>Vlevo</title>
+                  <g>
+                  	<g id="Layer_2">
+                  		<g id="Layer_1-2">
+                  			<circle class="st0" cx="10" cy="10" r="10"/>
+                  			<polyline class="st1" points="11,8 9,10 11,12"/>
+                  		</g>
+                  	</g>
+                  </g>
+                  </svg>
+                </div>
+                <div class="arrow arrow-right" data-glide-dir=">" onclick="">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st0{fill:#FFFFFF;}
+                  	.st1{fill:none;stroke:#6ABD9F;stroke-width:1.33;stroke-linecap:round;stroke-linejoin:round;}
+                  </style>
+                  <title>Vpravo</title>
+                  <g>
+                  	<g id="Layer_2">
+                  		<g id="Layer_1-2">
+                  			<circle class="st0" cx="10" cy="10" r="10"/>
+                  			<polyline class="st1" points="9,8 11,10 9,12"/>
+                  		</g>
+                  	</g>
+                  </g>
+                  </svg>
+                </div>
+            </div>
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+                    <div class="feature column glide__slide">
+                        <div class="content item-container">
+                            <div class="column image-container">
+                                <img alt="" src="img/features-computer.png">
+                            </div>
+                            <div class="column text">
+                                <h2>1. Používejte vylepšené tabulky</h2>
+                                <p class="description-text">Lumeer umožňuje vzít vaše existující tabulky a vložit je do aplikace, stejně tak jako vytvořit zcela nové. Tabulky je možné mezi sebou navzájem propojit, takže nebudete muset neustále kopírovat sloupce a upravovat více souborů při nějaké změně. Tabulky je možné pak sdílet s vašimi kolegy. Je možné určit, kdo může vidět jaké řádky, kdo může co upravovat, nebo i to, že někdo může jen řádky přidávat. Ke každé změně je možné dohledat kdo a kdy ji provedl. K řádkům je možné vkládat komentáře a diskutovat tak o možných úpravách.</p>
+                                <button class="filled-button green-button big-button" onclick="location.href='vlastnosti.html'">Prozkoumat</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="feature column glide__slide">
+                        <div class="content item-container">
+                            <div class="column image-container">
+                                <img alt="" src="img/features-computer.png">
+                            </div>
+                            <div class="column text">
+                                <h2>2. Údaje vidíte přirozeným způsobem</h2>
+                                <p class="description-text">Samotné tabulky však zřídka vytvoří dobrou vizuální představu o tom, co v nich je uložené. Proto je v Lumeerovi možné přepnout zobrazení tabulky a vidět řádky například v kalendáři (pokud mají sloupce s časem), na mapě (pokud obsahují adresu), v Ganttově diagramu (pokud mají údaj o délce trvání), v grafu (pokud obsahují čísla), formou nástěnky organizované do řádků a sloupců a mnoho dalšího.</p>
+                                <button class="filled-button green-button big-button" onclick="location.href='vlastnosti.html'">Prozkoumat</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature column glide__slide">
+                        <div class="content item-container">
+                            <div class="column image-container">
+                                <img alt="" src="img/features-computer.png">
+                            </div>
+                            <div class="column text">
+                                <h2>3. Tabulky a text v jednom dokumentu</h2>
+                                <p class="description-text">Někdy chceme vytvořit raději dokument ve Wordu, ale víme, že bude obsahovat data. Na druhou stranu psaní textu v Excelu není zvlášť pohodlné. Tento problém řeší Chytrý dokument, který umožňuje propojování libovolného textu s daty z tabulek.</p>
+                                <button class="filled-button green-button big-button" onclick="location.href='vlastnosti.html'">Prozkoumat</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature column glide__slide">
+                        <div class="content item-container">
+                            <div class="column image-container">
+                                <img alt="" src="img/features-computer.png">
+                            </div>
+                            <div class="column text">
+                                <h2>4. Automatizujte změny a dostávejte notifikace</h2>
+                                <p class="description-text">Lumeer se snaží také odhadovat, co s tabulkami zamýšlíte a radí vám různé úpravy pro zlepšení jejich struktury. Umí také provádět hromadné operace s mnoha řádky najednou nebo pohlídat neobvyklé hodnoty, které mohou představovat chybu. Na různé mezní hodnoty je možné také upozornit například podbarvením nebo zasláním zprávy (na email, SMS, Slack atd.).</p>
+                                <button class="filled-button green-button big-button" onclick="location.href='vlastnosti.html'">Prozkoumat</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-benefits">
+        <div class="content">
+            <div class="main-column-container">
+                <div class="main-column column">
+                    <div class="column-content">
+                        <div class="item-container">
+                            <div class="row">
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-1.svg">
+                                        <h3>je cenově dostupné</h3>
+                                    </div>
+                                </div>
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-2.svg">
+                                        <h3>má jednoduché ovládání</h3>
+                                    </div>
+                                </div>
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-3.svg">
+                                        <h3>pokrývá všechny potřeby</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-4.svg">
+                                        <h3>propojuje všechny týmy</h3>
+                                    </div>
+                                </div>
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-5.svg">
+                                        <h3>je přizpůsobivá a svobodná</h3>
+                                    </div>
+                                </div>
+                                <div class="column column-3">
+                                    <div class="vertical-align-ghost"></div>
+                                    <div class="column-content">
+                                        <img alt="" src="img/third-benefits-6.svg">
+                                        <h3>dává rychlé a přesné odpovědi</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-column column">
+                    <h2>Lumeer je nejjednodušší aplikace na řízení firmy, která</h2>
+                    <p class="description-text">umožní efektivní a příjemný způsob pro vytváření, sdílení a organizaci firemních údajů. A to celému vašemu týmu společně s jednoduchostí podobnou brouzdání po sociálních sítích.</p>
+                    <button class="filled-button green-button big-button" onclick="location.href='vlastnosti.html'">Zjistit více</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog section-bottom-gray">
+        <h2>Aktuality</h2>
+        <div class="glide post-container">
+            <div class="glide__arrows arrow-container" data-glide-el="controls">
+                <div class="arrow arrow-left" data-glide-dir="<" onclick="">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st0{fill:#FFFFFF;}
+                  	.st1{fill:none;stroke:#6ABD9F;stroke-width:1.33;stroke-linecap:round;stroke-linejoin:round;}
+                  </style>
+                  <title>Vlevo</title>
+                  <g>
+                  	<g id="Layer_2">
+                  		<g id="Layer_1-2">
+                  			<circle class="st0" cx="10" cy="10" r="10"/>
+                  			<polyline class="st1" points="11,8 9,10 11,12"/>
+                  		</g>
+                  	</g>
+                  </g>
+                  </svg>
+                </div>
+                <div class="arrow arrow-right" data-glide-dir=">" onclick="">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                  	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st0{fill:#FFFFFF;}
+                  	.st1{fill:none;stroke:#6ABD9F;stroke-width:1.33;stroke-linecap:round;stroke-linejoin:round;}
+                  </style>
+                  <title>Vpravo</title>
+                  <g>
+                  	<g id="Layer_2">
+                  		<g id="Layer_1-2">
+                  			<circle class="st0" cx="10" cy="10" r="10"/>
+                  			<polyline class="st1" points="9,8 11,10 9,12"/>
+                  		</g>
+                  	</g>
+                  </g>
+                  </svg>
+                </div>
+            </div>
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+
+                        <div class="glide__slide column post">
+                            <div class="post-content border-radius-big">
+                                <p class="date">9.10.2018</p>
+                                <h3>Ako sú zabezpečené vaše dáta v Lumeerovi?</h3>
+                                <img alt="Architektura dat v Lumeerovi" src="img/blog-2-cs.png">
+                                <p class="description-text">Množstvo dát spracovávaných počítačmi rastie a otázkou o ich zabezpečení sa zaoberá stále viac používateľov, a pre podnikateľov je bytostne dôležité vedieť, že ich cenné dáta sú v bezpečí.</p>
+                                <button class="filled-button green-button small-button" onclick="location.href='https://blogcz.lumeer.io/2018/10/how-secure-are-your-data-in-lumeer.html'">Číst více</button>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide column post">
+                            <div class="post-content border-radius-big">
+                                <p class="date">25.9.2018</p>
+                                <h3>Ako mať prehľad o úlohách pre zamestnancov</h3>
+                                <img alt="Lumeer se zobrazením základního seznamu kolekcí" src="img/blog-3-en.png">
+                                <p class="description-text">Keď viacero zamestnancov pracuje na viacerých projektoch, aj v malej firme sa vám môže stať, že stratíte prehľad o tom, kto a na akých úlohách vlastne pracuje. Je ale veľmi dôležité mať k týmto informáciám prístup: chcete vedieť, aký je súčasný stav projektu, alebo chcete vedieť, ako sú vaši zamestnanci vyťažení...</p>
+                                <button class="filled-button green-button small-button" onclick="location.href='https://blogcz.lumeer.io/2018/09/how-to-track-tasks-for-employee.html'">Číst více</button>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide column post">
+                            <div class="post-content border-radius-big">
+                                <p class="date">29.12.2017</p>
+                                <h3>Ako znovu použiť dokument s pozvánkou na zasadnutie</h3>
+                                <img alt="Chytrý dokument v Lumeerovi" src="img/blog-4-cs.png">
+                                <p class="description-text">Keďže sme už vytvorili dokument s pozvánkou na zasadnutie obecného zastupiteľstva a rozšírili ho o uznesenia a komentáre členov zastupiteľstva, teraz chceme túto šablónu využiť aj pre ďalšie zasadnutia, takže nebudeme musieť robiť rovnakú prácu dvakrát.</p>
+                                <button class="filled-button green-button small-button" onclick="location.href='https://blogcz.lumeer.io/2017/12/how-to-reuse-document-with-townhall.html'">Číst více</button>
+                            </div>
+                        </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <button class="big-button filled-button green-button blog-more-posts-button" onclick="location.href='https://blogcz.lumeer.io/'">Více aktualit</button>
+    </section>
+    <section class="background free-trial">
+        <h2>Pracujte chytřeji s daty, které máte.</h2>
+        <p>Abyste mohli dělat to, proč podnikáte.</p>
+        <button class="filled-button green-button big-button" onclick="openLumeer('cs');">Zkusit zdarma</button>
+    </section>
+
+    <section class="footer">
+        <footer>
+            <div class="content">
+                <div class="item-container column-container">
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Autorská práva</h3>
+                            <p class="description-text"><span class="copyright-left-part">&copy; Lumeer. Všechna práva vyhrazena.</span><br>
+                                <span class="copyright-left-part">Zdrojové kódy pod licencí</span> <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE.txt" rel="nofollow" target="_blank">GPLv3</a>.<br>
+                                <span class="copyright-left-part">Web Font</span> <a href="http://www.latofonts.com/lato-free-fonts/" rel="nofollow" target="_blank">Lato</a>.</p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Podmínky</h3>
+                            <p class="description-text">
+                              <a href="terms_service_cz.html">Všeobecné obchodní podmínky</a><br/>
+                              <a href="privacy_cz.html">Zásady ochrany osobních údajů</a><br/>
+                              <a href="information_cz.html">Seznam zpracovatelů</a><br/>
+                              <a href="cookies_cz.html">Prohlášení o používání cookies</a><br/>
+                              <a href="gdpr_cz.html">GDPR</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column footer-link-container">
+                        <div class="column-content">
+                            <div class="row item-container footer-social-network-container">
+                                <a class="footer-social-network column" href="https://twitter.com/lumeerio" title="Twitter">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>Twitter</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="M29,14.49A14.49,14.49,0,1,1,14.49,0,14.49,14.49,0,0,1,29,14.49ZM11.84,22.14a9.87,9.87,0,0,0,9.94-9.94c0-.15,0-.3,0-.45a7.16,7.16,0,0,0,1.75-1.81,7.09,7.09,0,0,1-2,.55,3.49,3.49,0,0,0,1.54-1.93,7.08,7.08,0,0,1-2.22.85,3.5,3.5,0,0,0-6,2.39,3.2,3.2,0,0,0,.09.8,9.91,9.91,0,0,1-7.2-3.65,3.49,3.49,0,0,0,1.09,4.66,3.43,3.43,0,0,1-1.58-.43v0A3.5,3.5,0,0,0,10,16.63a3.48,3.48,0,0,1-.92.12,3.34,3.34,0,0,1-.66-.07,3.49,3.49,0,0,0,3.26,2.43,7,7,0,0,1-4.34,1.49,6.35,6.35,0,0,1-.83-.05,9.73,9.73,0,0,0,5.34,1.58"/></g></g></svg>
+                                </a>
+                                <a class="footer-social-network column" href="https://github.com/Lumeer" title="GitHub">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>GitHub</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="m 25.903799,-0.02625716 -22.7857753,0 c -1.7154046,0 -3.10714918,1.39174606 -3.10714918,3.10715066 l 0,22.7857755 c 0,1.715408 1.39174458,3.107151 3.10714918,3.107151 l 22.7857753,0 c 1.715406,0 3.107153,-1.391743 3.107153,-3.107151 l 0,-22.7857755 c 0,-1.7154046 -1.391747,-3.10715066 -3.107153,-3.10715066 z M 17.96114,24.811532 c -0.54375,0.0971 -0.744421,-0.23951 -0.744421,-0.51786 0,-0.349552 0.01298,-2.136163 0.01298,-3.579695 0,-1.009823 -0.336607,-1.650673 -0.731474,-1.987283 2.395092,-0.265401 4.919654,-0.595537 4.919654,-4.731933 0,-1.178127 -0.420755,-1.767189 -1.106921,-2.524559 0.110049,-0.27835 0.479022,-1.424112 -0.110042,-2.9129551 -0.899777,-0.2783465 -2.95827,1.1587103 -2.95827,1.1587103 -0.854463,-0.23951 -1.780134,-0.3625002 -2.692865,-0.3625002 -0.912724,0 -1.838395,0.1229902 -2.692865,0.3625002 0,0 -2.058486,-1.4370568 -2.9582629,-1.1587103 -0.5890647,1.4823721 -0.2265645,2.6281341 -0.1100492,2.9129551 -0.6861595,0.75737 -1.0098188,1.346432 -1.0098188,2.524559 0,4.116976 2.4145129,4.466532 4.8096119,4.731933 -0.31072,0.27835 -0.589065,0.75737 -0.686167,1.443532 -0.614958,0.27835 -2.1879478,0.757367 -3.1265731,-0.899781 C 8.1865967,18.247677 7.124983,18.163523 7.124983,18.163523 6.0763234,18.150569 7.05376,18.823794 7.05376,18.823794 c 0.6991134,0.323661 1.1910759,1.566522 1.1910759,1.566522 0.6279055,1.922549 3.6314831,1.275227 3.6314831,1.275227 0,0.899778 0.01298,2.362728 0.01298,2.628129 0,0.27835 -0.194197,0.61496 -0.744421,0.51786 -4.2723272,-1.430586 -7.2629648,-5.495773 -7.2629648,-10.247126 0,-5.9424251 4.5442136,-10.4542667 10.4866328,-10.4542667 5.942427,0 10.758513,4.5118416 10.758513,10.4542667 0.0066,4.751353 -2.893528,8.823015 -7.165871,10.247126 z m -6.350234,-3.955145 c -0.122996,0.02588 -0.239512,-0.02588 -0.252459,-0.110045 -0.01298,-0.0971 0.07122,-0.18125 0.194198,-0.207141 0.122988,-0.01295 0.239511,0.03884 0.252458,0.122991 0.01939,0.08415 -0.06474,0.168304 -0.194197,0.194195 z m -0.614959,-0.05826 c 0,0.08415 -0.09709,0.155359 -0.226564,0.155359 -0.142409,0.01295 -0.239512,-0.05826 -0.239512,-0.155359 0,-0.08415 0.0971,-0.155356 0.226565,-0.155356 0.122996,-0.01295 0.239511,0.05826 0.239511,0.155356 z m -0.88683,-0.07121 c -0.02588,0.08415 -0.1553559,0.122993 -0.2654051,0.08415 -0.1229887,-0.02588 -0.207144,-0.122991 -0.1812501,-0.207144 0.025879,-0.08415 0.1553562,-0.122991 0.2654054,-0.0971 0.1294618,0.03883 0.2136098,0.135937 0.1812498,0.220088 z M 9.3129086,20.377365 c -0.058247,0.07121 -0.1812501,0.05825 -0.2783523,-0.03884 -0.097095,-0.08415 -0.1229888,-0.207145 -0.058247,-0.265404 0.058247,-0.07121 0.1812501,-0.05825 0.2783523,0.03884 0.084148,0.08415 0.1165227,0.213615 0.058247,0.265403 z M 8.723844,19.7883 c -0.058247,0.03884 -0.1683032,0 -0.2395115,-0.0971 -0.071223,-0.0971 -0.071223,-0.207141 0,-0.252455 0.071223,-0.05826 0.1812501,-0.01295 0.2395115,0.08415 0.071223,0.0971 0.071223,0.213616 0,0.265401 z M 8.3030825,19.160398 c -0.058247,0.05825 -0.1553562,0.02588 -0.2265645,-0.03884 -0.071223,-0.08415 -0.084148,-0.18125 -0.025879,-0.226564 0.058247,-0.05826 0.1553636,-0.02588 0.2265645,0.03884 0.071223,0.08415 0.084155,0.18125 0.025879,0.226565 z M 7.869374,18.681378 c -0.025879,0.05826 -0.1100418,0.07121 -0.1812501,0.02588 -0.084148,-0.03883 -0.1229888,-0.110045 -0.097095,-0.168301 0.025879,-0.03884 0.097095,-0.05826 0.1812501,-0.02588 0.084148,0.04531 0.1229888,0.11652 0.097095,0.168306 z"
+                                          id="path4883"/></g></g></svg>
+                                </a>
+                            </div>
+                            <nav class="row item-container">
+                                <a class="column" href="vlastnosti.html">Vlastnosti</a>
+                                <a class="column" href="cena.html">Cena</a>
+                                <a class="column" href="http://blogcz.lumeer.io" target="_blank">Blog</a>
+                                <a class="column" href="kontakt.html">Kontakt</a>
+                            </nav>
+                            <div class="item-container footer-contact-info">
+                                <div class="row" title="Telefonní číslo"><img alt="phone" class="column" src="img/footer-phone.svg"><span class="column">+420 608 677 218</span></div>
+                                <div class="row" title="Email"><img alt="email" class="column" src="img/footer-email.svg"><span
+                                        class="column">&#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#109;&#101;&#101;&#114;&#046;&#105;&#111;</span></div>
+                                <a class="row" href="index_cz.html" title="URL"><img alt="browser" class="column" src="img/footer-site.svg"><span class="column">lumeer.io</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="designer-signature"><p>designed by UNIFER <img alt="Unifer" src="img/unifer.svg" title="Unifer"></p></div>
+        </footer>
+    </section>
+
+  </body>
+</html>
