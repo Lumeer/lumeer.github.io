@@ -1,31 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Lumeer: First productivity app with a muscle</title>
-
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <meta name="keywords" content="Lumeer">
+    <meta name="description" content="Lumeer">
+    <title>Lumeer: Pracujte chytřeji díky informacím, které už máte</title>
     <link rel="alternate" hreflang="en" href="terms_service.html" />
     <link rel="alternate" hreflang="cs" href="terms_service_cz.html" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css4/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css4/fontawesome-all.min.css"/>
-    <link rel="stylesheet" href="css/flags.min.css"/>
-    <link rel="stylesheet" href="css4/custom.min.css"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/components/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/footer.min.css">
+    <link rel="stylesheet" type="text/css" href="css/legal.min.css">
+
+    <script>window.noZensmooth = true</script>
+    <script src="js/lib/zenscroll-min.js"></script>
+
+    <script src="js/components/main.min.js"></script>
 
     <!-- Language switch -->
-    <script src="js/lang.js"></script>
+    <script src="js/lang.min.js"></script>
     <script>
-      $(function() {
+      window.onload = function() {
         selectLanguage('cs', 'en', 'terms_service');
-      });
+      };
     </script>
+
+    <script src="js/custom.min.js"></script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -39,333 +60,329 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBXWDKQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <section class="header">
+      <header>
+        <nav>
+          <div class="content">
+            <a class="header-logo" href="index_cz.html" title="Lumeer Logo"><img alt="Lumeer Logo" src="img/logo-big.svg"></a>
+            <div class="item-container nav-item-container">
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success py-1">
-      <div class="container">
-            <a class="navbar-brand" href="index_cz.html">
-              <img src="img/logo-title-blue.svg" height="48px" class="d-inline-block align-center lumeer-pop" alt="Logo Lumeera">
-            </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Přepnout navigaci" style="">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav ml-auto mr-3">
-              <li class="nav-item">
-                <a class="nav-link" href="features_cz.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Vlastnosti</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cena.html"><i class="fa fa-tag" aria-hidden="true"></i> Cena</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="http://blogcz.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact_cz.html"><i class="fa fa-phone" aria-hidden="true"></i> Kontakt</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="terms_service.html" onclick="onLanguageChange('en');"><img src="img/blank.gif" class="flag flag-us" alt="English" /></a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <a href="https://get.lumeer.io/" class="btn btn-small btn-primary" target="_blank"><i class="far fa-rocket" aria-hidden="true"></i> Zkusit zdarma</a>
-            </form>
+              <a class="item column" href="vlastnosti.html">Vlastnosti</a>
+              <a class="item column" href="cena.html">Cena</a>
+              <a class="item column" href="https://blogcz.lumeer.io/" target="_blank">Blog</a>
+              <a class="item column" href="kontakt.html">Kontakt</a>
+              <!--a class="item column active" href="kontakt.html">Kontakt</a-->
+              <div class="column">
+                  <button class="filled-button green-button item small-button header-nav-try-demo" onclick="openLumeer('cs');">Zkusit demo</button>
+              </div>
+            </div>
+            <div class="header-nav-language-search">
+              <a class="item column header-nav-language" href="terms_service.html"  onclick="onLanguageChange('en');">eng</a>
+              <!--button class="item column header-nav-search"></button-->
+            </div>
           </div>
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
-
-
-
-
-
-
-          <h1>Všeobecné obchodní podmínky</h1>
-          <p><em>Naposledy aktualizováno 20. května 2018</em></p>
-
-
-          <h2>I. Úvodní ustanovení</h2>
-          <ol>
-            <li>
-              Obchodní společnost <strong>Answer Institute s.r.o.</strong>, IČ: 06618278, se sídlem Purkyňova 649/127, Medlánky, 612 00 Brno, zapsána v obchodním rejstříku vedeném Krajským soudem v Brně, oddíl C, vložka 102990,  (dále jen <em>poskytovatel</em>) tímto prohlašuje, že je právnickou osobou založenou podle českého právního řádu, jejímž předmětem podnikání je výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona. Poskytovatel tímto prohlašuje, že mimo jiné vyvíjí softwarová řešení, která poskytuje svým zákazníkům.
-            </li>
-            <li>
-              Poskytovatel v této souvislosti dále prohlašuje, že vyvinul a je jediným vlastníkem on-line aplikace Lumeer dostupné na <a href="//www.lumeer.io/" target="_blank">www.lumeer.io</a> vhodné pro tvorbu tabulek a analýz (dále jen <em>Lumeer</em>). Veškerá autorská majetková i osobnostní práva náleží výhradně poskytovateli.
-            </li>
-            <li>
-              Tyto všeobecné obchodní podmínky se vztahují na veškeré vztahy mezi poskytovatelem a jeho zákazníky, které vznikají při užívání nebo v souvislosti s užíváním aplikace Lumeer.
-            </li>
-          </ol>
-
-          <h2>II. Poskytnutí základní licence</h2>
-          <ol>
-            <li>
-              Poskytovatel umožňuje svým zákazníkům – fyzickým i právnickým osobám (dále jen <em>příjemci</em> nebo v jednotném čísle <em>příjemce</em>) použití aplikace Lumeer, a to na základě licenčního oprávnění. Pro uzavření licenční smlouvy musí fyzická osoba dosáhnout věku minimálně 18 let a musí být plně svéprávná.
-            </li>
-            <li>
-              Licenční smlouva, k užívání aplikace Lumeer je mezi poskytovatelem a příjemcem uzavřena ve chvíli, kdy příjemce dokončí registraci přes registrační formulář dostupný na lumeer.io a potvrdí registraci prostřednictvím své e-mailové adresy. Na základě takto uzavřené licenční smlouvy bude příjemci udělena licence na užívání Lumeera po časově neomezenou dobu, a to za podmínek uvedených v těchto všeobecných obchodních podmínkách. Uzavřením licenční smlouvy příjemce potvrzuje, že byl seznámen s těmito všeobecnými obchodními podmínkami.  Licence je poskytovatelem poskytována jako bezúplatná.
-            </li>
-            <li>
-              Licence je příjemci poskytnuta jako licence nevýhradní, územně a časově neomezená. Licence je poskytována pouze příjemci a pro neomezený počet zařízení příjemce s tím, že v současný okamžik může být aplikace užívána pouze na dvou zařízeních příjemce, přičemž příjemce může do aplikace ukládat data až do objemu 2.000 záznamů v databázi.
-            </li>
-            <li>
-              Poskytovatel si vyhrazuje právo licenční smlouvu k základní verzi aplikace Lumeer kdykoli vypovědět, přičemž výpovědní lhůta v takovém případě končí k poslednímu dni měsíce následujícího po měsíci, ve kterém byla výpověď zaslána na kontaktní e-mailovou adresu příjemce. Příjemce s v takovém případě může rozhodnout, zda chce přejít na placenou verzi nebo zda nehodlá aplikaci Lumeer nadále užívat.
-            </li>
-            <li>
-              Poskytovatel nabízí rovněž vyšší verze aplikace Lumeer s rozšířenými funkcemi. Varianty rozšířených verzí aplikace jsou dostupné na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Rozšířené verze jsou poskytovány úplatně. V případě, že se příjemce rozhodne přejít na vyšší verzi, postačí pokud v aplikaci objedná vyšší verzi a uhradí měsíční licenční poplatek. Vyšší verze aplikace je vždy poskytována na jeden měsíc ode dne uhrazení licenčního poplatku.
-            </li>
-          </ol>
-
-          <h2>III. Uživatelský účet a užívání aplikace</h2>
-          <ol>
-            <li>
-              Ve chvíli uzavření licenční smlouvy je příjemci zřízen uživatelský účet, ke kterému má příjemce jako uživatel přístup. Příjemce bere na vědomí, že zaměstnanci poskytovatele se mohou přihlásit k uživatelskému účtu, je-li to nezbytné pro správu a zlepšování služby nebo za účelem pomoci příjemci. Zaměstnanci nejsou oprávněni k jakémukoli užívání nebo kopírování dat příjemce. Zaměstnanci jsou samozřejmě vázáni mlčenlivostí a Zásadami ochrany osobních údajů dostupnými <a href="privacy_cz.html">zde</a>.
-            </li>
-            <li>
-              Příjemce je povinen uchovávat přístupové údaje k uživatelskému účtu jako důvěrné a není oprávněn je sdělovat jakékoli třetí osobě. Příjemce není oprávněn uživatelský účet zpřístupnit jakékoli třetí osobě. Jeden uživatelský účet smí využívat vždy pouze jedna osoba.
-            </li>
-            <li>
-              Příjemce není oprávněn aplikaci Lumeer dále jakkoli rozmnožovat, pronajímat, půjčovat, distribuovat či ji poskytovat jakýmkoli třetím osobám. Příjemce není oprávněn vytvářet jakékoli kopie aplikace Lumeer a tyto kopie jakkoli distribuovat.
-            </li>
-            <li>
-              Příjemce není oprávněn využívat Lumeer v rozporu s těmito licenčními podmínkami a pokyny poskytovatele.
-            </li>
-            <li>
-              Příjemce není oprávněn k jakýmkoli zásahům do zdrojového kódu Lumeer, nestanoví-li poskytovatel pro konkrétní případ jinak.
-              Aplikace Lumeer je určena pro použití jak pro podnikatelské subjekty, tak pro spotřebitele.
-            </li>
-          </ol>
-
-          <h2>IV. Užívání softwarového řešení Lumeer</h2>
-          <ol>
-            <li>
-              Příjemce je povinen zajistit pro užívání a provoz aplikace Lumeer vhodné softwarové a  hardwarové vybavení. Poskytovatel neodpovídá za funkčnost a dostupnost softwaru v případě, že není provozován na vybavení, které splňuje veškeré minimální požadavky. Skutečnost, že příjemce nedisponuje vhodným zařízením nemá vliv na případnou povinnost příjemce k úhradě licenčního poplatku.
-            </li>
-            <li>
-              Příjemce je při instalaci a užívání aplikace Lumeer povinen dodržovat veškeré pokyny poskytovatele, jinak poskytovatel neručí za funkčnost a dostupnost softwaru.
-            </li>
-          </ol>
-
-          <h2>V. Práva a povinnosti příjemce</h2>
-          <ol>
-            <li>
-              Při uzavírání licenční smlouvy dle článku II. odst. 2 těchto všeobecných obchodních podmínek je příjemce povinen uvádět jen pravdivé a přesné údaje.
-              V případě přechodu na vyšší placenou verzi aplikace je uživatel povinen hradit licenční poplatek za každý měsíc užívání aplikace. Výše měsíčního poplatku je stanovena platným ceníkem poskytovatele, který je dostupný na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Licenční poplatek je hrazen měsíčně vždy k takovému dni v měsíci, který pořadím v měsíci odpovídá dni uzavření licenční smlouvy (není-li takový den v měsíci, pak platí, že licenční poplatek je splatný k poslednímu dni v měsíci). Úhrada licenčního poplatku probíhá vždy prostřednictvím platební brány GoPay.
-            </li>
-            <li>
-              Příjemce se může rozhodnout pro jednorázovou platbu licenčního poplatku za vyšší placené verze aplikace na více měsíců najednou. Poskytovatel nabízí rovněž možnost zvýhodněné roční platby licenčního poplatku. Cena měsíčních a ročních licenčních poplatků je stanovena aktuálním ceníkem poskytovatele, který je dostupný na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Po uhrazení jednorázového poplatku je příjemci poskytnuta licence na dobu, kterou si předplatí.
-            </li>
-            <li>
-              V případě, že licenční poplatek nebude uhrazen řádně a včas, je poskytovatel oprávněn omezit nebo úplně zablokovat přístup k uživatelskému účtu příjemce, a to až do plné úhrady veškerých dlužných částek. Poskytovatel v takovém případě nenese žádnou odpovědnost za újmu způsobenou nedostupností uložených dat.
-            </li>
-            <li>
-              Příjemce je oprávněn na svých webových stránkách, jakož i ve veškerých marketingových a propagačních materiálech uvádět logo Lumeer. Takové užití je možné po celou dobu trvání licenčního oprávnění. To neplatí, pokud by logo bylo využíváno v rozporu s dobrými mravy nebo by byla uváděna nepravdivá tvrzení o spolupráci. Příjemce není oprávněn z výstupů aplikace odstraňovat jakékoliv informace o původu vlastnictví, loga nebo značky.
-            </li>
-            <li>
-              Příjemce není oprávněn k jakýmkoli zásahům do dobré pověsti poskytovatele.
-            </li>
-            <li>
-              Příjemce není oprávněn prostřednictvím softwaru Lumeer provozovat nebo podporovat jakoukoli činnost, která odporuje právnímu řádu České republiky nebo je proti dobrým mravům nebo prostřednictvím aplikace Lumeer nebo v souvislosti s jejím užíváním omezovat práva třetích osob. Příjemce dále není oprávněn jakkoli narušovat provoz služby.
-            </li>
-            <li>
-              Příjemci nevznikají v souvislosti s užíváním softwarového řešení Lumeer žádné další náklady nebo poplatky vyjma případné povinnosti k úhradě licenčního poplatku. To znamená, že příjemce nehradí žádné náklady na dodání ani na komunikaci na dálku vyjma nákladů na internetové připojení. Poskytovatel nenese odpovědnost za platbu daní a poplatků, které mohou příjemci případně vzniknout v souvislosti s užíváním služby.
-            </li>
-            <li>
-              V případě zneužití účtu nebo podezření na zneužití účtu třetí osobou nebo v případě jakéhokoli jiného bezpečnostního incidentu je příjemce povinen tuto skutečnost bezodkladně oznámit poskytovateli prostřednictvím kontaktní e-mailové adresy <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.
-            </li>
-          </ol>
-
-
-          <h2>VI. Povinnosti poskytovatele</h2>
-          <ol>
-            <li>
-              Poskytovatel je po celou dobu trvání licenčního oprávnění povinen umožnit užívání softwarového řešení Lumeer příjemcem za předpokladu, že příjemce dodržuje veškeré povinnosti stanovené mu těmito všeobecnými obchodními podmínkami.
-            </li>
-            <li>
-              Poskytovatel neodpovídá příjemci za jakoukoli újmu způsobenou v důsledku nedostupnosti aplikace nebo špatné funkčnosti v případě, že tato situace vznikla v důsledku užití nesprávného hardwarového nebo softwarového vybavení, neposkytnutí veškeré součinnosti příjemce, užíváním aplikace v rozporu s pokyny poskytovatele, v důsledku zásahů do zdrojového kódu softwarového řešení Lumeer, nedostupnosti dostatečného internetového připojení nebo v důsledku vyšší moci. Za vyšší moc je pro účely těchto licenčních podmínek považován  i hackerský útok.  Poskytovatel dále neodpovídá za újmu v případě, že nefunkčnost řešení byla dána přítomností jakýchkoli virů či jiného škodlivého softwaru v zařízení příjemce či jeho zákazníků.
-            </li>
-            <li>
-              Poskytovatel neodpovídá za právní bezvadnost dat uložených do aplikace příjemcem. Poskytovatel nenese žádnou odpovědnost za smazání, úpravy, zničení, poškození, ztrátu nebo selhání uložených uživatelských dat.
-            </li>
-            <li>
-              Poskytovatel poskytuje pouze softwarové řešení. Poskytovatel nepřebírá jakoukoli odpovědnost za obsah zpracovávaný nebo uložený příjemcem.
-            </li>
-            <li>
-              Poskytovatel garantuje dostupnost služby v 99,9% případů. Do garantované doby se nezapočítává doba odstávek nezbytných pro zajištění správy a údržby aplikace a doba předem plánovaných odstávek, o kterých byl příjemce předem informován. Maximální možná doba měsíční odstávky, která nebyla předem oznámena příjemci, činí 3600 vteřin měsíčně. V případě, že poskytovatel překročí tuto dobu, má příjemce nárok na 5% slevu z licenčního poplatku hrazeného na další měsíc, a to za každou další započatou hodinu trvání odstávky. Sleva je možná až do výše 100% měsíčního licenčního poplatku. Pro uplatnění tohoto nároku je nezbytné, aby příjemce poskytovatele kontaktoval prostřednictvím kontaktní e-mailové adresy. Nárok je nezbytné uplatnit do 10 dnů po incidentu, jinak zaniká. Tyto garance ne nevztahují na licence poskytnuté dle článku VII. těchto všeobecných obchodních podmínek.
-            </li>
-            <li>
-              Odst. 5 se nepoužije v případě, že odstávka byla způsobena v důsledku působení příjemce nebo jím pověřenou osobou, v důsledku výpadku služby nezbytné pro provoz aplikace poskytované třetí osobou, předem plánované odstávky aplikace, o kterých byl příjemce předem informován, v důsledku hackerského útoku, vyšší moci apod. Odstávka se považuje za předem plánovanou a oznámenou byla-li sdělena příjemci minimálně 24 hodin před jejím započetím prostřednictvím kontaktní e-mailové adresy.
-            </li>
-            <li>
-              Poskytovatel si vyhrazuje právo kdykoli měnit, rozšiřovat a aktualizovat aplikaci Lumeer, a to i bez přechozího upozornění.
-            </li>
-          </ol>
-
-          <h2>VII. Zánik licenčního oprávnění</h2>
-          <ol>
-            <li>
-              Příjemce je povinen uhradit poskytovateli měsíční licenční poplatek v jeho plné výši řádně a včas v souladu s článkem IV. odst. 2 těchto všeobecných obchodních podmínek. V případě, že příjemce tuto povinnost poruší a neuhradí licenční oprávnění automaticky zaniká. Od této chvíle není příjemce nadále oprávněn užívat aplikaci Lumeer.
-            </li>
-            <li>
-              V případě, že příjemce v průběhu doby, na kterou bylo licenční oprávnění poskytnuto přestane využívat řešení Lumeer, nemá tato skutečnost vliv na povinnost poskytovatele k vrácení licenčního poplatku nebo poměrné částky licenčního poplatku – tj. licenční poplatek ani jeho část v takovém případě příjemci vrácena nebude. V případě, že příjemce doposud neuhradil kteroukoli část licenčního poplatku, bude i nadále vázán k jeho úhradě.
-            </li>
-            <li>
-              V případě, že příjemce poruší kterékoli ustanovení těchto všeobecných obchodních podmínek, zejména ustanovení článku III. odst. 2, 3, 4 a 5 těchto všeobecných obchodních podmínek a ustanovení čl. V. odst. 2, 6 a 7 těchto všeobecných obchodních podmínek nebo užije logo Lumeer v rozporu s těmito všeobecnými obchodními podmínkami, je poskytoval oprávněn odstoupit od licenční smlouvy. Odstoupení je účinné okamžikem dojití oznámení o odstoupení příjemci. Od této chvíle  není příjemce nadále oprávněn užívat softwarové řešení Lumeer.
-            </li>
-            <li>
-              Příjemce – spotřebitel má právo odstoupit od licenční smlouvy do čtrnácti dnů ode dne jejího uzavření. Odstoupit od smlouvy lze zasláním této informace na kontaktní e-mailovou adresu poskytovatele <a href="mailto:support@lumeer.io">support@lumeer.io</a>. Okamžikem, kdy odstoupení od licenční smlouvy dojde poskytovateli, licenční oprávnění zaniká. V souvislosti s odstoupením od licenční smlouvy nevznikají spotřebiteli žádné další náklady vyjma nákladů na internetové připojení. V případě, že spotřebitel uhradil licenční poplatek, bude mu tento ze strany poskytovatele bezodkladně po účinnosti odstoupení vrácen.
-            </li>
-            <li>
-              Příjemce je oprávněn kdykoli v průběhu trvání vztahu smazat uživatelský účet. V takovém případě dochází k ukončení vztahu k poslednímu dni v měsíci, ve kterém byl účet smazán, tj. od tohoto dne již příjemci nesvědčí licenční oprávnění. Příjemce však v takovém případě nemá nárok na vrácení již uhrazených licenčních poplatků ani jejich částí.
-            </li>
-            <li>
-              V případě zániku licenčního oprávnění je poskytovatel oprávněn využít veškerých dostupných technických opatření k tomu, aby zamezil dalšímu užívání aplikace příjemcem.
-            </li>
-            <li>
-              V případě, že příjemce po zániku licenčního oprávnění využije aplikaci Lumeer nebo rozšířenou verzi, ke které licence zanikla, je příjemce povinen uhradit poskytovateli smluvní pokutu v částce ve výši 10.000,-Kč za každé takové užití. Uhrazením smluvní pokuty není dotčeno právo poskytovatele na náhradu případné újmy v celém rozsahu. Uhrazení smluvní pokuty nedává příjemci právo na jakékoli další užití aplikace Lumeer.
-            </li>
-            <li>
-              V případě, že příjemce poruší ustanovení III. odst. 2, 3, 4 a 5 těchto všeobecných obchodních podmínek a ustanovení čl. V. odst. 2, 6 a 7 těchto všeobecných obchodních podmínek nebo užije logo Lumeer v rozporu s těmito všeobecnými obchodními podmínkami, je povinen uhradit poskytovateli smluvní pokutu v částce ve výši 10.000,- Kč za každé takové porušení. Uhrazením smluvní pokuty není dotčeno právo poskytovatele na náhradu případné újmy v celé rozsahu.
-            </li>
-            <li>
-              V případě odstoupení od licenční smlouvy uchovává poskytovatel data příjemce po dobu nejdéle 6 měsíců. V průběhu této doby může na žádost příjemce dojít k obnovení účtu včetně jeho obsahu (to je možné pouze po vypořádání veškerých závazků příjemce vůči poskytovateli). Po uplynutí této lhůty bude veškerý obsah smazán. V případě smazání účtu ze stany příjemce, budou veškerá uživatelská data smazána nejpozději do 1 měsíce. Příjemce je oprávněn ponechat si po uplynutí těchto lhůt jen taková data, která jsou nezbytná k plnění jeho zákonných a smluvně převzatých povinností.
-            </li>
-            <li>
-              Poskytovatel si vyhrazuje právo smazat neaktivní uživatelské účty. Za neaktivní účet se považuje takový účet, ke kterému uživatel nepřistoupil po dobu delší 1 roku.
-            </li>
-          </ol>
-
-          <h2>VIII. Beta verze aplikace</h2>
-          <ol>
-            <li>
-              Poskytovatel může vybraným zájemcům poskytnout licenci k užívání beta verze aplikace. Příjemci berou na vědomí, že beta verze není oficiálně vydanou verzí aplikace a může obsahovat chyby. Na funkci beta verze se nevztahují žádné záruky a není jakkoli garantována její spolehlivost.
-            </li>
-            <li>
-              Příjemce, kterému byla poskytnuta beta verze, je povinen bezodkladně hlásit veškeré chyby a problémy a je povinen rovněž spolupracovat při jejich odstranění.
-            </li>
-            <li>
-              Na žádost poskytovatele je příjemce, kterému byla poskytnuta beta verze aplikace, povinen vyplnit písemné vyhodnocení zkušeností příjemce s užíváním beta verze služby, které může příjemce jakkoli neomezeně využívat pro další vývoj aplikace.
-              Poskytovatel si vyhrazuje právo kdykoli užívání beta verze aplikace ukončit.
-            </li>
-          </ol>
-
-          <h2>IX. Ostatní</h2>
-          <ol>
-            <li>
-              Veškerá komunikace mezi smluvními stranami bude probíhat prostřednictvím kontaktních e-mailových adres smluvních stran. Za kontaktní e-mailovou adresu poskytovatele je považována <a href="mailto:support@lumeer.io">support@lumeer.io</a>. Za kontaktní e-mailovou adresu příjemce je považována e-mailová adresa, kterou příjemce uvedl při registraci.
-            </li>
-            <li>
-              Odstoupení od licenční smlouvy a výzva k úhradě smluvní pokuty budou zasílány na kontaktní e-mailové adresy smluvních stran. Odstoupení a výzva k úhradě smluvní pokuty se považují za doručené uplynutím 7 dnů ode dne, kdy budou dokumenty zaslány na e-mailovou adresu druhé smluvní strany.
-            </li>
-            <li>
-              Poskytovatel prohlašuje, že přijal veškeré organizační a technické opatření k zabezpečení dat příjemců ukládaných do softwarového řešení Lumeer, které lze po něm s přihlédnutím ke stavu techniky, nákladům na provedení, povaze, rozsahu a kontextu zpracování dat, požadovat. Všechny uživatelské účty jsou šifrovány.
-            </li>
-          </ol>
-
-
-          <h2>X. Reklamace</h2>
-          <ol>
-            <li>
-              Veškerá práva z vadného plnění může příjemce uplatnit u poskytovatele. V případě jakýchkoli vad řešení Lumeer nebo v případě nedostupnosti Lumeer příjemce bezodkladně kontaktuje poskytovatele prostřednictvím kontaktní e-mailové adresy.
-            </li>
-            <li>
-              Poskytovatel je povinen veškeré incidenty vyřešit ve lhůtách co nejkratších.
-            </li>
-            <li>
-              V případě, že nedostupnost nebo nefunkčnost řešení byla způsobena v důsledku porušení povinností příjemce, tj. zejména zásahem do zdrojového kódu, nedostatečným softwarovým nebo hardwarovým vybavením apod. je poskytovatel oprávněn diagnostiku závady příjemci vyúčtovat v souladu s platným ceníkem poskytovatele.
-            </li>
-          </ol>
-
-
-          <h2>XI. Ochrana osobních údajů</h2>
-          <ol>
-            <li>
-              Poskytovatel prohlašuje, že během zpracování vždy dbá na to, aby nedošlo k újmě na právech fyzických osob v souvislosti se zpracováním osobních údajů. V této souvislosti poskytovatel přijal Zásady ochrany osobních údajů, které jsou dostupné <a href="privacy_cz.html">zde</a>.
-            </li>
-            <li>
-              Příjemce byl upozorněn, že v případě, že v souvislosti s užíváním aplikace Lumeer dochází ke zpracování osobních údajů, je příjemce v postavení správce a jako takový je povinen plnit veškeré povinnosti dané mu platnou právní úpravou a Nařízením Evropského parlamentu a Rady EU č. 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů v platném znění.
-            </li>
-            <li>
-              Poskytovatel si vyhrazuje právo poskytnout požadované údaje třetí osobě v případech stanovených zákonem, soudním příkazem nebo příkazem státního úřadu oprávněného regulovat podnikání poskytovatele.
-            </li>
-          </ol>
-
-
-          <h2>XII. Závěrečná ustanovení</h2>
-          <ol>
-            <li>
-              Veškeré vztahy mezi poskytovatelem a příjemcem se řídí českým právním řádem, zejména potom zákonem č. 89/2012 Sb., občanský zákoník v platném znění a zákonem č. 121/2000 Sb., autorský zákon v platném znění. Veškeré případné spory vzešlé ze vztahů mezi poskytovatelem a příjemcem budou řešeny před věcně a místně příslušnými soudy České republiky.
-            </li>
-            <li>
-              Orgánem pro řešení mimosoudních sporů mezi poskytovatelem a příjemcem – spotřebitelem je Česká obchodní inspekce se sídlem Štěpánská 567/15, Praha 2, PSČ 120 00, <a href="https://www.coi.cz">www.coi.cz</a>.
-            </li>
-            <li>
-              V případě, že se jakékoli ustanovení těchto všeobecných obchodních podmínek stane neplatným, nemá tato skutečnost vliv na platnost uzavřené licenční smlouvy a všeobecných licenčních podmínek jako celku.
-            </li>
-          </ol>
-
-          <p>Tyto všeobecné obchodní podmínky nabývají platnosti a účinnosti dne 20. 5. 2018.</p>
-          <p>V Brně dne 20.5.2018</p>
-
-          <p>V případě jakýchkoliv otázek a problémů nás prosím kontaktujte na <a href="contact_cz.html">www.lumeer.io/contact_cz.html</a>.</p>
-
-
-
-
-
+          <svg xmlns="http://www.w3.org/2000/svg" class="header-nav-icon" viewBox="0 0 20 20" onclick="">
+            <rect class="rect-1" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-2" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-3" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+          </svg>
+        </nav>
+        <div class="content header-under-nav">
+            <h1>Všeobecné obchodní podmínky</h1>
+            <p class="h-desc">Naposledy aktualizováno 20. května 2018</p>
         </div>
+      </header>
+    </section>
+
+    <section class="legal">
+      <div class="content">
+
+        <h2>I. Úvodní ustanovení</h2>
+        <ol>
+          <li>
+            Obchodní společnost <strong>Answer Institute s.r.o.</strong>, IČ: 06618278, se sídlem Purkyňova 649/127, Medlánky, 612 00 Brno, zapsána v obchodním rejstříku vedeném Krajským soudem v Brně, oddíl C, vložka 102990,  (dále jen <em>poskytovatel</em>) tímto prohlašuje, že je právnickou osobou založenou podle českého právního řádu, jejímž předmětem podnikání je výroba, obchod a služby neuvedené v přílohách 1 až 3 živnostenského zákona. Poskytovatel tímto prohlašuje, že mimo jiné vyvíjí softwarová řešení, která poskytuje svým zákazníkům.
+          </li>
+          <li>
+            Poskytovatel v této souvislosti dále prohlašuje, že vyvinul a je jediným vlastníkem on-line aplikace Lumeer dostupné na <a href="//www.lumeer.io/" target="_blank">www.lumeer.io</a> vhodné pro tvorbu tabulek a analýz (dále jen <em>Lumeer</em>). Veškerá autorská majetková i osobnostní práva náleží výhradně poskytovateli.
+          </li>
+          <li>
+            Tyto všeobecné obchodní podmínky se vztahují na veškeré vztahy mezi poskytovatelem a jeho zákazníky, které vznikají při užívání nebo v souvislosti s užíváním aplikace Lumeer.
+          </li>
+        </ol>
+
+        <h2>II. Poskytnutí základní licence</h2>
+        <ol>
+          <li>
+            Poskytovatel umožňuje svým zákazníkům – fyzickým i právnickým osobám (dále jen <em>příjemci</em> nebo v jednotném čísle <em>příjemce</em>) použití aplikace Lumeer, a to na základě licenčního oprávnění. Pro uzavření licenční smlouvy musí fyzická osoba dosáhnout věku minimálně 18 let a musí být plně svéprávná.
+          </li>
+          <li>
+            Licenční smlouva, k užívání aplikace Lumeer je mezi poskytovatelem a příjemcem uzavřena ve chvíli, kdy příjemce dokončí registraci přes registrační formulář dostupný na lumeer.io a potvrdí registraci prostřednictvím své e-mailové adresy. Na základě takto uzavřené licenční smlouvy bude příjemci udělena licence na užívání Lumeera po časově neomezenou dobu, a to za podmínek uvedených v těchto všeobecných obchodních podmínkách. Uzavřením licenční smlouvy příjemce potvrzuje, že byl seznámen s těmito všeobecnými obchodními podmínkami.  Licence je poskytovatelem poskytována jako bezúplatná.
+          </li>
+          <li>
+            Licence je příjemci poskytnuta jako licence nevýhradní, územně a časově neomezená. Licence je poskytována pouze příjemci a pro neomezený počet zařízení příjemce s tím, že v současný okamžik může být aplikace užívána pouze na dvou zařízeních příjemce, přičemž příjemce může do aplikace ukládat data až do objemu 2.000 záznamů v databázi.
+          </li>
+          <li>
+            Poskytovatel si vyhrazuje právo licenční smlouvu k základní verzi aplikace Lumeer kdykoli vypovědět, přičemž výpovědní lhůta v takovém případě končí k poslednímu dni měsíce následujícího po měsíci, ve kterém byla výpověď zaslána na kontaktní e-mailovou adresu příjemce. Příjemce s v takovém případě může rozhodnout, zda chce přejít na placenou verzi nebo zda nehodlá aplikaci Lumeer nadále užívat.
+          </li>
+          <li>
+            Poskytovatel nabízí rovněž vyšší verze aplikace Lumeer s rozšířenými funkcemi. Varianty rozšířených verzí aplikace jsou dostupné na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Rozšířené verze jsou poskytovány úplatně. V případě, že se příjemce rozhodne přejít na vyšší verzi, postačí pokud v aplikaci objedná vyšší verzi a uhradí měsíční licenční poplatek. Vyšší verze aplikace je vždy poskytována na jeden měsíc ode dne uhrazení licenčního poplatku.
+          </li>
+        </ol>
+
+        <h2>III. Uživatelský účet a užívání aplikace</h2>
+        <ol>
+          <li>
+            Ve chvíli uzavření licenční smlouvy je příjemci zřízen uživatelský účet, ke kterému má příjemce jako uživatel přístup. Příjemce bere na vědomí, že zaměstnanci poskytovatele se mohou přihlásit k uživatelskému účtu, je-li to nezbytné pro správu a zlepšování služby nebo za účelem pomoci příjemci. Zaměstnanci nejsou oprávněni k jakémukoli užívání nebo kopírování dat příjemce. Zaměstnanci jsou samozřejmě vázáni mlčenlivostí a Zásadami ochrany osobních údajů dostupnými <a href="privacy_cz.html">zde</a>.
+          </li>
+          <li>
+            Příjemce je povinen uchovávat přístupové údaje k uživatelskému účtu jako důvěrné a není oprávněn je sdělovat jakékoli třetí osobě. Příjemce není oprávněn uživatelský účet zpřístupnit jakékoli třetí osobě. Jeden uživatelský účet smí využívat vždy pouze jedna osoba.
+          </li>
+          <li>
+            Příjemce není oprávněn aplikaci Lumeer dále jakkoli rozmnožovat, pronajímat, půjčovat, distribuovat či ji poskytovat jakýmkoli třetím osobám. Příjemce není oprávněn vytvářet jakékoli kopie aplikace Lumeer a tyto kopie jakkoli distribuovat.
+          </li>
+          <li>
+            Příjemce není oprávněn využívat Lumeer v rozporu s těmito licenčními podmínkami a pokyny poskytovatele.
+          </li>
+          <li>
+            Příjemce není oprávněn k jakýmkoli zásahům do zdrojového kódu Lumeer, nestanoví-li poskytovatel pro konkrétní případ jinak.
+            Aplikace Lumeer je určena pro použití jak pro podnikatelské subjekty, tak pro spotřebitele.
+          </li>
+        </ol>
+
+        <h2>IV. Užívání softwarového řešení Lumeer</h2>
+        <ol>
+          <li>
+            Příjemce je povinen zajistit pro užívání a provoz aplikace Lumeer vhodné softwarové a  hardwarové vybavení. Poskytovatel neodpovídá za funkčnost a dostupnost softwaru v případě, že není provozován na vybavení, které splňuje veškeré minimální požadavky. Skutečnost, že příjemce nedisponuje vhodným zařízením nemá vliv na případnou povinnost příjemce k úhradě licenčního poplatku.
+          </li>
+          <li>
+            Příjemce je při instalaci a užívání aplikace Lumeer povinen dodržovat veškeré pokyny poskytovatele, jinak poskytovatel neručí za funkčnost a dostupnost softwaru.
+          </li>
+        </ol>
+
+        <h2>V. Práva a povinnosti příjemce</h2>
+        <ol>
+          <li>
+            Při uzavírání licenční smlouvy dle článku II. odst. 2 těchto všeobecných obchodních podmínek je příjemce povinen uvádět jen pravdivé a přesné údaje.
+            V případě přechodu na vyšší placenou verzi aplikace je uživatel povinen hradit licenční poplatek za každý měsíc užívání aplikace. Výše měsíčního poplatku je stanovena platným ceníkem poskytovatele, který je dostupný na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Licenční poplatek je hrazen měsíčně vždy k takovému dni v měsíci, který pořadím v měsíci odpovídá dni uzavření licenční smlouvy (není-li takový den v měsíci, pak platí, že licenční poplatek je splatný k poslednímu dni v měsíci). Úhrada licenčního poplatku probíhá vždy prostřednictvím platební brány GoPay.
+          </li>
+          <li>
+            Příjemce se může rozhodnout pro jednorázovou platbu licenčního poplatku za vyšší placené verze aplikace na více měsíců najednou. Poskytovatel nabízí rovněž možnost zvýhodněné roční platby licenčního poplatku. Cena měsíčních a ročních licenčních poplatků je stanovena aktuálním ceníkem poskytovatele, který je dostupný na <a href="http://www.lumeer.io/cena.html">www.lumeer.io/cena.html</a>. Po uhrazení jednorázového poplatku je příjemci poskytnuta licence na dobu, kterou si předplatí.
+          </li>
+          <li>
+            V případě, že licenční poplatek nebude uhrazen řádně a včas, je poskytovatel oprávněn omezit nebo úplně zablokovat přístup k uživatelskému účtu příjemce, a to až do plné úhrady veškerých dlužných částek. Poskytovatel v takovém případě nenese žádnou odpovědnost za újmu způsobenou nedostupností uložených dat.
+          </li>
+          <li>
+            Příjemce je oprávněn na svých webových stránkách, jakož i ve veškerých marketingových a propagačních materiálech uvádět logo Lumeer. Takové užití je možné po celou dobu trvání licenčního oprávnění. To neplatí, pokud by logo bylo využíváno v rozporu s dobrými mravy nebo by byla uváděna nepravdivá tvrzení o spolupráci. Příjemce není oprávněn z výstupů aplikace odstraňovat jakékoliv informace o původu vlastnictví, loga nebo značky.
+          </li>
+          <li>
+            Příjemce není oprávněn k jakýmkoli zásahům do dobré pověsti poskytovatele.
+          </li>
+          <li>
+            Příjemce není oprávněn prostřednictvím softwaru Lumeer provozovat nebo podporovat jakoukoli činnost, která odporuje právnímu řádu České republiky nebo je proti dobrým mravům nebo prostřednictvím aplikace Lumeer nebo v souvislosti s jejím užíváním omezovat práva třetích osob. Příjemce dále není oprávněn jakkoli narušovat provoz služby.
+          </li>
+          <li>
+            Příjemci nevznikají v souvislosti s užíváním softwarového řešení Lumeer žádné další náklady nebo poplatky vyjma případné povinnosti k úhradě licenčního poplatku. To znamená, že příjemce nehradí žádné náklady na dodání ani na komunikaci na dálku vyjma nákladů na internetové připojení. Poskytovatel nenese odpovědnost za platbu daní a poplatků, které mohou příjemci případně vzniknout v souvislosti s užíváním služby.
+          </li>
+          <li>
+            V případě zneužití účtu nebo podezření na zneužití účtu třetí osobou nebo v případě jakéhokoli jiného bezpečnostního incidentu je příjemce povinen tuto skutečnost bezodkladně oznámit poskytovateli prostřednictvím kontaktní e-mailové adresy <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.
+          </li>
+        </ol>
+
+
+        <h2>VI. Povinnosti poskytovatele</h2>
+        <ol>
+          <li>
+            Poskytovatel je po celou dobu trvání licenčního oprávnění povinen umožnit užívání softwarového řešení Lumeer příjemcem za předpokladu, že příjemce dodržuje veškeré povinnosti stanovené mu těmito všeobecnými obchodními podmínkami.
+          </li>
+          <li>
+            Poskytovatel neodpovídá příjemci za jakoukoli újmu způsobenou v důsledku nedostupnosti aplikace nebo špatné funkčnosti v případě, že tato situace vznikla v důsledku užití nesprávného hardwarového nebo softwarového vybavení, neposkytnutí veškeré součinnosti příjemce, užíváním aplikace v rozporu s pokyny poskytovatele, v důsledku zásahů do zdrojového kódu softwarového řešení Lumeer, nedostupnosti dostatečného internetového připojení nebo v důsledku vyšší moci. Za vyšší moc je pro účely těchto licenčních podmínek považován  i hackerský útok.  Poskytovatel dále neodpovídá za újmu v případě, že nefunkčnost řešení byla dána přítomností jakýchkoli virů či jiného škodlivého softwaru v zařízení příjemce či jeho zákazníků.
+          </li>
+          <li>
+            Poskytovatel neodpovídá za právní bezvadnost dat uložených do aplikace příjemcem. Poskytovatel nenese žádnou odpovědnost za smazání, úpravy, zničení, poškození, ztrátu nebo selhání uložených uživatelských dat.
+          </li>
+          <li>
+            Poskytovatel poskytuje pouze softwarové řešení. Poskytovatel nepřebírá jakoukoli odpovědnost za obsah zpracovávaný nebo uložený příjemcem.
+          </li>
+          <li>
+            Poskytovatel garantuje dostupnost služby v 99,9% případů. Do garantované doby se nezapočítává doba odstávek nezbytných pro zajištění správy a údržby aplikace a doba předem plánovaných odstávek, o kterých byl příjemce předem informován. Maximální možná doba měsíční odstávky, která nebyla předem oznámena příjemci, činí 3600 vteřin měsíčně. V případě, že poskytovatel překročí tuto dobu, má příjemce nárok na 5% slevu z licenčního poplatku hrazeného na další měsíc, a to za každou další započatou hodinu trvání odstávky. Sleva je možná až do výše 100% měsíčního licenčního poplatku. Pro uplatnění tohoto nároku je nezbytné, aby příjemce poskytovatele kontaktoval prostřednictvím kontaktní e-mailové adresy. Nárok je nezbytné uplatnit do 10 dnů po incidentu, jinak zaniká. Tyto garance ne nevztahují na licence poskytnuté dle článku VII. těchto všeobecných obchodních podmínek.
+          </li>
+          <li>
+            Odst. 5 se nepoužije v případě, že odstávka byla způsobena v důsledku působení příjemce nebo jím pověřenou osobou, v důsledku výpadku služby nezbytné pro provoz aplikace poskytované třetí osobou, předem plánované odstávky aplikace, o kterých byl příjemce předem informován, v důsledku hackerského útoku, vyšší moci apod. Odstávka se považuje za předem plánovanou a oznámenou byla-li sdělena příjemci minimálně 24 hodin před jejím započetím prostřednictvím kontaktní e-mailové adresy.
+          </li>
+          <li>
+            Poskytovatel si vyhrazuje právo kdykoli měnit, rozšiřovat a aktualizovat aplikaci Lumeer, a to i bez přechozího upozornění.
+          </li>
+        </ol>
+
+        <h2>VII. Zánik licenčního oprávnění</h2>
+        <ol>
+          <li>
+            Příjemce je povinen uhradit poskytovateli měsíční licenční poplatek v jeho plné výši řádně a včas v souladu s článkem IV. odst. 2 těchto všeobecných obchodních podmínek. V případě, že příjemce tuto povinnost poruší a neuhradí licenční oprávnění automaticky zaniká. Od této chvíle není příjemce nadále oprávněn užívat aplikaci Lumeer.
+          </li>
+          <li>
+            V případě, že příjemce v průběhu doby, na kterou bylo licenční oprávnění poskytnuto přestane využívat řešení Lumeer, nemá tato skutečnost vliv na povinnost poskytovatele k vrácení licenčního poplatku nebo poměrné částky licenčního poplatku – tj. licenční poplatek ani jeho část v takovém případě příjemci vrácena nebude. V případě, že příjemce doposud neuhradil kteroukoli část licenčního poplatku, bude i nadále vázán k jeho úhradě.
+          </li>
+          <li>
+            V případě, že příjemce poruší kterékoli ustanovení těchto všeobecných obchodních podmínek, zejména ustanovení článku III. odst. 2, 3, 4 a 5 těchto všeobecných obchodních podmínek a ustanovení čl. V. odst. 2, 6 a 7 těchto všeobecných obchodních podmínek nebo užije logo Lumeer v rozporu s těmito všeobecnými obchodními podmínkami, je poskytoval oprávněn odstoupit od licenční smlouvy. Odstoupení je účinné okamžikem dojití oznámení o odstoupení příjemci. Od této chvíle  není příjemce nadále oprávněn užívat softwarové řešení Lumeer.
+          </li>
+          <li>
+            Příjemce – spotřebitel má právo odstoupit od licenční smlouvy do čtrnácti dnů ode dne jejího uzavření. Odstoupit od smlouvy lze zasláním této informace na kontaktní e-mailovou adresu poskytovatele <a href="mailto:support@lumeer.io">support@lumeer.io</a>. Okamžikem, kdy odstoupení od licenční smlouvy dojde poskytovateli, licenční oprávnění zaniká. V souvislosti s odstoupením od licenční smlouvy nevznikají spotřebiteli žádné další náklady vyjma nákladů na internetové připojení. V případě, že spotřebitel uhradil licenční poplatek, bude mu tento ze strany poskytovatele bezodkladně po účinnosti odstoupení vrácen.
+          </li>
+          <li>
+            Příjemce je oprávněn kdykoli v průběhu trvání vztahu smazat uživatelský účet. V takovém případě dochází k ukončení vztahu k poslednímu dni v měsíci, ve kterém byl účet smazán, tj. od tohoto dne již příjemci nesvědčí licenční oprávnění. Příjemce však v takovém případě nemá nárok na vrácení již uhrazených licenčních poplatků ani jejich částí.
+          </li>
+          <li>
+            V případě zániku licenčního oprávnění je poskytovatel oprávněn využít veškerých dostupných technických opatření k tomu, aby zamezil dalšímu užívání aplikace příjemcem.
+          </li>
+          <li>
+            V případě, že příjemce po zániku licenčního oprávnění využije aplikaci Lumeer nebo rozšířenou verzi, ke které licence zanikla, je příjemce povinen uhradit poskytovateli smluvní pokutu v částce ve výši 10.000,-Kč za každé takové užití. Uhrazením smluvní pokuty není dotčeno právo poskytovatele na náhradu případné újmy v celém rozsahu. Uhrazení smluvní pokuty nedává příjemci právo na jakékoli další užití aplikace Lumeer.
+          </li>
+          <li>
+            V případě, že příjemce poruší ustanovení III. odst. 2, 3, 4 a 5 těchto všeobecných obchodních podmínek a ustanovení čl. V. odst. 2, 6 a 7 těchto všeobecných obchodních podmínek nebo užije logo Lumeer v rozporu s těmito všeobecnými obchodními podmínkami, je povinen uhradit poskytovateli smluvní pokutu v částce ve výši 10.000,- Kč za každé takové porušení. Uhrazením smluvní pokuty není dotčeno právo poskytovatele na náhradu případné újmy v celé rozsahu.
+          </li>
+          <li>
+            V případě odstoupení od licenční smlouvy uchovává poskytovatel data příjemce po dobu nejdéle 6 měsíců. V průběhu této doby může na žádost příjemce dojít k obnovení účtu včetně jeho obsahu (to je možné pouze po vypořádání veškerých závazků příjemce vůči poskytovateli). Po uplynutí této lhůty bude veškerý obsah smazán. V případě smazání účtu ze stany příjemce, budou veškerá uživatelská data smazána nejpozději do 1 měsíce. Příjemce je oprávněn ponechat si po uplynutí těchto lhůt jen taková data, která jsou nezbytná k plnění jeho zákonných a smluvně převzatých povinností.
+          </li>
+          <li>
+            Poskytovatel si vyhrazuje právo smazat neaktivní uživatelské účty. Za neaktivní účet se považuje takový účet, ke kterému uživatel nepřistoupil po dobu delší 1 roku.
+          </li>
+        </ol>
+
+        <h2>VIII. Beta verze aplikace</h2>
+        <ol>
+          <li>
+            Poskytovatel může vybraným zájemcům poskytnout licenci k užívání beta verze aplikace. Příjemci berou na vědomí, že beta verze není oficiálně vydanou verzí aplikace a může obsahovat chyby. Na funkci beta verze se nevztahují žádné záruky a není jakkoli garantována její spolehlivost.
+          </li>
+          <li>
+            Příjemce, kterému byla poskytnuta beta verze, je povinen bezodkladně hlásit veškeré chyby a problémy a je povinen rovněž spolupracovat při jejich odstranění.
+          </li>
+          <li>
+            Na žádost poskytovatele je příjemce, kterému byla poskytnuta beta verze aplikace, povinen vyplnit písemné vyhodnocení zkušeností příjemce s užíváním beta verze služby, které může příjemce jakkoli neomezeně využívat pro další vývoj aplikace.
+            Poskytovatel si vyhrazuje právo kdykoli užívání beta verze aplikace ukončit.
+          </li>
+        </ol>
+
+        <h2>IX. Ostatní</h2>
+        <ol>
+          <li>
+            Veškerá komunikace mezi smluvními stranami bude probíhat prostřednictvím kontaktních e-mailových adres smluvních stran. Za kontaktní e-mailovou adresu poskytovatele je považována <a href="mailto:support@lumeer.io">support@lumeer.io</a>. Za kontaktní e-mailovou adresu příjemce je považována e-mailová adresa, kterou příjemce uvedl při registraci.
+          </li>
+          <li>
+            Odstoupení od licenční smlouvy a výzva k úhradě smluvní pokuty budou zasílány na kontaktní e-mailové adresy smluvních stran. Odstoupení a výzva k úhradě smluvní pokuty se považují za doručené uplynutím 7 dnů ode dne, kdy budou dokumenty zaslány na e-mailovou adresu druhé smluvní strany.
+          </li>
+          <li>
+            Poskytovatel prohlašuje, že přijal veškeré organizační a technické opatření k zabezpečení dat příjemců ukládaných do softwarového řešení Lumeer, které lze po něm s přihlédnutím ke stavu techniky, nákladům na provedení, povaze, rozsahu a kontextu zpracování dat, požadovat. Všechny uživatelské účty jsou šifrovány.
+          </li>
+        </ol>
+
+
+        <h2>X. Reklamace</h2>
+        <ol>
+          <li>
+            Veškerá práva z vadného plnění může příjemce uplatnit u poskytovatele. V případě jakýchkoli vad řešení Lumeer nebo v případě nedostupnosti Lumeer příjemce bezodkladně kontaktuje poskytovatele prostřednictvím kontaktní e-mailové adresy.
+          </li>
+          <li>
+            Poskytovatel je povinen veškeré incidenty vyřešit ve lhůtách co nejkratších.
+          </li>
+          <li>
+            V případě, že nedostupnost nebo nefunkčnost řešení byla způsobena v důsledku porušení povinností příjemce, tj. zejména zásahem do zdrojového kódu, nedostatečným softwarovým nebo hardwarovým vybavením apod. je poskytovatel oprávněn diagnostiku závady příjemci vyúčtovat v souladu s platným ceníkem poskytovatele.
+          </li>
+        </ol>
+
+
+        <h2>XI. Ochrana osobních údajů</h2>
+        <ol>
+          <li>
+            Poskytovatel prohlašuje, že během zpracování vždy dbá na to, aby nedošlo k újmě na právech fyzických osob v souvislosti se zpracováním osobních údajů. V této souvislosti poskytovatel přijal Zásady ochrany osobních údajů, které jsou dostupné <a href="privacy_cz.html">zde</a>.
+          </li>
+          <li>
+            Příjemce byl upozorněn, že v případě, že v souvislosti s užíváním aplikace Lumeer dochází ke zpracování osobních údajů, je příjemce v postavení správce a jako takový je povinen plnit veškeré povinnosti dané mu platnou právní úpravou a Nařízením Evropského parlamentu a Rady EU č. 2016/679 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů v platném znění.
+          </li>
+          <li>
+            Poskytovatel si vyhrazuje právo poskytnout požadované údaje třetí osobě v případech stanovených zákonem, soudním příkazem nebo příkazem státního úřadu oprávněného regulovat podnikání poskytovatele.
+          </li>
+        </ol>
+
+
+        <h2>XII. Závěrečná ustanovení</h2>
+        <ol>
+          <li>
+            Veškeré vztahy mezi poskytovatelem a příjemcem se řídí českým právním řádem, zejména potom zákonem č. 89/2012 Sb., občanský zákoník v platném znění a zákonem č. 121/2000 Sb., autorský zákon v platném znění. Veškeré případné spory vzešlé ze vztahů mezi poskytovatelem a příjemcem budou řešeny před věcně a místně příslušnými soudy České republiky.
+          </li>
+          <li>
+            Orgánem pro řešení mimosoudních sporů mezi poskytovatelem a příjemcem – spotřebitelem je Česká obchodní inspekce se sídlem Štěpánská 567/15, Praha 2, PSČ 120 00, <a href="https://www.coi.cz">www.coi.cz</a>.
+          </li>
+          <li>
+            V případě, že se jakékoli ustanovení těchto všeobecných obchodních podmínek stane neplatným, nemá tato skutečnost vliv na platnost uzavřené licenční smlouvy a všeobecných licenčních podmínek jako celku.
+          </li>
+        </ol>
+
+        <p>Tyto všeobecné obchodní podmínky nabývají platnosti a účinnosti dne 20. 5. 2018.</p>
+        <p>V Brně dne 20.5.2018</p>
+
+        <p>V případě jakýchkoliv otázek a problémů nás prosím kontaktujte na <a href="contact_cz.html">www.lumeer.io/contact_cz.html</a>.</p>
+
+
+
       </div>
+    </section>
 
-      <hr/>
-    </div>
+    <section class="footer">
+        <footer>
+            <div class="content">
+                <div class="item-container column-container">
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Autorská práva</h3>
+                            <p class="description-text"><span class="copyright-left-part">&copy; Lumeer. Všechna práva vyhrazena.</span><br>
+                                <span class="copyright-left-part">Zdrojové kódy pod licencí</span> <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE.txt" rel="nofollow" target="_blank">GPLv3</a>.<br>
+                                <span class="copyright-left-part">Web Font</span> <a href="http://www.latofonts.com/lato-free-fonts/" rel="nofollow" target="_blank">Lato</a>.</p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Podmínky</h3>
+                            <p class="description-text">
+                              <a href="terms_service_cz.html">Všeobecné obchodní podmínky</a><br/>
+                              <a href="privacy_cz.html">Zásady ochrany osobních údajů</a><br/>
+                              <a href="information_cz.html">Seznam zpracovatelů</a><br/>
+                              <a href="cookies_cz.html">Prohlášení o používání cookies</a><br/>
+                              <a href="gdpr_cz.html">GDPR</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column footer-link-container">
+                        <div class="column-content">
+                            <div class="row item-container footer-social-network-container">
+                                <a class="footer-social-network column" href="https://twitter.com/lumeerio" title="Twitter">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>Twitter</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="M29,14.49A14.49,14.49,0,1,1,14.49,0,14.49,14.49,0,0,1,29,14.49ZM11.84,22.14a9.87,9.87,0,0,0,9.94-9.94c0-.15,0-.3,0-.45a7.16,7.16,0,0,0,1.75-1.81,7.09,7.09,0,0,1-2,.55,3.49,3.49,0,0,0,1.54-1.93,7.08,7.08,0,0,1-2.22.85,3.5,3.5,0,0,0-6,2.39,3.2,3.2,0,0,0,.09.8,9.91,9.91,0,0,1-7.2-3.65,3.49,3.49,0,0,0,1.09,4.66,3.43,3.43,0,0,1-1.58-.43v0A3.5,3.5,0,0,0,10,16.63a3.48,3.48,0,0,1-.92.12,3.34,3.34,0,0,1-.66-.07,3.49,3.49,0,0,0,3.26,2.43,7,7,0,0,1-4.34,1.49,6.35,6.35,0,0,1-.83-.05,9.73,9.73,0,0,0,5.34,1.58"/></g></g></svg>
+                                </a>
+                                <a class="footer-social-network column" href="https://github.com/Lumeer" title="GitHub">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>GitHub</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="m 25.903799,-0.02625716 -22.7857753,0 c -1.7154046,0 -3.10714918,1.39174606 -3.10714918,3.10715066 l 0,22.7857755 c 0,1.715408 1.39174458,3.107151 3.10714918,3.107151 l 22.7857753,0 c 1.715406,0 3.107153,-1.391743 3.107153,-3.107151 l 0,-22.7857755 c 0,-1.7154046 -1.391747,-3.10715066 -3.107153,-3.10715066 z M 17.96114,24.811532 c -0.54375,0.0971 -0.744421,-0.23951 -0.744421,-0.51786 0,-0.349552 0.01298,-2.136163 0.01298,-3.579695 0,-1.009823 -0.336607,-1.650673 -0.731474,-1.987283 2.395092,-0.265401 4.919654,-0.595537 4.919654,-4.731933 0,-1.178127 -0.420755,-1.767189 -1.106921,-2.524559 0.110049,-0.27835 0.479022,-1.424112 -0.110042,-2.9129551 -0.899777,-0.2783465 -2.95827,1.1587103 -2.95827,1.1587103 -0.854463,-0.23951 -1.780134,-0.3625002 -2.692865,-0.3625002 -0.912724,0 -1.838395,0.1229902 -2.692865,0.3625002 0,0 -2.058486,-1.4370568 -2.9582629,-1.1587103 -0.5890647,1.4823721 -0.2265645,2.6281341 -0.1100492,2.9129551 -0.6861595,0.75737 -1.0098188,1.346432 -1.0098188,2.524559 0,4.116976 2.4145129,4.466532 4.8096119,4.731933 -0.31072,0.27835 -0.589065,0.75737 -0.686167,1.443532 -0.614958,0.27835 -2.1879478,0.757367 -3.1265731,-0.899781 C 8.1865967,18.247677 7.124983,18.163523 7.124983,18.163523 6.0763234,18.150569 7.05376,18.823794 7.05376,18.823794 c 0.6991134,0.323661 1.1910759,1.566522 1.1910759,1.566522 0.6279055,1.922549 3.6314831,1.275227 3.6314831,1.275227 0,0.899778 0.01298,2.362728 0.01298,2.628129 0,0.27835 -0.194197,0.61496 -0.744421,0.51786 -4.2723272,-1.430586 -7.2629648,-5.495773 -7.2629648,-10.247126 0,-5.9424251 4.5442136,-10.4542667 10.4866328,-10.4542667 5.942427,0 10.758513,4.5118416 10.758513,10.4542667 0.0066,4.751353 -2.893528,8.823015 -7.165871,10.247126 z m -6.350234,-3.955145 c -0.122996,0.02588 -0.239512,-0.02588 -0.252459,-0.110045 -0.01298,-0.0971 0.07122,-0.18125 0.194198,-0.207141 0.122988,-0.01295 0.239511,0.03884 0.252458,0.122991 0.01939,0.08415 -0.06474,0.168304 -0.194197,0.194195 z m -0.614959,-0.05826 c 0,0.08415 -0.09709,0.155359 -0.226564,0.155359 -0.142409,0.01295 -0.239512,-0.05826 -0.239512,-0.155359 0,-0.08415 0.0971,-0.155356 0.226565,-0.155356 0.122996,-0.01295 0.239511,0.05826 0.239511,0.155356 z m -0.88683,-0.07121 c -0.02588,0.08415 -0.1553559,0.122993 -0.2654051,0.08415 -0.1229887,-0.02588 -0.207144,-0.122991 -0.1812501,-0.207144 0.025879,-0.08415 0.1553562,-0.122991 0.2654054,-0.0971 0.1294618,0.03883 0.2136098,0.135937 0.1812498,0.220088 z M 9.3129086,20.377365 c -0.058247,0.07121 -0.1812501,0.05825 -0.2783523,-0.03884 -0.097095,-0.08415 -0.1229888,-0.207145 -0.058247,-0.265404 0.058247,-0.07121 0.1812501,-0.05825 0.2783523,0.03884 0.084148,0.08415 0.1165227,0.213615 0.058247,0.265403 z M 8.723844,19.7883 c -0.058247,0.03884 -0.1683032,0 -0.2395115,-0.0971 -0.071223,-0.0971 -0.071223,-0.207141 0,-0.252455 0.071223,-0.05826 0.1812501,-0.01295 0.2395115,0.08415 0.071223,0.0971 0.071223,0.213616 0,0.265401 z M 8.3030825,19.160398 c -0.058247,0.05825 -0.1553562,0.02588 -0.2265645,-0.03884 -0.071223,-0.08415 -0.084148,-0.18125 -0.025879,-0.226564 0.058247,-0.05826 0.1553636,-0.02588 0.2265645,0.03884 0.071223,0.08415 0.084155,0.18125 0.025879,0.226565 z M 7.869374,18.681378 c -0.025879,0.05826 -0.1100418,0.07121 -0.1812501,0.02588 -0.084148,-0.03883 -0.1229888,-0.110045 -0.097095,-0.168301 0.025879,-0.03884 0.097095,-0.05826 0.1812501,-0.02588 0.084148,0.04531 0.1229888,0.11652 0.097095,0.168306 z"
+                                          id="path4883"/></g></g></svg>
+                                </a>
+                            </div>
+                            <nav class="row item-container">
+                                <a class="column" href="vlastnosti.html">Vlastnosti</a>
+                                <a class="column" href="cena.html">Cena</a>
+                                <a class="column" href="http://blogcz.lumeer.io" target="_blank">Blog</a>
+                                <a class="column" href="kontakt.html">Kontakt</a>
+                            </nav>
+                            <div class="item-container footer-contact-info">
+                                <div class="row" title="Telefonní číslo"><img alt="phone" class="column" src="img/footer-phone.svg"><span class="column">+420 608 677 218</span></div>
+                                <div class="row" title="Email"><img alt="email" class="column" src="img/footer-email.svg"><span
+                                        class="column">&#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#109;&#101;&#101;&#114;&#046;&#105;&#111;</span></div>
+                                <a class="row" href="index_cz.html" title="URL"><img alt="browser" class="column" src="img/footer-site.svg"><span class="column">lumeer.io</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="designer-signature"><p>designed by UNIFER <img alt="Unifer" src="img/unifer.svg" title="Unifer"></p></div>
+        </footer>
+    </section>
 
-    <footer id="footer">
-      <div class="container py-5">
-       <div class="row">
-         <div class="col-12">
-           <ul class="list-unstyled list-inline">
-             <li class="float-right"><a href="#top">Back to top</a></li>
-             <li class="list-inline-item pr-3"><i class="fas fa-quote-left"></i> <a href="http://blog.lumeer.io">Blog</a></li>
-             <li class="list-inline-item pr-3"><i class="fas fa-rss"></i> <a href="http://blog.lumeer.io/feeds/posts/default">Atom</a></li>
-             <li class="list-inline-item pr-3"><i class="fab fa-twitter"></i> <a href="https://twitter.com/lumeerio">Twitter</a></li>
-             <li class="list-inline-item pr-3"><i class="fab fa-github"></i> <a href="https://github.com/Lumeer/">GitHub</a></li>
-             <li class="list-inline-item"><i class="fas fa-ambulance"></i> <a href="contact.html">Support</a></li>
-           </ul>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-6">
-           <h3>Copyrights</h3>
-           <ul class="list-unstyled">
-             <li>&copy; Lumeer. All rights reserved.</li>
-             <li>Code released under <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE.txt" rel="nofollow" target="_blank">GNU General Public License v3.0</a>.</li>
-             <li>Based on <a href="http://getbootstrap.com" rel="nofollow" target="_blank">Bootstrap</a>.</li>
-             <li>Design by <a href="http://thomaspark.co" rel="nofollow" target="_blank">Thomas Park</a>.</li>
-             <li>Icons from <a href="http://fontawesome.com/" rel="nofollow" target="_blank">Font Awesome</a>.</li>
-             <li>Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow" target="_blank">Google</a>.</li>
-           </ul>
-         </div>
-         <div class="col-md-6">
-           <h3>Legal</h3>
-           <ul class="list-unstyled">
-             <li><a href="terms_service_cz.html">Všeobecné obchodní podmínky</a></li>
-             <li><a href="privacy_cz.html">Zásady ochrany osobních údajů</a></li>
-             <li><a href="information_cz.html">Seznam zpracovatelů</a></li>
-             <li><a href="cookies_cz.html">Prohlášení o používání cookies</a></li>
-             <li><a href="gdpr_cz.html">GDPR</a></li>
-             <li class="small mt-2"><i class="fas fa-envelope mr-2"></i> &#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#109;&#101;&#101;&#114;&#046;&#105;&#111;</li>
-             <li class="small"><i class="fas fa-phone mr-2"></i> +420 608 677 218</li>
-           </ul>
-         </div>
-       </div>
-      </div>
-     </footer>
-
-    <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>

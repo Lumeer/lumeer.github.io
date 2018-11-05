@@ -1,32 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Lumeer: First productivity app with a muscle</title>
-
-    <!-- EDIT THIS -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+    <meta name="keywords" content="Lumeer">
+    <meta name="description" content="Lumeer">
+    <title>Lumeer: Work smarter with data you create</title>
     <link rel="alternate" hreflang="en" href="agree_form.html" />
     <link rel="alternate" hreflang="cs" href="agree_form_cz.html" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css4/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css4/fontawesome-all.min.css"/>
-    <link rel="stylesheet" href="css/flags.min.css"/>
-    <link rel="stylesheet" href="css4/custom.min.css"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/x.icon" href="favicon/favicon.ico">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/components/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/components/footer.min.css">
+    <link rel="stylesheet" type="text/css" href="css/legal.min.css">
+
+    <script>window.noZensmooth = true</script>
+    <script src="js/lib/zenscroll-min.js"></script>
+
+    <script src="js/components/main.min.js"></script>
 
     <!-- Language switch -->
-    <script src="js/lang.js"></script>
+    <script src="js/lang.min.js"></script>
     <script>
-      $(function() {
+      window.onload = function() {
         selectLanguage('en', 'cs', 'agree_form_cz');
-      });
+      };
     </script>
+
+    <script src="js/custom.min.js"></script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,150 +60,150 @@
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBXWDKQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <section class="header">
+      <header>
+        <nav>
+          <div class="content">
+            <a class="header-logo" href="index.html" title="Lumeer Logo"><img alt="Lumeer Logo" src="img/logo-big.svg"></a>
+            <div class="item-container nav-item-container">
 
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-success py-1">
-      <div class="container">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/logo-title-blue.svg" height="48px" class="d-inline-block align-center lumeer-pop" alt="Lumeer Logo">
-            </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav ml-auto mr-3">
-              <li class="nav-item">
-                <a class="nav-link" href="features.html"><i class="fa fa-map-signs" aria-hidden="true"></i> Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pricing.html"><i class="fa fa-tag" aria-hidden="true"></i> Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="http://blog.lumeer.io/" target="_blank"><i class="fa fa-rss" aria-hidden="true"></i> Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ml-2 lumeer-pop" href="agree_form_cz.html" onclick="onLanguageChange('cs');"><img src="img/blank.gif" class="flag flag-cz" alt="Czech" /></a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <a href="https://get.lumeer.io/" class="btn btn-small btn-primary" target="_blank"><i class="far fa-rocket" aria-hidden="true"></i> Try for Free</a>
-            </form>
+              <a class="item column" href="features.html">Features</a>
+              <a class="item column" href="price.html">Pricing</a>
+              <a class="item column" href="https://blog.lumeer.io/" target="_blank">Blog</a>
+              <a class="item column" href="contact.html">Contact</a>
+              <!--a class="item column active" href="kontakt.html">Kontakt</a-->
+              <div class="column">
+                  <button class="filled-button green-button item small-button header-nav-try-demo" onclick="openLumeer('en');">Try for Free</button>
+              </div>
+            </div>
+            <div class="header-nav-language-search">
+              <a class="item column header-nav-language" href="agree_form_cz.html"  onclick="onLanguageChange('cs');">cze</a>
+              <!--button class="item column header-nav-search"></button-->
+            </div>
           </div>
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="row pt-5">
-        <div class="col-12">
-
-
-          <h1>Agreement with personal information processing</h1>
-          <p><em>Updated on May 20th 2018</em></p>
-
-          <p><em>In case you you agree with processing of your personal data, mark the "agree" checkbox and submit the form. By submitting the form, your agreement is considered as granted according to the following conditions:</em></p>
-          <p>
-            I grant the right to process my personal data to Answer Institute s.r.o., Reg.no.: 06618278, with headquarters at Purkyňova 649/127, Medlánky, 612 00 Brno, listed in business registry at Krajský soud in Brno, section C, inset 102990 (hereinafter <em>controller</em>). By granting the right, I declare that I understand the content of this document, all the conditions and their consequences.
-          </p><p>
-            The agreement is granted to the controller for the purpose of the communication between me and the controller. I agree that the controller can send me answers to my questions and insights to my e-mail address (hereinafter <em>purpose</em>).
-          </p><p>
-            The agreement entitles the controller to process the following personal data: first name, surname, e-mail address, in the extent necessary to fulfil the abovementioned purposes.
-          </p><p>
-            I understand that I have the right to:
-          </p>
-          <ul>
-            <li>
-              Revoke any of the agreements by sending the revocation request to e-mailovou address <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.;
-            </li><li>
-              Ask the controller to provide me information about my personal data they process. The controller must fulfil the request as soon as possible;
-            </li><li>
-              File a complaint with Úřad pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praha 7 /www.uoou.cz/;
-            </li><li>
-              Require an erasure of all my personal data in case of revocation of the agreement;
-            </li><li>
-              Ask for an update of inaccurate personal data;
-            </li><li>
-              Ask for a restriction of the processing of my personal in case I believe that the personal data are inaccurate for the minimal time needed to verify the accuracy of my personal data;
-            </li><li>
-              Be informed about updates, erasures and processing restrictions of my personal data made by the controller;
-            </li><li>
-              Obtain from the controller all my personal data that I provided to the controller. The data must be in a structured, commonly used, machine readable format. I have the right to pass these personal data to another controller and the current controller must not obstruct the handover.
-            </li>
-          </ul>
-          <p>
-            I can execute my rights with the controller by sending a written request to the e-mail address <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.
-          </p><p>
-            The personal data processing is performed both manually and automatically by the controller. However, there isn't any automated decision making process or profiling of the personal data.
-          </p><p>
-            I understand that the controller is not obliged to name a data processing officer and the controller did not do that on their out of their free will.
-          </p><p>
-            I agree that the controller has the right to grant access to my personal data to third parties in cases that are necessary to fulfil the purpose. This means mainly providing the online service and other services.
-            The list of processors is available at <a href="//www.lumeer.io/information.html">www.lumeer.io/information.html</a>. I understand that during granting the access to third parties, it is possible to
-            handover my personal data to another country in European Union and outside of European Union supposing the <a href="//www.lumeer.io/privacy.html">Privacy Policy</a> is met.
-          </p><p>
-            The agreement is valid since the day of granting and is valid for 3 months. The controller has the right to process my personal data in the abovementioned extent for whole period of the duration of this agreement.
-          </p>
-
-
-          <p>In case of any querstions or problems, please contact us at <a href="contact.html">www.lumeer.io/contact.html</a>.</p>
-
-
-
-
-
-
+          <svg xmlns="http://www.w3.org/2000/svg" class="header-nav-icon" viewBox="0 0 20 20" onclick="">
+            <rect class="rect-1" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-2" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+            <rect class="rect-3" height="2" width="20" x="0" y="9" rx="2" ry="2"></rect>
+          </svg>
+        </nav>
+        <div class="content header-under-nav">
+            <h1>Agreement with personal information processing</h1>
+            <p class="h-desc">Updated on May 20th 2018</p>
         </div>
+      </header>
+    </section>
+
+    <section class="legal">
+      <div class="content">
+
+
+        <p><em>In case you you agree with processing of your personal data, mark the "agree" checkbox and submit the form. By submitting the form, your agreement is considered as granted according to the following conditions:</em></p>
+        <p>
+          I grant the right to process my personal data to Answer Institute s.r.o., Reg.no.: 06618278, with headquarters at Purkyňova 649/127, Medlánky, 612 00 Brno, listed in business registry at Krajský soud in Brno, section C, inset 102990 (hereinafter <em>controller</em>). By granting the right, I declare that I understand the content of this document, all the conditions and their consequences.
+        </p><p>
+          The agreement is granted to the controller for the purpose of the communication between me and the controller. I agree that the controller can send me answers to my questions and insights to my e-mail address (hereinafter <em>purpose</em>).
+        </p><p>
+          The agreement entitles the controller to process the following personal data: first name, surname, e-mail address, in the extent necessary to fulfil the abovementioned purposes.
+        </p><p>
+          I understand that I have the right to:
+        </p>
+        <ul>
+          <li>
+            Revoke any of the agreements by sending the revocation request to e-mailovou address <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.;
+          </li><li>
+            Ask the controller to provide me information about my personal data they process. The controller must fulfil the request as soon as possible;
+          </li><li>
+            File a complaint with Úřad pro ochranu osobních údajů, Pplk. Sochora 27, 170 00 Praha 7, <a href="https://www.uoou.cz/">www.uoou.cz</a>;
+          </li><li>
+            Require an erasure of all my personal data in case of revocation of the agreement;
+          </li><li>
+            Ask for an update of inaccurate personal data;
+          </li><li>
+            Ask for a restriction of the processing of my personal in case I believe that the personal data are inaccurate for the minimal time needed to verify the accuracy of my personal data;
+          </li><li>
+            Be informed about updates, erasures and processing restrictions of my personal data made by the controller;
+          </li><li>
+            Obtain from the controller all my personal data that I provided to the controller. The data must be in a structured, commonly used, machine readable format. I have the right to pass these personal data to another controller and the current controller must not obstruct the handover.
+          </li>
+        </ul>
+        <p>
+          I can execute my rights with the controller by sending a written request to the e-mail address <a href="mailto:privacy@lumeer.io">privacy@lumeer.io</a>.
+        </p><p>
+          The personal data processing is performed both manually and automatically by the controller. However, there isn't any automated decision making process or profiling of the personal data.
+        </p><p>
+          I understand that the controller is not obliged to name a data processing officer and the controller did not do that on their out of their free will.
+        </p><p>
+          I agree that the controller has the right to grant access to my personal data to third parties in cases that are necessary to fulfil the purpose. This means mainly providing the online service and other services.
+          The list of processors is available at <a href="//www.lumeer.io/information.html">www.lumeer.io/information.html</a>. I understand that during granting the access to third parties, it is possible to
+          handover my personal data to another country in European Union and outside of European Union supposing the <a href="//www.lumeer.io/privacy.html">Privacy Policy</a> is met.
+        </p><p>
+          The agreement is valid since the day of granting and is valid for 3 months. The controller has the right to process my personal data in the abovementioned extent for whole period of the duration of this agreement.
+        </p>
+
+
+        <p>In case of any querstions or problems, please contact us at <a href="contact.html">www.lumeer.io/contact.html</a>.</p>
+
+
       </div>
+    </section>
 
-      <hr/>
-    </div>
+    <section class="footer">
+        <footer>
+            <div class="content">
+                <div class="item-container column-container">
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Copyrights</h3>
+                            <p class="description-text"><span class="copyright-left-part">&copy; Lumeer. All rights reserved.</span><br>
+                                <span class="copyright-left-part">Sources licensed under</span> <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE.txt" rel="nofollow" target="_blank">GPLv3</a>.<br>
+                                <span class="copyright-left-part">Web Font</span> <a href="http://www.latofonts.com/lato-free-fonts/" rel="nofollow" target="_blank">Lato</a>.</p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column">
+                        <div class="column-content">
+                            <h3>Legal</h3>
+                            <p class="description-text">
+                              <a href="terms_service.html">Terms of Service</a><br/>
+                              <a href="privacy.html">Privacy Statement</a><br/>
+                              <a href="information.html">List of information processing entities</a><br/>
+                              <a href="cookies.html">Cookies Usage</a><br/>
+                              <a href="gdpr.html">GDPR</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column column-3 main-column footer-link-container">
+                        <div class="column-content">
+                            <div class="row item-container footer-social-network-container">
+                                <a class="footer-social-network column" href="https://twitter.com/lumeerio" title="Twitter">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>Twitter</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="M29,14.49A14.49,14.49,0,1,1,14.49,0,14.49,14.49,0,0,1,29,14.49ZM11.84,22.14a9.87,9.87,0,0,0,9.94-9.94c0-.15,0-.3,0-.45a7.16,7.16,0,0,0,1.75-1.81,7.09,7.09,0,0,1-2,.55,3.49,3.49,0,0,0,1.54-1.93,7.08,7.08,0,0,1-2.22.85,3.5,3.5,0,0,0-6,2.39,3.2,3.2,0,0,0,.09.8,9.91,9.91,0,0,1-7.2-3.65,3.49,3.49,0,0,0,1.09,4.66,3.43,3.43,0,0,1-1.58-.43v0A3.5,3.5,0,0,0,10,16.63a3.48,3.48,0,0,1-.92.12,3.34,3.34,0,0,1-.66-.07,3.49,3.49,0,0,0,3.26,2.43,7,7,0,0,1-4.34,1.49,6.35,6.35,0,0,1-.83-.05,9.73,9.73,0,0,0,5.34,1.58"/></g></g></svg>
+                                </a>
+                                <a class="footer-social-network column" href="https://github.com/Lumeer" title="GitHub">
+                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.98 28.98"><defs><style>.cls-1{fill:#19ac86;}</style></defs><title>GitHub</title><g id="Layer_2"><g id="Layer_1-2"><path
+                                          class="cls-1" d="m 25.903799,-0.02625716 -22.7857753,0 c -1.7154046,0 -3.10714918,1.39174606 -3.10714918,3.10715066 l 0,22.7857755 c 0,1.715408 1.39174458,3.107151 3.10714918,3.107151 l 22.7857753,0 c 1.715406,0 3.107153,-1.391743 3.107153,-3.107151 l 0,-22.7857755 c 0,-1.7154046 -1.391747,-3.10715066 -3.107153,-3.10715066 z M 17.96114,24.811532 c -0.54375,0.0971 -0.744421,-0.23951 -0.744421,-0.51786 0,-0.349552 0.01298,-2.136163 0.01298,-3.579695 0,-1.009823 -0.336607,-1.650673 -0.731474,-1.987283 2.395092,-0.265401 4.919654,-0.595537 4.919654,-4.731933 0,-1.178127 -0.420755,-1.767189 -1.106921,-2.524559 0.110049,-0.27835 0.479022,-1.424112 -0.110042,-2.9129551 -0.899777,-0.2783465 -2.95827,1.1587103 -2.95827,1.1587103 -0.854463,-0.23951 -1.780134,-0.3625002 -2.692865,-0.3625002 -0.912724,0 -1.838395,0.1229902 -2.692865,0.3625002 0,0 -2.058486,-1.4370568 -2.9582629,-1.1587103 -0.5890647,1.4823721 -0.2265645,2.6281341 -0.1100492,2.9129551 -0.6861595,0.75737 -1.0098188,1.346432 -1.0098188,2.524559 0,4.116976 2.4145129,4.466532 4.8096119,4.731933 -0.31072,0.27835 -0.589065,0.75737 -0.686167,1.443532 -0.614958,0.27835 -2.1879478,0.757367 -3.1265731,-0.899781 C 8.1865967,18.247677 7.124983,18.163523 7.124983,18.163523 6.0763234,18.150569 7.05376,18.823794 7.05376,18.823794 c 0.6991134,0.323661 1.1910759,1.566522 1.1910759,1.566522 0.6279055,1.922549 3.6314831,1.275227 3.6314831,1.275227 0,0.899778 0.01298,2.362728 0.01298,2.628129 0,0.27835 -0.194197,0.61496 -0.744421,0.51786 -4.2723272,-1.430586 -7.2629648,-5.495773 -7.2629648,-10.247126 0,-5.9424251 4.5442136,-10.4542667 10.4866328,-10.4542667 5.942427,0 10.758513,4.5118416 10.758513,10.4542667 0.0066,4.751353 -2.893528,8.823015 -7.165871,10.247126 z m -6.350234,-3.955145 c -0.122996,0.02588 -0.239512,-0.02588 -0.252459,-0.110045 -0.01298,-0.0971 0.07122,-0.18125 0.194198,-0.207141 0.122988,-0.01295 0.239511,0.03884 0.252458,0.122991 0.01939,0.08415 -0.06474,0.168304 -0.194197,0.194195 z m -0.614959,-0.05826 c 0,0.08415 -0.09709,0.155359 -0.226564,0.155359 -0.142409,0.01295 -0.239512,-0.05826 -0.239512,-0.155359 0,-0.08415 0.0971,-0.155356 0.226565,-0.155356 0.122996,-0.01295 0.239511,0.05826 0.239511,0.155356 z m -0.88683,-0.07121 c -0.02588,0.08415 -0.1553559,0.122993 -0.2654051,0.08415 -0.1229887,-0.02588 -0.207144,-0.122991 -0.1812501,-0.207144 0.025879,-0.08415 0.1553562,-0.122991 0.2654054,-0.0971 0.1294618,0.03883 0.2136098,0.135937 0.1812498,0.220088 z M 9.3129086,20.377365 c -0.058247,0.07121 -0.1812501,0.05825 -0.2783523,-0.03884 -0.097095,-0.08415 -0.1229888,-0.207145 -0.058247,-0.265404 0.058247,-0.07121 0.1812501,-0.05825 0.2783523,0.03884 0.084148,0.08415 0.1165227,0.213615 0.058247,0.265403 z M 8.723844,19.7883 c -0.058247,0.03884 -0.1683032,0 -0.2395115,-0.0971 -0.071223,-0.0971 -0.071223,-0.207141 0,-0.252455 0.071223,-0.05826 0.1812501,-0.01295 0.2395115,0.08415 0.071223,0.0971 0.071223,0.213616 0,0.265401 z M 8.3030825,19.160398 c -0.058247,0.05825 -0.1553562,0.02588 -0.2265645,-0.03884 -0.071223,-0.08415 -0.084148,-0.18125 -0.025879,-0.226564 0.058247,-0.05826 0.1553636,-0.02588 0.2265645,0.03884 0.071223,0.08415 0.084155,0.18125 0.025879,0.226565 z M 7.869374,18.681378 c -0.025879,0.05826 -0.1100418,0.07121 -0.1812501,0.02588 -0.084148,-0.03883 -0.1229888,-0.110045 -0.097095,-0.168301 0.025879,-0.03884 0.097095,-0.05826 0.1812501,-0.02588 0.084148,0.04531 0.1229888,0.11652 0.097095,0.168306 z"
+                                          id="path4883"/></g></g></svg>
+                                </a>
+                            </div>
+                            <nav class="row item-container">
+                                <a class="column" href="features.html">Features</a>
+                                <a class="column" href="price.html">Price</a>
+                                <a class="column" href="http://blog.lumeer.io/" target="_blank">Blog</a>
+                                <a class="column" href="contact.html">Contact</a>
+                            </nav>
+                            <div class="item-container footer-contact-info">
+                                <div class="row" title="Phone number"><img alt="phone" class="column" src="img/footer-phone.svg"><span class="column">+420 608 677 218</span></div>
+                                <div class="row" title="Email"><img alt="email" class="column" src="img/footer-email.svg"><span
+                                        class="column">&#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#109;&#101;&#101;&#114;&#046;&#105;&#111;</span></div>
+                                <a class="row" href="index_cz.html" title="URL"><img alt="browser" class="column" src="img/footer-site.svg"><span class="column">lumeer.io</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="designer-signature"><p>designed by UNIFER <img alt="Unifer" src="img/unifer.svg" title="Unifer"></p></div>
+        </footer>
+    </section>
 
-    <footer id="footer">
-      <div class="container py-5">
-       <div class="row">
-         <div class="col-12">
-           <ul class="list-unstyled list-inline">
-             <li class="float-right"><a href="#top">Back to top</a></li>
-             <li class="list-inline-item pr-3"><i class="fas fa-quote-left"></i> <a href="http://blog.lumeer.io">Blog</a></li>
-             <li class="list-inline-item pr-3"><i class="fas fa-rss"></i> <a href="http://blog.lumeer.io/feeds/posts/default">Atom</a></li>
-             <li class="list-inline-item pr-3"><i class="fab fa-twitter"></i> <a href="https://twitter.com/lumeerio">Twitter</a></li>
-             <li class="list-inline-item pr-3"><i class="fab fa-github"></i> <a href="https://github.com/Lumeer/">GitHub</a></li>
-             <li class="list-inline-item"><i class="fas fa-ambulance"></i> <a href="contact.html">Support</a></li>
-           </ul>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-6">
-           <h3>Copyrights</h3>
-           <ul class="list-unstyled">
-             <li>&copy; Lumeer. All rights reserved.</li>
-             <li>Code released under <a href="https://github.com/Lumeer/engine/blob/devel/LICENSE.txt" rel="nofollow" target="_blank">GNU General Public License v3.0</a>.</li>
-             <li>Based on <a href="http://getbootstrap.com" rel="nofollow" target="_blank">Bootstrap</a>.</li>
-             <li>Design by <a href="http://thomaspark.co" rel="nofollow" target="_blank">Thomas Park</a>.</li>
-             <li>Icons from <a href="http://fontawesome.com/" rel="nofollow" target="_blank">Font Awesome</a>.</li>
-             <li>Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow" target="_blank">Google</a>.</li>
-           </ul>
-         </div>
-         <div class="col-md-6">
-           <h3>Legal</h3>
-           <ul class="list-unstyled">
-             <li><a href="terms_service.html">Terms of Service</a></li>
-             <li><a href="privacy.html">Privacy Statement</a></li>
-             <li><a href="information.html">List of information processing entities</a></li>
-             <li><a href="cookies.html">Cookies Usage</a></li>
-             <li><a href="gdpr.html">GDPR</a></li>
-             <li class="small mt-2"><i class="fas fa-envelope mr-2"></i> &#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#109;&#101;&#101;&#114;&#046;&#105;&#111;</li>
-             <li class="small"><i class="fas fa-phone mr-2"></i> +420 608 677 218</li>
-           </ul>
-         </div>
-       </div>
-      </div>
-     </footer>
-
-    <!-- Optional JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
