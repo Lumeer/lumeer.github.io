@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', () =>
 {
+    let sliding = false;
+
     const $nav = document.getElementsByTagName('nav')[0],
         $logo = document.querySelector('.header-logo');
 
@@ -17,10 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>
         if (window.scrollY === 0)
         {
             setLogoPosition('center');
-            setTimeout(function ()
-            {
-                $nav.classList.remove('active');
-            }, 500 * +(window.innerWidth < 1023));
+            $nav.classList.remove('active');
         }
         else if (!$nav.classList.contains('active'))
         {
@@ -48,10 +47,18 @@ document.addEventListener('DOMContentLoaded', () =>
 
     document.querySelector('.header-nav-icon').addEventListener('click', function ()
     {
-        if (window.innerWidth > 1023)
+        console.log(sliding);
+        if (window.innerWidth > 1023 || sliding)
         {
             return;
         }
+
+        sliding = true;
+
+        setTimeout(function ()
+        {
+            sliding = false;
+        }, 1000);
 
         if (this.classList.contains('cross'))
         {
@@ -62,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () =>
 
             setTimeout(function ()
             {
-                $nav.classList.remove('slided-down')
+                $nav.classList.remove('slided-down');
             }, 1000);
         }
         else
@@ -84,11 +91,8 @@ document.addEventListener('DOMContentLoaded', () =>
 
         if (state === 'left')
         {
-            setTimeout(function ()
-            {
-                $logo.style.left = '20px';
-                $logo.style.transform = 'translateX(0%)';
-            }, 500);
+            $logo.style.left = '20px';
+            $logo.style.transform = 'translateX(0%)';
         }
         else //center
         {
