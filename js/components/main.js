@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () =>
         }
     }, false);
 
-    document.querySelector('.header-nav-icon').addEventListener('click', function ()
+    document.querySelector('.header-nav-icon').addEventListener('click', function (event)
     {
-        console.log(sliding);
+
         if (window.innerWidth > 1023 || sliding)
         {
             return;
