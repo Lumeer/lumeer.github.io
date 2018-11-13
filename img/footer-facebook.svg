@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 28.98 28.98"
+   version="1.1"
+   id="svg1012"
+   sodipodi:docname="footer-facebook.svg"
+   inkscape:version="0.92.2 2405546, 2018-03-11">
+  <metadata
+     id="metadata1016">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Twitter</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     id="namedview1014"
+     showgrid="false"
+     inkscape:zoom="7.4016564"
+     inkscape:cx="4.6195146"
+     inkscape:cy="-18.995675"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1012" />
+  <defs
+     id="defs1004">
+    <style
+       id="style1002">.cls-1{fill:#19ac86;}</style>
+  </defs>
+  <title
+     id="title1006">Twitter</title>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#19ac86;fill-opacity:1;stroke-width:1.00000012"
+     d="M 28.98,3.1049998 V 25.875 c 0,1.714221 -1.390785,3.105 -3.104999,3.105 H 20.357157 V 17.517378 h 3.920061 l 0.562781,-4.372877 h -4.482842 v -2.7945 c 0,-1.2678772 0.349312,-2.1282222 2.167028,-2.1282222 h 2.315814 v -3.907121 c -0.40106,-0.05173 -1.772439,-0.174656 -3.376686,-0.174656 -3.337874,0 -5.627811,2.037656 -5.627811,5.783062 v 3.2279022 h -3.933003 v 4.372877 h 3.939468 V 28.98 H 3.1050058 C 1.3907848,28.98 -2.2888184e-7,27.589221 -2.2888184e-7,25.875 V 3.1049998 C -2.2888184e-7,1.3907788 1.3907848,-2.2888184e-7 3.1050058,-2.2888184e-7 H 25.875001 C 27.589215,-2.2888184e-7 28.98,1.3907788 28.98,3.1049998 Z"
+     id="path1066" />
+</svg>
