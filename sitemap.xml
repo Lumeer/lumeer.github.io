@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://www.lumeer.io/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/index_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/index_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/index.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/index.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/index_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/index_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/index_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/index_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/index_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/features.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/features.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/vlastnosti.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/vlastnosti.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/vlastnosti.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/features.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/vlastnosti.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/vlastnosti.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/price.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/price.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/cena.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/cena.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/cena.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/price.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/cena.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/cena.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/contact.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/contact.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/kontakt.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/kontakt.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/kontakt.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/contact.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/kontakt.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/kontakt.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/terms_service.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/terms_service.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/terms_service_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/terms_service_cz.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/terms_service_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/terms_service.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/terms_service_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/terms_service_cz.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/privacy.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/privacy_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/privacy_cz.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/privacy_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/privacy.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/privacy_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/privacy_cz.html" />
+        <lastmod>2018-12-04T11:59:59+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/information.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/information.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/information_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/information_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/information_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/information.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/information_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/information_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/cookies.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/cookies.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/cookies_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/cookies_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/cookies_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/cookies.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/cookies_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/cookies_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/gdpr.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/gdpr.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/gdpr_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/gdpr_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/gdpr_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/gdpr.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/gdpr_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/gdpr_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/agree_form.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/agree_form.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/agree_form_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/agree_form_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>https://www.lumeer.io/agree_form_cz.html</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.lumeer.io/agree_form.html" />
+        <xhtml:link rel="alternate" hreflang="cz" href="https://www.lumeer.io/agree_form_cz.html" />
+        <xhtml:link rel="alternate" hreflang="sk" href="https://www.lumeer.io/agree_form_cz.html" />
+        <lastmod>2018-12-04T11:59:58+00:00</lastmod>
+        <priority>0.51</priority>
+    </url>
+</urlset>
