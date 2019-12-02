@@ -16,14 +16,14 @@
    width="1587.4"
    height="559.37067"
    viewBox="0 0 1587.4 559.37067"
-   sodipodi:docname="lumeer-websummit-2019-2.svg"
+   sodipodi:docname="lumeer-websummit-2019-2-cs.svg"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    inkscape:export-filename="/home/mvecera/Stažené/lumeer-websummit-2.png"
    inkscape:export-xdpi="149.99443"
    inkscape:export-ydpi="149.99443"><metadata
      id="metadata2285"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs2283"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath2295"><path
@@ -120,9 +120,9 @@
      inkscape:window-height="1005"
      id="namedview2281"
      showgrid="false"
-     inkscape:zoom="0.55688545"
-     inkscape:cx="171.83734"
-     inkscape:cy="392.5401"
+     inkscape:zoom="1.1137709"
+     inkscape:cx="758.40432"
+     inkscape:cy="211.51803"
      inkscape:window-x="52"
      inkscape:window-y="1"
      inkscape:window-maximized="1"
@@ -380,7 +380,7 @@
            id="tspan13093"
            x="99.709702"
            y="157.71982"
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">Tables, column types, links</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">Tabulky, typy sloupců, vazby</tspan></text>
 <text
          transform="scale(1,-1)"
          id="text13102"
@@ -392,12 +392,12 @@
            y="157.71982"
            x="297.77567"
            id="tspan13100"
-           sodipodi:role="line">Timelines, project schedules,</tspan><tspan
+           sodipodi:role="line">Časové osy, projektové plány,</tspan><tspan
            id="tspan13104"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
            y="173.11981"
            x="297.77567"
-           sodipodi:role="line">resources utilization</tspan></text>
+           sodipodi:role="line">vytížení zdrojů</tspan></text>
 <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -406,15 +406,15 @@
          id="text13110"
          transform="scale(1,-1)"><tspan
            sodipodi:role="line"
-           x="495.70969"
+           x="497.32297"
            y="157.71982"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
-           id="tspan13108">Tasks, custom workflows</tspan><tspan
+           id="tspan13108">Úkoly, vlastní procesy </tspan><tspan
            id="tspan13114"
            sodipodi:role="line"
            x="495.70969"
            y="173.11981"
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">and states, work items</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">a stavy, pracovní položky</tspan></text>
 <text
          transform="scale(1,-1)"
          id="text13120"
@@ -426,12 +426,12 @@
            y="157.71982"
            x="694.66217"
            sodipodi:role="line"
-           id="tspan13118">Instant business insights,</tspan><tspan
+           id="tspan13118">Okamžité aktuální náhledy,</tspan><tspan
            id="tspan13124"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
            y="173.11981"
            x="694.66217"
-           sodipodi:role="line">editable charts</tspan></text>
+           sodipodi:role="line">upravovatelné grafy</tspan></text>
 <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.75px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -443,12 +443,12 @@
            x="892.66217"
            y="157.71982"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
-           id="tspan13131">Delivery locations, routing,</tspan><tspan
+           id="tspan13131">Místa doručení, plánování cest,</tspan><tspan
            id="tspan13137"
            sodipodi:role="line"
            x="892.66217"
            y="173.11981"
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">draggable pins</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px">přetahování bodů</tspan></text>
 <text
          transform="scale(1,-1)"
          id="text13143"
@@ -460,12 +460,12 @@
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
            y="157.71982"
            x="1092.8003"
-           sodipodi:role="line">Complex aggregations, </tspan><tspan
+           sodipodi:role="line">Komplexní agregace, </tspan><tspan
            id="tspan13151"
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:14px;line-height:110.00000238%;font-family:Lato;-inkscape-font-specification:'Lato Heavy';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.75px"
            y="173.11981"
            x="1091.187"
-           sodipodi:role="line">team efficiency, SKU demand</tspan></text>
+           sodipodi:role="line">efektivita týmů, poptávka</tspan></text>
 </g><flowRoot
        transform="matrix(0.75000002,0,0,-0.75000002,-1221.1602,275.65697)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:125%;font-family:Lato;-inkscape-font-specification:Lato;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#243645;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
