@@ -1,0 +1,13 @@
+.segments {
+    .base-layout-segment {
+
+        @include respond(size-large) {
+            padding: 0 2.4rem;
+        }
+
+        .segment-content-container {
+            max-width: $bp-large;
+            margin: auto;
+        }
+    }
+}

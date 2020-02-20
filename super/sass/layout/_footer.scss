@@ -1,0 +1,212 @@
+footer.footer-container {
+    background-color: $primary;
+    color: $white;
+    padding-bottom: 0.8rem;
+    width: 100vw;
+    overflow: hidden;
+
+    .footer-content-container {
+        padding: 9.5rem 6.4rem 0 6.4rem;
+        font-size: 1.4rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .footer-content {
+            display: flex;
+
+
+            .all-rights-reserved-container {
+                flex-shrink: 0;
+                margin-right: 12rem;
+
+                .all-rights-reserved-component {
+                    .lumeer-logo-wrapper {
+                        margin-bottom: 3.2rem;
+                    }
+                    .details {
+                        font-size: 1.4rem;
+                        line-height: 3.2rem;
+                        margin-bottom: 1.6rem;
+                        margin-top: 1.6rem;
+
+                        a {
+                            text-decoration: none;
+                            color: $success;
+
+                            &:hover {
+                                color: $success-hover;
+                            }
+                        }
+            
+                    }
+                }
+            }
+
+            .categories-container {
+                flex-grow: 1;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+
+                .category-container {
+                    flex-grow: 1;
+                    width: 15rem;
+                    margin-right: 1.6rem;
+                    margin-bottom: 3.2rem;
+                    display: flex;
+                    flex-direction: column;
+
+                    .footer-category-component {
+                        .title {
+                            font-family: 'LatoLatinWebHeavy';
+                            margin-top: 2.4rem;
+                            margin-bottom: 2.4rem;
+                            text-transform: uppercase;
+                        }
+
+                        .links {
+                            .link {
+                                margin-bottom: 2.4rem;
+                                color: $gray-400;
+
+                                a {
+                                    text-decoration: none;
+                                    color: inherit;
+                                }
+
+                                &:hover {
+                                    color: $success;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    img.lumeer-logo {
+        height: 3rem;
+    }
+
+    .legal-footer-container {
+        position: relative;
+        font-size: 1.4rem;
+        font-style: italic;
+        color: $gray-700;
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        .items-container {
+            max-width: 1050px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+            display: flex;
+
+            @include respond(size-medium) {
+                padding: 0 5.4rem;
+            }
+
+            .legal-notice-component {
+                text-align: center;
+            }
+        }
+    }
+
+    .social-footer-container {
+        height: 10rem;
+        position: relative;
+        font-size: 1.4rem;
+        color: $gray-200;
+        display: flex;
+        align-items: center;
+
+        .humble-servant-sentence {
+
+            @include respond(size-small) {
+                display: none;
+            }
+
+            img {
+                height: 1.4rem;
+                position: relative;
+                top: 0.3rem;
+            }
+        }
+
+        .items-container {
+            max-width: 1050px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            display: flex;
+
+            @include respond(size-medium) {
+                padding: 0 5.4rem;
+            }
+
+            .palette-icons-container {
+                display: flex;
+                color: $success;
+
+                @include respond(size-small) {
+                    margin: 0 auto;
+                    padding: 0;
+                    flex-wrap: wrap;
+                    margin-top: 1.6rem;
+                }
+
+                .icons-wrapper {
+                    width: 25rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &:first-child {
+                        margin-right: 2.4rem;
+                    }
+
+                    @include respond(size-small) {
+                        &:first-child {
+                            margin-right: auto;
+                        }
+
+                        width: 20rem;
+                        margin: 0 auto;
+                        margin-bottom: 0.8rem;
+                    }
+                }
+            }
+        }
+
+        .social-media-icon {
+
+            svg {
+                height: 2rem;
+                width: 2rem;
+            }
+
+            .regular-icon-container {
+                display: block;
+            }
+            .colorful-icon-container {
+                display: none;
+            }
+
+            &:hover {
+                .regular-icon-container:not(.force-display) {
+                    display: none;
+                }
+                .colorful-icon-container:not(.force-display) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.paragaph-and-asset-component {
+    .paragaph-and-asset-columns {
+        display: flex;
+        flex-direction: column;
+
+        @include respond(size-small) {
+            height: auto;
+        }
+
+        .top-line {
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            @include respond(size-small) {
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+    
+            .content-column {
+                display: flex;
+                max-width: 45%;
+                align-items: center;
+                justify-content: center;
+
+                @include respond(size-small) {
+                    flex: 0 0 100%;
+                    margin-bottom: 4.8rem;
+                    max-width: 100%;                }    
+            }
+
+            .asset-column {
+                max-width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+
+                .asset-inner {
+                    position: relative;
+
+                    .image-component {
+                        width: 100%;
+                        height: 100%;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .paragraph-component {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        flex: 1 1 auto;
+
+        &.left {
+            align-items: flex-start;
+        }
+
+        .title {
+
+            h1 {
+                font-size: 4rem;
+                line-height: 4.3rem;
+                margin: 0;    
+            }
+        }
+
+        .body {
+            font-size: 1.6rem;
+            padding-top: 1.6rem;
+            width: 100%;
+
+            .inner-body {
+                line-height: 2.7rem;
+                display: block;
+            }
+        }
+
+        .signup-button {
+            padding-top: 1.6rem;
+        }
+    }
+}
+
+.paragraph-with-logos-wrapper {
+    .paragraph-with-logos-component {
+        
+    }
+}
