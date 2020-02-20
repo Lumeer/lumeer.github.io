@@ -1,0 +1,49 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+// MEDIA QUERY MANAGER
+/*
+0 - 768px:      small
+769 - 950px:    medium
+951 - 1050px:   normal
+[1200 - 1800] is where our normal styles apply
+1051 + :        large
+
+$breakpoint arguement choices:
+- size-small
+- size-medium
+- size-normal
+- size-large
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+@mixin respond($breakpoint) {
+    @if $breakpoint == size-small {
+        @media only screen and (max-width: 48em) { @content };    //768px
+    }
+    @if $breakpoint == size-medium {
+        @media only screen and (max-width: 59.375em) { @content };     //950px
+    }
+    @if $breakpoint == size-normal {
+        @media only screen and (max-width: 65.625em) { @content };    //1050px
+    }
+    @if $breakpoint == size-large {
+        @media only screen and (min-width: 65.687em) { @content };    //1051px
+    }
+}
+

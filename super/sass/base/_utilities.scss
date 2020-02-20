@@ -1,0 +1,38 @@
+/*.u-center-text { text-align: center !important; }
+
+.u-margin-bottom-small { margin-bottom: 1.5rem !important; }
+.u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 3rem !important;
+    }
+}
+
+.u-margin-bottom-big { 
+    margin-bottom: 8rem !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 5rem !important;
+    }
+}
+
+.u-margin-top-big { margin-top: 8rem !important; }
+.u-margin-top-huge { margin-top: 10rem !important; }
+*/
+
+.pt4 {
+    padding-top: 4rem;
+}
+
+.pt8 {
+    padding-top: 8rem;
+}
+
+.pb4 {
+    padding-bottom: 4rem;
+}
+
+.pb8 {
+    padding-bottom: 8rem;
+}

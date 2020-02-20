@@ -1,0 +1,39 @@
+.top-bar {
+    .top-bar-desktop-wrapper {
+
+        display: inherit;
+
+        @include respond(size-small) {
+            display: none;
+        }
+    
+        .top-bar-content {
+            max-width: $bp-large;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto;
+            font-family: 'LatoLatinWebHeavy';
+
+
+            .top-header-link-wrapper {
+                margin-left: 2.4rem;
+                
+                .top-bar-link {
+                    transition: 0.2s ease all;
+
+                    .content {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+
+            .top-header-login-link-wrapper {
+                margin-left: 2.4rem;
+                margin-right: 2.4rem;
+            }
+        }
+    }
+
+}

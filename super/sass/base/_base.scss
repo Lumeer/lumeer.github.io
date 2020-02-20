@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
+img {
+    border-style: none;
+}
+
+btn, a {
+    cursor: pointer;
+}
+
+html {
+    font-family: 'LatoLatinWeb', Liberation, sans-serif;
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+    @include respond(size-medium) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include respond(size-small) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(size-large) {
+      //  font-size: 75%; //1rem = 12, 12/16
+    }
+}
+
+body {
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: $primary;
+    color: $white;
+}

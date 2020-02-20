@@ -1,0 +1,46 @@
+.outline-button {
+    font-family: 'LatoLatinWebHeavy';
+
+    a {
+        transition: all 0.2s ease-in-out;
+    }
+
+    &.textual {
+        a {
+            display: block;
+            padding: 1rem 0;
+            font-size: 1.8rem;
+            text-align: center;
+            text-decoration: none;  
+            color: $primary;   
+            
+            &:hover {
+                color: $success;
+            }
+        }
+    }
+    
+    &.circled {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        a {
+            display: block;
+            border: 1px $success solid;
+            border-radius: 2.4rem;
+            color: $white;
+            background-color: $success;
+            padding: 0.8rem 2.4rem;
+            font-size: 1.8rem;
+            text-align: center;
+            text-decoration: none;
+            line-height: 1.8rem;
+
+            &:hover {
+                background-color: $white;
+                color: $success;
+            }
+        }
+    }
+}

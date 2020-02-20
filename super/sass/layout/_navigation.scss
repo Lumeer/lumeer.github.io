@@ -1,0 +1,29 @@
+nav.navbar {
+    background-color: $white;
+    position: fixed;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 1.2rem;
+    z-index: $navbar-z-index;
+
+    transition: padding 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    .navbar-menu {
+        display: flex;
+        align-self: center;
+    }
+}
+
+html:not([data-scroll='0']) {
+    nav.navbar {
+        padding: 0.75rem;
+        box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+    }
+}
