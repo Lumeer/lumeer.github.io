@@ -1,0 +1,20 @@
+.signup-component {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .inline-flex-wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+.signup-button {
+    .outline-button.circled {
+        a {
+            padding: 1.6rem 4.8rem;
+        }
+    }
+}

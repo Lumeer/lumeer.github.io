@@ -12,15 +12,33 @@ footer.footer-container {
         justify-content: center;
         position: relative;
 
+        @include respond(size-small) {
+            padding: 4rem 4rem 0 4rem;
+        }
+
         .footer-content {
             display: flex;
 
+            @include respond(size-small) {
+                flex-direction: column;
+                padding-left: 2.4rem;
+            }
 
             .all-rights-reserved-container {
                 flex-shrink: 0;
                 margin-right: 12rem;
 
+                @include respond(size-small) {
+                    width: 100%;
+                }
+    
                 .all-rights-reserved-component {
+
+                    @include respond(size-small) {
+                        display: flex;
+                        margin-left: 24px;
+                    }
+
                     .lumeer-logo-wrapper {
                         margin-bottom: 3.2rem;
                     }
@@ -57,9 +75,20 @@ footer.footer-container {
                     display: flex;
                     flex-direction: column;
 
+                    @include respond(size-small) {
+                        width: 13rem;
+                        align-items: center;
+                        margin-right: 1.2rem;
+                    }
+
                     .footer-category-component {
+                        @include respond(size-small) {
+                            width: 13rem;
+                        }
+
                         .title {
-                            font-family: 'LatoLatinWebHeavy';
+                            font-family: 'LatoWeb';
+                            font-weight: 800;
                             margin-top: 2.4rem;
                             margin-bottom: 2.4rem;
                             text-transform: uppercase;

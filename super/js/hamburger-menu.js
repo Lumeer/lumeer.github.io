@@ -19,4 +19,3 @@ function hamburgerToggle() {
     toggleClass(document.getElementById('hamburger-menu'), 'open');
     toggleClass(document.getElementById('side-menu-mobile'), 'open');
 }
-

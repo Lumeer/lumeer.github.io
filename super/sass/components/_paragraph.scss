@@ -1,10 +1,16 @@
-.paragaph-and-asset-component {
-    .paragaph-and-asset-columns {
+.paragraph-and-asset-component {
+    .paragraph-and-asset-columns {
         display: flex;
         flex-direction: column;
 
         @include respond(size-small) {
             height: auto;
+        }
+
+        &.asset-left {
+            .top-line {
+                flex-direction: row-reverse;
+            }
         }
 
         .top-line {
@@ -37,12 +43,22 @@
                 justify-content: center;
                 position: relative;
 
+                @include respond(size-small) {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
                 .asset-inner {
                     position: relative;
 
                     .image-component {
                         width: 100%;
                         height: 100%;
+
+                        @include respond(size-small) {
+                            padding-left: 5%;
+                            padding-right: 5%;
+                        }
 
                         img {
                             width: 100%;
@@ -54,40 +70,77 @@
         }
     }
 
-    .paragraph-component {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+}
+
+.paragraph-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 auto;
+
+    &.left {
+        align-items: flex-start;
+    }
+
+    &.center {
+        align-items: center;
+        text-align: center;
+
+        .title, .body {
+            max-width: 65rem;
+        }
+    }
+
+    .topic {
+        font-size: 1.6rem;
+        margin-bottom: 1.6rem;
+        font-weight: 500;
+    }
+
+    .title {
+
+        h1 {
+            font-size: 4rem;
+            line-height: 5.2rem;
+            margin: 0;    
+        }
+        h2 {
+            font-size: 4rem;
+            line-height: 5.2rem;
+            margin: 0;    
+            font-weight: 700;
+        }
+    }
+
+    .body {
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding-top: 1.6rem;
         width: 100%;
-        flex: 1 1 auto;
 
-        &.left {
-            align-items: flex-start;
+        .inner-body {
+            line-height: 2.7rem;
+            display: block;
         }
+    }
 
-        .title {
+    .bottom-link-wrapper {
+        margin-top: 2.4rem;
+        width: 100%;
 
-            h1 {
-                font-size: 4rem;
-                line-height: 4.3rem;
-                margin: 0;    
+        a {
+            transition: all 0.2s ease-in-out;
+            color: $primary;
+
+            &:hover {
+                color: $success;
             }
         }
+    }
 
-        .body {
-            font-size: 1.6rem;
-            padding-top: 1.6rem;
-            width: 100%;
-
-            .inner-body {
-                line-height: 2.7rem;
-                display: block;
-            }
-        }
-
-        .signup-button {
-            padding-top: 1.6rem;
-        }
+    .signup-button {
+        padding-top: 1.6rem;
     }
 }
 

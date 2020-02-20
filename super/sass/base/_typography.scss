@@ -1,5 +1,5 @@
 body {
-    font-family: "LatoLatinWeb", sans-serif;
+    font-family: "LatoWeb", sans-serif;
     font-weight: normal;
     line-height: 1.6;
     color: $primary;
@@ -85,7 +85,75 @@ body {
 }*/
 
 .colored {
+    &__primary {
+        color: $primary;
+    }
+
+    &__secondary {
+        color: $secondary;
+    }
+
     &__success {
         color: $success;
+    }
+
+    &__info {
+        color: $info;
+    }
+
+    &__warning {
+        color: $warning;
+    }
+
+    &__danger {
+        color: $danger;
+    }
+
+    &__light {
+        color: $light;
+    }
+
+    &__dark {
+        color: $dark;
+    }
+
+    &__blue {
+        color: $blue;
+    }
+
+    &__indigo {
+        color: $indigo;
+    }
+
+    &__purple {
+        color: $purple;
+    }
+
+    &__pink {
+        color: $pink; 
+    }
+
+    &__red {
+        color: $red;
+    }
+
+    &__orange {
+        color: $orange;
+    }
+
+    &__yellow {
+        color: $yellow;
+    }
+
+    &__green {
+        color: $green;
+    }
+
+    &__teal {
+        color: $teal;
+    }
+
+    &__cyan {
+        color: $cyan;
     }
 }

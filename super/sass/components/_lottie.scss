@@ -1,0 +1,40 @@
+.board-views-component {
+    .lottie-gallery-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2.4rem;
+
+        .lottie-item-wrapper {
+            max-width: 30rem;
+            margin: 1.6rem;
+            box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.1);
+            border-radius: 0.8rem;
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: $primary;
+            }
+
+            .lottie-component {
+                //width: 100%;
+                //height: 100%;
+
+                img {
+                    max-width: 30rem;
+                    max-height: 20rem;
+                }
+            }
+
+            .board-view-item-text {
+                padding: 1.6rem;
+                text-align: center;
+            }
+
+            .board-view-item-title {
+                margin-bottom: 0.8rem;
+            }
+        }
+    }
+}
