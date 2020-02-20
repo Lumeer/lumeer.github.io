@@ -1,4 +1,15 @@
 .top-bar {
+
+    .top-bar-content {
+        max-width: $bp-large;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        font-family: 'LatoLatinWebHeavy';
+    }
+
     .top-bar-desktop-wrapper {
 
         display: inherit;
@@ -8,14 +19,6 @@
         }
     
         .top-bar-content {
-            max-width: $bp-large;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin: auto;
-            font-family: 'LatoLatinWebHeavy';
-
 
             .top-header-link-wrapper {
                 margin-left: 2.4rem;
@@ -34,6 +37,15 @@
                 margin-right: 2.4rem;
             }
         }
+    }
+
+    .top-bar-mobile-wrapper {
+        display: none;
+
+        @include respond(size-small) {
+            display: block;
+        }
+
     }
 
 }

@@ -26,4 +26,121 @@ html:not([data-scroll='0']) {
         padding: 0.75rem;
         box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
     }
+    .side-menu-mobile {
+        top: 58px;
+    }
+}
+
+.hamburger-menu {
+    width: 28px;
+    transform: rotate(0deg);
+    cursor: pointer;
+    z-index: 667;
+    margin-left: 24px;
+    margin-right: 8px;
+    height: 36px;
+    display: flex;
+
+    span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: #333;
+        border-radius: 4px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: all 0.2s ease-in-out;
+
+        &:nth-child(1) {
+            top: 8px;
+        }
+
+        &:nth-child(2), &:nth-child(3) {
+            top: 17px;
+        }
+
+        &:nth-child(4) {
+            top: 26px;
+        }
+    }
+
+    &.open {
+        span {
+            background-color: #333;
+
+            &:nth-child(1) {
+                top: 18px;
+                width: 0%;
+                left: 50%;
+            }
+            &:nth-child(2) {
+                transform: rotate(45deg);
+            }
+            &:nth-child(3) {
+                transform: rotate(-45deg);
+            }
+            &:nth-child(4) {
+                top: 18px;
+                width: 0%;
+                left: 50%;
+            }
+        }
+    }
+}
+
+.side-menu-mobile {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: top 0.1s ease-in-out,opacity 0.1s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+    transform: translate(-100%);
+
+    &.open {
+        transform: translate(0);
+        opacity: 1;
+        z-index: 0;
+
+        .side-menu-mobile-dialog {
+            opacity: 1;
+        }
+    }
+
+    .side-menu-mobile-dialog {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: $success;
+        z-index: 1000;
+        align-self: center;
+
+        section.links-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+
+            a {
+                margin: 16px 0;
+                display: block;
+                color: #fff;
+                font-weight: 300;
+                text-decoration: none;
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+.navbar-padding {
+    height: 65px;
 }

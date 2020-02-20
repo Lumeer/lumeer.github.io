@@ -24,15 +24,15 @@ html {
     // This defines what 1rem is
     font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
 
-    @include respond(size-medium) { // width < 1200?
-        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    @include respond(size-medium) { // width < 990?
+    //    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
     }
 
-    @include respond(size-small) { // width < 900?
-        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    @include respond(size-small) { // width < 768?
+    //    font-size: 50%; //1 rem = 8px, 8/16 = 50%
     }
     
-    @include respond(size-large) {
+    @include respond(size-large) { // 1050
       //  font-size: 75%; //1rem = 12, 12/16
     }
 }

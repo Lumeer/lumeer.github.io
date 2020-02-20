@@ -36,7 +36,7 @@ $body-color: $primary !default;
 
 $primary-hover: lighten($primary, 15%);
 $secondary-hover: darken($secondary, 15%);
-$success-hover: darken($success, 15%);
+$success-hover: lighten($success, 15%);
 $info-hover: darken($info, 15%);
 $warning-hover: darken($warning, 15%);
 $danger-hover: darken($danger, 15%);
@@ -52,6 +52,7 @@ $gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
 
 // BREAKPOINTS
+$bp-xlarge: 1600px;
 $bp-large: 1050px;
 $bp-medium: 990px;
 $bp-small: 768px;

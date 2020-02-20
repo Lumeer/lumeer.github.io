@@ -1,0 +1,34 @@
+.companies-with-logos-component {
+    position: relative;
+
+    .images-gallery-row {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.4rem 4rem;
+
+        .image-gallery {
+
+            a {
+                height: 10rem;
+                display: flex;
+                align-items: center;
+                padding: 2rem;
+            }
+
+            .social-proof-gallery-picture img {
+                max-height: 6rem;
+                max-width: 20rem;
+                transition: filter .3s ease;
+                filter: grayscale(100%);
+
+                @include respond(size-small) {
+                    padding: 0.8rem;
+                }
+
+                &:hover {
+                    filter: none;
+                }
+            }
+        }
+    }
+}

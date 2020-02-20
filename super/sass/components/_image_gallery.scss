@@ -1,0 +1,19 @@
+.image-gallery-wrapper {
+    .images-gallery {
+        .images-gallery-row {
+            .image-gallery {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                position: relative;
+            }
+        }
+    }
+}
+
+.images-gallery-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

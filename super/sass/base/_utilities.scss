@@ -22,17 +22,31 @@
 */
 
 .pt4 {
-    padding-top: 4rem;
+    padding-top: 4rem !important;
 }
 
 .pt8 {
-    padding-top: 8rem;
+    padding-top: 8rem !important;
 }
 
 .pb4 {
-    padding-bottom: 4rem;
+    padding-bottom: 4rem !important;
 }
 
 .pb8 {
-    padding-bottom: 8rem;
+    padding-bottom: 8rem !important;
+}
+
+.px4 {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+}
+
+.py4 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+.bg-gray-100 {
+    background-color: $gray-100 !important;
 }
