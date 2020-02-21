@@ -2,5 +2,3 @@ css/style.*.css
 package-lock.json
 sass/npm-debug.log
 node_modules
-js/main.min.js
-js/*.js.map
