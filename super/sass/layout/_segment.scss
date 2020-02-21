@@ -6,8 +6,11 @@
         }
 
         .segment-content-container {
-            max-width: $bp-large;
             margin: auto;
+
+            &:not(.full-width) {
+                max-width: $bp-large;
+            }
         }
     }
 }

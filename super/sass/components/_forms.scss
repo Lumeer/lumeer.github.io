@@ -1,0 +1,106 @@
+.form-component {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+
+    a {
+        color: $success;
+        text-decoration: none;
+
+        &:hover {
+            color: $success-hover;
+        }
+    }
+
+    .fieldset {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        border: 0px solid transparent;
+
+        .form-field {
+            margin: 0 1rem;
+            padding: 0;
+            margin-bottom: 1.8rem;
+            flex-grow: 1;
+            display: flex;
+            flex-flow: column wrap;
+
+            label {
+                padding-left: 1rem;
+                margin-bottom: 0.5rem;
+                text-align: left;
+                font-size: 1.3rem;
+
+                .required {
+                    color: $red;
+                }
+            }
+            
+            input, textarea {
+                font-family: 'LatoWeb';
+            }
+
+            input[type='text'], input[type='email'], textarea {
+                width: 100%;
+                border-radius: 1.5rem;
+                border: 1px solid $gray-400;
+
+                background-clip: padding-box;
+                padding: 0 1.5rem;
+                font-size: 2rem;
+                resize: none;
+                box-shadow: 0 0.4rem 1rem 0 rgba(0,0,0,0.1);
+            }
+
+            input[type='text'], input[type='email'] {
+                height: 5rem;
+            }
+
+            textarea {
+                padding: 2rem;
+            }
+
+            input[type='checkbox'] {
+                width: 1.3rem;
+                height: 1.3rem;
+                border-radius: 1.5rem;
+                border: 1px solid $gray-400;
+
+                padding: 0 1.5rem;
+                box-shadow: 0 0.4rem 1rem 0 rgba(0,0,0,0.1);
+            }
+
+
+            input[type='submit'] {
+                transition: all 0.2s ease-in-out;
+                font-weight: 800;
+            
+                display: block;
+                border: 1px $success solid;
+                border-radius: 2.4rem;
+                color: $white;
+                background-color: $success;
+                padding: 1.6rem 4.8rem;
+                font-size: 1.8rem;
+                text-align: center;
+                text-decoration: none;
+                line-height: 1.8rem;
+    
+                &:hover {
+                    background-color: $white;
+                    color: $success;
+                }    
+            }
+        }
+
+        .field-type-submit {
+            align-content: flex-end;
+        }
+
+        &.form-columns-2 .form-field {
+           // max-width: 50%;
+        }
+    }
+}
