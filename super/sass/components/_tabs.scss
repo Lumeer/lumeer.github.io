@@ -1,0 +1,82 @@
+.tabs-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .tabs {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .content {
+        padding-top: 4.8rem;
+
+        .top-line {
+            display: none;
+
+            &.active {
+                display: flex;
+            }
+        }
+    }
+}
+
+.tab-component {
+    position: relative;
+    text-align: center;
+    min-width: 24rem;
+    cursor: pointer;
+    padding-bottom: 1.6rem;
+
+    .tab-label {
+        font-weight: 700;
+        font-size: 2.4rem;
+    }
+
+    .tab-underline-placeholder {
+        position: absolute;
+        height: 0.5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $success-light;
+
+        .tab-underline {
+            background-color: $success;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            right: 50%;
+            transition: left 0.2s ease,right 0.2s ease;
+        }
+    }
+
+    &.active {
+        .tab-underline-placeholder {
+            .tab-underline {
+                left: 0;
+                right: 0;
+            }
+        }
+    }
+}
+
+.responsive-hoc-component {
+    .desktop-wrapper {
+        display: block;
+
+        @include respond(size-small) {
+            display: none;
+        }
+    }
+
+    .mobile-wrapper {
+        display: none;
+
+        @include respond(size-small) {
+            display: block;
+        }
+    }
+}

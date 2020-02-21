@@ -161,6 +161,10 @@ footer.footer-container {
                 display: none;
             }
 
+            @include respond(size-large) {
+                margin-left: 2.4rem;
+            }
+
             img {
                 height: 1.4rem;
                 position: relative;

@@ -37,6 +37,7 @@ $body-color: $primary !default;
 $primary-hover: lighten($primary, 15%);
 $secondary-hover: darken($secondary, 15%);
 $success-hover: lighten($success, 15%);
+$success-light: change-color(lighten($success, 55%), $saturation: 50%);
 $info-hover: darken($info, 15%);
 $warning-hover: darken($warning, 15%);
 $danger-hover: darken($danger, 15%);

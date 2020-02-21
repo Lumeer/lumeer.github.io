@@ -159,7 +159,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="side-nav-link-wrapper">
-                                                    <div class="outline-button textual">
+                                                    <div class="outline-button textual rounded">
                                                         <a href="/" class="side-nav-link">
                                                             <div class="content">Get Started</div>
                                                         </a>
@@ -229,49 +229,49 @@
                                             <div class="image-gallery">
                                                 <a href="https://www.swida.sk/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/swida.jpg" alt="Swida" />
+                                                        <img src="img/logos/swida.png" alt="Swida" />
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.czechinvest.cz/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/czechinvest.jpg" alt="Czech Invest">
+                                                        <img src="img/logos/czechinvest.png" alt="Czech Invest">
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.universal-technik.cz/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/universal.jpg" alt="Universal Technik">
+                                                        <img src="img/logos/universal.jpg" alt="Universal Technik">
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.quconsult.cz/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/quconsult.jpg" alt="QuConsult">
+                                                        <img src="img/logos/quconsult.png" alt="QuConsult">
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.jic.cz/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/jic.jpg" alt="JIC">
+                                                        <img src="img/logos/jic.png" alt="JIC">
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.redhat.com/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/redhat.jpg" alt="Red Hat">
+                                                        <img src="img/logos/redhat.png" alt="Red Hat">
                                                     </picture>
                                                 </a>
                                             </div>
                                             <div class="image-gallery">
                                                 <a href="https://www.upjs.sk/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/upjs.jpg" alt="UPJŠ">
+                                                        <img src="img/logos/upjs.png" alt="UPJŠ">
                                                     </picture>
                                                 </a>
                                             </div>
@@ -279,7 +279,7 @@
                                             <div class="image-gallery">
                                                 <a href="https://www.tuke.sk/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/tuke.jpg" alt="TUKE" />
+                                                        <img src="img/logos/tuke.png" alt="TUKE" />
                                                     </picture>
                                                 </a>
                                             </div>
@@ -287,7 +287,7 @@
                                             <div class="image-gallery">
                                                 <a href="https://www.airfoillabs.com/" target="_blank">
                                                     <picture class="picture-component social-proof-gallery-picture">
-                                                        <img src="https://www.lumeer.io/wp-content/themes/lumeer/assets/img/airfoillabs.jpg" alt="Airfoillabs" />
+                                                        <img src="img/logos/airfoillabs.png" alt="Airfoillabs" />
                                                     </picture>
                                                 </a>
                                             </div>
@@ -510,29 +510,38 @@
                             <div class="multiple-tabs-component">
                                 <div class="tabs-component">
                                     <div class="tabs">
-                                        <div class="tab-component active">
+                                        <div class="tab-component active" id="features-tab-1" onclick="selectActiveTab(1, 'active', 'features-tab-', 'content-')">
                                             <span class="tab-label">Integrations</span>
+                                            <div class="tab-underline-placeholder">
+                                                <div class="tab-underline"></div>
+                                            </div>
                                         </div>
-                                        <div class="tab-component">
+                                        <div class="tab-component" id="features-tab-2" onclick="selectActiveTab(2, 'active', 'features-tab-', 'content-')">
                                             <span class="tab-label">Automations</span>
+                                            <div class="tab-underline-placeholder">
+                                                <div class="tab-underline"></div>
+                                            </div>
                                         </div>
-                                        <div class="tab-component">
+                                        <div class="tab-component" id="features-tab-3" onclick="selectActiveTab(3, 'active', 'features-tab-', 'content-')">
                                             <span class="tab-label">Import</span>
+                                            <div class="tab-underline-placeholder">
+                                                <div class="tab-underline"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="content">
                                         <div class="paragraph-and-asset-columns">
-                                            <div class="top-line">
+                                            <div class="top-line active" id="features-tab-content-1">
                                                 <div class="content-column">
                                                     <div class="paragraph-component">
                                                         <div class="title">
                                                             <div class="title-container">
-                                                                <h2 class="colorful-title">Create dashboards & stay in control</h2>
+                                                                <h2 class="colorful-title">Integrations</h2>
                                                             </div>
                                                         </div>
                                                         <h3 class="body">
                                                             <span class="inner-body">
-                                                                Build and customize your dashboards to gain important insights and a clear overview of your work.
+                                                                Integrate with your favorite tools and centralize your data in one place.
                                                             </span>
                                                         </h3>
                                                     </div>
@@ -540,18 +549,143 @@
                                                 <div class="asset-column">
                                                     <div class="asset-inner">
                                                         <div class="image-component">
-                                                            <img src="img/undraw_data_trends_b0wg.svg" alt="Working with data" />    
+                                                            <img src="img/undraw_version_control_9bpv.svg" alt="Connected systems" />    
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            <div class="top-line" id="features-tab-content-2">
+                                                <div class="content-column">
+                                                    <div class="paragraph-component">
+                                                        <div class="title">
+                                                            <div class="title-container">
+                                                                <h2 class="colorful-title">Automations</h2>
+                                                            </div>
+                                                        </div>
+                                                        <h3 class="body">
+                                                            <span class="inner-body">
+                                                                Easily automate your workflow so you can focus on what really matters.
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="asset-column">
+                                                    <div class="asset-inner">
+                                                        <div class="image-component">
+                                                            <img src="img/undraw_chat_bot_kli5.svg" alt="Automation" />    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="top-line" id="features-tab-content-3">
+                                                <div class="content-column">
+                                                    <div class="paragraph-component">
+                                                        <div class="title">
+                                                            <div class="title-container">
+                                                                <h2 class="colorful-title">Import</h2>
+                                                            </div>
+                                                        </div>
+                                                        <h3 class="body">
+                                                            <span class="inner-body">
+                                                                Simply import all your data and pick up where you left off.
+                                                            </span>
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                                <div class="asset-column">
+                                                    <div class="asset-inner">
+                                                        <div class="image-component">
+                                                            <img src="img/undraw_folder_39kl.svg" alt="Import data" />    
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="mobile-wrapper">
-
+                            <div class="multiple-tabs-component">
+                                <div class="paragraph-and-asset-columns pt4">
+                                    <div class="top-line">
+                                        <div class="content-column">
+                                            <div class="paragraph-component">
+                                                <div class="title">
+                                                    <div class="title-container">
+                                                        <h2 class="colorful-title">Integrations</h2>
+                                                    </div>
+                                                </div>
+                                                <h3 class="body">
+                                                    <span class="inner-body">
+                                                        Integrate with your favorite tools and centralize your data in one place.
+                                                    </span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="asset-column">
+                                            <div class="asset-inner">
+                                                <div class="image-component">
+                                                    <img src="img/undraw_version_control_9bpv.svg" alt="Connected systems" />    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paragraph-and-asset-columns pt12">
+                                    <div class="top-line" id="features-tab-content-2">
+                                        <div class="content-column">
+                                            <div class="paragraph-component">
+                                                <div class="title">
+                                                    <div class="title-container">
+                                                        <h2 class="colorful-title">Automations</h2>
+                                                    </div>
+                                                </div>
+                                                <h3 class="body">
+                                                    <span class="inner-body">
+                                                        Easily automate your workflow so you can focus on what really matters.
+                                                    </span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="asset-column">
+                                            <div class="asset-inner">
+                                                <div class="image-component">
+                                                    <img src="img/undraw_chat_bot_kli5.svg" alt="Automation" />    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="paragraph-and-asset-columns pt12">
+                                    <div class="top-line" id="features-tab-content-3">
+                                        <div class="content-column">
+                                            <div class="paragraph-component">
+                                                <div class="title">
+                                                    <div class="title-container">
+                                                        <h2 class="colorful-title">Import</h2>
+                                                    </div>
+                                                </div>
+                                                <h3 class="body">
+                                                    <span class="inner-body">
+                                                        Simply import all your data and pick up where you left off.
+                                                    </span>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="asset-column">
+                                            <div class="asset-inner">
+                                                <div class="image-component">
+                                                    <img src="img/undraw_folder_39kl.svg" alt="Import data" />    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
