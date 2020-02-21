@@ -13,6 +13,12 @@
     transform: translate(-50%, -50%);
 }
 
+@mixin headerText {
+    font-size: 4rem;
+    line-height: 5.2rem;
+    margin: 0;
+    font-weight: 700;
+}
 
 // MEDIA QUERY MANAGER
 /*

@@ -1,0 +1,88 @@
+.blog-component {
+
+    .blog-thumbnail-wrapper {
+        max-width: $bp-small;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+
+        .blog-thumbnail-component img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .blog-header-wrapper {
+        max-width: $bp-small;
+        margin: 0 auto;
+
+        .blog-header-component {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            flex: 1 1 auto;
+
+            .title h2 {
+                font-weight: 700;
+                font-size: 5.2rem;
+                line-height: 6.4rem;
+                color: $primary;
+                margin: 0 0 4rem;
+                letter-spacing: -0.04rem;
+            }
+
+            .author-and-social {
+                margin: 0 0 5.2rem;
+                display: flex;
+                justify-content: space-between;
+                flex-flow: row wrap;
+                align-items: flex-end;
+
+                .author-wrapper {
+                    display: flex;
+                    flex-flow: row nowrap;
+                    align-items: center;
+
+                    .author-info {
+                        display: flex;
+                        flex-flow: column;
+                        margin: 0.5rem 0 0 1.2rem;
+
+                        font-weight: 400;
+                        font-size: 1.4rem;
+                        line-height: 1.4rem;
+                        color: $dark;
+
+                        .author-name {
+                            display: flex;
+                            align-items: center;
+                            margin: 0 0 0.8rem;
+                        }
+                    }
+
+                    .author img {
+                        border-radius: 5rem;
+                        width: 5.8rem;
+                        height: auto;
+                    }
+                }
+
+                .social-wrapper {
+                    display: flex;
+                    flex-flow: row;
+
+                    a {
+                        width: 2.5rem;
+                        height: auto;
+                        margin-left: 2.4rem;
+                        transition: all 0.2s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.2, 1.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

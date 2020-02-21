@@ -1,0 +1,94 @@
+.directory-component {
+    width: 100%;
+
+    .thumbnails-list-component {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        max-width: 140rem;
+        margin: auto;
+        margin-bottom: 7rem;
+
+        .background-image-thumbnail-item-component {
+            position: relative;
+            height: 32rem;
+            width: 30rem;
+            overflow: hidden;
+            margin: 2rem;
+            border-radius: 0.4rem;
+            background-color: $white;
+            transition: 0.2s ease-in-out all;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover { 
+                .image-container {
+                    opacity: 0.5;
+                }
+
+                .text-container {
+                    height: 12rem;
+                    padding: 0 2.4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                &.extended-hover-height .text-container {
+                    height: 16rem;
+                }
+            }
+
+            .image-container {
+                height: 24rem;
+                opacity: 1;
+                width: 100%;
+                transition: 0.2s opacity ease;
+            }
+
+            .text-container {
+                position: absolute;
+                bottom: 0;
+                height: calc(32rem - 24rem);
+                overflow: hidden;
+                padding: 0 2.4rem;
+                transition: 0.2s height ease;
+                color: $primary;
+                background-color: $white;
+
+                .thumbnail-title-wrapper {
+                    height: 100%;
+                    width: 25.2rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    align-content: center;
+                    margin-bottom: 0.8rem;
+
+                    .thumbnail-title {
+                        font-size: 2.4rem;
+                        width: 100%;
+                        line-height: 3rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .thumbnail-title-decorator {
+                        color: $dark;
+                        font-size: 1.6rem;
+                    }
+
+                    .thumbnail-subtitle {
+                        display: flex;
+                        font-size: 1.4rem;
+                        line-height: 2rem;
+                        margin-bottom: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

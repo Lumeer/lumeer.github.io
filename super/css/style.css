@@ -568,13 +568,137 @@ body {
     .form-component .fieldset .field-type-submit {
       align-content: flex-end; }
 
-/*@import "components/card";
-@import "components/composition";
-@import "components/feature-box";
-@import "components/form";
-@import "components/popup";
-@import "components/story";
-*/
+.directory-component {
+  width: 100%; }
+  .directory-component .thumbnails-list-component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 140rem;
+    margin: auto;
+    margin-bottom: 7rem; }
+    .directory-component .thumbnails-list-component .background-image-thumbnail-item-component {
+      position: relative;
+      height: 32rem;
+      width: 30rem;
+      overflow: hidden;
+      margin: 2rem;
+      border-radius: 0.4rem;
+      background-color: #fff;
+      transition: 0.2s ease-in-out all;
+      text-decoration: none;
+      cursor: pointer; }
+      .directory-component .thumbnails-list-component .background-image-thumbnail-item-component:hover .image-container {
+        opacity: 0.5; }
+      .directory-component .thumbnails-list-component .background-image-thumbnail-item-component:hover .text-container {
+        height: 12rem;
+        padding: 0 2.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      .directory-component .thumbnails-list-component .background-image-thumbnail-item-component:hover.extended-hover-height .text-container {
+        height: 16rem; }
+      .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .image-container {
+        height: 24rem;
+        opacity: 1;
+        width: 100%;
+        transition: 0.2s opacity ease; }
+      .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container {
+        position: absolute;
+        bottom: 0;
+        height: calc(32rem - 24rem);
+        overflow: hidden;
+        padding: 0 2.4rem;
+        transition: 0.2s height ease;
+        color: #253746;
+        background-color: #fff; }
+        .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-title-wrapper {
+          height: 100%;
+          width: 25.2rem;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          align-content: center;
+          margin-bottom: 0.8rem; }
+          .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-title-wrapper .thumbnail-title {
+            font-size: 2.4rem;
+            width: 100%;
+            line-height: 3rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-title-wrapper .thumbnail-title-decorator {
+            color: #7b8a8b;
+            font-size: 1.6rem; }
+          .directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-title-wrapper .thumbnail-subtitle {
+            display: flex;
+            font-size: 1.4rem;
+            line-height: 2rem;
+            margin-bottom: 0.8rem; }
+
+.blog-component .blog-thumbnail-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 4rem; }
+  .blog-component .blog-thumbnail-wrapper .blog-thumbnail-component img {
+    max-width: 100%;
+    height: auto; }
+
+.blog-component .blog-header-wrapper {
+  max-width: 768px;
+  margin: 0 auto; }
+  .blog-component .blog-header-wrapper .blog-header-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 auto; }
+    .blog-component .blog-header-wrapper .blog-header-component .title h2 {
+      font-weight: 700;
+      font-size: 5.2rem;
+      line-height: 6.4rem;
+      color: #253746;
+      margin: 0 0 4rem;
+      letter-spacing: -0.04rem; }
+    .blog-component .blog-header-wrapper .blog-header-component .author-and-social {
+      margin: 0 0 5.2rem;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      align-items: flex-end; }
+      .blog-component .blog-header-wrapper .blog-header-component .author-and-social .author-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center; }
+        .blog-component .blog-header-wrapper .blog-header-component .author-and-social .author-wrapper .author-info {
+          display: flex;
+          flex-flow: column;
+          margin: 0.5rem 0 0 1.2rem;
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 1.4rem;
+          color: #7b8a8b; }
+          .blog-component .blog-header-wrapper .blog-header-component .author-and-social .author-wrapper .author-info .author-name {
+            display: flex;
+            align-items: center;
+            margin: 0 0 0.8rem; }
+        .blog-component .blog-header-wrapper .blog-header-component .author-and-social .author-wrapper .author img {
+          border-radius: 5rem;
+          width: 5.8rem;
+          height: auto; }
+      .blog-component .blog-header-wrapper .blog-header-component .author-and-social .social-wrapper {
+        display: flex;
+        flex-flow: row; }
+        .blog-component .blog-header-wrapper .blog-header-component .author-and-social .social-wrapper a {
+          width: 2.5rem;
+          height: auto;
+          margin-left: 2.4rem;
+          transition: all 0.2s ease-in-out; }
+          .blog-component .blog-header-wrapper .blog-header-component .author-and-social .social-wrapper a:hover {
+            transform: scale(1.2, 1.2); }
+
 main {
   display: block;
   min-height: 100vh; }
