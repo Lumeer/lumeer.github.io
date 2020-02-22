@@ -20,6 +20,27 @@
     font-weight: 700;
 }
 
+@mixin lumeerButton {
+    transition: all 0.2s ease-in-out;
+    font-weight: 800;
+
+    display: block;
+    border: 1px $success solid;
+    border-radius: 2.4rem;
+    color: $white;
+    background-color: $success;
+    padding: 1.6rem 4.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8rem;
+
+    &:hover {
+        background-color: $white;
+        color: $success;
+    }    
+}
+
 // MEDIA QUERY MANAGER
 /*
 0 - 768px:      small

@@ -1,0 +1,18 @@
+.integrations-component {
+    .image-gallery {
+        margin: 1.6rem;
+        width: 20%;
+
+        .social-proof-gallery-picture img {
+            width: 100%;
+        }
+    }
+
+    .images-gallery-row .image-gallery {
+        @include respond(size-small) {
+            margin: 0.8rem;
+            width: 44%;
+        }
+    }
+}
+

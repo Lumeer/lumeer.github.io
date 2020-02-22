@@ -37,6 +37,10 @@
     padding-top: 12rem !important;
 }
 
+.pb2 {
+    padding-bottom: 2rem !important;
+}
+
 .pb4 {
     padding-bottom: 4rem !important;
 }
@@ -68,3 +72,13 @@
 .bg-gray-100 {
     background-color: $gray-100 !important;
 }
+
+.bg-primary {
+    background-color: $primary !important;
+    color: $white;
+}
+
+.aligncenter {
+    text-align: center;  
+}
+

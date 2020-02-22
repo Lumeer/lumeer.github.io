@@ -22,7 +22,7 @@
             width: 100%;
             flex: 1 1 auto;
 
-            .title h2 {
+            .title h1 {
                 font-weight: 700;
                 font-size: 5.2rem;
                 line-height: 6.4rem;
@@ -83,6 +83,169 @@
                     }
                 }
             }
+        }
+    }
+
+    .blog-body-wrapper {
+        max-width: $bp-medium;
+        margin: 0 auto;
+
+        p, h2, h3, h4, h5, ul, ol, dl {
+            max-width: $bp-small;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 3rem;
+            line-height: 3.6rem;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 2.6rem;
+            line-height: 3.6rem;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
+        }
+
+        p, ul, ol, dl {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 1.8rem;
+            line-height: 3rem;
+            letter-spacing: 0;
+            text-align: justify;
+            margin-bottom: 2.6rem;
+
+            li {
+                margin-bottom: 0.3rem;
+            }
+
+            dd {
+                padding-left: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+
+        dt {
+            font-weight: 400;
+        }
+
+        ul, ol {
+            padding-left: 2rem;
+        }
+
+        a {
+            color: $success;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .wp-block-table.max-width {
+            max-width: $bp-medium;
+        }
+
+        .wp-block-image {
+            max-width: $bp-small;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2.6rem;
+
+            img {
+                max-width: inherit;
+
+                @include respond(size-small) {
+                    max-width: 100%;
+                }
+            }
+
+            &.max-width {
+                max-width: $bp-medium;
+
+                img {
+                    max-width: inherit;
+                }
+            }
+        }
+
+        .wp-block-table {
+            max-width: $bp-small;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2.6rem; 
+
+            table {
+                max-width: inherit;
+
+                @include respond(size-small) {
+                    max-width: 100%;
+                }
+
+            }
+
+            &.aligncenter table {
+                margin-left: auto;
+                margin-right: auto;        
+            }
+
+            &.max-width {
+                max-width: $bp-medium;
+
+                table {
+                    max-width: inherit;
+                }
+            }
+
+        }
+
+        .wp-block-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 5.2rem;
+            margin-bottom: 5.2rem;
+           
+            a {
+                @include lumeerButton;
+            }
+        }
+
+        .wp-block-yoast-faq-block {
+            margin-bottom: 2.6rem;
+            max-width: $bp-small;
+            margin-left: auto;
+            margin-right: auto;
+
+            .schema-faq-section {
+                margin-top: 5.2rem;
+            }
+
+            .schema-faq-question {
+                display: block;
+                font-weight: 700;
+                font-size: 2.6rem;
+                line-height: 3.6rem;
+                margin-bottom: 2.6rem;    
+            }
+        }
+
+        .wp-block-yoast-how-to-block {
+            .schema-how-to-total-time, .schema-how-to-description, p, ul, ol {
+                margin-bottom: 1.3rem;
+            }
+        }
+
+        form {
+            padding: 3rem;
+            background-color: $light;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
         }
     }
 }

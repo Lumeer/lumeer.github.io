@@ -92,19 +92,20 @@ html:not([data-scroll='0']) {
 
 .side-menu-mobile {
     width: 100vw;
-    height: 100vh;
+    height: 0;
     position: absolute;
     top: 6.5rem;
     left: 0;
     display: flex;
     justify-content: center;
-    transition: top 0.1s ease-in-out,opacity 0.1s ease-in-out;
+    transition: top 0.1s ease-in-out, opacity 0.1s ease-in-out, height 0.2s ease;
     opacity: 0;
     z-index: -1;
     transform: translate(-100%);
 
     &.open {
         transform: translate(0);
+        height: 100vh;
         opacity: 1;
         z-index: 0;
 

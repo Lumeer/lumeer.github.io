@@ -90,3 +90,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+table {
+    
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    thead th {
+        vertical-align: bottom;
+    }
+    
+    td, th {
+        padding: 1rem 2rem;
+        border: 0.1rem solid $gray-300;
+    }
+    
+    &.table-striped {
+        background-color: transparent;
+        
+        tbody { 
+            tr:nth-of-type(even) {
+                background-color: $light;
+            }
+        }
+    }
+}
