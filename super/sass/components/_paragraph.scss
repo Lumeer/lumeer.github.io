@@ -64,6 +64,30 @@
                         height: 100%;
                     }
                 }
+
+                .text-component {
+                    width: 100%;
+                    height: 100%;
+                    padding: 2rem;
+
+                    @include respond(size-small) {
+                        padding-left: 5%;
+                        padding-right: 5%;
+                    }
+
+                    ul {
+                        width: 100%;
+                        height: 100%;
+                        list-style: none;
+                        line-height: 2.25em;
+                        order: 2;
+
+                        li:not(:last-child) {
+                            border-bottom: 1px solid $gray-300;
+                        }
+                    }
+
+                }
             }
         }
     }

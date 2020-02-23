@@ -1,19 +1,53 @@
-.blog-directory-component {
-    width: 100%;
+.pricing-component {
+    margin-left: 2rem;
+    margin-right: 2rem;
 
-    .thumbnails-list-component {
+    @include respond(size-small) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .paragraph-and-asset-columns .top-line {
+        border: 1px solid $light;
+        border-radius: 0.8rem;
+        box-shadow: 0 0.2rem 1.6rem 0 rgba(0,0,0,0.2);
+
+        justify-content: space-around;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 2rem;
+
+        .content-column {
+
+            @include respond(size-small) {
+//                padding-top: 4rem;
+            }
+        }
+        .asset-column {
+            @include respond(size-small) {
+//                padding-bottom: 2rem;
+//                padding-left: 4rem;
+//                padding-right: 4rem;
+            }
+        }
+    }
+
+    .pricing-list-component {
         display: flex;
-        flex-wrap: wrap;
+        flex-flow: row nowrap;
         justify-content: center;
         margin-left: 2rem;
         margin-right: 2rem;
         max-width: 140rem;
         margin: auto;
-        margin-bottom: 7rem;
 
-        .background-image-thumbnail-item-component {
+        @include respond(size-small) {
+            flex-wrap: wrap;
+        }
+
+        .background-image-pricing-item-component {
             position: relative;
-            width: 30rem;
             overflow: hidden;
             margin: 2rem;
             border-radius: 0.4rem;
@@ -23,18 +57,47 @@
             cursor: pointer;
             box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.1);
 
-            &:hover { 
+            &:first-child {
+                margin-left: 0;
+                transform: scale(1.05);
+            } 
+
+            &:last-child {
+                margin-right: 0;
+                flex-shrink: 1.3;
+            } 
+
+            @include respond(size-small) {
+                max-width: 100%;
+                flex-shrink: 0;
+                margin-left: 0;
+                margin-right: 0;
+
+                &:first-child {
+                    transform: none;
+                } 
+    
+                &:last-child {
+                    flex-shrink: 0;
+                }     
+            }
+    
+            /*&:hover { 
                 transform: translate(-0.4rem, -0.4rem);
                 box-shadow: 0 1.2rem 2rem 0 rgba(0, 0, 0, 0.2);
                 .image-container {
                     opacity: 0.5;
                 }
-            }
+            }*/
 
             .image-container {
                 opacity: 1;
                 width: 100%;
                 transition: 0.2s opacity ease;
+                max-height: 20rem;
+                overflow: hidden;
+                object-fit: cover;
+                object-position: top;
             }
 
             .text-container {
@@ -44,30 +107,33 @@
                 color: $primary;
                 background-color: $white;
 
-                .thumbnail-title-wrapper {
+                .pricing-title-wrapper {
                     height: 100%;
-                    width: 25.2rem;
+
+                    //width: 25.2rem;
                     display: flex;
                     flex-wrap: wrap;
                     align-items: center;
                     align-content: center;
-                    margin-top: 0.8rem;
+                    margin-top: 2rem;
                     margin-bottom: 0.8rem;
 
-                    .thumbnail-title {
-                        font-size: 2.4rem;
+                    .pricing-title {
+                        font-size: 4rem;
+                        font-weight: 700;
+                        text-align: center;
                         width: 100%;
-                        line-height: 3rem;
+                        line-height: 5rem;
                     }
 
-                    .thumbnail-title-decorator {
+                    .pricing-title-decorator {
                         color: $dark;
                         font-size: 1.6rem;
                     }
 
                 }
     
-                .thumbnail-subtitle {
+                .pricing-subtitle {
                     display: flex;
                     font-weight: 300;
                     font-size: 1.4rem;
@@ -79,7 +145,7 @@
                     }
                 }
 
-                .thumbnail-info {
+                .pricing-info {
                     color: $dark;
                     border-top: 1px solid $light;
                     display: flex;
@@ -94,4 +160,5 @@
             }
         }
     }
+
 }
