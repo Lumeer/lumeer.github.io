@@ -136,6 +136,10 @@ body {
 .small-font {
   font-size: 2rem !important; }
 
+.capitalize {
+  text-transform: uppercase;
+  font-size: smaller; }
+
 .green-background {
   background-image: linear-gradient(to bottom, rgba(25, 172, 134, 0.9) 0, rgba(25, 172, 134, 0.9) 100%), url(../img/free-trial-1.jpg);
   background-position: center bottom;
@@ -222,8 +226,16 @@ table {
   background-color: #253746 !important;
   color: #fff; }
 
+.bg-primary-light {
+  background-color: rgba(37, 55, 70, 0.955) !important;
+  color: #fff; }
+
 .bg-success {
   background-color: #00b388 !important;
+  color: #fff; }
+
+.bg-success-light {
+  background-color: rgba(0, 179, 136, 0.8) !important;
   color: #fff; }
 
 .aligncenter {
@@ -288,7 +300,8 @@ table {
     height: 100%;
     display: flex;
     align-items: center; }
-    .outline-button.circled a {
+    .outline-button.circled a, .outline-button.circled .signup-button-component {
+      transition: all 0.2s ease-in-out;
       display: block;
       border: 1px #00b388 solid;
       border-radius: 2.4rem;
@@ -299,9 +312,11 @@ table {
       text-align: center;
       text-decoration: none;
       line-height: 1.8rem; }
-      .outline-button.circled a:hover {
+      .outline-button.circled a:hover, .outline-button.circled .signup-button-component:hover {
         background-color: #fff;
         color: #00b388; }
+      .outline-button.circled a.btn-large, .outline-button.circled .signup-button-component.btn-large {
+        padding: 1.6rem 4.8rem; }
 
 .paragraph-and-asset-columns {
   display: flex;
@@ -763,7 +778,7 @@ table {
 .blog-component .blog-body-wrapper {
   max-width: 990px;
   margin: 0 auto; }
-  .blog-component .blog-body-wrapper p, .blog-component .blog-body-wrapper h2, .blog-component .blog-body-wrapper h3, .blog-component .blog-body-wrapper h4, .blog-component .blog-body-wrapper h5, .blog-component .blog-body-wrapper ul, .blog-component .blog-body-wrapper ol, .blog-component .blog-body-wrapper dl {
+  .blog-component .blog-body-wrapper p, .blog-component .blog-body-wrapper h2, .blog-component .blog-body-wrapper h3, .blog-component .blog-body-wrapper h4, .blog-component .blog-body-wrapper h5, .blog-component .blog-body-wrapper ul, .blog-component .blog-body-wrapper ol, .blog-component .blog-body-wrapper dl, .blog-component .blog-body-wrapper blockquote {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto; }
@@ -796,6 +811,20 @@ table {
     font-weight: 400; }
   .blog-component .blog-body-wrapper ul, .blog-component .blog-body-wrapper ol {
     padding-left: 2rem; }
+  .blog-component .blog-body-wrapper blockquote {
+    padding: 0 0 0 2.1rem;
+    margin-top: 5.2rem;
+    margin-bottom: 5.2rem;
+    position: relative;
+    border-left: 0.8rem solid #00b388;
+    height: auto;
+    word-break: break-word; }
+    .blog-component .blog-body-wrapper blockquote p {
+      font-weight: 900;
+      font-size: 1.8rem;
+      line-height: 3.4rem;
+      padding: 0;
+      margin: 0; }
   .blog-component .blog-body-wrapper a {
     color: #00b388;
     text-decoration: none; }
@@ -888,6 +917,7 @@ table {
     margin: auto;
     margin-bottom: 7rem; }
     .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component {
+      display: flex;
       position: relative;
       width: 30rem;
       overflow: hidden;
@@ -903,18 +933,23 @@ table {
         box-shadow: 0 1.2rem 2rem 0 rgba(0, 0, 0, 0.2); }
         .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component:hover .image-container {
           opacity: 0.5; }
+      .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component .card-wrapper {
+        display: flex;
+        flex-flow: column; }
       .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component .image-container {
         opacity: 1;
         width: 100%;
         transition: 0.2s opacity ease; }
       .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container {
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column;
         overflow: hidden;
         padding: 0 2.4rem;
         transition: 0.2s height ease;
         color: #253746;
         background-color: #fff; }
         .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-title-wrapper {
-          height: 100%;
           width: 25.2rem;
           display: flex;
           flex-wrap: wrap;
@@ -931,6 +966,7 @@ table {
             font-size: 1.6rem; }
         .blog-directory-component .thumbnails-list-component .background-image-thumbnail-item-component .text-container .thumbnail-subtitle {
           display: flex;
+          flex-grow: 1;
           font-weight: 300;
           font-size: 1.4rem;
           line-height: 2rem;
@@ -1084,10 +1120,28 @@ table {
           .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-title-wrapper .pricing-title-decorator {
             color: #7b8a8b;
             font-size: 1.6rem; }
+          .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-title-wrapper .pricing-price {
+            font-size: 4rem;
+            font-weight: 700;
+            text-align: center;
+            width: 100%;
+            padding: 2rem 0;
+            line-height: 2.2rem; }
+          .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-title-wrapper .pricing-price-decorator {
+            color: #7b8a8b;
+            font-size: 1.6rem;
+            font-weight: 300; }
+        .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-description {
+          display: block;
+          text-align: center;
+          font-weight: 400;
+          font-size: 1.8rem;
+          line-height: 2.9rem;
+          padding-bottom: 2.4rem; }
         .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-subtitle {
-          display: flex;
+          text-align: center;
           font-weight: 300;
-          font-size: 1.4rem;
+          font-size: 1.6rem;
           line-height: 2rem;
           padding-bottom: 1.2rem; }
           .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-subtitle:last-child {
@@ -1103,6 +1157,8 @@ table {
           padding-top: 1.2rem;
           padding-bottom: 1.2rem;
           justify-content: space-between; }
+        .pricing-component .pricing-list-component .background-image-pricing-item-component .text-container .pricing-button {
+          padding-bottom: 4rem; }
 
 main {
   display: block;

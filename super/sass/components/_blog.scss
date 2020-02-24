@@ -90,7 +90,7 @@
         max-width: $bp-medium;
         margin: 0 auto;
 
-        p, h2, h3, h4, h5, ul, ol, dl {
+        p, h2, h3, h4, h5, ul, ol, dl, blockquote {
             max-width: $bp-small;
             margin-left: auto;
             margin-right: auto;
@@ -137,6 +137,24 @@
 
         ul, ol {
             padding-left: 2rem;
+        }
+
+        blockquote {
+            padding: 0 0 0 2.1rem;
+            margin-top: 5.2rem;
+            margin-bottom: 5.2rem;
+            position: relative;
+            border-left: 0.8rem solid $success;
+            height: auto;
+            word-break: break-word;
+
+            p {
+                font-weight: 900;
+                font-size: 1.8rem;
+                line-height: 3.4rem;
+                padding: 0;
+                margin: 0;
+            } 
         }
 
         a {

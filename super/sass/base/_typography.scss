@@ -83,6 +83,11 @@ body {
     font-size: 2rem !important;
 }
 
+.capitalize {
+    text-transform: uppercase;
+    font-size: smaller;
+}
+
 .green-background {
     background-image: linear-gradient(to bottom,rgba(25,172,134,.9) 0,rgba(25,172,134,.9) 100%),url(../img/free-trial-1.jpg);
     background-position: center bottom;

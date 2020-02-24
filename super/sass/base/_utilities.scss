@@ -78,8 +78,18 @@
     color: $white;
 }
 
+.bg-primary-light {
+    background-color: transparentize($primary, 0.045) !important;
+    color: $white;
+}
+
 .bg-success {
     background-color: $success !important;
+    color: $white;
+}
+
+.bg-success-light {
+    background-color: transparentize($success, 0.2) !important;
     color: $white;
 }
 

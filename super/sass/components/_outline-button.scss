@@ -42,7 +42,8 @@
         display: flex;
         align-items: center;
 
-        a {
+        a, .signup-button-component {
+            transition: all 0.2s ease-in-out;
             display: block;
             border: 1px $success solid;
             border-radius: 2.4rem;
@@ -57,6 +58,10 @@
             &:hover {
                 background-color: $white;
                 color: $success;
+            }
+
+            &.btn-large {
+                padding: 1.6rem 4.8rem;
             }
         }
     }

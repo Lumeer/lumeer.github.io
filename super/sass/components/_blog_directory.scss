@@ -12,6 +12,7 @@
         margin-bottom: 7rem;
 
         .background-image-thumbnail-item-component {
+            display: flex;
             position: relative;
             width: 30rem;
             overflow: hidden;
@@ -31,6 +32,11 @@
                 }
             }
 
+            .card-wrapper {
+                display: flex;
+                flex-flow: column;
+            }
+
             .image-container {
                 opacity: 1;
                 width: 100%;
@@ -38,6 +44,9 @@
             }
 
             .text-container {
+                flex-grow: 1;
+                display: flex;
+                flex-flow: column;
                 overflow: hidden;
                 padding: 0 2.4rem;
                 transition: 0.2s height ease;
@@ -45,7 +54,6 @@
                 background-color: $white;
 
                 .thumbnail-title-wrapper {
-                    height: 100%;
                     width: 25.2rem;
                     display: flex;
                     flex-wrap: wrap;
@@ -69,6 +77,7 @@
     
                 .thumbnail-subtitle {
                     display: flex;
+                    flex-grow: 1;
                     font-weight: 300;
                     font-size: 1.4rem;
                     line-height: 2rem;
