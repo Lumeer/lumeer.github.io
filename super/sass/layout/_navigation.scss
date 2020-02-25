@@ -128,15 +128,21 @@ html:not([data-scroll='0']) {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            margin-top: 2.4rem;
+            margin-top: 1rem;
 
             a {
-                margin: 1.6rem 0;
+                margin: 1rem 0;
                 display: block;
                 color: #fff;
                 font-weight: 400;
                 text-decoration: none;
-                font-size: 4rem;
+                font-size: 2.7rem;
+            }
+        }
+
+        .language-switch {
+            img {
+                height: 3.5rem;
             }
         }
     }

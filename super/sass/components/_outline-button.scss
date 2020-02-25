@@ -21,6 +21,9 @@
         }
 
         &.rounded {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+
             a {
                 border-radius: 4rem;
                 border: 0.2rem solid $white;

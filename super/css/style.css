@@ -262,9 +262,17 @@ table {
       transition: 0.2s ease all; }
       .top-bar .top-bar-desktop-wrapper .top-bar-content .top-header-link-wrapper .top-bar-link .content {
         font-size: 1.6rem; }
+    .top-bar .top-bar-desktop-wrapper .top-bar-content .top-header-link-wrapper .flag {
+      margin-right: 2.4rem; }
+      .top-bar .top-bar-desktop-wrapper .top-bar-content .top-header-link-wrapper .flag img {
+        height: 2.5rem;
+        filter: grayscale(0.4);
+        transition: all 0.2s ease-in-out; }
+        .top-bar .top-bar-desktop-wrapper .top-bar-content .top-header-link-wrapper .flag img:hover {
+          transform: scale(1.2);
+          filter: none; }
   .top-bar .top-bar-desktop-wrapper .top-bar-content .top-header-login-link-wrapper {
-    margin-left: 2.4rem;
-    margin-right: 2.4rem; }
+    margin-left: 2.4rem; }
 
 .top-bar .top-bar-mobile-wrapper {
   display: none; }
@@ -286,16 +294,19 @@ table {
     color: #253746; }
     .outline-button.textual a:hover {
       color: #00b388; }
-  .outline-button.textual.rounded a {
-    border-radius: 4rem;
-    border: 0.2rem solid #fff;
-    padding: 0.8rem 2.4rem;
-    box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.1); }
-    .outline-button.textual.rounded a:hover {
-      background-color: #fff;
-      color: #00b388;
-      box-shadow: none;
-      transform: translate(0.2rem, 0.2rem); }
+  .outline-button.textual.rounded {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    .outline-button.textual.rounded a {
+      border-radius: 4rem;
+      border: 0.2rem solid #fff;
+      padding: 0.8rem 2.4rem;
+      box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.1); }
+      .outline-button.textual.rounded a:hover {
+        background-color: #fff;
+        color: #00b388;
+        box-shadow: none;
+        transform: translate(0.2rem, 0.2rem); }
   .outline-button.circled {
     height: 100%;
     display: flex;
@@ -1279,14 +1290,16 @@ html:not([data-scroll='0']) .side-menu-mobile {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 2.4rem; }
+      margin-top: 1rem; }
       .side-menu-mobile .side-menu-mobile-dialog section.links-section a {
-        margin: 1.6rem 0;
+        margin: 1rem 0;
         display: block;
         color: #fff;
         font-weight: 400;
         text-decoration: none;
-        font-size: 4rem; }
+        font-size: 2.7rem; }
+    .side-menu-mobile .side-menu-mobile-dialog .language-switch img {
+      height: 3.5rem; }
 
 .navbar-padding {
   height: 6.5rem; }
