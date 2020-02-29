@@ -14,11 +14,11 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="pivot-table-explained.svg"
-   inkscape:export-filename="/home/mvecera/pivot-tables-cheatsheet-1.png"
-   inkscape:export-xdpi="150.00539"
-   inkscape:export-ydpi="150.00539">
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="pivot-table-cheatsheet-en-1.svg"
+   inkscape:export-filename="/Users/mvecera/pivot-tables-cheatsheet-1.png"
+   inkscape:export-xdpi="600.02155"
+   inkscape:export-ydpi="600.02155">
   <defs
      id="defs2">
     <marker
@@ -87,15 +87,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="500.41283"
-     inkscape:cy="417.67148"
+     inkscape:cx="408.91283"
+     inkscape:cy="737.67148"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6934"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1631"
+     inkscape:window-height="1005"
+     inkscape:window-x="49"
+     inkscape:window-y="1"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -110,28 +110,28 @@
        position="5,277.42577"
        orientation="1,0"
        id="guide887"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
        position="205,308.96358"
        orientation="1,0"
        id="guide889"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
        position="-325.53428,292"
        orientation="0,1"
        id="guide4594"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
     <sodipodi:guide
        position="-173.19065,5"
        orientation="0,1"
        id="guide4596"
-       inkscape:locked="true"
+       inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
   </sodipodi:namedview>
@@ -143,7 +143,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -516,7 +516,7 @@
            height="304.28571"
            x="51.42857"
            y="283.94824" /></flowRegion><flowPara
-         id="flowPara5971"></flowPara></flowRoot>    <g
+         id="flowPara5971" /></flowRoot>    <g
        id="g6632"
        transform="translate(0,2.6458334)">
       <g
@@ -1555,7 +1555,7 @@
            width="71.44043"
            id="rect5977-6" /></flowRegion><flowPara
          id="flowPara5981-4">PAGE</flowPara><flowPara
-         id="flowPara7817">1 of 3</flowPara></flowRoot>  </g>
+         id="flowPara7817">1 of 4</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"

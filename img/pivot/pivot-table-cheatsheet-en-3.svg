@@ -14,11 +14,11 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="pivot-table-cheatsheet-en-3.svg"
-   inkscape:export-filename="/home/mvecera/pivot-tables-cheatsheet-3.png"
-   inkscape:export-xdpi="150.00539"
-   inkscape:export-ydpi="150.00539">
+   inkscape:export-filename="/Users/mvecera/pivot-tables-cheatsheet-3.png"
+   inkscape:export-xdpi="600.02155"
+   inkscape:export-ydpi="600.02155">
   <defs
      id="defs2">
     <marker
@@ -141,16 +141,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="459.43514"
-     inkscape:cy="799.10302"
+     inkscape:zoom="0.5"
+     inkscape:cx="436.10787"
+     inkscape:cy="569.40445"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1631"
+     inkscape:window-height="1005"
+     inkscape:window-x="49"
+     inkscape:window-y="1"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -585,7 +585,7 @@
            width="71.44043"
            id="rect5977-6" /></flowRegion><flowPara
          id="flowPara5981-4">PAGE</flowPara><flowPara
-         id="flowPara7817">3 of 3</flowPara></flowRoot>    <flowRoot
+         id="flowPara7817">3 of 4</flowPara></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot1481"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#6f42c1;fill-opacity:0.96078432;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
@@ -2770,10 +2770,10 @@
                      y="205.25661"
                      style="font-size:4.23333311px;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                      id="tspan3695"><tspan
-   style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3790">Grand</tspan> <tspan
-   style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3792">Total</tspan></tspan></text>
+                       style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3790">Grand</tspan><tspan
+                       style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3792">Total</tspan></tspan></text>
                 <text
                    xml:space="preserve"
                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2816,10 +2816,10 @@
                      y="177.93115"
                      style="font-size:4.23333311px;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                      id="tspan3659"><tspan
-   style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3782">Quattro</tspan> <tspan
-   style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3784">Stagioni</tspan></tspan><tspan
+                       style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3782">Quattro</tspan><tspan
+                       style="font-weight:bold;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3784">Stagioni</tspan></tspan><tspan
                      sodipodi:role="line"
                      x="100.59811"
                      y="184.76093"
@@ -2913,10 +2913,10 @@
                      x="170.50171"
                      y="177.9375"
                      style="font-size:4.23333311px;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"><tspan
-   style="font-weight:bold;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3786">Grand</tspan> <tspan
-   style="font-weight:bold;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431"
-   id="tspan3788">Total</tspan></tspan><tspan
+                       style="font-weight:bold;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3786">Grand</tspan><tspan
+                       style="font-weight:bold;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431"
+                       id="tspan3788">Total</tspan></tspan><tspan
                      sodipodi:role="line"
                      x="170.50171"
                      y="184.76727"
@@ -3372,26 +3372,28 @@
       </g>
       <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,-6.5481034,-2.8451223)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078432;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          id="flowRoot13191"
          xml:space="preserve"><flowRegion
-           id="flowRegion13193"><rect
+           id="flowRegion13193"
+           style="fill:#253746;fill-opacity:0.96078432;"><rect
              y="108.52856"
              x="53.740116"
              height="308.29858"
              width="345.77524"
-             id="rect13195" /></flowRegion><flowPara
-           style="font-size:17.33333397px"
+             id="rect13195"
+             style="fill:#253746;fill-opacity:0.96078432;" /></flowRegion><flowPara
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13197"><flowSpan
    id="flowSpan13207"
-   style="font-weight:bold;font-size:16px">ROW</flowSpan> (or Row Label) determines the table column used to group individual table rows by the unique values in that specific column. </flowPara><flowPara
+   style="font-weight:bold;font-size:16px;fill:#253746;fill-opacity:0.96078432;">ROW</flowSpan> (or Row Label) determines the table column used to group individual table rows by the unique values in that specific column. </flowPara><flowPara
            id="flowPara13205"
-           style="font-size:17.33333397px">It is called a Row Label as the unique values are listed at the beginning of each row (in the first column) of the resulting Pivot Table.</flowPara><flowPara
-           style="font-size:17.33333397px"
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;">It is called a Row Label as the unique values are listed at the beginning of each row (in the first column) of the resulting Pivot Table.</flowPara><flowPara
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13199">For example, selecting a Sales Person Name as a Row Label will list all Sales Persons in the first column and next we can group their total sales.</flowPara><flowPara
-           style="font-size:17.33333397px"
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13201" /><flowPara
-           style="font-size:17.33333397px"
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13203" /></flowRoot>    </g>
     <g
        id="g13396"
@@ -3753,24 +3755,24 @@
       </g>
       <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,4.2333335,3.4851983)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#253746;fill-opacity:0.96078432;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          id="flowRoot13213"
          xml:space="preserve"><flowRegion
-           style="text-align:start;text-anchor:start"
+           style="text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;"
            id="flowRegion13215"><rect
-             style="text-align:start;text-anchor:start"
+             style="text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;"
              y="425.31241"
              x="420.02142"
              height="367.69553"
              width="340.82547"
              id="rect13217" /></flowRegion><flowPara
-           style="font-size:17.33333397px;text-align:start;text-anchor:start"
+           style="font-size:17.33333397px;text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13219"><flowSpan
    id="flowSpan13225"
-   style="font-weight:bold;font-size:16px;text-align:start;text-anchor:start">COLUMN</flowSpan> (or Column Label) determines the table column used to group individual table rows by the unique values in that specific column. </flowPara><flowPara
+   style="font-weight:bold;font-size:16px;text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;">COLUMN</flowSpan> (or Column Label) determines the table column used to group individual table rows by the unique values in that specific column. </flowPara><flowPara
            id="flowPara13223"
-           style="font-size:17.33333397px;text-align:start;text-anchor:start">It is called a Column Label as the unique values are listed at the beginning of each column (in the first row) of the resulting Pivot Table.</flowPara><flowPara
-           style="font-size:17.33333397px;text-align:start;text-anchor:start"
+           style="font-size:17.33333397px;text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;">It is called a Column Label as the unique values are listed at the beginning of each column (in the first row) of the resulting Pivot Table.</flowPara><flowPara
+           style="font-size:17.33333397px;text-align:start;text-anchor:start;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13221">For example, selecting a Month of Sale as a Column Label will list all Months in the first row and next we can group the total sales.</flowPara></flowRoot>    </g>
     <g
        id="g13466"
@@ -4077,24 +4079,26 @@
       </g>
       <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,0,2.6647049)"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078432;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          id="flowRoot13300"
          xml:space="preserve"><flowRegion
-           id="flowRegion13302"><rect
+           id="flowRegion13302"
+           style="fill:#253746;fill-opacity:0.96078432;"><rect
              y="771.79474"
              x="31.112698"
              height="293.36969"
              width="344.09756"
-             id="rect13304" /></flowRegion><flowPara
-           style="font-size:17.33333397px"
+             id="rect13304"
+             style="fill:#253746;fill-opacity:0.96078432;" /></flowRegion><flowPara
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13306"><flowSpan
    id="flowSpan13314"
-   style="font-weight:bold;font-size:16px">VALUES</flowSpan> (or Summation Values) are the values from the original table used to calculate the resulting value in the Pivot Table. </flowPara><flowPara
-           style="font-size:17.33333397px"
+   style="font-weight:bold;font-size:16px;fill:#253746;fill-opacity:0.96078432;">VALUES</flowSpan> (or Summation Values) are the values from the original table used to calculate the resulting value in the Pivot Table. </flowPara><flowPara
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13308">In addition to the table column that is used to calculate the summation, we must specify a summation function that can combine the values together. It can be a sum, average, minimum, maximum, etc.</flowPara><flowPara
-           style="font-size:17.33333397px"
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13310">For example, selecting a Sale Amount and sum function will calculate the overall sales for the given Sales Person.</flowPara><flowPara
-           style="font-size:17.33333397px"
+           style="font-size:17.33333397px;fill:#253746;fill-opacity:0.96078432;"
            id="flowPara13312" /></flowRoot>    </g>
   </g>
   <g
