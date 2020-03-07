@@ -1,0 +1,2 @@
+#!/bin/sh
+exiftool -Title="Příklady Pivot Tabulek" -Author="www.lumeer.io" -Subject="Příklady pivot tabulek: Kompletní sbírka 62 příkladů pro rok 2020, abyste v práci excelovali" -Keywords="pivot tabulka" -Creator="Martin Večeřa" Příklady\ Pivot\ Tabulek.pdf
