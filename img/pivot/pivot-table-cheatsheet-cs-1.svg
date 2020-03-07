@@ -15,8 +15,8 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="pivot-table-cheatsheet-en-1.svg"
-   inkscape:export-filename="/Users/mvecera/pivot-tables-cheatsheet-1.png"
+   sodipodi:docname="pivot-table-cheatsheet-cs-1.svg"
+   inkscape:export-filename="/Users/mvecera/pivot-tables-cheatsheet-cs-1.png"
    inkscape:export-xdpi="600.02155"
    inkscape:export-ydpi="600.02155">
   <defs
@@ -86,11 +86,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="167.52531"
-     inkscape:cy="550.6212"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="398.76384"
+     inkscape:cy="894.90745"
      inkscape:document-units="mm"
-     inkscape:current-layer="g6219"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1631"
      inkscape:window-height="1005"
@@ -472,7 +472,7 @@
          y="15.289148"
          x="4.0316687"
          id="tspan4591-6"
-         sodipodi:role="line">PIVOT TABLES CHEATSHEET</tspan></text>
+         sodipodi:role="line">TAHÁK: PIVOT TABULKY</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -531,67 +531,67 @@
            y="23.405655" />
         <g
            id="g4744"
-           transform="translate(-33.373505,-20.12227)">
+           transform="translate(-31.969968,-20.12227)">
           <text
              xml:space="preserve"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.52499962px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-             x="61.607403"
+             x="80.961884"
              y="52.386803"
              id="text4728"><tspan
                sodipodi:role="line"
                id="tspan4726"
-               x="61.607403"
+               x="80.961884"
                y="52.386803"
-               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:'Lato Medium';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">The Standard Deck of 52 Cards</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:6.3499999px;font-family:Lato;-inkscape-font-specification:'Lato Medium';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">Balíček 52 karet</tspan></text>
           <g
              transform="translate(-9.4789485,-4.2333335)"
              id="g4724">
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#e74c3c;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="50.162464"
+               x="48.758926"
                y="97.277359"
                id="text4675"><tspan
                  sodipodi:role="line"
-                 x="50.162464"
+                 x="48.758926"
                  y="97.277359"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  id="tspan4677">🂱🂲🂳🂴🂵🂶🂷🂸🂹🂺🂻🂽🂾</tspan><tspan
                  sodipodi:role="line"
-                 x="50.162464"
+                 x="48.758926"
                  y="111.56486"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  id="tspan4679">🃁🃂🃃🃄🃅🃆🃇🃈🃉🃊🃋🃍🃎</tspan><tspan
                  sodipodi:role="line"
-                 x="50.162464"
+                 x="48.758926"
                  y="120.31587"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  id="tspan4681" /><tspan
                  sodipodi:role="line"
-                 x="50.162464"
+                 x="48.758926"
                  y="126.93046"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  id="tspan4683" /></text>
             <text
                id="text4695"
                y="68.702377"
-               x="50.162464"
+               x="48.758926"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="68.702377"
-                 x="50.162464"
+                 x="48.758926"
                  id="tspan4685"
                  sodipodi:role="line">🂡🂢🂣🂤🂥🂦🂧🂨🂩🂪🂫🂭🂮</tspan><tspan
                  id="tspan4691"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="82.989876"
-                 x="50.162464"
+                 x="48.758926"
                  sodipodi:role="line">🃑🃒🃓🃔🃕🃖🃗🃘🃙🃚🃛🃝🃞</tspan><tspan
                  id="tspan4693"
                  style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.11111069px;line-height:14.28750038px;font-family:Lato;-inkscape-font-specification:'Lato Bold';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="91.740891"
-                 x="50.162464"
+                 x="48.758926"
                  sodipodi:role="line" /></text>
           </g>
         </g>
@@ -610,25 +610,25 @@
              width="234.075"
              id="rect5977" /></flowRegion><flowPara
            id="flowPara5979"
-           style="font-size:17.33333397px;line-height:18px;text-align:center;text-anchor:middle">Let's start with the standard deck of 52 card.</flowPara><flowPara
+           style="font-size:17.33333397px;line-height:18px;text-align:center;text-anchor:middle">Začněme balíčkem 52 karet.</flowPara><flowPara
            id="flowPara5981"
-           style="font-size:17.33333397px;line-height:18px;text-align:center;text-anchor:middle">Each card has some properties (attributes):</flowPara></flowRoot>      <g
+           style="font-size:17.33333397px;line-height:18px;text-align:center;text-anchor:middle">Každá karta má vlastnosti (atributy):</flowPara></flowRoot>      <g
          id="g6036"
          transform="translate(0,-3.7041668)">
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#343a3f;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="27.067934"
+           x="18.496664"
            y="63.836609"
            id="text5985"><tspan
              sodipodi:role="line"
              id="tspan5983"
-             x="27.067934"
+             x="18.496664"
              y="63.836609"
-             style="fill:#343a3f;fill-opacity:0.96078431;stroke-width:0.26458332px">Value (e.g. A)</tspan></text>
+             style="fill:#343a3f;fill-opacity:0.96078431;stroke-width:0.26458332px">Hodnota (př. A)</tspan></text>
         <g
            id="g6003"
-           transform="translate(-0.38452392,-14.239549)">
+           transform="translate(-8.8511911,-14.239549)">
           <text
              id="text5993"
              y="97.806541"
@@ -639,22 +639,22 @@
                y="97.806541"
                x="23.8125"
                id="tspan5991"
-               sodipodi:role="line">Color (e.g. red)</tspan></text>
+               sodipodi:role="line">Barva (př. červená)</tspan></text>
           <text
              id="text5997"
              y="97.806145"
-             x="46.728664"
+             x="45.498764"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#e75242;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="fill:#e75242;fill-opacity:1;stroke-width:0.26458332px"
                y="97.806145"
-               x="46.728664"
+               x="45.498764"
                id="tspan5995"
-               sodipodi:role="line">red</tspan></text>
+               sodipodi:role="line">červená</tspan></text>
         </g>
         <g
            id="g6013"
-           transform="translate(-0.77940612,4.5836726)">
+           transform="translate(-2.4673049,4.5836726)">
           <text
              id="text5989"
              y="69.118126"
@@ -666,34 +666,35 @@
                y="69.118126"
                x="22.291006"
                id="tspan5987"
-               sodipodi:role="line">Symbol (e.g. ♥)</tspan></text>
+               sodipodi:role="line">Symbol (př. ♥)</tspan></text>
           <text
              id="text6007"
-             y="69.117912"
-             x="49.765755"
+             y="69.117737"
+             x="47.913269"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#e75242;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                style="fill:#e75242;fill-opacity:1;stroke-width:0.26458332px"
-               y="69.117912"
-               x="49.765755"
+               y="69.117737"
+               x="47.913269"
                id="tspan6005"
                sodipodi:role="line">♥</tspan></text>
         </g>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#ced4da;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.96078431"
-           d="M 73.993567,73.990305 55.2847,75.112839 H 33.582416"
+           d="M 75.316484,70.947597 55.2847,75.112839 H 33.582416"
            id="path6015"
-           inkscape:connector-curvature="0" />
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
         <path
            inkscape:connector-curvature="0"
            id="path6017"
-           d="M 72.538359,68.434055 55.2847,65.058672 H 33.582416"
+           d="M 72.009192,65.854367 55.2847,65.058672 H 33.582416"
            style="fill:none;fill-rule:evenodd;stroke:#ced4da;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.96078431"
            sodipodi:nodetypes="ccc" />
         <path
            inkscape:connector-curvature="0"
            id="path6019"
-           d="M 71.215442,76.978217 55.2847,84.979918 H 33.582416"
+           d="M 72.339921,76.250613 55.2847,84.979918 H 33.582416"
            style="fill:none;fill-rule:evenodd;stroke:#ced4da;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.96078431"
            sodipodi:nodetypes="ccc" />
       </g>
@@ -706,14 +707,14 @@
         <text
            id="text6040"
            y="112.88583"
-           x="11.543844"
+           x="21.288708"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato Medium';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
              y="112.88583"
-             x="11.543844"
+             x="21.288708"
              id="tspan6038"
-             sodipodi:role="line">GROUPING THE DECK</tspan></text>
+             sodipodi:role="line">ROZDĚLÍME KARTY</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -724,7 +725,7 @@
              id="tspan6042"
              x="91.877213"
              y="117.76905"
-             style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">by the card color</tspan></text>
+             style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">podle barvy</tspan></text>
       </g>
       <g
          id="g6648">
@@ -738,8 +739,8 @@
         <g
            id="g6219">
           <g
-             id="g10688"
-             transform="translate(0,-0.18189844)">
+             id="g10702"
+             transform="translate(0,-0.74954372)">
             <g
                transform="translate(0,1.0583333)"
                id="g6100">
@@ -763,14 +764,14 @@
                  transform="rotate(-90)"
                  id="text6082"
                  y="96.457191"
-                 x="-123.40379"
+                 x="-124.06169"
                  style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                    y="96.457191"
-                   x="-123.40379"
+                   x="-124.06169"
                    id="tspan6080"
-                   sodipodi:role="line">BLACK</tspan></text>
+                   sodipodi:role="line">ČERNÁ</tspan></text>
             </g>
             <g
                transform="translate(0,-1.5875)"
@@ -795,14 +796,14 @@
                  transform="rotate(-90)"
                  id="text6086"
                  y="96.496704"
-                 x="-146.65805"
+                 x="-153.62614"
                  style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#e74c3c;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  xml:space="preserve"><tspan
                    style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                    y="96.496704"
-                   x="-146.65805"
+                   x="-153.62614"
                    id="tspan6084"
-                   sodipodi:role="line">RED</tspan></text>
+                   sodipodi:role="line">ČERVENÁ</tspan></text>
             </g>
           </g>
         </g>
@@ -821,9 +822,9 @@
              y="139.66254"
              style="text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431" /></flowRegion><flowPara
            style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle"
-           id="flowPara6108">We split the deck into two. We could also split the cards by any other attribute - value or symbol.</flowPara><flowPara
+           id="flowPara6108">Rozdělíme karty na dvě hromádky. Mohli bychom je rozdělit také podle jiné vlastnosti - podle hodnoty, symbolu...</flowPara><flowPara
            style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle"
-           id="flowPara6114">How many cards are there in each color group/category?</flowPara></flowRoot>    </g>
+           id="flowPara6114">Kolik karet je v každé skupině/kategorii/hromádce?</flowPara></flowRoot>    </g>
     <g
        id="g7020"
        transform="translate(-7.2379143,-2.6458334)">
@@ -835,7 +836,7 @@
            transform="translate(0,-0.77046255)">
           <g
              id="g6124"
-             transform="translate(25.982538,64.921281)">
+             transform="translate(8.1368893,64.921281)">
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111126px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -846,7 +847,7 @@
                  id="tspan6116"
                  x="9.2987823"
                  y="112.13748"
-                 style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">OUR FIRST PIVOT TABLE</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:Lato;-inkscape-font-specification:'Lato Semi-Bold';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">NAŠE PRVNÍ PIVOT TABULKA</tspan></text>
           </g>
           <text
              xml:space="preserve"
@@ -858,7 +859,7 @@
                id="tspan6042-6"
                x="123.39156"
                y="182.77231"
-               style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">We have just counted the black and red cards</tspan></text>
+               style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">Jen jsme spočítali černé a červené karty</tspan></text>
         </g>
         <path
            style="fill:none;fill-rule:evenodd;stroke:#ced4da;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.9000001;stroke-dasharray:none;stroke-opacity:0.96078431;marker-end:url(#Arrow2Send)"
@@ -872,54 +873,54 @@
              y="169.37804"
              x="148.21007"
              height="19.981087"
-             width="41.053242"
+             width="45.730457"
              id="rect4746-0-9-9-7"
-             style="opacity:0.95999995;fill:#f8f9fa;fill-opacity:1;stroke:none;stroke-width:0.03132859;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+             style="opacity:0.95999995;fill:#f8f9fa;fill-opacity:1;stroke:none;stroke-width:0.03132858;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
           <g
              id="g6252-2-6"
              transform="translate(77.7875,-37.570833)">
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#e74c3c;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="96.277893"
+               x="90.986221"
                y="215.41386"
                id="text6086-9-0-5"><tspan
                  sodipodi:role="line"
                  id="tspan6084-1-2-6"
-                 x="96.277893"
+                 x="90.986221"
                  y="215.41386"
-                 style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px">RED</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px">ČERVENÁ</tspan></text>
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="75.582191"
+               x="72.407188"
                y="215.41386"
                id="text6082-2-3-9"><tspan
                  sodipodi:role="line"
                  id="tspan6080-7-7-3"
-                 x="75.582191"
+                 x="72.407188"
                  y="215.41386"
-                 style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">BLACK</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">ČERNÁ</tspan></text>
             <text
                id="text6238-5-7"
                y="222.06293"
-               x="98.423836"
+               x="99.653587"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="222.06293"
-                 x="98.423836"
+                 x="99.653587"
                  id="tspan6236-9-4"
                  sodipodi:role="line">26</tspan></text>
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="80.932228"
+               x="77.968452"
                y="222.06293"
                id="text6242-2-5"><tspan
                  sodipodi:role="line"
                  id="tspan6240-2-2"
-                 x="80.932228"
+                 x="77.968452"
                  y="222.06293"
                  style="fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">26</tspan></text>
           </g>
@@ -941,7 +942,7 @@
                y="112.13748"
                x="9.2987823"
                id="tspan6116-2"
-               sodipodi:role="line">ROTATE</tspan></text>
+               sodipodi:role="line">OTOČÍME</tspan></text>
         </g>
         <path
            inkscape:connector-curvature="0"
@@ -962,15 +963,15 @@
                y="139.66254"
                style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431" /></flowRegion><flowPara
              style="font-size:17.33333397px;line-height:20px;text-align:end;text-anchor:end"
-             id="flowPara6114-6">Labels in a row or column are just about our preference; what tells our story better.</flowPara></flowRoot>        <g
+             id="flowPara6114-6">Popisky v řádcích nebo sloupcích; záleží jen na naší volbě - co se nám líbí víc.</flowPara></flowRoot>        <g
            id="g6279-5"
            transform="translate(-55.874358,21.881135)">
           <rect
              style="opacity:0.95999995;fill:#f8f9fa;fill-opacity:1;stroke:none;stroke-width:0.0288472;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              id="rect4746-0-9-4"
-             width="33.909492"
+             width="35.219116"
              height="20.510252"
-             x="147.58603"
+             x="146.27641"
              y="167.79048" />
           <g
              transform="translate(77.7875,-37.570833)"
@@ -978,45 +979,45 @@
             <text
                id="text6086-9-4"
                y="220.97011"
-               x="80.667473"
+               x="70.613297"
                style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#e74c3c;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#e74c3c;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="220.97011"
-                 x="80.667473"
+                 x="70.613297"
                  id="tspan6084-1-4"
-                 sodipodi:role="line">RED</tspan></text>
+                 sodipodi:role="line">ČERVENÁ</tspan></text>
             <text
                id="text6082-2-30"
                y="213.86075"
-               x="74.259285"
+               x="76.825493"
                style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:4.93888855px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:'Lato Heavy';letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Lato;-inkscape-font-specification:'Lato Heavy';fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="213.86075"
-                 x="74.259285"
+                 x="76.825493"
                  id="tspan6080-7-78"
-                 sodipodi:role="line">BLACK</tspan></text>
+                 sodipodi:role="line">ČERNÁ</tspan></text>
             <text
                xml:space="preserve"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="93.384796"
+               x="95.501465"
                y="213.86075"
                id="text6238-6"><tspan
                  sodipodi:role="line"
                  id="tspan6236-88"
-                 x="93.384796"
+                 x="95.501465"
                  y="213.86075"
                  style="fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">26</tspan></text>
             <text
                id="text6242-43"
                y="220.97011"
-               x="93.384796"
+               x="95.501465"
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458302px;font-family:Lato;-inkscape-font-specification:Lato;letter-spacing:0px;word-spacing:0px;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                xml:space="preserve"><tspan
                  style="fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px"
                  y="220.97011"
-                 x="93.384796"
+                 x="95.501465"
                  id="tspan6240-1"
                  sodipodi:role="line">26</tspan></text>
           </g>
@@ -1108,7 +1109,7 @@
                      y="139.66254"
                      style="text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431" /></flowRegion><flowPara
                    style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle"
-                   id="flowPara6114-6-1">Color</flowPara></flowRoot>              <flowRoot
+                   id="flowPara6114-6-1">Barva</flowPara></flowRoot>              <flowRoot
                  transform="matrix(0.26458333,0,0,0.26458333,145.54646,116.03564)"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
                  id="flowRoot7068"
@@ -1122,7 +1123,7 @@
                      width="141.01358"
                      id="rect7062" /></flowRegion><flowPara
                    id="flowPara7066"
-                   style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Count of Card</flowPara></flowRoot>            </g>
+                   style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Počet karet</flowPara></flowRoot>            </g>
           </g>
           <g
              id="g7122">
@@ -1146,7 +1147,7 @@
         </g>
       </g>
       <g
-         transform="translate(9.2630974,111.97744)"
+         transform="translate(7.3592225,111.97744)"
          id="g6124-06">
         <text
            id="text6118-3"
@@ -1158,7 +1159,7 @@
              y="112.13748"
              x="9.2987823"
              id="tspan6116-20"
-             sodipodi:role="line">FINAL TOUCH</tspan></text>
+             sodipodi:role="line">VŠE VYLADÍME</tspan></text>
       </g>
       <flowRoot
          transform="matrix(0.26458333,0,0,0.26458333,6.3504067,188.44361)"
@@ -1174,7 +1175,7 @@
              width="246.14101"
              id="rect6102-7-5" /></flowRegion><flowPara
            id="flowPara6114-6-5"
-           style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">We add headers so that the readers know what they are looking at.</flowPara></flowRoot>    </g>
+           style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Přidáme záhlaví, aby bylo srozumitelné, co je obsahem pivot tabulky.</flowPara></flowRoot>    </g>
     <g
        id="g7341"
        transform="translate(159.66195,133.86742)">
@@ -1283,19 +1284,19 @@
                y="112.13748"
                x="9.2987823"
                id="tspan7313"
-               sodipodi:role="line">HOW DO WE...</tspan></text>
+               sodipodi:role="line">JAK MŮŽEME...</tspan></text>
         </g>
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:6.61458349px;font-family:Lato;-inkscape-font-specification:Lato;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="162.46086"
+           x="156.6682"
            y="229.52069"
            id="text6044-3-4"><tspan
              sodipodi:role="line"
              id="tspan6042-6-9"
-             x="162.46086"
+             x="156.6682"
              y="229.52069"
-             style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">...put the cards in the computer?</tspan></text>
+             style="text-align:end;text-anchor:end;fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">...dostat karty do počítače?</tspan></text>
       </g>
       <g
          transform="translate(7.9311743,-0.24578001)"
@@ -1343,7 +1344,7 @@
                y="261.44089"
                style="fill:#253746;fill-opacity:0.96078431;stroke-width:0.26458332px">♥</tspan></text>
           <flowRoot
-             transform="matrix(0.26458333,0,0,0.26458333,100.13757,205.71893)"
+             transform="matrix(0.26458333,0,0,0.26458333,96.530477,205.71893)"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              id="flowRoot7418"
              xml:space="preserve"><flowRegion
@@ -1352,11 +1353,11 @@
                  style="text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431"
                  y="139.66254"
                  x="18.897638"
-                 height="25.599792"
-                 width="46.013584"
+                 height="24.892685"
+                 width="72.176537"
                  id="rect7412" /></flowRegion><flowPara
                id="flowPara7416"
-               style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Value</flowPara></flowRoot>          <flowRoot
+               style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Hodnota</flowPara></flowRoot>          <flowRoot
              xml:space="preserve"
              id="flowRoot7426"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#253746;fill-opacity:0.96078431;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1402,7 +1403,7 @@
                  width="141.01358"
                  id="rect7550" /></flowRegion><flowPara
                id="flowPara7554"
-               style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Color</flowPara></flowRoot>          <text
+               style="font-size:17.33333397px;line-height:20px;text-align:center;text-anchor:middle">Barva</flowPara></flowRoot>          <text
              id="text7560"
              y="254.33154"
              x="153.26114"
@@ -1546,9 +1547,11 @@
              y="139.66254"
              style="line-height:19px;text-align:center;text-anchor:middle;fill:#253746;fill-opacity:0.96078431" /></flowRegion><flowPara
            style="font-size:17.33333397px;line-height:19px;text-align:center;text-anchor:middle"
-           id="flowPara6114-6-5-8">Computers need tabular data, so we describe each card as a row in a table</flowPara></flowRoot>    </g>
+           id="flowPara6114-6-5-8">Počítače potřebují údaje v tabulkách. </flowPara><flowPara
+           style="font-size:17.33333397px;line-height:19px;text-align:center;text-anchor:middle"
+           id="flowPara10704">Proto popíšeme každou kartu v jednom řádku.</flowPara></flowRoot>    </g>
     <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,184.62026,-33.094705)"
+       transform="matrix(0.26458333,0,0,0.26458333,180.3869,-33.094705)"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.66666603px;line-height:25px;font-family:Lato;-inkscape-font-specification:Lato;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#7b8a8b;fill-opacity:0.96078431;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot5973-9"
        xml:space="preserve"><flowRegion
@@ -1557,11 +1560,11 @@
            style="text-align:center;text-anchor:middle;fill:#7b8a8b;fill-opacity:0.96078431"
            y="139.66254"
            x="18.897638"
-           height="54.832756"
-           width="71.44043"
+           height="54.832764"
+           width="74.44043"
            id="rect5977-6" /></flowRegion><flowPara
-         id="flowPara5981-4">PAGE</flowPara><flowPara
-         id="flowPara7817">1 of 4</flowPara></flowRoot>  </g>
+         id="flowPara5981-4">STRANA</flowPara><flowPara
+         id="flowPara7817">1 ze 4</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
