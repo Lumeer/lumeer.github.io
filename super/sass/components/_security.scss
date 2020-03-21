@@ -1,0 +1,26 @@
+.security-and-privacy-component {
+    position: relative;
+
+    .images-gallery-row {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2.4rem 4rem;
+
+        .image-gallery {
+
+            picture {
+                display: flex;
+                align-items: center;
+                padding: 1rem;
+            }
+
+            .social-proof-gallery-picture img {
+                height: 148px;
+
+                @include respond(size-small) {
+                    padding: 0.8rem;
+                }
+            }
+        }
+    }
+}

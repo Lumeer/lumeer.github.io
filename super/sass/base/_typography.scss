@@ -34,6 +34,18 @@ body {
         color: $light;
     }
 
+    &__gray-200 {
+        color: $gray-200;
+    }
+    
+    &__gray-400 {
+        color: $gray-400;
+    }
+
+    &__gray-600 {
+        color: $gray-600;
+    }
+
     &__dark {
         color: $dark;
     }
@@ -81,6 +93,11 @@ body {
 
 .small-font {
     font-size: 2rem !important;
+}
+
+.large-font {
+    line-height: 3.4rem !important; 
+    font-size: 2.4rem !important;
 }
 
 .capitalize {

@@ -54,6 +54,10 @@
     }
 
     &.active {
+        .tab-label {
+            color: $success;
+        }
+
         .tab-underline-placeholder {
             .tab-underline {
                 left: 0;

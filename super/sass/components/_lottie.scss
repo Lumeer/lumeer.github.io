@@ -10,6 +10,12 @@
             margin: 1.6rem;
             box-shadow: 0 0.8rem 1.6rem 0 rgba(0,0,0,0.1);
             border-radius: 0.8rem;
+            transition: 0.2s all ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0.6rem 2rem 0 rgba(0,0,0,0.2);
+            }
 
             a {
                 display: block;

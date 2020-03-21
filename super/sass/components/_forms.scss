@@ -75,6 +75,19 @@
 
             input[type='submit'] {
                 @include lumeerButton;
+
+                &:disabled {
+                    background-color: $success-light;
+                    border: $success-light 1px solid;
+                    color: white;
+
+                    &:hover {
+                        cursor: not-allowed;
+                        background-color: $success-light;
+                        border: $success-light 1px solid;
+                        color: white;
+                    }
+                }
             }
         }
 

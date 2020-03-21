@@ -108,7 +108,7 @@
         align-items: center;
         text-align: center;
 
-        .title, .body {
+        .title:not(.full-width), .body {
             max-width: 65rem;
         }
     }
@@ -165,8 +165,45 @@
     }
 }
 
-.paragraph-with-logos-wrapper {
-    .paragraph-with-logos-component {
-        
+.full-background-text-and-asset-component {
+    height: 65rem;
+    color: $primary;
+
+    .full-background-text-and-asset {
+        height: 100%;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        align-items: center;
+
+        &.page404 {
+            background-image: url(../img/404.png);
+        }
+
+        .full-background-text-and-asset-content {
+            margin: auto;
+            max-width: 144rem;
+            width: 100%;
+            padding: 0px 3.2rem;
+        }
+    }
+
+            
+    .full-paragraph {
+        word-break: break-word;
+        width: 100%;
+
+        .title-wrapper {
+            margin-top: 1.6rem;
+            margin-bottom: 1.6rem;
+        }
+    }
+
+    .core-title {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 4.8rem;
+        word-break: break-word;
     }
 }
