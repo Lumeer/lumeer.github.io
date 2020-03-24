@@ -47,7 +47,7 @@ body {
 a {
     transition: all 0.2s ease-in-out; 
 
-    &:link {
+    &:link, &:visited {
         color: $primary;
         text-decoration: underline;
     }
