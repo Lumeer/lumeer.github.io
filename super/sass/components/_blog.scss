@@ -170,6 +170,15 @@
             max-width: $bp-medium;
         }
 
+        .wp-block-embed, form {
+            max-width: $bp-small;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2.6rem;
+            display: flex;
+            justify-content: center;
+        }
+
         .wp-block-image {
             max-width: $bp-small;
             margin-left: auto;
