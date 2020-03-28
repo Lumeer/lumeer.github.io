@@ -23,12 +23,18 @@
 
             .top-header-link-wrapper {
                 margin-left: 2.4rem;
+                display: flex;
+
+                .outline-button {
+                    align-self: center;
+                }
                 
                 .top-bar-link {
                     transition: 0.2s ease all;
 
                     .content {
                         font-size: 1.6rem;
+                        display: flex;
                     }
                 }
 
