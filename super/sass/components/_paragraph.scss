@@ -80,6 +80,15 @@
                     }
                 }
 
+                .play-button {
+                    position: absolute; 
+                    z-index: 1;
+                    top: 0;
+                    width: 100%; height: 100%;
+                    background: url("../img/play-button.png") no-repeat scroll center center / 100px 100px;
+                    opacity: 0.5;
+                }
+
                 .text-component {
                     width: 100%;
                     height: 100%;

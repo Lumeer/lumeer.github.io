@@ -90,7 +90,7 @@
         max-width: $bp-medium;
         margin: 0 auto;
 
-        p, h2, h3, h4, h5, ul, ol, dl, blockquote {
+        p, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
             max-width: $bp-small;
             margin-left: auto;
             margin-right: auto;
@@ -107,6 +107,30 @@
         h3 {
             font-weight: 700;
             font-size: 2.6rem;
+            line-height: 3.6rem;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
+        }
+
+        h4 {
+            font-weight: 700;
+            font-size: 2.2rem;
+            line-height: 3.6rem;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 2.0rem;
+            line-height: 3.6rem;
+            margin-top: 5.2rem;
+            margin-bottom: 2.6rem;
+        }
+
+        h6 {
+            font-weight: 700;
+            font-size: 1.8rem;
             line-height: 3.6rem;
             margin-top: 5.2rem;
             margin-bottom: 2.6rem;
