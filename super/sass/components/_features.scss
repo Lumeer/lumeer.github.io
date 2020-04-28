@@ -1,0 +1,52 @@
+.features-list-component {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .paragraph-and-asset-columns .top-line {
+        box-sizing: content-box;
+        flex-direction: column-reverse;
+        justify-content: flex-end !important;
+        
+        @media screen and (min-width: $bp-medium) {
+            width: 24rem;            
+        }
+
+        @include respond(size-small) {
+            flex-direction: column-reverse !important;
+        }
+
+        @include respond(size-medium) {
+            text-align: center;
+            margin: 3.2rem auto;
+            width: 100% !important;
+        }
+
+        .content-column, .asset-column {
+            max-width: 100% !important;
+        }
+
+        .asset-column {
+            margin-bottom: 1rem;
+            justify-content: left;
+        }
+
+        .paragraph-component {
+            .title .colorful-title {
+                text-align: left;
+                line-height: 1.8rem;
+                font-size: 1.6rem;
+            }
+
+            .body {
+                padding-top: 0.75rem;
+                font-size: 1.5rem;
+                color: $dark;
+            }
+        } 
+    }
+
+    .asset-inner svg {
+        width: 3rem;
+    }
+}
