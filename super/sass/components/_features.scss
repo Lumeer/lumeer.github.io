@@ -3,10 +3,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
 
+    .features-list-item-wrapper {
+        padding-bottom: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .paragraph-and-asset-columns .top-line {
         box-sizing: content-box;
         flex-direction: column-reverse;
         justify-content: flex-end !important;
+        max-width: 24rem;
         
         @media screen and (min-width: $bp-medium) {
             width: 24rem;            
@@ -17,7 +24,7 @@
         }
 
         @include respond(size-medium) {
-            text-align: center;
+            //text-align: center;
             margin: 3.2rem auto;
             width: 100% !important;
         }
@@ -29,6 +36,10 @@
         .asset-column {
             margin-bottom: 1rem;
             justify-content: left;
+
+            .picture-component {
+                line-height: 3rem;
+            }
         }
 
         .paragraph-component {
@@ -46,7 +57,11 @@
         } 
     }
 
-    .asset-inner svg {
-        width: 3rem;
+    .asset-inner { 
+        width: 24rem;
+
+        svg {
+            width: 3rem;
+        }
     }
 }
