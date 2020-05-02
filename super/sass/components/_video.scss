@@ -1,0 +1,14 @@
+.video-component {
+
+    .video-wrapper {
+        max-width: $bp-small;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+
+        .video-container {
+            overflow: hidden;
+            position: relative;
+            width:100%;
+        }
+    }
+}
