@@ -51,3 +51,13 @@ function readCookie(name) {
   }
   return null;
 }
+
+function openNewWindow(event, location) {
+  if (event.preventDefault && event.stopImmediatePropagation) { 
+    event.preventDefault(); 
+    event.stopImmediatePropagation(); 
+  } else {
+    event.returnValue = false; 
+  }
+  window.open(location, 'lumeerTargetWindow', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=800,height=450');
+}
