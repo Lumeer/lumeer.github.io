@@ -90,7 +90,7 @@
         max-width: $bp-medium;
         margin: 0 auto;
 
-        p, h2, h3, h4, h5, h6, ul, ol, dl, blockquote {
+        p, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, pre {
             max-width: $bp-small;
             margin-left: auto;
             margin-right: auto;
@@ -134,6 +134,10 @@
             line-height: 3.6rem;
             margin-top: 5.2rem;
             margin-bottom: 2.6rem;
+        }
+
+        pre {
+            font-size: 1.8rem;
         }
 
         p, ul, ol, dl {
