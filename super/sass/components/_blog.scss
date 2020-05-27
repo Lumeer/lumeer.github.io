@@ -90,7 +90,7 @@
         max-width: $bp-medium;
         margin: 0 auto;
 
-        p, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, pre {
+        p, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, pre, div.ub_table-of-contents {
             max-width: $bp-small;
             margin-left: auto;
             margin-right: auto;
