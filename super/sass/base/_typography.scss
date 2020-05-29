@@ -91,6 +91,24 @@ body {
     }
 }
 
+.font-weight {
+    &__light {
+        font-weight: 300;
+    }
+    &__normal {
+        font-weight: 400;
+    }
+    &__bold {
+        font-weight: 700;
+    }
+    &__heavy {
+        font-weight: 800;
+    }
+    &__super-heavy {
+        font-weight: 900;
+    }
+}
+
 .small-font {
     font-size: 2rem !important;
 }
