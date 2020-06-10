@@ -99,6 +99,14 @@
                     padding-top: 1.2rem;
                     padding-bottom: 1.2rem;
                     justify-content: space-between;
+
+                    .thumbnail-author {
+                        padding-right: 1rem;
+                    }
+
+                    .thumbnail-date {
+                        text-align: right;
+                    }
                 }
             }
         }
