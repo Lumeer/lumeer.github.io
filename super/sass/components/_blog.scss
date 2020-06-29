@@ -302,5 +302,50 @@
             margin-top: 5.2rem;
             margin-bottom: 2.6rem;
         }
+
+        .post-link {
+            width: 100%; 
+            max-width: $bp-small; 
+            border: 1px solid $gray-200; 
+            padding: 2.5rem; 
+            margin: auto; 
+            margin-bottom: 2.6rem;
+
+            h3 {
+                margin-top: 0;
+
+                a, a:hover {
+                    color: $primary !important;
+                }
+            }
+
+            .post-link-preview {
+                display: flex;
+
+                .post-image {
+                    max-width: 16rem;
+
+                    img {
+                        width: 16rem;
+                        height: auto;
+                    }
+                }
+
+                .post-excerpt {
+                    color: $dark;
+                    margin-left: 2.6rem;
+                }
+
+                .post-footer {
+                    margin-top: 2.6rem; 
+                    text-align: right;
+
+                    img {
+                        height: 25px;
+                        width: auto;
+                    }
+                }
+            }
+        }
     }
 }
