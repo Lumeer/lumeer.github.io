@@ -271,6 +271,12 @@
             }
         }
 
+        .wp-block-lumeer-embed {
+            height: 60rem;
+            max-width: $bp-small;
+            margin: auto;
+        }
+
         .wp-block-yoast-faq-block {
             margin-bottom: 2.6rem;
             max-width: $bp-small;
