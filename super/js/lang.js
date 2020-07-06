@@ -23,11 +23,13 @@ function selectLanguage(languageSelect, otherLang, translated) {
 
 function onLanguageChange(value) {
   setCookie('language', value, 365);
+  setCookie('pll_language', value, 365);
   return true; // to make sure links with onclick using this method work
 }
 
 function saveLanguage(cookieValue) {
   setCookie('language', cookieValue, 365);
+  setCookie('pll_language', cookieValue, 365);
 }
 
 function setCookie(cookieName, cookieValue, nDays) {
