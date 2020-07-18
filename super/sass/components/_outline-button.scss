@@ -58,6 +58,16 @@
             text-decoration: none;
             line-height: 1.8rem;
 
+            &.inverted {
+                background-color: $white;
+                color: $success;
+
+                &:hover {
+                    color: $white;
+                    background-color: $success;        
+                }
+            }
+
             &:hover {
                 background-color: $white;
                 color: $success;
