@@ -1,0 +1,65 @@
+.button-tags-grid-component {
+    max-width: $bp-large;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+    .grid-button-container {
+        width: 33%;
+
+        @include respond(size-large) {
+            width: 33%;
+        }
+
+        @include respond(size-medium) {
+            width: 50%;
+        }
+
+        @include respond(size-small) {
+            width: 50%;
+        }
+
+        .button-tag {
+            padding: 0.7rem 1.4rem;
+
+            .button-tag-anchor {
+                box-shadow: 0 0.2rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+                transition: 0.2s all ease-in-out;
+
+                height: 5.2rem;
+                width: 100%;
+                cursor: pointer;
+                display: flex;
+                padding: 0 1.6rem 0 0.8rem;
+                align-items: center;
+                border-radius: 0.2rem;
+                flex-direction: row;
+                font-size: 1.6rem;
+                text-decoration: none;
+                background-color: $gray-100;
+
+                &:hover {
+                    background-color: $white;
+                    color: $primary;
+                    transform: scale(1.05);
+                }
+
+                .button-tag-image {
+                    height: 2.5rem;
+
+                    img, svg {
+                        border-style: none;
+                        height: 2.5rem;
+                    }
+                }
+
+                .tag-text {
+                    padding: 0 1.6rem;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

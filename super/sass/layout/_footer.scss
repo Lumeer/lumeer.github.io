@@ -96,8 +96,12 @@ footer.footer-container {
 
                         .links {
                             .link {
-                                margin-bottom: 2.4rem;
+                                margin-bottom: 1.5rem;
                                 color: $gray-400;
+
+                                @include respond(size-small) {
+                                    margin-bottom: 2.4rem;
+                                }
 
                                 a {
                                     text-decoration: none;

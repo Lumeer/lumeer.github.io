@@ -21,6 +21,33 @@
             flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
+
+            &.quote {
+                align-items: start;
+            }
+        }
+
+        &.quote {
+            flex-direction: row-reverse;
+            padding-top: 2.4rem;
+
+            .content-column {
+                max-width: calc(95% - 6rem);
+
+                .body {
+                    font-weight: 300;
+                }
+            }
+
+            .asset-column {
+                max-width: 6rem;
+                align-items: start;
+            }
+
+            .body {
+                padding-top: 0;
+                padding-bottom: 0.5rem;
+            }
         }
 
         .content-column {
@@ -32,7 +59,13 @@
             @include respond(size-small) {
                 flex: 0 0 100%;
                 margin-bottom: 4.8rem;
-                max-width: 100%;                }    
+                max-width: 100%;                
+            }
+            
+            .signature {
+                text-align: right;
+                font-style: italic;
+            }
         }
 
         .asset-column {
@@ -173,6 +206,12 @@
             line-height: 2.7rem;
             display: block;
         }
+
+        .exclamation {
+            font-weight: 300;
+            font-size: 2rem;
+            padding-top: 1.6rem;
+        }
     }
 
     .bottom-link-wrapper {
@@ -192,6 +231,12 @@
 
     .signup-button {
         padding-top: 1.6rem;
+    }
+
+    .dot::after {
+        font-size: 6rem;
+        font-weight: 900;
+        content: '.';
     }
 }
 
