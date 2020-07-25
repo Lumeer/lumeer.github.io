@@ -34,6 +34,10 @@
             .content-column {
                 max-width: calc(95% - 6rem);
 
+                @include respond(size-small) {
+                    margin-bottom: 0;
+                }
+
                 .body {
                     font-weight: 300;
                 }
@@ -236,6 +240,7 @@
     .dot::after {
         font-size: 6rem;
         font-weight: 900;
+        line-height: 3rem;
         content: '.';
     }
 }
