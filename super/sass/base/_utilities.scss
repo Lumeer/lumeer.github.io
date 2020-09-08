@@ -95,7 +95,7 @@
 
 .lumeer-button {
     text-align: center;
-    
+
     a {
         border: 1px solid $success !important;
     }
@@ -103,4 +103,9 @@
 
 .typed-cursor {
     color: $success;
+}
+
+// Fix for Hustle font bug
+.hustle-form button.hustle-button-submit {
+    font: bold 13px/32px LatoWeb;
 }
