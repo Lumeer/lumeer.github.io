@@ -109,3 +109,25 @@
 .hustle-form button.hustle-button-submit {
     font: bold 13px/32px LatoWeb;
 }
+
+div.lumeer-download-button {
+    max-width: 100%;
+    display: flex;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+a.lumeer-download-button {
+    border: 1px solid $success;
+    background-color: $success;
+    color: $white !important;
+    border-radius: 60px;
+    padding: 1.5rem;
+    font-size: 1.7rem !important;
+    min-width: 17rem;
+}
+
+a.lumeer-download-button:hover {
+    color: $success !important;
+    background-color: $white;
+}
