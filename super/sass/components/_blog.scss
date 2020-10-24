@@ -36,7 +36,7 @@
                 display: flex;
                 justify-content: space-between;
                 flex-flow: row wrap;
-                align-items: flex-end;
+                align-items: center;
 
                 .author-wrapper {
                     display: flex;
@@ -46,7 +46,7 @@
                     .author-info {
                         display: flex;
                         flex-flow: column;
-                        margin: 0.5rem 0 0 1.2rem;
+                        margin: 0 0 0 1.2rem;
 
                         font-weight: 400;
                         font-size: 1.4rem;
@@ -60,10 +60,14 @@
                         }
                     }
 
-                    .author img {
-                        border-radius: 5rem;
-                        width: 5.8rem;
-                        height: auto;
+                    .author { 
+                        height: 5.8rem;                      
+                        
+                        img {
+                            border-radius: 5rem;
+                            width: auto;
+                            height: 5.8rem;
+                        }
                     }
                 }
 
