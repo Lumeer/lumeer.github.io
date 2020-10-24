@@ -216,6 +216,7 @@
             img {
                 max-width: inherit;
                 height: 100%;
+                width: 100%;
 
                 @include respond(size-small) {
                     max-width: 100%;
