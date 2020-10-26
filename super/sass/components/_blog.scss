@@ -75,6 +75,11 @@
                     display: flex;
                     flex-flow: row;
 
+                    @include respond(size-small) {
+                        justify-content: flex-end;
+                        width: 100%;
+                    }
+
                     a {
                         width: 2.5rem;
                         height: auto;
