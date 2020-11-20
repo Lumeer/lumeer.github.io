@@ -320,6 +320,14 @@
             }
         }
 
+        .ub_howto-step-image, .ub_howto-yield-image {
+            width: initial;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
         form {
             padding: 3rem;
             background-color: $light;
