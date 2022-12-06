@@ -21,6 +21,10 @@
                 display: block;
                 text-decoration: none;
                 color: $primary;
+
+                &:hover {
+                    text-decoration: none;
+                }
             }
 
             .lottie-component {
